@@ -1,0 +1,13 @@
+{
+  "name": "jlpt-n3-study",
+  "version": "1.0.0",
+  "description": "Spaced-repetition study for the JLPT N3 kanji, vocabulary and grammar syllabus.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "serve": "python -m http.server 8123",
+    "build:content": "python content/build_content.py && python content/validate.py"
+  }
+}

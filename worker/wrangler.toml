@@ -1,0 +1,15 @@
+name = "jlpt-n3-sync"
+main = "src/index.js"
+compatibility_date = "2026-01-01"
+
+# Created with:  npx wrangler kv namespace create STATE
+# Paste the returned id below, then:  npx wrangler deploy
+[[kv_namespaces]]
+binding = "STATE"
+id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
+
+[vars]
+# Optional. Comma-separated origins allowed to call the API. Leave empty to
+# accept any origin — the payload is encrypted and the id is unguessable, so
+# this is mainly belt-and-braces.
+ALLOWED_ORIGINS = ""

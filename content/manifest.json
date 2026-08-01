@@ -1,0 +1,15 @@
+{
+ "levels": 37,
+ "kanjiPerLevel": 10,
+ "counts": {
+  "kanji": 367,
+  "vocabulary": 2140,
+  "grammar": 150
+ },
+ "sources": {
+  "kanji": "davidluzgouveia/kanji-data (KANJIDIC + WaniKani)",
+  "vocabulary": "jamsinclair/open-anki-jlpt-decks n3",
+  "sentences": "Tatoeba, via jlpt-N3-tiered dump",
+  "grammar": "authored for this app"
+ }
+}
