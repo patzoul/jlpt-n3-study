@@ -6,7 +6,7 @@ compatibility_date = "2026-01-01"
 # Paste the returned id below, then:  npx wrangler deploy
 [[kv_namespaces]]
 binding = "STATE"
-id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
+id = "054953a395ef43fd851b62c6c3b653e2"
 
 [vars]
 # Optional. Comma-separated origins allowed to call the API. Leave empty to

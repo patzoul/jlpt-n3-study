@@ -4,9 +4,11 @@
 # it. See README for where it came from.
 jlpt-N3-tiered/
 
-# Cloudflare Worker
+# Cloudflare Worker. .wrangler/ caches the account id and account name (which
+# contains an email address) wherever wrangler happens to be run from, so match
+# it at any depth rather than only under worker/.
+**/.wrangler/
 worker/node_modules/
-worker/.wrangler/
 .dev.vars
 
 # Per-machine tool config. .claude/launch.json is shared on purpose; the

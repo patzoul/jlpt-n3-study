@@ -43,6 +43,19 @@ the identical passphrase.
 100,000 reads and 1,000 writes per day, 1 GB of storage. The app writes once at
 the end of a study session, so a heavy day is a handful of writes.
 
+## Inspecting what is stored
+
+Wrangler v4 defaults its `kv` commands to the *local* simulator, so they come
+back empty even when the deployed Worker is happily reading and writing. Pass
+`--remote` to talk to the real namespace:
+
+```bash
+npx wrangler kv key list --namespace-id <your-id> --remote
+```
+
+The values are ciphertext, so there is nothing readable to see — this is only
+useful for confirming a record exists or clearing one out.
+
 ## API
 
 | | |
