@@ -11,6 +11,10 @@ jlpt-N3-tiered/
 worker/node_modules/
 .dev.vars
 
+# Real deploy config: holds the account-specific KV namespace id. The committed
+# worker/wrangler.toml carries a placeholder instead.
+worker/wrangler.local.toml
+
 # Per-machine tool config. .claude/launch.json is shared on purpose; the
 # local settings file is not.
 .claude/settings.local.json

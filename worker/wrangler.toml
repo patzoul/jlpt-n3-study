@@ -3,10 +3,17 @@ main = "src/index.js"
 compatibility_date = "2026-01-01"
 
 # Created with:  npx wrangler kv namespace create STATE
-# Paste the returned id below, then:  npx wrangler deploy
+#
+# The id that command returns is specific to your Cloudflare account, so it does
+# not belong in a public repo. Copy this file to wrangler.local.toml (gitignored),
+# put the real id there, and deploy with:
+#
+#   npx wrangler deploy -c wrangler.local.toml
+#
+# See README.md.
 [[kv_namespaces]]
 binding = "STATE"
-id = "054953a395ef43fd851b62c6c3b653e2"
+id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
 
 [vars]
 # Optional. Comma-separated origins allowed to call the API. Leave empty to

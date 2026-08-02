@@ -20,11 +20,19 @@ npx wrangler login
 npx wrangler kv namespace create STATE
 ```
 
-That prints an `id`. Put it in `wrangler.toml` in place of
-`REPLACE_WITH_YOUR_KV_NAMESPACE_ID`, then:
+That prints an `id`. It is specific to your Cloudflare account, so keep it out of
+version control: copy `wrangler.toml` to `wrangler.local.toml` (already
+gitignored) and put the real id there in place of
+`REPLACE_WITH_YOUR_KV_NAMESPACE_ID`.
 
 ```bash
-npx wrangler deploy
+cp wrangler.toml wrangler.local.toml
+```
+
+Then deploy against that config:
+
+```bash
+npx wrangler deploy -c wrangler.local.toml
 ```
 
 Wrangler prints the deployed URL, something like
