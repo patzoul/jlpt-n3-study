@@ -316,6 +316,7 @@ function render() {
     tab.classList.toggle('active', tab.dataset.view === view);
   });
   $('#levelBadge').textContent = `Level ${state.level}`;
+  document.body.classList.toggle('hide-furigana', !state.settings.showFurigana);
 
   const root = $('#view');
   if (state.session) {
@@ -661,8 +662,7 @@ function subjectDetail(subject) {
     parts.push(`<div class="examples"><p class="detail-head">Example${subject.examples.length > 1 ? 's' : ''}</p>${
       subject.examples.map((example) => `
         <blockquote class="example">
-          <p class="jp">${highlight(example.ja, subject.characters)}</p>
-          ${example.reading ? `<p class="muted jp small">${escapeHtml(example.reading)}</p>` : ''}
+          <p class="jp sentence">${renderSentence(example, subject.characters)}</p>
           <p class="muted">${escapeHtml(example.en)}</p>
         </blockquote>`).join('')
     }</div>`);
@@ -679,6 +679,54 @@ function highlight(sentence, target) {
     return safe;
   }
   return safe.split(needle).join(`<mark>${needle}</mark>`);
+}
+
+function ruby(text, reading) {
+  // rp tags keep the reading legible if it is copied out, or read by a
+  // browser with no ruby support.
+  return `<ruby>${escapeHtml(text)}<rp>(</rp><rt>${escapeHtml(reading)}</rt><rp>)</rp></ruby>`;
+}
+
+/**
+ * An example sentence with readings above the kanji, and the word being
+ * studied marked. Falls back to plain text for the handful of sentences with
+ * no furigana data.
+ */
+function renderSentence(example, target) {
+  const segments = example.furigana;
+  if (!Array.isArray(segments) || !segments.length) {
+    return highlight(example.ja, target);
+  }
+
+  const start = target ? example.ja.indexOf(target) : -1;
+  const end = start === -1 ? -1 : start + target.length;
+  const overlaps = (from, to) => start !== -1 && from < end && to > start;
+
+  let offset = 0;
+  const html = segments.map(([text, reading]) => {
+    const from = offset;
+    const to = offset + text.length;
+    offset = to;
+
+    if (reading) {
+      // A kanji run is atomic — its ruby cannot be split mid-word.
+      const body = ruby(text, reading);
+      return overlaps(from, to) ? `<mark>${body}</mark>` : body;
+    }
+    if (!overlaps(from, to)) {
+      return escapeHtml(text);
+    }
+    // Plain kana can be split precisely, so the mark stops at the word edge
+    // instead of swallowing the particle after it.
+    const cut = (a, b) => text.slice(Math.max(0, a - from), Math.max(0, b - from));
+    return [
+      escapeHtml(cut(from, start)),
+      `<mark>${escapeHtml(cut(Math.max(from, start), Math.min(to, end)))}</mark>`,
+      escapeHtml(cut(Math.min(to, end), to)),
+    ].join('');
+  }).join('');
+
+  return html;
 }
 
 function teachView(session) {
@@ -870,6 +918,14 @@ function settingsView() {
       <input type="checkbox" data-setting="autoAdvance" ${s.autoAdvance ? 'checked' : ''} />
       <span>Advance automatically after a correct answer</span>
     </label>
+    <label class="toggle">
+      <input type="checkbox" data-setting="showFurigana" ${s.showFurigana ? 'checked' : ''} />
+      <span>Show furigana above example sentences</span>
+    </label>
+    <p class="muted">
+      With this off, readings stay hidden until you tap or hover a sentence —
+      useful once you want the examples to be reading practice too.
+    </p>
   </section>
 
   <section class="card">
@@ -1026,6 +1082,7 @@ function bindSettings() {
 // ------------------------------------------------------------------- events
 
 function bindCommon() {
+  bindSentenceReveal();
   document.querySelectorAll('[data-action]').forEach((button) => {
     const action = button.dataset.action;
     // Settings wires its own handlers in bindSettings.
@@ -1036,7 +1093,18 @@ function bindCommon() {
   });
 }
 
+/** With furigana hidden, tapping a sentence reveals its readings. */
+function bindSentenceReveal() {
+  if (state.settings.showFurigana) {
+    return;
+  }
+  document.querySelectorAll('.sentence').forEach((sentence) => {
+    sentence.addEventListener('click', () => sentence.classList.toggle('revealed'));
+  });
+}
+
 function bindSessionEvents() {
+  bindSentenceReveal();
   const form = $('#answerForm');
   const input = $('#answerInput');
   const session = state.session;

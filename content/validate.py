@@ -128,6 +128,21 @@ def check_deck(name, required):
                 check_text(f'{where}/example', example['reading'])
             if not example.get('en'):
                 report(where, 'example has no translation')
+
+            # Ruby segments must reassemble into exactly the sentence, or the
+            # readings would sit over the wrong characters.
+            segments = example.get('furigana')
+            if segments:
+                rebuilt = ''.join(text for text, _ in segments)
+                if rebuilt != example['ja']:
+                    report(
+                        where,
+                        f'furigana segments do not reassemble: '
+                        f'{rebuilt!r} != {example["ja"]!r}',
+                    )
+                for text, reading in segments:
+                    if reading and re.search(r'[一-鿿]', reading):
+                        report(where, f'furigana reading {reading!r} contains kanji')
             # An authored sentence must actually contain the word it teaches.
             if example.get('source') == 'authored' and item['type'] == 'vocabulary':
                 if not contains_word(example['ja'], item['characters']):
@@ -177,13 +192,18 @@ def main():
     print(f'kanji {len(kanji)}  vocabulary {len(vocab)}  grammar {len(grammar)}')
     for name, items in (('kanji', kanji), ('vocabulary', vocab), ('grammar', grammar)):
         covered = sum(1 for item in items if item['examples'])
+        ruby = sum(
+            1 for item in items
+            if any(e.get('furigana') for e in item['examples'])
+        )
         authored = sum(
             1 for item in items
             if any(e.get('source') == 'authored' for e in item['examples'])
         )
         print(
             f'  {name:11} examples {covered}/{len(items)} '
-            f'({covered * 100 // len(items)}%), {authored} authored'
+            f'({covered * 100 // len(items)}%), {authored} authored, '
+            f'{ruby} with furigana'
         )
 
     if problems:

@@ -17,13 +17,65 @@
     "ja": "母が料理をしているあいだ、私はテレビを見ていた。",
     "reading": "ははがりょうりをしているあいだ、わたしはテレビをみていた。",
     "en": "I was watching TV the whole time my mother was cooking.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "母",
+      "はは"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "料理",
+      "りょうり"
+     ],
+     [
+      "をしているあいだ、",
+      null
+     ],
+     [
+      "私",
+      "わたし"
+     ],
+     [
+      "はテレビを",
+      null
+     ],
+     [
+      "見",
+      "み"
+     ],
+     [
+      "ていた。",
+      null
+     ]
+    ]
    },
    {
     "ja": "夏休みのあいだ、毎日泳いでいました。",
     "reading": "なつやすみのあいだ、まいにちおよいでいました。",
     "en": "I swam every day during the summer holiday.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "夏休",
+      "なつやす"
+     ],
+     [
+      "みのあいだ、",
+      null
+     ],
+     [
+      "毎日泳",
+      "まいにちおよ"
+     ],
+     [
+      "いでいました。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -45,13 +97,73 @@
     "ja": "母が寝ているあいだに、宿題を終わらせた。",
     "reading": "ははがねているあいだに、しゅくだいをおわらせた。",
     "en": "I finished my homework while my mother was asleep.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "母",
+      "はは"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "寝",
+      "ね"
+     ],
+     [
+      "ているあいだに、",
+      null
+     ],
+     [
+      "宿題",
+      "しゅくだい"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "終",
+      "お"
+     ],
+     [
+      "わらせた。",
+      null
+     ]
+    ]
    },
    {
     "ja": "留守のあいだに、荷物が届いた。",
     "reading": "るすのあいだに、にもつがとどいた。",
     "en": "The package arrived while I was out.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "留守",
+      "るす"
+     ],
+     [
+      "のあいだに、",
+      null
+     ],
+     [
+      "荷物",
+      "にもつ"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "届",
+      "とど"
+     ],
+     [
+      "いた。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -73,13 +185,65 @@
     "ja": "驚いたあまり、声が出なかった。",
     "reading": "おどろいたあまり、こえがでなかった。",
     "en": "I was so surprised that I couldn't speak.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "驚",
+      "おどろ"
+     ],
+     [
+      "いたあまり、",
+      null
+     ],
+     [
+      "声",
+      "こえ"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "出",
+      "で"
+     ],
+     [
+      "なかった。",
+      null
+     ]
+    ]
    },
    {
     "ja": "心配のあまり、夜も眠れなかった。",
     "reading": "しんぱいのあまり、よるもねむれなかった。",
     "en": "I was so worried I couldn't sleep at night.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "心配",
+      "しんぱい"
+     ],
+     [
+      "のあまり、",
+      null
+     ],
+     [
+      "夜",
+      "よる"
+     ],
+     [
+      "も",
+      null
+     ],
+     [
+      "眠",
+      "ねむ"
+     ],
+     [
+      "れなかった。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -101,13 +265,85 @@
     "ja": "この仕事は大変な一方で、やりがいがある。",
     "reading": "このしごとはたいへんないっぽうで、やりがいがある。",
     "en": "This job is hard, but on the other hand it's rewarding.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "この",
+      null
+     ],
+     [
+      "仕事",
+      "しごと"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "大変",
+      "たいへん"
+     ],
+     [
+      "な",
+      null
+     ],
+     [
+      "一方",
+      "いっぽう"
+     ],
+     [
+      "で、やりがいがある。",
+      null
+     ]
+    ]
    },
    {
     "ja": "都会は便利な一方で、家賃が高い。",
     "reading": "とかいはべんりないっぽうで、やちんがたかい。",
     "en": "Cities are convenient, but on the other hand rent is expensive.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "都会",
+      "とかい"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "便利",
+      "べんり"
+     ],
+     [
+      "な",
+      null
+     ],
+     [
+      "一方",
+      "いっぽう"
+     ],
+     [
+      "で、",
+      null
+     ],
+     [
+      "家賃",
+      "やちん"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "高",
+      "たか"
+     ],
+     [
+      "い。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -129,13 +365,97 @@
     "ja": "家族と相談した上で、返事をします。",
     "reading": "かぞくとそうだんしたうえで、へんじをします。",
     "en": "I'll give you an answer after discussing it with my family.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "家族",
+      "かぞく"
+     ],
+     [
+      "と",
+      null
+     ],
+     [
+      "相談",
+      "そうだん"
+     ],
+     [
+      "した",
+      null
+     ],
+     [
+      "上",
+      "うえ"
+     ],
+     [
+      "で、",
+      null
+     ],
+     [
+      "返事",
+      "へんじ"
+     ],
+     [
+      "をします。",
+      null
+     ]
+    ]
    },
    {
     "ja": "説明を聞いた上で、申し込むかどうか決めたい。",
     "reading": "せつめいをきいたうえで、もうしこむかどうかきめたい。",
     "en": "I want to decide whether to apply after hearing the explanation.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "説明",
+      "せつめい"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "聞",
+      "き"
+     ],
+     [
+      "いた",
+      null
+     ],
+     [
+      "上",
+      "うえ"
+     ],
+     [
+      "で、",
+      null
+     ],
+     [
+      "申",
+      "もう"
+     ],
+     [
+      "し",
+      null
+     ],
+     [
+      "込",
+      "こ"
+     ],
+     [
+      "むかどうか",
+      null
+     ],
+     [
+      "決",
+      "き"
+     ],
+     [
+      "めたい。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -157,13 +477,93 @@
     "ja": "この店は安い上に、味もいい。",
     "reading": "このみせはやすいうえに、あじもいい。",
     "en": "This restaurant is cheap, and the food tastes good too.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "この",
+      null
+     ],
+     [
+      "店",
+      "みせ"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "安",
+      "やす"
+     ],
+     [
+      "い",
+      null
+     ],
+     [
+      "上",
+      "うえ"
+     ],
+     [
+      "に、",
+      null
+     ],
+     [
+      "味",
+      "あじ"
+     ],
+     [
+      "もいい。",
+      null
+     ]
+    ]
    },
    {
     "ja": "道に迷った上に、雨まで降ってきた。",
     "reading": "みちにまよったうえに、あめまでふってきた。",
     "en": "Not only did I get lost, it even started raining.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "道",
+      "みち"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "迷",
+      "まよ"
+     ],
+     [
+      "った",
+      null
+     ],
+     [
+      "上",
+      "うえ"
+     ],
+     [
+      "に、",
+      null
+     ],
+     [
+      "雨",
+      "あめ"
+     ],
+     [
+      "まで",
+      null
+     ],
+     [
+      "降",
+      "ふ"
+     ],
+     [
+      "ってきた。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -185,13 +585,41 @@
     "ja": "熱いうちに食べてください。",
     "reading": "あついうちにたべてください。",
     "en": "Please eat it while it's hot.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "熱",
+      "あつ"
+     ],
+     [
+      "いうちに",
+      null
+     ],
+     [
+      "食",
+      "た"
+     ],
+     [
+      "べてください。",
+      null
+     ]
+    ]
    },
    {
     "ja": "忘れないうちにメモしておこう。",
     "reading": "わすれないうちにメモしておこう。",
     "en": "Let me write it down before I forget.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "忘",
+      "わす"
+     ],
+     [
+      "れないうちにメモしておこう。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -213,13 +641,73 @@
     "ja": "先生のおかげで、試験に合格できました。",
     "reading": "せんせいのおかげで、しけんにごうかくできました。",
     "en": "Thanks to my teacher, I passed the exam.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "先生",
+      "せんせい"
+     ],
+     [
+      "のおかげで、",
+      null
+     ],
+     [
+      "試験",
+      "しけん"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "合格",
+      "ごうかく"
+     ],
+     [
+      "できました。",
+      null
+     ]
+    ]
    },
    {
     "ja": "薬を飲んだおかげで、熱が下がった。",
     "reading": "くすりをのんだおかげで、ねつがさがった。",
     "en": "Thanks to taking the medicine, my fever went down.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "薬",
+      "くすり"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "飲",
+      "の"
+     ],
+     [
+      "んだおかげで、",
+      null
+     ],
+     [
+      "熱",
+      "ねつ"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "下",
+      "さ"
+     ],
+     [
+      "がった。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -241,13 +729,61 @@
     "ja": "台風が上陸するおそれがあります。",
     "reading": "たいふうがじょうりくするおそれがあります。",
     "en": "There is a risk that the typhoon will make landfall.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "台風",
+      "たいふう"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "上陸",
+      "じょうりく"
+     ],
+     [
+      "するおそれがあります。",
+      null
+     ]
+    ]
    },
    {
     "ja": "この橋は古くなり、崩れるおそれがある。",
     "reading": "このはしはふるくなり、くずれるおそれがある。",
     "en": "This bridge has aged and there is a danger it will collapse.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "この",
+      null
+     ],
+     [
+      "橋",
+      "はし"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "古",
+      "ふる"
+     ],
+     [
+      "くなり、",
+      null
+     ],
+     [
+      "崩",
+      "くず"
+     ],
+     [
+      "れるおそれがある。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -269,13 +805,65 @@
     "ja": "読みかけの本が机の上にある。",
     "reading": "よみかけのほんがつくえのうえにある。",
     "en": "There's a half-read book on the desk.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "読",
+      "よ"
+     ],
+     [
+      "みかけの",
+      null
+     ],
+     [
+      "本",
+      "ほん"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "机",
+      "つくえ"
+     ],
+     [
+      "の",
+      null
+     ],
+     [
+      "上",
+      "うえ"
+     ],
+     [
+      "にある。",
+      null
+     ]
+    ]
    },
    {
     "ja": "何か言いかけて、やめた。",
     "reading": "なにかいいかけて、やめた。",
     "en": "He started to say something, then stopped.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "何",
+      "なに"
+     ],
+     [
+      "か",
+      null
+     ],
+     [
+      "言",
+      "い"
+     ],
+     [
+      "いかけて、やめた。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -297,13 +885,65 @@
     "ja": "彼は最近、学校を休みがちだ。",
     "reading": "かれはさいきん、がっこうをやすみがちだ。",
     "en": "He's been prone to missing school lately.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "彼",
+      "かれ"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "最近",
+      "さいきん"
+     ],
+     [
+      "、",
+      null
+     ],
+     [
+      "学校",
+      "がっこう"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "休",
+      "やす"
+     ],
+     [
+      "みがちだ。",
+      null
+     ]
+    ]
    },
    {
     "ja": "冬は運動不足になりがちです。",
     "reading": "ふゆはうんどうぶそくになりがちです。",
     "en": "In winter people tend to get too little exercise.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "冬",
+      "ふゆ"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "運動不足",
+      "うんどうぶそく"
+     ],
+     [
+      "になりがちです。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -324,13 +964,69 @@
     "ja": "彼が来るかどうか分かりません。",
     "reading": "かれがくるかどうかわかりません。",
     "en": "I don't know whether he's coming.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "彼",
+      "かれ"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "来",
+      "く"
+     ],
+     [
+      "るかどうか",
+      null
+     ],
+     [
+      "分",
+      "わ"
+     ],
+     [
+      "かりません。",
+      null
+     ]
+    ]
    },
    {
     "ja": "この水が安全かどうか調べてください。",
     "reading": "このみずがあんぜんかどうかしらべてください。",
     "en": "Please check whether this water is safe.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "この",
+      null
+     ],
+     [
+      "水",
+      "みず"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "安全",
+      "あんぜん"
+     ],
+     [
+      "かどうか",
+      null
+     ],
+     [
+      "調",
+      "しら"
+     ],
+     [
+      "べてください。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -353,13 +1049,57 @@
     "ja": "午後から雨が降るかもしれない。",
     "reading": "ごごからあめがふるかもしれない。",
     "en": "It might rain from the afternoon.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "午後",
+      "ごご"
+     ],
+     [
+      "から",
+      null
+     ],
+     [
+      "雨",
+      "あめ"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "降",
+      "ふ"
+     ],
+     [
+      "るかもしれない。",
+      null
+     ]
+    ]
    },
    {
     "ja": "彼はもう帰ったかもしれません。",
     "reading": "かれはもうかえったかもしれません。",
     "en": "He may have already gone home.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "彼",
+      "かれ"
+     ],
+     [
+      "はもう",
+      null
+     ],
+     [
+      "帰",
+      "かえ"
+     ],
+     [
+      "ったかもしれません。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -381,13 +1121,65 @@
     "ja": "今夜から明日にかけて、大雪になるでしょう。",
     "reading": "こんやからあすにかけて、おおゆきになるでしょう。",
     "en": "There will be heavy snow from tonight through tomorrow.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "今夜",
+      "こんや"
+     ],
+     [
+      "から",
+      null
+     ],
+     [
+      "明日",
+      "あす"
+     ],
+     [
+      "にかけて、",
+      null
+     ],
+     [
+      "大雪",
+      "おおゆき"
+     ],
+     [
+      "になるでしょう。",
+      null
+     ]
+    ]
    },
    {
     "ja": "関東から東北にかけて地震がありました。",
     "reading": "かんとうからとうほくにかけてじしんがありました。",
     "en": "There was an earthquake from the Kanto region through Tohoku.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "関東",
+      "かんとう"
+     ],
+     [
+      "から",
+      null
+     ],
+     [
+      "東北",
+      "とうほく"
+     ],
+     [
+      "にかけて",
+      null
+     ],
+     [
+      "地震",
+      "じしん"
+     ],
+     [
+      "がありました。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -409,13 +1201,57 @@
     "ja": "経験からいうと、この方法が一番早い。",
     "reading": "けいけんからいうと、このほうほうがいちばんはやい。",
     "en": "Judging from experience, this method is fastest.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "経験",
+      "けいけん"
+     ],
+     [
+      "からいうと、この",
+      null
+     ],
+     [
+      "方法",
+      "ほうほう"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "一番早",
+      "いちばんはや"
+     ],
+     [
+      "い。",
+      null
+     ]
+    ]
    },
    {
     "ja": "値段からいえば、これはとても安い。",
     "reading": "ねだんからいえば、これはとてもやすい。",
     "en": "In terms of price, this is very cheap.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "値段",
+      "ねだん"
+     ],
+     [
+      "からいえば、これはとても",
+      null
+     ],
+     [
+      "安",
+      "やす"
+     ],
+     [
+      "い。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -437,13 +1273,85 @@
     "ja": "父のかわりに、私が会議に出ます。",
     "reading": "ちちのかわりに、わたしがかいぎにでます。",
     "en": "I'll attend the meeting instead of my father.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "父",
+      "ちち"
+     ],
+     [
+      "のかわりに、",
+      null
+     ],
+     [
+      "私",
+      "わたし"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "会議",
+      "かいぎ"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "出",
+      "で"
+     ],
+     [
+      "ます。",
+      null
+     ]
+    ]
    },
    {
     "ja": "この部屋は狭いかわりに、家賃が安い。",
     "reading": "このへやはせまいかわりに、やちんがやすい。",
     "en": "This room is small, but in exchange the rent is cheap.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "この",
+      null
+     ],
+     [
+      "部屋",
+      "へや"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "狭",
+      "せま"
+     ],
+     [
+      "いかわりに、",
+      null
+     ],
+     [
+      "家賃",
+      "やちん"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "安",
+      "やす"
+     ],
+     [
+      "い。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -466,13 +1374,73 @@
     "ja": "少し風邪気味なので、早く帰ります。",
     "reading": "すこしかぜぎみなので、はやくかえります。",
     "en": "I feel a bit of a cold coming on, so I'll go home early.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "少",
+      "すこ"
+     ],
+     [
+      "し",
+      null
+     ],
+     [
+      "風邪気味",
+      "かぜぎみ"
+     ],
+     [
+      "なので、",
+      null
+     ],
+     [
+      "早",
+      "はや"
+     ],
+     [
+      "く",
+      null
+     ],
+     [
+      "帰",
+      "かえ"
+     ],
+     [
+      "ります。",
+      null
+     ]
+    ]
    },
    {
     "ja": "最近、太り気味です。",
     "reading": "さいきん、ふとりぎみです。",
     "en": "I've been putting on a bit of weight lately.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "最近",
+      "さいきん"
+     ],
+     [
+      "、",
+      null
+     ],
+     [
+      "太",
+      "ふと"
+     ],
+     [
+      "り",
+      null
+     ],
+     [
+      "気味",
+      "ぎみ"
+     ],
+     [
+      "です。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -494,13 +1462,49 @@
     "ja": "彼とは去年会ったきりです。",
     "reading": "かれとはきょねんあったきりです。",
     "en": "I haven't seen him since we met last year.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "彼",
+      "かれ"
+     ],
+     [
+      "とは",
+      null
+     ],
+     [
+      "去年会",
+      "きょねんあ"
+     ],
+     [
+      "ったきりです。",
+      null
+     ]
+    ]
    },
    {
     "ja": "二人きりで話したい。",
     "reading": "ふたりきりではなしたい。",
     "en": "I want to talk just the two of us.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "二人",
+      "ふたり"
+     ],
+     [
+      "きりで",
+      null
+     ],
+     [
+      "話",
+      "はな"
+     ],
+     [
+      "したい。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -522,13 +1526,57 @@
     "ja": "知っているくせに、教えてくれない。",
     "reading": "しっているくせに、おしえてくれない。",
     "en": "He knows perfectly well, yet he won't tell me.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "知",
+      "し"
+     ],
+     [
+      "っているくせに、",
+      null
+     ],
+     [
+      "教",
+      "おし"
+     ],
+     [
+      "えてくれない。",
+      null
+     ]
+    ]
    },
    {
     "ja": "子供のくせに、生意気なことを言う。",
     "reading": "こどものくせに、なまいきなことをいう。",
     "en": "He's only a child, yet he talks so cheekily.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "子供",
+      "こども"
+     ],
+     [
+      "のくせに、",
+      null
+     ],
+     [
+      "生意気",
+      "なまいき"
+     ],
+     [
+      "なことを",
+      null
+     ],
+     [
+      "言",
+      "い"
+     ],
+     [
+      "う。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -550,13 +1598,57 @@
     "ja": "今年こそ日本語能力試験に合格したい。",
     "reading": "ことしこそにほんごのうりょくしけんにごうかくしたい。",
     "en": "This year for sure I want to pass the JLPT.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "今年",
+      "ことし"
+     ],
+     [
+      "こそ",
+      null
+     ],
+     [
+      "日本語能力試験",
+      "にほんごのうりょくしけん"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "合格",
+      "ごうかく"
+     ],
+     [
+      "したい。",
+      null
+     ]
+    ]
    },
    {
     "ja": "努力してこそ、成功できる。",
     "reading": "どりょくしてこそ、せいこうできる。",
     "en": "Only by making an effort can you succeed.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "努力",
+      "どりょく"
+     ],
+     [
+      "してこそ、",
+      null
+     ],
+     [
+      "成功",
+      "せいこう"
+     ],
+     [
+      "できる。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -578,13 +1670,61 @@
     "ja": "たまに一人で映画を見ることがある。",
     "reading": "たまにひとりでえいがをみることがある。",
     "en": "Sometimes I go to see a film alone.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "たまに",
+      null
+     ],
+     [
+      "一人",
+      "ひとり"
+     ],
+     [
+      "で",
+      null
+     ],
+     [
+      "映画",
+      "えいが"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "見",
+      "み"
+     ],
+     [
+      "ることがある。",
+      null
+     ]
+    ]
    },
    {
     "ja": "北海道に行ったことがありますか。",
     "reading": "ほっかいどうにいったことがありますか。",
     "en": "Have you ever been to Hokkaido?",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "北海道",
+      "ほっかいどう"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "行",
+      "い"
+     ],
+     [
+      "ったことがありますか。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -606,13 +1746,49 @@
     "ja": "毎朝走ることにしました。",
     "reading": "まいあさはしることにしました。",
     "en": "I've decided to run every morning.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "毎朝走",
+      "まいあさはし"
+     ],
+     [
+      "ることにしました。",
+      null
+     ]
+    ]
    },
    {
     "ja": "今日はお酒を飲まないことにする。",
     "reading": "きょうはおさけをのまないことにする。",
     "en": "I've decided not to drink today.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "今日",
+      "きょう"
+     ],
+     [
+      "はお",
+      null
+     ],
+     [
+      "酒",
+      "さけ"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "飲",
+      "の"
+     ],
+     [
+      "まないことにする。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -634,13 +1810,57 @@
     "ja": "来月、大阪へ転勤することになりました。",
     "reading": "らいげつ、おおさかへてんきんすることになりました。",
     "en": "It's been decided that I'll transfer to Osaka next month.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "来月",
+      "らいげつ"
+     ],
+     [
+      "、",
+      null
+     ],
+     [
+      "大阪",
+      "おおさか"
+     ],
+     [
+      "へ",
+      null
+     ],
+     [
+      "転勤",
+      "てんきん"
+     ],
+     [
+      "することになりました。",
+      null
+     ]
+    ]
    },
    {
     "ja": "会議は延期されることになった。",
     "reading": "かいぎはえんきされることになった。",
     "en": "It has been decided that the meeting will be postponed.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "会議",
+      "かいぎ"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "延期",
+      "えんき"
+     ],
+     [
+      "されることになった。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -662,13 +1882,45 @@
     "ja": "そんなに心配することはないよ。",
     "reading": "そんなにしんぱいすることはないよ。",
     "en": "There's no need to worry that much.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "そんなに",
+      null
+     ],
+     [
+      "心配",
+      "しんぱい"
+     ],
+     [
+      "することはないよ。",
+      null
+     ]
+    ]
    },
    {
     "ja": "急ぐことはない。時間はまだある。",
     "reading": "いそぐことはない。じかんはまだある。",
     "en": "There's no need to hurry. There's still time.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "急",
+      "いそ"
+     ],
+     [
+      "ぐことはない。",
+      null
+     ],
+     [
+      "時間",
+      "じかん"
+     ],
+     [
+      "はまだある。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -690,13 +1942,85 @@
     "ja": "お降りの際は、足元にご注意ください。",
     "reading": "おおりのさいは、あしもとにごちゅういください。",
     "en": "Please watch your step when getting off.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "お",
+      null
+     ],
+     [
+      "降",
+      "お"
+     ],
+     [
+      "りの",
+      null
+     ],
+     [
+      "際",
+      "さい"
+     ],
+     [
+      "は、",
+      null
+     ],
+     [
+      "足元",
+      "あしもと"
+     ],
+     [
+      "にご",
+      null
+     ],
+     [
+      "注意",
+      "ちゅうい"
+     ],
+     [
+      "ください。",
+      null
+     ]
+    ]
    },
    {
     "ja": "契約の際に、身分証明書が必要です。",
     "reading": "けいやくのさいに、みぶんしょうめいしょがひつようです。",
     "en": "You need identification when signing the contract.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "契約",
+      "けいやく"
+     ],
+     [
+      "の",
+      null
+     ],
+     [
+      "際",
+      "さい"
+     ],
+     [
+      "に、",
+      null
+     ],
+     [
+      "身分証明書",
+      "みぶんしょうめいしょ"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "必要",
+      "ひつよう"
+     ],
+     [
+      "です。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -717,13 +2041,65 @@
     "ja": "食事の最中に電話がかかってきた。",
     "reading": "しょくじのさいちゅうにでんわがかかってきた。",
     "en": "The phone rang right in the middle of dinner.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "食事",
+      "しょくじ"
+     ],
+     [
+      "の",
+      null
+     ],
+     [
+      "最中",
+      "さいちゅう"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "電話",
+      "でんわ"
+     ],
+     [
+      "がかかってきた。",
+      null
+     ]
+    ]
    },
    {
     "ja": "会議をしている最中に、停電した。",
     "reading": "かいぎをしているさいちゅうに、ていでんした。",
     "en": "The power went out right in the middle of the meeting.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "会議",
+      "かいぎ"
+     ],
+     [
+      "をしている",
+      null
+     ],
+     [
+      "最中",
+      "さいちゅう"
+     ],
+     [
+      "に、",
+      null
+     ],
+     [
+      "停電",
+      "ていでん"
+     ],
+     [
+      "した。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -745,13 +2121,57 @@
     "ja": "忙しくて、食事をする時間さえない。",
     "reading": "いそがしくて、しょくじをするじかんさえない。",
     "en": "I'm so busy I don't even have time to eat.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "忙",
+      "いそが"
+     ],
+     [
+      "しくて、",
+      null
+     ],
+     [
+      "食事",
+      "しょくじ"
+     ],
+     [
+      "をする",
+      null
+     ],
+     [
+      "時間",
+      "じかん"
+     ],
+     [
+      "さえない。",
+      null
+     ]
+    ]
    },
    {
     "ja": "子供さえ知っていることだ。",
     "reading": "こどもさえしっていることだ。",
     "en": "It's something even a child knows.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "子供",
+      "こども"
+     ],
+     [
+      "さえ",
+      null
+     ],
+     [
+      "知",
+      "し"
+     ],
+     [
+      "っていることだ。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -773,13 +2193,57 @@
     "ja": "薬さえ飲めば、すぐによくなりますよ。",
     "reading": "くすりさえのめば、すぐによくなりますよ。",
     "en": "As long as you take the medicine, you'll get better soon.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "薬",
+      "くすり"
+     ],
+     [
+      "さえ",
+      null
+     ],
+     [
+      "飲",
+      "の"
+     ],
+     [
+      "めば、すぐによくなりますよ。",
+      null
+     ]
+    ]
    },
    {
     "ja": "天気さえよければ、山に登れる。",
     "reading": "てんきさえよければ、やまにのぼれる。",
     "en": "As long as the weather is good, we can climb the mountain.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "天気",
+      "てんき"
+     ],
+     [
+      "さえよければ、",
+      null
+     ],
+     [
+      "山",
+      "やま"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "登",
+      "のぼ"
+     ],
+     [
+      "れる。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -801,13 +2265,57 @@
     "ja": "終電がないので、歩いて帰るしかない。",
     "reading": "しゅうでんがないので、あるいてかえるしかない。",
     "en": "There's no last train, so I have no choice but to walk home.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "終電",
+      "しゅうでん"
+     ],
+     [
+      "がないので、",
+      null
+     ],
+     [
+      "歩",
+      "ある"
+     ],
+     [
+      "いて",
+      null
+     ],
+     [
+      "帰",
+      "かえ"
+     ],
+     [
+      "るしかない。",
+      null
+     ]
+    ]
    },
    {
     "ja": "財布には千円しかない。",
     "reading": "さいふにはせんえんしかない。",
     "en": "I only have a thousand yen in my wallet.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "財布",
+      "さいふ"
+     ],
+     [
+      "には",
+      null
+     ],
+     [
+      "千円",
+      "せんえん"
+     ],
+     [
+      "しかない。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -829,13 +2337,57 @@
     "ja": "到着し次第、ご連絡します。",
     "reading": "とうちゃくしだい、ごれんらくします。",
     "en": "I'll contact you as soon as I arrive.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "到着",
+      "とうちゃく"
+     ],
+     [
+      "し",
+      null
+     ],
+     [
+      "次第",
+      "だい"
+     ],
+     [
+      "、ご",
+      null
+     ],
+     [
+      "連絡",
+      "れんらく"
+     ],
+     [
+      "します。",
+      null
+     ]
+    ]
    },
    {
     "ja": "行くかどうかは天気次第です。",
     "reading": "いくかどうかはてんきしだいです。",
     "en": "Whether we go depends on the weather.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "行",
+      "い"
+     ],
+     [
+      "くかどうかは",
+      null
+     ],
+     [
+      "天気次第",
+      "てんきしだい"
+     ],
+     [
+      "です。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -857,13 +2409,57 @@
     "ja": "天気予報によると、明日は雪だそうです。",
     "reading": "てんきよほうによると、あしたはゆきだそうです。",
     "en": "According to the forecast, it will snow tomorrow.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "天気予報",
+      "てんきよほう"
+     ],
+     [
+      "によると、",
+      null
+     ],
+     [
+      "明日",
+      "あした"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "雪",
+      "ゆき"
+     ],
+     [
+      "だそうです。",
+      null
+     ]
+    ]
    },
    {
     "ja": "彼は来月結婚するそうだ。",
     "reading": "かれはらいげつけっこんするそうだ。",
     "en": "I hear he's getting married next month.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "彼",
+      "かれ"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "来月結婚",
+      "らいげつけっこん"
+     ],
+     [
+      "するそうだ。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -885,13 +2481,53 @@
     "ja": "空が暗い。雨が降りそうだ。",
     "reading": "そらがくらい。あめがふりそうだ。",
     "en": "The sky is dark. It looks like it's going to rain.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "空",
+      "そら"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "暗",
+      "くら"
+     ],
+     [
+      "い。",
+      null
+     ],
+     [
+      "雨",
+      "あめ"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "降",
+      "ふ"
+     ],
+     [
+      "りそうだ。",
+      null
+     ]
+    ]
    },
    {
     "ja": "このケーキ、おいしそうですね。",
     "reading": "このケーキ、おいしそうですね。",
     "en": "This cake looks delicious.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "このケーキ、おいしそうですね。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -913,13 +2549,57 @@
     "ja": "事故のせいで、電車が遅れた。",
     "reading": "じこのせいで、でんしゃがおくれた。",
     "en": "The train was late because of an accident.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "事故",
+      "じこ"
+     ],
+     [
+      "のせいで、",
+      null
+     ],
+     [
+      "電車",
+      "でんしゃ"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "遅",
+      "おく"
+     ],
+     [
+      "れた。",
+      null
+     ]
+    ]
    },
    {
     "ja": "寝坊したせいで、遅刻してしまった。",
     "reading": "ねぼうしたせいで、ちこくしてしまった。",
     "en": "I was late because I overslept.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "寝坊",
+      "ねぼう"
+     ],
+     [
+      "したせいで、",
+      null
+     ],
+     [
+      "遅刻",
+      "ちこく"
+     ],
+     [
+      "してしまった。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -941,13 +2621,73 @@
     "ja": "たとえ雨が降っても、試合は行われます。",
     "reading": "たとえあめがふっても、しあいはおこなわれます。",
     "en": "Even if it rains, the match will be held.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "たとえ",
+      null
+     ],
+     [
+      "雨",
+      "あめ"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "降",
+      "ふ"
+     ],
+     [
+      "っても、",
+      null
+     ],
+     [
+      "試合",
+      "しあい"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "行",
+      "おこな"
+     ],
+     [
+      "われます。",
+      null
+     ]
+    ]
    },
    {
     "ja": "たとえ高くても、これを買いたい。",
     "reading": "たとえたかくても、これをかいたい。",
     "en": "Even if it's expensive, I want to buy this.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "たとえ",
+      null
+     ],
+     [
+      "高",
+      "たか"
+     ],
+     [
+      "くても、これを",
+      null
+     ],
+     [
+      "買",
+      "か"
+     ],
+     [
+      "いたい。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -969,13 +2709,77 @@
     "ja": "この歌を聞くたびに、故郷を思い出す。",
     "reading": "このうたをきくたびに、こきょうをおもいだす。",
     "en": "Every time I hear this song, I remember my hometown.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "この",
+      null
+     ],
+     [
+      "歌",
+      "うた"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "聞",
+      "き"
+     ],
+     [
+      "くたびに、",
+      null
+     ],
+     [
+      "故郷",
+      "こきょう"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "思",
+      "おも"
+     ],
+     [
+      "い",
+      null
+     ],
+     [
+      "出",
+      "だ"
+     ],
+     [
+      "す。",
+      null
+     ]
+    ]
    },
    {
     "ja": "試験のたびに緊張します。",
     "reading": "しけんのたびにきんちょうします。",
     "en": "I get nervous every time there's an exam.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "試験",
+      "しけん"
+     ],
+     [
+      "のたびに",
+      null
+     ],
+     [
+      "緊張",
+      "きんちょう"
+     ],
+     [
+      "します。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -997,13 +2801,61 @@
     "ja": "子供の服は泥だらけだった。",
     "reading": "こどものふくはどろだらけだった。",
     "en": "The child's clothes were covered in mud.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "子供",
+      "こども"
+     ],
+     [
+      "の",
+      null
+     ],
+     [
+      "服",
+      "ふく"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "泥",
+      "どろ"
+     ],
+     [
+      "だらけだった。",
+      null
+     ]
+    ]
    },
    {
     "ja": "この作文は間違いだらけだ。",
     "reading": "このさくぶんはまちがいだらけだ。",
     "en": "This essay is full of mistakes.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "この",
+      null
+     ],
+     [
+      "作文",
+      "さくぶん"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "間違",
+      "まちが"
+     ],
+     [
+      "いだらけだ。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -1025,13 +2877,65 @@
     "ja": "買い物のついでに、郵便局に寄った。",
     "reading": "かいもののついでに、ゆうびんきょくによった。",
     "en": "I stopped by the post office while out shopping.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "買",
+      "か"
+     ],
+     [
+      "い",
+      null
+     ],
+     [
+      "物",
+      "もの"
+     ],
+     [
+      "のついでに、",
+      null
+     ],
+     [
+      "郵便局",
+      "ゆうびんきょく"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "寄",
+      "よ"
+     ],
+     [
+      "った。",
+      null
+     ]
+    ]
    },
    {
     "ja": "散歩するついでに、パンを買ってきて。",
     "reading": "さんぽするついでに、パンをかってきて。",
     "en": "Buy some bread while you're out for your walk.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "散歩",
+      "さんぽ"
+     ],
+     [
+      "するついでに、パンを",
+      null
+     ],
+     [
+      "買",
+      "か"
+     ],
+     [
+      "ってきて。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -1053,13 +2957,49 @@
     "ja": "電気をつけっぱなしで出かけてしまった。",
     "reading": "でんきをつけっぱなしででかけてしまった。",
     "en": "I went out leaving the lights on.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "電気",
+      "でんき"
+     ],
+     [
+      "をつけっぱなしで",
+      null
+     ],
+     [
+      "出",
+      "で"
+     ],
+     [
+      "かけてしまった。",
+      null
+     ]
+    ]
    },
    {
     "ja": "電車で一時間立ちっぱなしだった。",
     "reading": "でんしゃでいちじかんたちっぱなしだった。",
     "en": "I was standing the whole hour on the train.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "電車",
+      "でんしゃ"
+     ],
+     [
+      "で",
+      null
+     ],
+     [
+      "一時間立",
+      "いちじかんた"
+     ],
+     [
+      "ちっぱなしだった。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -1081,13 +3021,49 @@
     "ja": "来年、留学するつもりです。",
     "reading": "らいねん、りゅうがくするつもりです。",
     "en": "I intend to study abroad next year.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "来年",
+      "らいねん"
+     ],
+     [
+      "、",
+      null
+     ],
+     [
+      "留学",
+      "りゅうがく"
+     ],
+     [
+      "するつもりです。",
+      null
+     ]
+    ]
    },
    {
     "ja": "鍵をかけたつもりだったが、開いていた。",
     "reading": "かぎをかけたつもりだったが、あいていた。",
     "en": "I thought I'd locked the door, but it was open.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "鍵",
+      "かぎ"
+     ],
+     [
+      "をかけたつもりだったが、",
+      null
+     ],
+     [
+      "開",
+      "あ"
+     ],
+     [
+      "いていた。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -1108,13 +3084,81 @@
     "ja": "日本に来て以来、一度も帰国していない。",
     "reading": "にほんにきていらい、いちどもきこくしていない。",
     "en": "I haven't returned home once since coming to Japan.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "日本",
+      "にほん"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "来",
+      "き"
+     ],
+     [
+      "て",
+      null
+     ],
+     [
+      "以来",
+      "いらい"
+     ],
+     [
+      "、",
+      null
+     ],
+     [
+      "一度",
+      "いちど"
+     ],
+     [
+      "も",
+      null
+     ],
+     [
+      "帰国",
+      "きこく"
+     ],
+     [
+      "していない。",
+      null
+     ]
+    ]
    },
    {
     "ja": "卒業以来、彼に会っていない。",
     "reading": "そつぎょういらい、かれにあっていない。",
     "en": "I haven't seen him since graduation.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "卒業以来",
+      "そつぎょういらい"
+     ],
+     [
+      "、",
+      null
+     ],
+     [
+      "彼",
+      "かれ"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "会",
+      "あ"
+     ],
+     [
+      "っていない。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -1136,13 +3180,65 @@
     "ja": "会議の前に資料を読んでおきます。",
     "reading": "かいぎのまえにしりょうをよんでおきます。",
     "en": "I'll read the materials before the meeting.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "会議",
+      "かいぎ"
+     ],
+     [
+      "の",
+      null
+     ],
+     [
+      "前",
+      "まえ"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "資料",
+      "しりょう"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "読",
+      "よ"
+     ],
+     [
+      "んでおきます。",
+      null
+     ]
+    ]
    },
    {
     "ja": "窓は開けておいてください。",
     "reading": "まどはあけておいてください。",
     "en": "Please leave the window open.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "窓",
+      "まど"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "開",
+      "あ"
+     ],
+     [
+      "けておいてください。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -1164,13 +3260,61 @@
     "ja": "大事な書類をなくしてしまった。",
     "reading": "だいじなしょるいをなくしてしまった。",
     "en": "I've gone and lost an important document.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "大事",
+      "だいじ"
+     ],
+     [
+      "な",
+      null
+     ],
+     [
+      "書類",
+      "しょるい"
+     ],
+     [
+      "をなくしてしまった。",
+      null
+     ]
+    ]
    },
    {
     "ja": "この本は一日で読んでしまいました。",
     "reading": "このほんはいちにちでよんでしまいました。",
     "en": "I finished reading this book in a day.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "この",
+      null
+     ],
+     [
+      "本",
+      "ほん"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "一日",
+      "いちにち"
+     ],
+     [
+      "で",
+      null
+     ],
+     [
+      "読",
+      "よ"
+     ],
+     [
+      "んでしまいました。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -1192,13 +3336,57 @@
     "ja": "喉が渇いてたまらない。",
     "reading": "のどがかわいてたまらない。",
     "en": "I'm unbearably thirsty.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "喉",
+      "のど"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "渇",
+      "かわ"
+     ],
+     [
+      "いてたまらない。",
+      null
+     ]
+    ]
    },
    {
     "ja": "国の家族に会いたくてたまらない。",
     "reading": "くにのかぞくにあいたくてたまらない。",
     "en": "I miss my family back home terribly.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "国",
+      "くに"
+     ],
+     [
+      "の",
+      null
+     ],
+     [
+      "家族",
+      "かぞく"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "会",
+      "あ"
+     ],
+     [
+      "いたくてたまらない。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -1220,13 +3408,89 @@
     "ja": "病気になってはじめて、健康の大切さが分かった。",
     "reading": "びょうきになってはじめて、けんこうのたいせつさがわかった。",
     "en": "Only after falling ill did I understand the value of health.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "病気",
+      "びょうき"
+     ],
+     [
+      "になってはじめて、",
+      null
+     ],
+     [
+      "健康",
+      "けんこう"
+     ],
+     [
+      "の",
+      null
+     ],
+     [
+      "大切",
+      "たいせつ"
+     ],
+     [
+      "さが",
+      null
+     ],
+     [
+      "分",
+      "わ"
+     ],
+     [
+      "かった。",
+      null
+     ]
+    ]
    },
    {
     "ja": "外国に住んではじめて、日本の良さに気づいた。",
     "reading": "がいこくにすんではじめて、にほんのよさにきづいた。",
     "en": "It was only after living abroad that I noticed Japan's good points.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "外国",
+      "がいこく"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "住",
+      "す"
+     ],
+     [
+      "んではじめて、",
+      null
+     ],
+     [
+      "日本",
+      "にほん"
+     ],
+     [
+      "の",
+      null
+     ],
+     [
+      "良",
+      "よ"
+     ],
+     [
+      "さに",
+      null
+     ],
+     [
+      "気",
+      "き"
+     ],
+     [
+      "づいた。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -1247,13 +3511,53 @@
     "ja": "もう少し静かにしてほしい。",
     "reading": "もうすこししずかにしてほしい。",
     "en": "I'd like you to be a bit quieter.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "もう",
+      null
+     ],
+     [
+      "少",
+      "すこ"
+     ],
+     [
+      "し",
+      null
+     ],
+     [
+      "静",
+      "しず"
+     ],
+     [
+      "かにしてほしい。",
+      null
+     ]
+    ]
    },
    {
     "ja": "誰にも言わないでほしいんです。",
     "reading": "だれにもいわないでほしいんです。",
     "en": "I'd rather you didn't tell anyone.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "誰",
+      "だれ"
+     ],
+     [
+      "にも",
+      null
+     ],
+     [
+      "言",
+      "い"
+     ],
+     [
+      "わないでほしいんです。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -1275,13 +3579,65 @@
     "ja": "説明書のとおりに組み立ててください。",
     "reading": "せつめいしょのとおりにくみたててください。",
     "en": "Please assemble it exactly as the manual says.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "説明書",
+      "せつめいしょ"
+     ],
+     [
+      "のとおりに",
+      null
+     ],
+     [
+      "組",
+      "く"
+     ],
+     [
+      "み",
+      null
+     ],
+     [
+      "立",
+      "た"
+     ],
+     [
+      "ててください。",
+      null
+     ]
+    ]
    },
    {
     "ja": "予想どおり、彼が優勝した。",
     "reading": "よそうどおり、かれがゆうしょうした。",
     "en": "Just as expected, he won.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "予想",
+      "よそう"
+     ],
+     [
+      "どおり、",
+      null
+     ],
+     [
+      "彼",
+      "かれ"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "優勝",
+      "ゆうしょう"
+     ],
+     [
+      "した。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -1302,13 +3658,77 @@
     "ja": "彼は交換留学生として日本に来た。",
     "reading": "かれはこうかんりゅうがくせいとしてにほんにきた。",
     "en": "He came to Japan as an exchange student.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "彼",
+      "かれ"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "交換留学生",
+      "こうかんりゅうがくせい"
+     ],
+     [
+      "として",
+      null
+     ],
+     [
+      "日本",
+      "にほん"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "来",
+      "き"
+     ],
+     [
+      "た。",
+      null
+     ]
+    ]
    },
    {
     "ja": "この部屋は倉庫として使っています。",
     "reading": "このへやはそうことしてつかっています。",
     "en": "We use this room as a storeroom.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "この",
+      null
+     ],
+     [
+      "部屋",
+      "へや"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "倉庫",
+      "そうこ"
+     ],
+     [
+      "として",
+      null
+     ],
+     [
+      "使",
+      "つか"
+     ],
+     [
+      "っています。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -1330,13 +3750,81 @@
     "ja": "年をとるとともに、記憶力が落ちてきた。",
     "reading": "としをとるとともに、きおくりょくがおちてきた。",
     "en": "As I've grown older, my memory has declined.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "年",
+      "とし"
+     ],
+     [
+      "をとるとともに、",
+      null
+     ],
+     [
+      "記憶力",
+      "きおくりょく"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "落",
+      "お"
+     ],
+     [
+      "ちてきた。",
+      null
+     ]
+    ]
    },
    {
     "ja": "家族とともに新しい町へ引っ越した。",
     "reading": "かぞくとともにあたらしいまちへひっこした。",
     "en": "I moved to a new town together with my family.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "家族",
+      "かぞく"
+     ],
+     [
+      "とともに",
+      null
+     ],
+     [
+      "新",
+      "あたら"
+     ],
+     [
+      "しい",
+      null
+     ],
+     [
+      "町",
+      "まち"
+     ],
+     [
+      "へ",
+      null
+     ],
+     [
+      "引",
+      "ひ"
+     ],
+     [
+      "っ",
+      null
+     ],
+     [
+      "越",
+      "こ"
+     ],
+     [
+      "した。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -1358,13 +3846,57 @@
     "ja": "残念ながら、参加できません。",
     "reading": "ざんねんながら、さんかできません。",
     "en": "Regrettably, I can't take part.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "残念",
+      "ざんねん"
+     ],
+     [
+      "ながら、",
+      null
+     ],
+     [
+      "参加",
+      "さんか"
+     ],
+     [
+      "できません。",
+      null
+     ]
+    ]
    },
    {
     "ja": "狭いながらも、居心地のいい部屋だ。",
     "reading": "せまいながらも、いごこちのいいへやだ。",
     "en": "Small though it is, it's a comfortable room.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "狭",
+      "せま"
+     ],
+     [
+      "いながらも、",
+      null
+     ],
+     [
+      "居心地",
+      "いごこち"
+     ],
+     [
+      "のいい",
+      null
+     ],
+     [
+      "部屋",
+      "へや"
+     ],
+     [
+      "だ。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -1387,13 +3919,73 @@
     "ja": "会議は本社において行われます。",
     "reading": "かいぎはほんしゃにおいておこなわれます。",
     "en": "The meeting will be held at head office.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "会議",
+      "かいぎ"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "本社",
+      "ほんしゃ"
+     ],
+     [
+      "において",
+      null
+     ],
+     [
+      "行",
+      "おこな"
+     ],
+     [
+      "われます。",
+      null
+     ]
+    ]
    },
    {
     "ja": "現代社会における教育の役割は大きい。",
     "reading": "げんだいしゃかいにおけるきょういくのやくわりはおおきい。",
     "en": "The role of education in modern society is significant.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "現代社会",
+      "げんだいしゃかい"
+     ],
+     [
+      "における",
+      null
+     ],
+     [
+      "教育",
+      "きょういく"
+     ],
+     [
+      "の",
+      null
+     ],
+     [
+      "役割",
+      "やくわり"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "大",
+      "おお"
+     ],
+     [
+      "きい。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -1415,13 +4007,57 @@
     "ja": "社長にかわって、私がご挨拶します。",
     "reading": "しゃちょうにかわって、わたしがごあいさつします。",
     "en": "I will give the greeting on behalf of the president.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "社長",
+      "しゃちょう"
+     ],
+     [
+      "にかわって、",
+      null
+     ],
+     [
+      "私",
+      "わたし"
+     ],
+     [
+      "がご",
+      null
+     ],
+     [
+      "挨拶",
+      "あいさつ"
+     ],
+     [
+      "します。",
+      null
+     ]
+    ]
    },
    {
     "ja": "手紙にかわって、メールが使われるようになった。",
     "reading": "てがみにかわって、メールがつかわれるようになった。",
     "en": "Email has come to be used in place of letters.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "手紙",
+      "てがみ"
+     ],
+     [
+      "にかわって、メールが",
+      null
+     ],
+     [
+      "使",
+      "つか"
+     ],
+     [
+      "われるようになった。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -1443,13 +4079,85 @@
     "ja": "その件に関して、詳しく説明します。",
     "reading": "そのけんにかんして、くわしくせつめいします。",
     "en": "I'll explain that matter in detail.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "その",
+      null
+     ],
+     [
+      "件",
+      "けん"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "関",
+      "かん"
+     ],
+     [
+      "して、",
+      null
+     ],
+     [
+      "詳",
+      "くわ"
+     ],
+     [
+      "しく",
+      null
+     ],
+     [
+      "説明",
+      "せつめい"
+     ],
+     [
+      "します。",
+      null
+     ]
+    ]
    },
    {
     "ja": "環境に関する本を探しています。",
     "reading": "かんきょうにかんするほんをさがしています。",
     "en": "I'm looking for a book concerning the environment.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "環境",
+      "かんきょう"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "関",
+      "かん"
+     ],
+     [
+      "する",
+      null
+     ],
+     [
+      "本",
+      "ほん"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "探",
+      "さが"
+     ],
+     [
+      "しています。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -1471,13 +4179,69 @@
     "ja": "そんな話は嘘に決まっている。",
     "reading": "そんなはなしはうそにきまっている。",
     "en": "A story like that is bound to be a lie.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "そんな",
+      null
+     ],
+     [
+      "話",
+      "はなし"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "嘘",
+      "うそ"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "決",
+      "き"
+     ],
+     [
+      "まっている。",
+      null
+     ]
+    ]
    },
    {
     "ja": "彼なら合格するに決まっているよ。",
     "reading": "かれならごうかくするにきまっているよ。",
     "en": "He's certain to pass.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "彼",
+      "かれ"
+     ],
+     [
+      "なら",
+      null
+     ],
+     [
+      "合格",
+      "ごうかく"
+     ],
+     [
+      "するに",
+      null
+     ],
+     [
+      "決",
+      "き"
+     ],
+     [
+      "まっているよ。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -1498,13 +4262,89 @@
     "ja": "去年に比べて、今年は雨が多い。",
     "reading": "きょねんにくらべて、ことしはあめがおおい。",
     "en": "Compared with last year, there's a lot of rain this year.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "去年",
+      "きょねん"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "比",
+      "くら"
+     ],
+     [
+      "べて、",
+      null
+     ],
+     [
+      "今年",
+      "ことし"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "雨",
+      "あめ"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "多",
+      "おお"
+     ],
+     [
+      "い。",
+      null
+     ]
+    ]
    },
    {
     "ja": "東京に比べ、この町は静かだ。",
     "reading": "とうきょうにくらべ、このまちはしずかだ。",
     "en": "Compared with Tokyo, this town is quiet.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "東京",
+      "とうきょう"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "比",
+      "くら"
+     ],
+     [
+      "べ、この",
+      null
+     ],
+     [
+      "町",
+      "まち"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "静",
+      "しず"
+     ],
+     [
+      "かだ。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -1526,13 +4366,97 @@
     "ja": "強い風に加えて、雨も降り出した。",
     "reading": "つよいかぜにくわえて、あめもふりだした。",
     "en": "On top of the strong wind, it started raining too.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "強",
+      "つよ"
+     ],
+     [
+      "い",
+      null
+     ],
+     [
+      "風",
+      "かぜ"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "加",
+      "くわ"
+     ],
+     [
+      "えて、",
+      null
+     ],
+     [
+      "雨",
+      "あめ"
+     ],
+     [
+      "も",
+      null
+     ],
+     [
+      "降",
+      "ふ"
+     ],
+     [
+      "り",
+      null
+     ],
+     [
+      "出",
+      "だ"
+     ],
+     [
+      "した。",
+      null
+     ]
+    ]
    },
    {
     "ja": "英語に加えて、中国語も勉強している。",
     "reading": "えいごにくわえて、ちゅうごくごもべんきょうしている。",
     "en": "In addition to English, I'm studying Chinese.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "英語",
+      "えいご"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "加",
+      "くわ"
+     ],
+     [
+      "えて、",
+      null
+     ],
+     [
+      "中国語",
+      "ちゅうごくご"
+     ],
+     [
+      "も",
+      null
+     ],
+     [
+      "勉強",
+      "べんきょう"
+     ],
+     [
+      "している。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -1554,13 +4478,73 @@
     "ja": "山を登るにしたがって、空気が冷たくなった。",
     "reading": "やまをのぼるにしたがって、くうきがつめたくなった。",
     "en": "As we climbed the mountain, the air grew colder.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "山",
+      "やま"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "登",
+      "のぼ"
+     ],
+     [
+      "るにしたがって、",
+      null
+     ],
+     [
+      "空気",
+      "くうき"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "冷",
+      "つめ"
+     ],
+     [
+      "たくなった。",
+      null
+     ]
+    ]
    },
    {
     "ja": "係員の指示にしたがって、避難してください。",
     "reading": "かかりいんのしじにしたがって、ひなんしてください。",
     "en": "Please evacuate in accordance with the staff's instructions.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "係員",
+      "かかりいん"
+     ],
+     [
+      "の",
+      null
+     ],
+     [
+      "指示",
+      "しじ"
+     ],
+     [
+      "にしたがって、",
+      null
+     ],
+     [
+      "避難",
+      "ひなん"
+     ],
+     [
+      "してください。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -1582,13 +4566,65 @@
     "ja": "初めて作ったにしては、よくできている。",
     "reading": "はじめてつくったにしては、よくできている。",
     "en": "For a first attempt, it's well made.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "初",
+      "はじ"
+     ],
+     [
+      "めて",
+      null
+     ],
+     [
+      "作",
+      "つく"
+     ],
+     [
+      "ったにしては、よくできている。",
+      null
+     ]
+    ]
    },
    {
     "ja": "彼は日本人にしては背が高い。",
     "reading": "かれはにほんじんにしてはせがたかい。",
     "en": "He's tall for a Japanese person.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "彼",
+      "かれ"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "日本人",
+      "にほんじん"
+     ],
+     [
+      "にしては",
+      null
+     ],
+     [
+      "背",
+      "せ"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "高",
+      "たか"
+     ],
+     [
+      "い。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -1610,13 +4646,65 @@
     "ja": "忙しいにしても、連絡ぐらいはできるはずだ。",
     "reading": "いそがしいにしても、れんらくぐらいはできるはずだ。",
     "en": "Even if he's busy, he could at least get in touch.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "忙",
+      "いそが"
+     ],
+     [
+      "しいにしても、",
+      null
+     ],
+     [
+      "連絡",
+      "れんらく"
+     ],
+     [
+      "ぐらいはできるはずだ。",
+      null
+     ]
+    ]
    },
    {
     "ja": "冗談にしても、失礼な言い方だ。",
     "reading": "じょうだんにしても、しつれいないいかただ。",
     "en": "Even as a joke, that's a rude way to put it.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "冗談",
+      "じょうだん"
+     ],
+     [
+      "にしても、",
+      null
+     ],
+     [
+      "失礼",
+      "しつれい"
+     ],
+     [
+      "な",
+      null
+     ],
+     [
+      "言",
+      "い"
+     ],
+     [
+      "い",
+      null
+     ],
+     [
+      "方",
+      "かた"
+     ],
+     [
+      "だ。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -1638,13 +4726,105 @@
     "ja": "目上の人に対して、失礼な態度は取れない。",
     "reading": "めうえのひとにたいして、しつれいなたいどはとれない。",
     "en": "You can't behave rudely toward your superiors.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "目上",
+      "めうえ"
+     ],
+     [
+      "の",
+      null
+     ],
+     [
+      "人",
+      "ひと"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "対",
+      "たい"
+     ],
+     [
+      "して、",
+      null
+     ],
+     [
+      "失礼",
+      "しつれい"
+     ],
+     [
+      "な",
+      null
+     ],
+     [
+      "態度",
+      "たいど"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "取",
+      "と"
+     ],
+     [
+      "れない。",
+      null
+     ]
+    ]
    },
    {
     "ja": "兄が静かなのに対して、弟はよく話す。",
     "reading": "あにがしずかなのにたいして、おとうとはよくはなす。",
     "en": "In contrast to my quiet older brother, my younger brother talks a lot.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "兄",
+      "あに"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "静",
+      "しず"
+     ],
+     [
+      "かなのに",
+      null
+     ],
+     [
+      "対",
+      "たい"
+     ],
+     [
+      "して、",
+      null
+     ],
+     [
+      "弟",
+      "おとうと"
+     ],
+     [
+      "はよく",
+      null
+     ],
+     [
+      "話",
+      "はな"
+     ],
+     [
+      "す。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -1666,13 +4846,85 @@
     "ja": "電気がついている。彼は家にいるに違いない。",
     "reading": "でんきがついている。かれはいえにいるにちがいない。",
     "en": "The lights are on. He must be home.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "電気",
+      "でんき"
+     ],
+     [
+      "がついている。",
+      null
+     ],
+     [
+      "彼",
+      "かれ"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "家",
+      "いえ"
+     ],
+     [
+      "にいるに",
+      null
+     ],
+     [
+      "違",
+      "ちが"
+     ],
+     [
+      "いない。",
+      null
+     ]
+    ]
    },
    {
     "ja": "この字は彼女が書いたに違いない。",
     "reading": "このじはかのじょがかいたにちがいない。",
     "en": "This handwriting must be hers.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "この",
+      null
+     ],
+     [
+      "字",
+      "じ"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "彼女",
+      "かのじょ"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "書",
+      "か"
+     ],
+     [
+      "いたに",
+      null
+     ],
+     [
+      "違",
+      "ちが"
+     ],
+     [
+      "いない。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -1694,13 +4946,69 @@
     "ja": "日本の文化について研究しています。",
     "reading": "にほんのぶんかについてけんきゅうしています。",
     "en": "I'm doing research about Japanese culture.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "日本",
+      "にほん"
+     ],
+     [
+      "の",
+      null
+     ],
+     [
+      "文化",
+      "ぶんか"
+     ],
+     [
+      "について",
+      null
+     ],
+     [
+      "研究",
+      "けんきゅう"
+     ],
+     [
+      "しています。",
+      null
+     ]
+    ]
    },
    {
     "ja": "その問題についての意見を聞かせてください。",
     "reading": "そのもんだいについてのいけんをきかせてください。",
     "en": "Please let me hear your opinion about that problem.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "その",
+      null
+     ],
+     [
+      "問題",
+      "もんだい"
+     ],
+     [
+      "についての",
+      null
+     ],
+     [
+      "意見",
+      "いけん"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "聞",
+      "き"
+     ],
+     [
+      "かせてください。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -1721,13 +5029,73 @@
     "ja": "時間がたつにつれて、痛みは消えていった。",
     "reading": "じかんがたつにつれて、いたみはきえていった。",
     "en": "As time passed, the pain faded away.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "時間",
+      "じかん"
+     ],
+     [
+      "がたつにつれて、",
+      null
+     ],
+     [
+      "痛",
+      "いた"
+     ],
+     [
+      "みは",
+      null
+     ],
+     [
+      "消",
+      "き"
+     ],
+     [
+      "えていった。",
+      null
+     ]
+    ]
    },
    {
     "ja": "経済の発展につれて、生活が豊かになった。",
     "reading": "けいざいのはってんにつれて、せいかつがゆたかになった。",
     "en": "As the economy developed, life became more affluent.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "経済",
+      "けいざい"
+     ],
+     [
+      "の",
+      null
+     ],
+     [
+      "発展",
+      "はってん"
+     ],
+     [
+      "につれて、",
+      null
+     ],
+     [
+      "生活",
+      "せいかつ"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "豊",
+      "ゆた"
+     ],
+     [
+      "かになった。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -1749,13 +5117,93 @@
     "ja": "この写真は私にとって大切な思い出だ。",
     "reading": "このしゃしんはわたしにとってたいせつなおもいでだ。",
     "en": "This photo is a precious memory for me.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "この",
+      null
+     ],
+     [
+      "写真",
+      "しゃしん"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "私",
+      "わたし"
+     ],
+     [
+      "にとって",
+      null
+     ],
+     [
+      "大切",
+      "たいせつ"
+     ],
+     [
+      "な",
+      null
+     ],
+     [
+      "思",
+      "おも"
+     ],
+     [
+      "い",
+      null
+     ],
+     [
+      "出",
+      "で"
+     ],
+     [
+      "だ。",
+      null
+     ]
+    ]
    },
    {
     "ja": "学生にとって、この本は少し難しい。",
     "reading": "がくせいにとって、このほんはすこしむずかしい。",
     "en": "For students, this book is a little difficult.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "学生",
+      "がくせい"
+     ],
+     [
+      "にとって、この",
+      null
+     ],
+     [
+      "本",
+      "ほん"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "少",
+      "すこ"
+     ],
+     [
+      "し",
+      null
+     ],
+     [
+      "難",
+      "むずか"
+     ],
+     [
+      "しい。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -1777,13 +5225,89 @@
     "ja": "人口の増加にともなって、住宅が不足している。",
     "reading": "じんこうのぞうかにともなって、じゅうたくがふそくしている。",
     "en": "Along with the population increase, housing is in short supply.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "人口",
+      "じんこう"
+     ],
+     [
+      "の",
+      null
+     ],
+     [
+      "増加",
+      "ぞうか"
+     ],
+     [
+      "にともなって、",
+      null
+     ],
+     [
+      "住宅",
+      "じゅうたく"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "不足",
+      "ふそく"
+     ],
+     [
+      "している。",
+      null
+     ]
+    ]
    },
    {
     "ja": "気温が上がるにともなって、電気の使用量も増える。",
     "reading": "きおんがあがるにともなって、でんきのしようりょうもふえる。",
     "en": "As the temperature rises, electricity use increases too.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "気温",
+      "きおん"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "上",
+      "あ"
+     ],
+     [
+      "がるにともなって、",
+      null
+     ],
+     [
+      "電気",
+      "でんき"
+     ],
+     [
+      "の",
+      null
+     ],
+     [
+      "使用量",
+      "しようりょう"
+     ],
+     [
+      "も",
+      null
+     ],
+     [
+      "増",
+      "ふ"
+     ],
+     [
+      "える。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -1805,13 +5329,81 @@
     "ja": "健康を保つには、規則正しい生活が必要だ。",
     "reading": "けんこうをたもつには、きそくただしいせいかつがひつようだ。",
     "en": "To stay healthy, a regular lifestyle is necessary.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "健康",
+      "けんこう"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "保",
+      "たも"
+     ],
+     [
+      "つには、",
+      null
+     ],
+     [
+      "規則正",
+      "きそくただ"
+     ],
+     [
+      "しい",
+      null
+     ],
+     [
+      "生活",
+      "せいかつ"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "必要",
+      "ひつよう"
+     ],
+     [
+      "だ。",
+      null
+     ]
+    ]
    },
    {
     "ja": "駅に行くには、この道をまっすぐです。",
     "reading": "えきにいくには、このみちをまっすぐです。",
     "en": "To get to the station, go straight along this road.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "駅",
+      "えき"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "行",
+      "い"
+     ],
+     [
+      "くには、この",
+      null
+     ],
+     [
+      "道",
+      "みち"
+     ],
+     [
+      "をまっすぐです。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -1834,13 +5426,77 @@
     "ja": "人によって考え方が違う。",
     "reading": "ひとによってかんがえかたがちがう。",
     "en": "Ways of thinking differ from person to person.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "人",
+      "ひと"
+     ],
+     [
+      "によって",
+      null
+     ],
+     [
+      "考",
+      "かんが"
+     ],
+     [
+      "え",
+      null
+     ],
+     [
+      "方",
+      "かた"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "違",
+      "ちが"
+     ],
+     [
+      "う。",
+      null
+     ]
+    ]
    },
    {
     "ja": "この寺は江戸時代に建てられた。",
     "reading": "このてらはえどじだいにたてられた。",
     "en": "This temple was built in the Edo period.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "この",
+      null
+     ],
+     [
+      "寺",
+      "てら"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "江戸時代",
+      "えどじだい"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "建",
+      "た"
+     ],
+     [
+      "てられた。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -1861,13 +5517,73 @@
     "ja": "新聞によると、事故の原因は不明だそうだ。",
     "reading": "しんぶんによると、じこのげんいんはふめいだそうだ。",
     "en": "According to the paper, the cause of the accident is unknown.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "新聞",
+      "しんぶん"
+     ],
+     [
+      "によると、",
+      null
+     ],
+     [
+      "事故",
+      "じこ"
+     ],
+     [
+      "の",
+      null
+     ],
+     [
+      "原因",
+      "げんいん"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "不明",
+      "ふめい"
+     ],
+     [
+      "だそうだ。",
+      null
+     ]
+    ]
    },
    {
     "ja": "友人によれば、あの店はもう閉まったらしい。",
     "reading": "ゆうじんによれば、あのみせはもうしまったらしい。",
     "en": "According to my friend, that shop has already closed.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "友人",
+      "ゆうじん"
+     ],
+     [
+      "によれば、あの",
+      null
+     ],
+     [
+      "店",
+      "みせ"
+     ],
+     [
+      "はもう",
+      null
+     ],
+     [
+      "閉",
+      "し"
+     ],
+     [
+      "まったらしい。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -1889,13 +5605,65 @@
     "ja": "工事は三年にわたって続いた。",
     "reading": "こうじはさんねんにわたってつづいた。",
     "en": "The construction continued over three years.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "工事",
+      "こうじ"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "三年",
+      "さんねん"
+     ],
+     [
+      "にわたって",
+      null
+     ],
+     [
+      "続",
+      "つづ"
+     ],
+     [
+      "いた。",
+      null
+     ]
+    ]
    },
    {
     "ja": "全国にわたる調査が行われた。",
     "reading": "ぜんこくにわたるちょうさがおこなわれた。",
     "en": "A survey covering the whole country was carried out.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "全国",
+      "ぜんこく"
+     ],
+     [
+      "にわたる",
+      null
+     ],
+     [
+      "調査",
+      "ちょうさ"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "行",
+      "おこな"
+     ],
+     [
+      "われた。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -1917,13 +5685,61 @@
     "ja": "冗談ぬきで、真面目な話をしよう。",
     "reading": "じょうだんぬきで、まじめなはなしをしよう。",
     "en": "Joking aside, let's talk seriously.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "冗談",
+      "じょうだん"
+     ],
+     [
+      "ぬきで、",
+      null
+     ],
+     [
+      "真面目",
+      "まじめ"
+     ],
+     [
+      "な",
+      null
+     ],
+     [
+      "話",
+      "はなし"
+     ],
+     [
+      "をしよう。",
+      null
+     ]
+    ]
    },
    {
     "ja": "わさびぬきの寿司をお願いします。",
     "reading": "わさびぬきのすしをおねがいします。",
     "en": "Sushi without wasabi, please.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "わさびぬきの",
+      null
+     ],
+     [
+      "寿司",
+      "すし"
+     ],
+     [
+      "をお",
+      null
+     ],
+     [
+      "願",
+      "ねが"
+     ],
+     [
+      "いします。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -1945,13 +5761,61 @@
     "ja": "約束したのに、彼は来なかった。",
     "reading": "やくそくしたのに、かれはこなかった。",
     "en": "Even though he promised, he didn't come.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "約束",
+      "やくそく"
+     ],
+     [
+      "したのに、",
+      null
+     ],
+     [
+      "彼",
+      "かれ"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "来",
+      "こ"
+     ],
+     [
+      "なかった。",
+      null
+     ]
+    ]
    },
    {
     "ja": "まだ四月なのに、もう暑い。",
     "reading": "まだしがつなのに、もうあつい。",
     "en": "It's only April, yet it's already hot.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "まだ",
+      null
+     ],
+     [
+      "四月",
+      "しがつ"
+     ],
+     [
+      "なのに、もう",
+      null
+     ],
+     [
+      "暑",
+      "あつ"
+     ],
+     [
+      "い。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -1972,13 +5836,57 @@
     "ja": "考えれば考えるほど、分からなくなる。",
     "reading": "かんがえればかんがえるほど、わからなくなる。",
     "en": "The more I think about it, the less I understand.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "考",
+      "かんが"
+     ],
+     [
+      "えれば",
+      null
+     ],
+     [
+      "考",
+      "かんが"
+     ],
+     [
+      "えるほど、",
+      null
+     ],
+     [
+      "分",
+      "わ"
+     ],
+     [
+      "からなくなる。",
+      null
+     ]
+    ]
    },
    {
     "ja": "安ければ安いほどいいというものではない。",
     "reading": "やすければやすいほどいいというものではない。",
     "en": "It's not the case that cheaper is always better.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "安",
+      "やす"
+     ],
+     [
+      "ければ",
+      null
+     ],
+     [
+      "安",
+      "やす"
+     ],
+     [
+      "いほどいいというものではない。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -2000,13 +5908,49 @@
     "ja": "弟はゲームばかりしている。",
     "reading": "おとうとはゲームばかりしている。",
     "en": "My little brother does nothing but play games.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "弟",
+      "おとうと"
+     ],
+     [
+      "はゲームばかりしている。",
+      null
+     ]
+    ]
    },
    {
     "ja": "文句ばかり言わないで、手伝ってよ。",
     "reading": "もんくばかりいわないで、てつだってよ。",
     "en": "Stop just complaining and help me.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "文句",
+      "もんく"
+     ],
+     [
+      "ばかり",
+      null
+     ],
+     [
+      "言",
+      "い"
+     ],
+     [
+      "わないで、",
+      null
+     ],
+     [
+      "手伝",
+      "てつだ"
+     ],
+     [
+      "ってよ。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -2028,13 +5972,69 @@
     "ja": "日本に来たばかりで、まだ慣れていません。",
     "reading": "にほんにきたばかりで、まだなれていません。",
     "en": "I've only just come to Japan, so I'm not used to it yet.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "日本",
+      "にほん"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "来",
+      "き"
+     ],
+     [
+      "たばかりで、まだ",
+      null
+     ],
+     [
+      "慣",
+      "な"
+     ],
+     [
+      "れていません。",
+      null
+     ]
+    ]
    },
    {
     "ja": "さっき昼ご飯を食べたばかりだ。",
     "reading": "さっきひるごはんをたべたばかりだ。",
     "en": "I've just eaten lunch a moment ago.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "さっき",
+      null
+     ],
+     [
+      "昼",
+      "ひる"
+     ],
+     [
+      "ご",
+      null
+     ],
+     [
+      "飯",
+      "はん"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "食",
+      "た"
+     ],
+     [
+      "べたばかりだ。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -2056,13 +6056,49 @@
     "ja": "この時間なら、彼はもう着いているはずだ。",
     "reading": "このじかんなら、かれはもうついているはずだ。",
     "en": "At this hour he should have arrived already.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "この",
+      null
+     ],
+     [
+      "時間",
+      "じかん"
+     ],
+     [
+      "なら、",
+      null
+     ],
+     [
+      "彼",
+      "かれ"
+     ],
+     [
+      "はもう",
+      null
+     ],
+     [
+      "着",
+      "つ"
+     ],
+     [
+      "いているはずだ。",
+      null
+     ]
+    ]
    },
    {
     "ja": "そんなことがあるはずがない。",
     "reading": "そんなことがあるはずがない。",
     "en": "There's no way that could happen.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "そんなことがあるはずがない。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -2084,13 +6120,45 @@
     "ja": "約束は守るべきだ。",
     "reading": "やくそくはまもるべきだ。",
     "en": "You should keep your promises.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "約束",
+      "やくそく"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "守",
+      "まも"
+     ],
+     [
+      "るべきだ。",
+      null
+     ]
+    ]
    },
    {
     "ja": "そんなことは言うべきではなかった。",
     "reading": "そんなことはいうべきではなかった。",
     "en": "I shouldn't have said such a thing.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "そんなことは",
+      null
+     ],
+     [
+      "言",
+      "い"
+     ],
+     [
+      "うべきではなかった。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -2112,13 +6180,57 @@
     "ja": "歩けないほど疲れていた。",
     "reading": "あるけないほどつかれていた。",
     "en": "I was so tired I couldn't walk.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "歩",
+      "ある"
+     ],
+     [
+      "けないほど",
+      null
+     ],
+     [
+      "疲",
+      "つか"
+     ],
+     [
+      "れていた。",
+      null
+     ]
+    ]
    },
    {
     "ja": "涙が出るほど笑った。",
     "reading": "なみだがでるほどわらった。",
     "en": "I laughed so hard I cried.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "涙",
+      "なみだ"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "出",
+      "で"
+     ],
+     [
+      "るほど",
+      null
+     ],
+     [
+      "笑",
+      "わら"
+     ],
+     [
+      "った。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -2140,13 +6252,65 @@
     "ja": "靴を履いたまま、上がらないでください。",
     "reading": "くつをはいたまま、あがらないでください。",
     "en": "Please don't come in with your shoes on.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "靴",
+      "くつ"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "履",
+      "は"
+     ],
+     [
+      "いたまま、",
+      null
+     ],
+     [
+      "上",
+      "あ"
+     ],
+     [
+      "がらないでください。",
+      null
+     ]
+    ]
    },
    {
     "ja": "昔のままの町並みが残っている。",
     "reading": "むかしのままのまちなみがのこっている。",
     "en": "The streets remain just as they were long ago.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "昔",
+      "むかし"
+     ],
+     [
+      "のままの",
+      null
+     ],
+     [
+      "町並",
+      "まちな"
+     ],
+     [
+      "みが",
+      null
+     ],
+     [
+      "残",
+      "のこ"
+     ],
+     [
+      "っている。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -2169,13 +6333,49 @@
     "ja": "彼はもう帰ったみたいだ。",
     "reading": "かれはもうかえったみたいだ。",
     "en": "It seems he's already gone home.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "彼",
+      "かれ"
+     ],
+     [
+      "はもう",
+      null
+     ],
+     [
+      "帰",
+      "かえ"
+     ],
+     [
+      "ったみたいだ。",
+      null
+     ]
+    ]
    },
    {
     "ja": "夢みたいな話ですね。",
     "reading": "ゆめみたいなはなしですね。",
     "en": "It sounds like a dream, doesn't it.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "夢",
+      "ゆめ"
+     ],
+     [
+      "みたいな",
+      null
+     ],
+     [
+      "話",
+      "はなし"
+     ],
+     [
+      "ですね。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -2197,13 +6397,65 @@
     "ja": "これは子供向けの番組です。",
     "reading": "これはこどもむけのばんぐみです。",
     "en": "This is a programme aimed at children.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "これは",
+      null
+     ],
+     [
+      "子供向",
+      "こどもむ"
+     ],
+     [
+      "けの",
+      null
+     ],
+     [
+      "番組",
+      "ばんぐみ"
+     ],
+     [
+      "です。",
+      null
+     ]
+    ]
    },
    {
     "ja": "この仕事は若い人向きだ。",
     "reading": "このしごとはわかいひとむきだ。",
     "en": "This job suits young people.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "この",
+      null
+     ],
+     [
+      "仕事",
+      "しごと"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "若",
+      "わか"
+     ],
+     [
+      "い",
+      null
+     ],
+     [
+      "人向",
+      "ひとむ"
+     ],
+     [
+      "きだ。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -2224,13 +6476,45 @@
     "ja": "だって、忙しかったんだもの。",
     "reading": "だって、いそがしかったんだもの。",
     "en": "But I was busy, you know.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "だって、",
+      null
+     ],
+     [
+      "忙",
+      "いそが"
+     ],
+     [
+      "しかったんだもの。",
+      null
+     ]
+    ]
    },
    {
     "ja": "行きたくない。疲れてるもん。",
     "reading": "いきたくない。つかれてるもん。",
     "en": "I don't want to go. I'm tired.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "行",
+      "い"
+     ],
+     [
+      "きたくない。",
+      null
+     ],
+     [
+      "疲",
+      "つか"
+     ],
+     [
+      "れてるもん。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -2252,13 +6536,65 @@
     "ja": "年をとると、昔が懐かしくなるものだ。",
     "reading": "としをとると、むかしがなつかしくなるものだ。",
     "en": "As you get older, you naturally grow nostalgic.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "年",
+      "とし"
+     ],
+     [
+      "をとると、",
+      null
+     ],
+     [
+      "昔",
+      "むかし"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "懐",
+      "なつ"
+     ],
+     [
+      "かしくなるものだ。",
+      null
+     ]
+    ]
    },
    {
     "ja": "子供のころ、よくこの川で泳いだものだ。",
     "reading": "こどものころ、よくこのかわでおよいだものだ。",
     "en": "As a child I used to swim in this river a lot.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "子供",
+      "こども"
+     ],
+     [
+      "のころ、よくこの",
+      null
+     ],
+     [
+      "川",
+      "かわ"
+     ],
+     [
+      "で",
+      null
+     ],
+     [
+      "泳",
+      "およ"
+     ],
+     [
+      "いだものだ。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -2281,13 +6617,65 @@
     "ja": "外は寒いようだ。みんなコートを着ている。",
     "reading": "そとはさむいようだ。みんなコートをきている。",
     "en": "It seems cold outside. Everyone's wearing coats.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "外",
+      "そと"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "寒",
+      "さむ"
+     ],
+     [
+      "いようだ。みんなコートを",
+      null
+     ],
+     [
+      "着",
+      "き"
+     ],
+     [
+      "ている。",
+      null
+     ]
+    ]
    },
    {
     "ja": "彼女は何か言いたいようだった。",
     "reading": "かのじょはなにかいいたいようだった。",
     "en": "She seemed to want to say something.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "彼女",
+      "かのじょ"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "何",
+      "なに"
+     ],
+     [
+      "か",
+      null
+     ],
+     [
+      "言",
+      "い"
+     ],
+     [
+      "いたいようだった。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -2309,13 +6697,61 @@
     "ja": "よく見えるように、前の席に座った。",
     "reading": "よくみえるように、まえのせきにすわった。",
     "en": "I sat in the front row so I could see well.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "よく",
+      null
+     ],
+     [
+      "見",
+      "み"
+     ],
+     [
+      "えるように、",
+      null
+     ],
+     [
+      "前",
+      "まえ"
+     ],
+     [
+      "の",
+      null
+     ],
+     [
+      "席",
+      "せき"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "座",
+      "すわ"
+     ],
+     [
+      "った。",
+      null
+     ]
+    ]
    },
    {
     "ja": "忘れないように、メモしておきます。",
     "reading": "わすれないように、メモしておきます。",
     "en": "I'll make a note so I don't forget.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "忘",
+      "わす"
+     ],
+     [
+      "れないように、メモしておきます。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -2337,13 +6773,57 @@
     "ja": "日本語のニュースが分かるようになった。",
     "reading": "にほんごのニュースがわかるようになった。",
     "en": "I've become able to understand Japanese news.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "日本語",
+      "にほんご"
+     ],
+     [
+      "のニュースが",
+      null
+     ],
+     [
+      "分",
+      "わ"
+     ],
+     [
+      "かるようになった。",
+      null
+     ]
+    ]
    },
    {
     "ja": "最近、朝早く起きるようになりました。",
     "reading": "さいきん、あさはやくおきるようになりました。",
     "en": "Lately I've started getting up early.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "最近",
+      "さいきん"
+     ],
+     [
+      "、",
+      null
+     ],
+     [
+      "朝早",
+      "あさはや"
+     ],
+     [
+      "く",
+      null
+     ],
+     [
+      "起",
+      "お"
+     ],
+     [
+      "きるようになりました。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -2365,13 +6845,49 @@
     "ja": "毎日野菜を食べるようにしています。",
     "reading": "まいにちやさいをたべるようにしています。",
     "en": "I try to eat vegetables every day.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "毎日野菜",
+      "まいにちやさい"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "食",
+      "た"
+     ],
+     [
+      "べるようにしています。",
+      null
+     ]
+    ]
    },
    {
     "ja": "夜遅くコーヒーを飲まないようにしている。",
     "reading": "よるおそくコーヒーをのまないようにしている。",
     "en": "I make a point of not drinking coffee late at night.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "夜遅",
+      "よるおそ"
+     ],
+     [
+      "くコーヒーを",
+      null
+     ],
+     [
+      "飲",
+      "の"
+     ],
+     [
+      "まないようにしている。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -2393,13 +6909,73 @@
     "ja": "彼は来月引っ越すらしい。",
     "reading": "かれはらいげつひっこすらしい。",
     "en": "Apparently he's moving next month.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "彼",
+      "かれ"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "来月引",
+      "らいげつひ"
+     ],
+     [
+      "っ",
+      null
+     ],
+     [
+      "越",
+      "こ"
+     ],
+     [
+      "すらしい。",
+      null
+     ]
+    ]
    },
    {
     "ja": "今日は本当に春らしい天気だ。",
     "reading": "きょうはほんとうにはるらしいてんきだ。",
     "en": "Today the weather really is spring-like.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "今日",
+      "きょう"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "本当",
+      "ほんとう"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "春",
+      "はる"
+     ],
+     [
+      "らしい",
+      null
+     ],
+     [
+      "天気",
+      "てんき"
+     ],
+     [
+      "だ。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -2421,13 +6997,69 @@
     "ja": "こんな難しい問題、子供に解けるわけがない。",
     "reading": "こんなむずかしいもんだい、こどもにとけるわけがない。",
     "en": "There's no way a child could solve a problem this hard.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "こんな",
+      null
+     ],
+     [
+      "難",
+      "むずか"
+     ],
+     [
+      "しい",
+      null
+     ],
+     [
+      "問題",
+      "もんだい"
+     ],
+     [
+      "、",
+      null
+     ],
+     [
+      "子供",
+      "こども"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "解",
+      "と"
+     ],
+     [
+      "けるわけがない。",
+      null
+     ]
+    ]
    },
    {
     "ja": "彼がそんな嘘をつくわけがない。",
     "reading": "かれがそんなうそをつくわけがない。",
     "en": "There's no way he would tell such a lie.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "彼",
+      "かれ"
+     ],
+     [
+      "がそんな",
+      null
+     ],
+     [
+      "嘘",
+      "うそ"
+     ],
+     [
+      "をつくわけがない。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -2449,13 +7081,41 @@
     "ja": "嫌いなわけではないが、あまり食べない。",
     "reading": "きらいなわけではないが、あまりたべない。",
     "en": "It's not that I dislike it, I just don't eat much of it.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "嫌",
+      "きら"
+     ],
+     [
+      "いなわけではないが、あまり",
+      null
+     ],
+     [
+      "食",
+      "た"
+     ],
+     [
+      "べない。",
+      null
+     ]
+    ]
    },
    {
     "ja": "高いものがいつもいいわけではない。",
     "reading": "たかいものがいつもいいわけではない。",
     "en": "Expensive things aren't necessarily good.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "高",
+      "たか"
+     ],
+     [
+      "いものがいつもいいわけではない。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -2477,13 +7137,73 @@
     "ja": "大事な会議だから、休むわけにはいかない。",
     "reading": "だいじなかいぎだから、やすむわけにはいかない。",
     "en": "It's an important meeting, so I can't very well take the day off.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "大事",
+      "だいじ"
+     ],
+     [
+      "な",
+      null
+     ],
+     [
+      "会議",
+      "かいぎ"
+     ],
+     [
+      "だから、",
+      null
+     ],
+     [
+      "休",
+      "やす"
+     ],
+     [
+      "むわけにはいかない。",
+      null
+     ]
+    ]
    },
    {
     "ja": "車で来たので、お酒を飲むわけにはいかない。",
     "reading": "くるまできたので、おさけをのむわけにはいかない。",
     "en": "I came by car, so I can't drink.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "車",
+      "くるま"
+     ],
+     [
+      "で",
+      null
+     ],
+     [
+      "来",
+      "き"
+     ],
+     [
+      "たので、お",
+      null
+     ],
+     [
+      "酒",
+      "さけ"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "飲",
+      "の"
+     ],
+     [
+      "むわけにはいかない。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -2505,13 +7225,101 @@
     "ja": "友人を通じて、彼女と知り合った。",
     "reading": "ゆうじんをつうじて、かのじょとしりあった。",
     "en": "I got to know her through a friend.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "友人",
+      "ゆうじん"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "通",
+      "つう"
+     ],
+     [
+      "じて、",
+      null
+     ],
+     [
+      "彼女",
+      "かのじょ"
+     ],
+     [
+      "と",
+      null
+     ],
+     [
+      "知",
+      "し"
+     ],
+     [
+      "り",
+      null
+     ],
+     [
+      "合",
+      "あ"
+     ],
+     [
+      "った。",
+      null
+     ]
+    ]
    },
    {
     "ja": "この地方は一年を通じて雨が多い。",
     "reading": "このちほうはいちねんをつうじてあめがおおい。",
     "en": "This region gets a lot of rain throughout the year.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "この",
+      null
+     ],
+     [
+      "地方",
+      "ちほう"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "一年",
+      "いちねん"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "通",
+      "つう"
+     ],
+     [
+      "じて",
+      null
+     ],
+     [
+      "雨",
+      "あめ"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "多",
+      "おお"
+     ],
+     [
+      "い。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -2533,13 +7341,73 @@
     "ja": "校長先生をはじめ、多くの先生が集まった。",
     "reading": "こうちょうせんせいをはじめ、おおくのせんせいがあつまった。",
     "en": "Many teachers gathered, starting with the principal.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "校長先生",
+      "こうちょうせんせい"
+     ],
+     [
+      "をはじめ、",
+      null
+     ],
+     [
+      "多",
+      "おお"
+     ],
+     [
+      "くの",
+      null
+     ],
+     [
+      "先生",
+      "せんせい"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "集",
+      "あつ"
+     ],
+     [
+      "まった。",
+      null
+     ]
+    ]
    },
    {
     "ja": "京都をはじめとする観光地は混んでいる。",
     "reading": "きょうとをはじめとするかんこうちはこんでいる。",
     "en": "Tourist spots such as Kyoto are crowded.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "京都",
+      "きょうと"
+     ],
+     [
+      "をはじめとする",
+      null
+     ],
+     [
+      "観光地",
+      "かんこうち"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "混",
+      "こ"
+     ],
+     [
+      "んでいる。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -2560,13 +7428,73 @@
     "ja": "この映画は実話をもとに作られた。",
     "reading": "このえいがはじつわをもとにつくられた。",
     "en": "This film was made based on a true story.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "この",
+      null
+     ],
+     [
+      "映画",
+      "えいが"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "実話",
+      "じつわ"
+     ],
+     [
+      "をもとに",
+      null
+     ],
+     [
+      "作",
+      "つく"
+     ],
+     [
+      "られた。",
+      null
+     ]
+    ]
    },
    {
     "ja": "アンケートの結果をもとに、計画を立てた。",
     "reading": "アンケートのけっかをもとに、けいかくをたてた。",
     "en": "We drew up the plan based on the survey results.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "アンケートの",
+      null
+     ],
+     [
+      "結果",
+      "けっか"
+     ],
+     [
+      "をもとに、",
+      null
+     ],
+     [
+      "計画",
+      "けいかく"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "立",
+      "た"
+     ],
+     [
+      "てた。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -2587,13 +7515,81 @@
     "ja": "朝ご飯を食べずに家を出た。",
     "reading": "あさごはんをたべずにいえをでた。",
     "en": "I left the house without eating breakfast.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "朝",
+      "あさ"
+     ],
+     [
+      "ご",
+      null
+     ],
+     [
+      "飯",
+      "はん"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "食",
+      "た"
+     ],
+     [
+      "べずに",
+      null
+     ],
+     [
+      "家",
+      "いえ"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "出",
+      "で"
+     ],
+     [
+      "た。",
+      null
+     ]
+    ]
    },
    {
     "ja": "何も言わずに帰ってしまった。",
     "reading": "なにもいわずにかえってしまった。",
     "en": "He went home without saying anything.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "何",
+      "なに"
+     ],
+     [
+      "も",
+      null
+     ],
+     [
+      "言",
+      "い"
+     ],
+     [
+      "わずに",
+      null
+     ],
+     [
+      "帰",
+      "かえ"
+     ],
+     [
+      "ってしまった。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -2614,13 +7610,65 @@
     "ja": "雨が降らないうちに、帰りましょう。",
     "reading": "あめがふらないうちに、かえりましょう。",
     "en": "Let's go home before it starts raining.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "雨",
+      "あめ"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "降",
+      "ふ"
+     ],
+     [
+      "らないうちに、",
+      null
+     ],
+     [
+      "帰",
+      "かえ"
+     ],
+     [
+      "りましょう。",
+      null
+     ]
+    ]
    },
    {
     "ja": "暗くならないうちに、山を下りた。",
     "reading": "くらくならないうちに、やまをおりた。",
     "en": "We came down the mountain before it got dark.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "暗",
+      "くら"
+     ],
+     [
+      "くならないうちに、",
+      null
+     ],
+     [
+      "山",
+      "やま"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "下",
+      "お"
+     ],
+     [
+      "りた。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -2642,13 +7690,53 @@
     "ja": "もう行かないと、遅れちゃう。",
     "reading": "もういかないと、おくれちゃう。",
     "en": "I have to go now or I'll be late.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "もう",
+      null
+     ],
+     [
+      "行",
+      "い"
+     ],
+     [
+      "かないと、",
+      null
+     ],
+     [
+      "遅",
+      "おく"
+     ],
+     [
+      "れちゃう。",
+      null
+     ]
+    ]
    },
    {
     "ja": "明日までにレポートを出さなくちゃ。",
     "reading": "あしたまでにレポートをださなくちゃ。",
     "en": "I have to hand in the report by tomorrow.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "明日",
+      "あした"
+     ],
+     [
+      "までにレポートを",
+      null
+     ],
+     [
+      "出",
+      "だ"
+     ],
+     [
+      "さなくちゃ。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -2670,13 +7758,57 @@
     "ja": "私なんて、まだまだ下手です。",
     "reading": "わたしなんて、まだまだへたです。",
     "en": "Someone like me is still nowhere near good.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "私",
+      "わたし"
+     ],
+     [
+      "なんて、まだまだ",
+      null
+     ],
+     [
+      "下手",
+      "へた"
+     ],
+     [
+      "です。",
+      null
+     ]
+    ]
    },
    {
     "ja": "彼が嘘をつくなんて、信じられない。",
     "reading": "かれがうそをつくなんて、しんじられない。",
     "en": "I can't believe he would lie.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "彼",
+      "かれ"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "嘘",
+      "うそ"
+     ],
+     [
+      "をつくなんて、",
+      null
+     ],
+     [
+      "信",
+      "しん"
+     ],
+     [
+      "じられない。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -2698,13 +7830,53 @@
     "ja": "今、家に着いたところです。",
     "reading": "いま、いえについたところです。",
     "en": "I've just arrived home.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "今",
+      "いま"
+     ],
+     [
+      "、",
+      null
+     ],
+     [
+      "家",
+      "いえ"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "着",
+      "つ"
+     ],
+     [
+      "いたところです。",
+      null
+     ]
+    ]
    },
    {
     "ja": "これから出かけるところだ。",
     "reading": "これからでかけるところだ。",
     "en": "I'm just about to head out.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "これから",
+      null
+     ],
+     [
+      "出",
+      "で"
+     ],
+     [
+      "かけるところだ。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -2726,13 +7898,73 @@
     "ja": "子供が犬を怖がっている。",
     "reading": "こどもがいぬをこわがっている。",
     "en": "The child is afraid of the dog.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "子供",
+      "こども"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "犬",
+      "いぬ"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "怖",
+      "こわ"
+     ],
+     [
+      "がっている。",
+      null
+     ]
+    ]
    },
    {
     "ja": "妹が新しい自転車を欲しがっている。",
     "reading": "いもうとがあたらしいじてんしゃをほしがっている。",
     "en": "My sister wants a new bicycle.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "妹",
+      "いもうと"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "新",
+      "あたら"
+     ],
+     [
+      "しい",
+      null
+     ],
+     [
+      "自転車",
+      "じてんしゃ"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "欲",
+      "ほ"
+     ],
+     [
+      "しがっている。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -2753,13 +7985,77 @@
     "ja": "彼は英語だけでなく、フランス語も話せる。",
     "reading": "かれはえいごだけでなく、フランスごもはなせる。",
     "en": "He speaks not only English but French too.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "彼",
+      "かれ"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "英語",
+      "えいご"
+     ],
+     [
+      "だけでなく、フランス",
+      null
+     ],
+     [
+      "語",
+      "ご"
+     ],
+     [
+      "も",
+      null
+     ],
+     [
+      "話",
+      "はな"
+     ],
+     [
+      "せる。",
+      null
+     ]
+    ]
    },
    {
     "ja": "この店は安いだけでなく、品物もいい。",
     "reading": "このみせはやすいだけでなく、しなものもいい。",
     "en": "This shop isn't just cheap, the goods are good too.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "この",
+      null
+     ],
+     [
+      "店",
+      "みせ"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "安",
+      "やす"
+     ],
+     [
+      "いだけでなく、",
+      null
+     ],
+     [
+      "品物",
+      "しなもの"
+     ],
+     [
+      "もいい。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -2781,13 +8077,49 @@
     "ja": "もっと早く出発すればよかった。",
     "reading": "もっとはやくしゅっぱつすればよかった。",
     "en": "I should have left earlier.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "もっと",
+      null
+     ],
+     [
+      "早",
+      "はや"
+     ],
+     [
+      "く",
+      null
+     ],
+     [
+      "出発",
+      "しゅっぱつ"
+     ],
+     [
+      "すればよかった。",
+      null
+     ]
+    ]
    },
    {
     "ja": "あんなことを言わなければよかった。",
     "reading": "あんなことをいわなければよかった。",
     "en": "I wish I hadn't said that.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "あんなことを",
+      null
+     ],
+     [
+      "言",
+      "い"
+     ],
+     [
+      "わなければよかった。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -2809,13 +8141,61 @@
     "ja": "この薬は四時間おきに飲んでください。",
     "reading": "このくすりはよじかんおきにのんでください。",
     "en": "Please take this medicine every four hours.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "この",
+      null
+     ],
+     [
+      "薬",
+      "くすり"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "四時間",
+      "よじかん"
+     ],
+     [
+      "おきに",
+      null
+     ],
+     [
+      "飲",
+      "の"
+     ],
+     [
+      "んでください。",
+      null
+     ]
+    ]
    },
    {
     "ja": "一日おきにプールへ通っている。",
     "reading": "いちにちおきにプールへかよっている。",
     "en": "I go to the pool every other day.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "一日",
+      "いちにち"
+     ],
+     [
+      "おきにプールへ",
+      null
+     ],
+     [
+      "通",
+      "かよ"
+     ],
+     [
+      "っている。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -2837,13 +8217,53 @@
     "ja": "この日をどんなに待っていたことか。",
     "reading": "このひをどんなにまっていたことか。",
     "en": "How long I have waited for this day!",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "この",
+      null
+     ],
+     [
+      "日",
+      "ひ"
+     ],
+     [
+      "をどんなに",
+      null
+     ],
+     [
+      "待",
+      "ま"
+     ],
+     [
+      "っていたことか。",
+      null
+     ]
+    ]
    },
    {
     "ja": "彼がいてくれたらどんなに心強いことか。",
     "reading": "かれがいてくれたらどんなにこころづよいことか。",
     "en": "How reassuring it would be if he were here.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "彼",
+      "かれ"
+     ],
+     [
+      "がいてくれたらどんなに",
+      null
+     ],
+     [
+      "心強",
+      "こころづよ"
+     ],
+     [
+      "いことか。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -2865,13 +8285,89 @@
     "ja": "桜が多いことから、この町は桜町と呼ばれている。",
     "reading": "さくらがおおいことから、このまちはさくらまちとよばれている。",
     "en": "Because there are many cherry trees, this town is called Sakuramachi.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "桜",
+      "さくら"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "多",
+      "おお"
+     ],
+     [
+      "いことから、この",
+      null
+     ],
+     [
+      "町",
+      "まち"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "桜町",
+      "さくらまち"
+     ],
+     [
+      "と",
+      null
+     ],
+     [
+      "呼",
+      "よ"
+     ],
+     [
+      "ばれている。",
+      null
+     ]
+    ]
    },
    {
     "ja": "足跡があることから、誰か入ったと分かる。",
     "reading": "あしあとがあることから、だれかはいったとわかる。",
     "en": "From the footprints, we know someone came in.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "足跡",
+      "あしあと"
+     ],
+     [
+      "があることから、",
+      null
+     ],
+     [
+      "誰",
+      "だれ"
+     ],
+     [
+      "か",
+      null
+     ],
+     [
+      "入",
+      "はい"
+     ],
+     [
+      "ったと",
+      null
+     ],
+     [
+      "分",
+      "わ"
+     ],
+     [
+      "かる。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -2893,13 +8389,65 @@
     "ja": "彼のことだから、また遅れてくるだろう。",
     "reading": "かれのことだから、またおくれてくるだろう。",
     "en": "Knowing him, he'll turn up late again.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "彼",
+      "かれ"
+     ],
+     [
+      "のことだから、また",
+      null
+     ],
+     [
+      "遅",
+      "おく"
+     ],
+     [
+      "れてくるだろう。",
+      null
+     ]
+    ]
    },
    {
     "ja": "真面目な母のことだから、心配しているに違いない。",
     "reading": "まじめなははのことだから、しんぱいしているにちがいない。",
     "en": "Being the serious sort, my mother is bound to be worried.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "真面目",
+      "まじめ"
+     ],
+     [
+      "な",
+      null
+     ],
+     [
+      "母",
+      "はは"
+     ],
+     [
+      "のことだから、",
+      null
+     ],
+     [
+      "心配",
+      "しんぱい"
+     ],
+     [
+      "しているに",
+      null
+     ],
+     [
+      "違",
+      "ちが"
+     ],
+     [
+      "いない。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -2921,13 +8469,57 @@
     "ja": "館内では飲食できないことになっている。",
     "reading": "かんないではいんしょくできないことになっている。",
     "en": "Eating and drinking is not allowed inside the building.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "館内",
+      "かんない"
+     ],
+     [
+      "では",
+      null
+     ],
+     [
+      "飲食",
+      "いんしょく"
+     ],
+     [
+      "できないことになっている。",
+      null
+     ]
+    ]
    },
    {
     "ja": "明日、社長と会うことになっている。",
     "reading": "あした、しゃちょうとあうことになっている。",
     "en": "I'm scheduled to meet the president tomorrow.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "明日",
+      "あした"
+     ],
+     [
+      "、",
+      null
+     ],
+     [
+      "社長",
+      "しゃちょう"
+     ],
+     [
+      "と",
+      null
+     ],
+     [
+      "会",
+      "あ"
+     ],
+     [
+      "うことになっている。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -2949,13 +8541,73 @@
     "ja": "台風のため、中止せざるを得なかった。",
     "reading": "たいふうのため、ちゅうしせざるをえなかった。",
     "en": "Because of the typhoon, we had no choice but to cancel.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "台風",
+      "たいふう"
+     ],
+     [
+      "のため、",
+      null
+     ],
+     [
+      "中止",
+      "ちゅうし"
+     ],
+     [
+      "せざるを",
+      null
+     ],
+     [
+      "得",
+      "え"
+     ],
+     [
+      "なかった。",
+      null
+     ]
+    ]
    },
    {
     "ja": "証拠がある以上、認めざるを得ない。",
     "reading": "しょうこがあるいじょう、みとめざるをえない。",
     "en": "Given that there's evidence, I have to admit it.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "証拠",
+      "しょうこ"
+     ],
+     [
+      "がある",
+      null
+     ],
+     [
+      "以上",
+      "いじょう"
+     ],
+     [
+      "、",
+      null
+     ],
+     [
+      "認",
+      "みと"
+     ],
+     [
+      "めざるを",
+      null
+     ],
+     [
+      "得",
+      "え"
+     ],
+     [
+      "ない。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -2977,13 +8629,53 @@
     "ja": "見ているだけで、買いません。",
     "reading": "みているだけで、かいません。",
     "en": "I'm only looking, I won't buy anything.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "見",
+      "み"
+     ],
+     [
+      "ているだけで、",
+      null
+     ],
+     [
+      "買",
+      "か"
+     ],
+     [
+      "いません。",
+      null
+     ]
+    ]
    },
    {
     "ja": "できるだけ早く返事をください。",
     "reading": "できるだけはやくへんじをください。",
     "en": "Please reply as soon as you can.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "できるだけ",
+      null
+     ],
+     [
+      "早",
+      "はや"
+     ],
+     [
+      "く",
+      null
+     ],
+     [
+      "返事",
+      "へんじ"
+     ],
+     [
+      "をください。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -3005,13 +8697,57 @@
     "ja": "十年住んでいるだけあって、日本語がうまい。",
     "reading": "じゅうねんすんでいるだけあって、にほんごがうまい。",
     "en": "As you'd expect after ten years here, his Japanese is good.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "十年住",
+      "じゅうねんす"
+     ],
+     [
+      "んでいるだけあって、",
+      null
+     ],
+     [
+      "日本語",
+      "にほんご"
+     ],
+     [
+      "がうまい。",
+      null
+     ]
+    ]
    },
    {
     "ja": "有名な店だけあって、行列ができている。",
     "reading": "ゆうめいなみせだけあって、ぎょうれつができている。",
     "en": "It's a famous shop, so naturally there's a queue.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "有名",
+      "ゆうめい"
+     ],
+     [
+      "な",
+      null
+     ],
+     [
+      "店",
+      "みせ"
+     ],
+     [
+      "だけあって、",
+      null
+     ],
+     [
+      "行列",
+      "ぎょうれつ"
+     ],
+     [
+      "ができている。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -3033,13 +8769,69 @@
     "ja": "こんな量、一人で食べられっこないよ。",
     "reading": "こんなりょう、ひとりでたべられっこないよ。",
     "en": "There's no way one person could eat this much.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "こんな",
+      null
+     ],
+     [
+      "量",
+      "りょう"
+     ],
+     [
+      "、",
+      null
+     ],
+     [
+      "一人",
+      "ひとり"
+     ],
+     [
+      "で",
+      null
+     ],
+     [
+      "食",
+      "た"
+     ],
+     [
+      "べられっこないよ。",
+      null
+     ]
+    ]
    },
    {
     "ja": "急いでも間に合いっこない。",
     "reading": "いそいでもまにあいっこない。",
     "en": "Even if we hurry we can't possibly make it.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "急",
+      "いそ"
+     ],
+     [
+      "いでも",
+      null
+     ],
+     [
+      "間",
+      "ま"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "合",
+      "あ"
+     ],
+     [
+      "いっこない。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -3061,13 +8853,73 @@
     "ja": "悪いと知りつつ、嘘をついてしまった。",
     "reading": "わるいとしりつつ、うそをついてしまった。",
     "en": "Knowing it was wrong, I told a lie anyway.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "悪",
+      "わる"
+     ],
+     [
+      "いと",
+      null
+     ],
+     [
+      "知",
+      "し"
+     ],
+     [
+      "りつつ、",
+      null
+     ],
+     [
+      "嘘",
+      "うそ"
+     ],
+     [
+      "をついてしまった。",
+      null
+     ]
+    ]
    },
    {
     "ja": "話し合いつつ、計画を進めている。",
     "reading": "はなしあいつつ、けいかくをすすめている。",
     "en": "We're advancing the plan while discussing it.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "話",
+      "はな"
+     ],
+     [
+      "し",
+      null
+     ],
+     [
+      "合",
+      "あ"
+     ],
+     [
+      "いつつ、",
+      null
+     ],
+     [
+      "計画",
+      "けいかく"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "進",
+      "すす"
+     ],
+     [
+      "めている。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -3089,13 +8941,57 @@
     "ja": "町の人口は減りつつある。",
     "reading": "まちのじんこうはへりつつある。",
     "en": "The town's population is steadily declining.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "町",
+      "まち"
+     ],
+     [
+      "の",
+      null
+     ],
+     [
+      "人口",
+      "じんこう"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "減",
+      "へ"
+     ],
+     [
+      "りつつある。",
+      null
+     ]
+    ]
    },
    {
     "ja": "経済は回復しつつあります。",
     "reading": "けいざいはかいふくしつつあります。",
     "en": "The economy is in the process of recovering.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "経済",
+      "けいざい"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "回復",
+      "かいふく"
+     ],
+     [
+      "しつつあります。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -3117,13 +9013,65 @@
     "ja": "許可を取ってからでないと、始められません。",
     "reading": "きょかをとってからでないと、はじめられません。",
     "en": "We can't start until we've got permission.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "許可",
+      "きょか"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "取",
+      "と"
+     ],
+     [
+      "ってからでないと、",
+      null
+     ],
+     [
+      "始",
+      "はじ"
+     ],
+     [
+      "められません。",
+      null
+     ]
+    ]
    },
    {
     "ja": "実物を見てからでないと決められない。",
     "reading": "じつぶつをみてからでないときめられない。",
     "en": "I can't decide without seeing the real thing first.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "実物",
+      "じつぶつ"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "見",
+      "み"
+     ],
+     [
+      "てからでないと",
+      null
+     ],
+     [
+      "決",
+      "き"
+     ],
+     [
+      "められない。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -3145,13 +9093,73 @@
     "ja": "引き受けた以上は、最後までやります。",
     "reading": "ひきうけたいじょうは、さいごまでやります。",
     "en": "Now that I've taken it on, I'll see it through.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "引",
+      "ひ"
+     ],
+     [
+      "き",
+      null
+     ],
+     [
+      "受",
+      "う"
+     ],
+     [
+      "けた",
+      null
+     ],
+     [
+      "以上",
+      "いじょう"
+     ],
+     [
+      "は、",
+      null
+     ],
+     [
+      "最後",
+      "さいご"
+     ],
+     [
+      "までやります。",
+      null
+     ]
+    ]
    },
    {
     "ja": "学生である以上、勉強すべきだ。",
     "reading": "がくせいであるいじょう、べんきょうすべきだ。",
     "en": "As long as you are a student, you should study.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "学生",
+      "がくせい"
+     ],
+     [
+      "である",
+      null
+     ],
+     [
+      "以上",
+      "いじょう"
+     ],
+     [
+      "、",
+      null
+     ],
+     [
+      "勉強",
+      "べんきょう"
+     ],
+     [
+      "すべきだ。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -3173,13 +9181,49 @@
     "ja": "だんだん寒くなってきた。",
     "reading": "だんだんさむくなってきた。",
     "en": "It has gradually become cold.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "だんだん",
+      null
+     ],
+     [
+      "寒",
+      "さむ"
+     ],
+     [
+      "くなってきた。",
+      null
+     ]
+    ]
    },
    {
     "ja": "これからも日本語を続けていきます。",
     "reading": "これからもにほんごをつづけていきます。",
     "en": "I'll go on continuing with Japanese from here.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "これからも",
+      null
+     ],
+     [
+      "日本語",
+      "にほんご"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "続",
+      "つづ"
+     ],
+     [
+      "けていきます。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -3200,13 +9244,65 @@
     "ja": "友達に駅まで送ってもらった。",
     "reading": "ともだちにえきまでおくってもらった。",
     "en": "I had a friend take me to the station.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "友達",
+      "ともだち"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "駅",
+      "えき"
+     ],
+     [
+      "まで",
+      null
+     ],
+     [
+      "送",
+      "おく"
+     ],
+     [
+      "ってもらった。",
+      null
+     ]
+    ]
    },
    {
     "ja": "先生に手紙を直していただきました。",
     "reading": "せんせいにてがみをなおしていただきました。",
     "en": "I had my teacher correct my letter.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "先生",
+      "せんせい"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "手紙",
+      "てがみ"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "直",
+      "なお"
+     ],
+     [
+      "していただきました。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -3228,13 +9324,65 @@
     "ja": "妹に本を読んであげた。",
     "reading": "いもうとにほんをよんであげた。",
     "en": "I read a book to my little sister.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "妹",
+      "いもうと"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "本",
+      "ほん"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "読",
+      "よ"
+     ],
+     [
+      "んであげた。",
+      null
+     ]
+    ]
    },
    {
     "ja": "母が弁当を作ってくれた。",
     "reading": "ははがべんとうをつくってくれた。",
     "en": "My mother made me a lunchbox.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "母",
+      "はは"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "弁当",
+      "べんとう"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "作",
+      "つく"
+     ],
+     [
+      "ってくれた。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -3256,13 +9404,73 @@
     "ja": "料理ができると言っても、簡単なものだけです。",
     "reading": "りょうりができるといっても、かんたんなものだけです。",
     "en": "I say I can cook, but only simple things.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "料理",
+      "りょうり"
+     ],
+     [
+      "ができると",
+      null
+     ],
+     [
+      "言",
+      "い"
+     ],
+     [
+      "っても、",
+      null
+     ],
+     [
+      "簡単",
+      "かんたん"
+     ],
+     [
+      "なものだけです。",
+      null
+     ]
+    ]
    },
    {
     "ja": "近いと言っても、歩いて三十分かかる。",
     "reading": "ちかいといっても、あるいてさんじゅっぷんかかる。",
     "en": "It's close, but it still takes thirty minutes on foot.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "近",
+      "ちか"
+     ],
+     [
+      "いと",
+      null
+     ],
+     [
+      "言",
+      "い"
+     ],
+     [
+      "っても、",
+      null
+     ],
+     [
+      "歩",
+      "ある"
+     ],
+     [
+      "いて",
+      null
+     ],
+     [
+      "三十分",
+      "さんじゅっぷん"
+     ],
+     [
+      "かかる。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -3284,13 +9492,57 @@
     "ja": "京都というと、やはりお寺ですね。",
     "reading": "きょうとというと、やはりおてらですね。",
     "en": "Speaking of Kyoto, it has to be the temples.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "京都",
+      "きょうと"
+     ],
+     [
+      "というと、やはりお",
+      null
+     ],
+     [
+      "寺",
+      "てら"
+     ],
+     [
+      "ですね。",
+      null
+     ]
+    ]
    },
    {
     "ja": "夏といえば、花火大会が楽しみだ。",
     "reading": "なつといえば、はなびたいかいがたのしみだ。",
     "en": "Speaking of summer, I look forward to the fireworks.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "夏",
+      "なつ"
+     ],
+     [
+      "といえば、",
+      null
+     ],
+     [
+      "花火大会",
+      "はなびたいかい"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "楽",
+      "たの"
+     ],
+     [
+      "しみだ。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -3312,13 +9564,61 @@
     "ja": "彼は厳しいというより、冷たい。",
     "reading": "かれはきびしいというより、つめたい。",
     "en": "He's cold rather than strict.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "彼",
+      "かれ"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "厳",
+      "きび"
+     ],
+     [
+      "しいというより、",
+      null
+     ],
+     [
+      "冷",
+      "つめ"
+     ],
+     [
+      "たい。",
+      null
+     ]
+    ]
    },
    {
     "ja": "これは趣味というより仕事です。",
     "reading": "これはしゅみというよりしごとです。",
     "en": "This is work more than a hobby.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "これは",
+      null
+     ],
+     [
+      "趣味",
+      "しゅみ"
+     ],
+     [
+      "というより",
+      null
+     ],
+     [
+      "仕事",
+      "しごと"
+     ],
+     [
+      "です。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -3340,13 +9640,81 @@
     "ja": "犬や猫といった動物が好きです。",
     "reading": "いぬやねこといったどうぶつがすきです。",
     "en": "I like animals such as dogs and cats.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "犬",
+      "いぬ"
+     ],
+     [
+      "や",
+      null
+     ],
+     [
+      "猫",
+      "ねこ"
+     ],
+     [
+      "といった",
+      null
+     ],
+     [
+      "動物",
+      "どうぶつ"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "好",
+      "す"
+     ],
+     [
+      "きです。",
+      null
+     ]
+    ]
    },
    {
     "ja": "英語やフランス語といった言語を学びたい。",
     "reading": "えいごやフランスごといったげんごをまなびたい。",
     "en": "I want to learn languages like English and French.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "英語",
+      "えいご"
+     ],
+     [
+      "やフランス",
+      null
+     ],
+     [
+      "語",
+      "ご"
+     ],
+     [
+      "といった",
+      null
+     ],
+     [
+      "言語",
+      "げんご"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "学",
+      "まな"
+     ],
+     [
+      "びたい。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -3368,13 +9736,65 @@
     "ja": "高いものが必ずしもいいとは限らない。",
     "reading": "たかいものがかならずしもいいとはかぎらない。",
     "en": "Expensive things aren't necessarily good.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "高",
+      "たか"
+     ],
+     [
+      "いものが",
+      null
+     ],
+     [
+      "必",
+      "かなら"
+     ],
+     [
+      "ずしもいいとは",
+      null
+     ],
+     [
+      "限",
+      "かぎ"
+     ],
+     [
+      "らない。",
+      null
+     ]
+    ]
    },
    {
     "ja": "彼が正しいとは限らない。",
     "reading": "かれがただしいとはかぎらない。",
     "en": "He isn't necessarily right.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "彼",
+      "かれ"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "正",
+      "ただ"
+     ],
+     [
+      "しいとは",
+      null
+     ],
+     [
+      "限",
+      "かぎ"
+     ],
+     [
+      "らない。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -3396,13 +9816,57 @@
     "ja": "彼は謝るどころか、笑っていた。",
     "reading": "かれはあやまるどころか、わらっていた。",
     "en": "Far from apologising, he was laughing.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "彼",
+      "かれ"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "謝",
+      "あやま"
+     ],
+     [
+      "るどころか、",
+      null
+     ],
+     [
+      "笑",
+      "わら"
+     ],
+     [
+      "っていた。",
+      null
+     ]
+    ]
    },
    {
     "ja": "漢字どころか、ひらがなも読めない。",
     "reading": "かんじどころか、ひらがなもよめない。",
     "en": "Let alone kanji, I can't even read hiragana.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "漢字",
+      "かんじ"
+     ],
+     [
+      "どころか、ひらがなも",
+      null
+     ],
+     [
+      "読",
+      "よ"
+     ],
+     [
+      "めない。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -3424,13 +9888,65 @@
     "ja": "辛い物も食べられないことはない。",
     "reading": "からいものもたべられないことはない。",
     "en": "It's not that I can't eat spicy food.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "辛",
+      "から"
+     ],
+     [
+      "い",
+      null
+     ],
+     [
+      "物",
+      "もの"
+     ],
+     [
+      "も",
+      null
+     ],
+     [
+      "食",
+      "た"
+     ],
+     [
+      "べられないことはない。",
+      null
+     ]
+    ]
    },
    {
     "ja": "急げば間に合わないことはない。",
     "reading": "いそげばまにあわないことはない。",
     "en": "If we hurry, it's not impossible to make it.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "急",
+      "いそ"
+     ],
+     [
+      "げば",
+      null
+     ],
+     [
+      "間",
+      "ま"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "合",
+      "あ"
+     ],
+     [
+      "わないことはない。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -3452,13 +9968,85 @@
     "ja": "収入に応じて税金が決まる。",
     "reading": "しゅうにゅうにおうじてぜいきんがきまる。",
     "en": "Tax is determined according to income.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "収入",
+      "しゅう"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "応",
+      "ゅうにおう"
+     ],
+     [
+      "じて",
+      null
+     ],
+     [
+      "税金",
+      "ぜいきん"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "決",
+      "き"
+     ],
+     [
+      "まる。",
+      null
+     ]
+    ]
    },
    {
     "ja": "お客様のご希望に応じて対応します。",
     "reading": "おきゃくさまのごきぼうにおうじてたいおうします。",
     "en": "We respond in accordance with the customer's wishes.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "お",
+      null
+     ],
+     [
+      "客様",
+      "きゃくさま"
+     ],
+     [
+      "のご",
+      null
+     ],
+     [
+      "希望",
+      "きぼう"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "応",
+      "おう"
+     ],
+     [
+      "じて",
+      null
+     ],
+     [
+      "対応",
+      "たいおう"
+     ],
+     [
+      "します。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -3480,13 +10068,57 @@
     "ja": "開会にあたって、一言ご挨拶します。",
     "reading": "かいかいにあたって、ひとことごあいさつします。",
     "en": "On the occasion of the opening, allow me a few words.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "開会",
+      "かいかい"
+     ],
+     [
+      "にあたって、",
+      null
+     ],
+     [
+      "一言",
+      "ひとこと"
+     ],
+     [
+      "ご",
+      null
+     ],
+     [
+      "挨拶",
+      "あいさつ"
+     ],
+     [
+      "します。",
+      null
+     ]
+    ]
    },
    {
     "ja": "留学するにあたって、色々準備した。",
     "reading": "りゅうがくするにあたって、いろいろじゅんびした。",
     "en": "In preparation for studying abroad, I got various things ready.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "留学",
+      "りゅうがく"
+     ],
+     [
+      "するにあたって、",
+      null
+     ],
+     [
+      "色々準備",
+      "いろいろじゅんび"
+     ],
+     [
+      "した。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -3508,13 +10140,65 @@
     "ja": "職場における安全が第一だ。",
     "reading": "しょくばにおけるあんぜんがだいいちだ。",
     "en": "Safety in the workplace comes first.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "職場",
+      "しょくば"
+     ],
+     [
+      "における",
+      null
+     ],
+     [
+      "安全",
+      "あんぜん"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "第一",
+      "だいいち"
+     ],
+     [
+      "だ。",
+      null
+     ]
+    ]
    },
    {
     "ja": "日本における生活は快適でした。",
     "reading": "にほんにおけるせいかつはかいてきでした。",
     "en": "Life in Japan was comfortable.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "日本",
+      "にほん"
+     ],
+     [
+      "における",
+      null
+     ],
+     [
+      "生活",
+      "せいかつ"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "快適",
+      "かいてき"
+     ],
+     [
+      "でした。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -3536,13 +10220,85 @@
     "ja": "ご利用に際して、注意点をお読みください。",
     "reading": "ごりようにさいして、ちゅういてんをおよみください。",
     "en": "Please read the notes before use.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "ご",
+      null
+     ],
+     [
+      "利用",
+      "りよう"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "際",
+      "さい"
+     ],
+     [
+      "して、",
+      null
+     ],
+     [
+      "注意点",
+      "ちゅういてん"
+     ],
+     [
+      "をお",
+      null
+     ],
+     [
+      "読",
+      "よ"
+     ],
+     [
+      "みください。",
+      null
+     ]
+    ]
    },
    {
     "ja": "出発に際して、皆に挨拶した。",
     "reading": "しゅっぱつにさいして、みんなにあいさつした。",
     "en": "On departing, I said goodbye to everyone.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "出発",
+      "しゅっぱつ"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "際",
+      "さい"
+     ],
+     [
+      "して、",
+      null
+     ],
+     [
+      "皆",
+      "みんな"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "挨拶",
+      "あいさつ"
+     ],
+     [
+      "した。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -3564,13 +10320,61 @@
     "ja": "それは言い訳にすぎない。",
     "reading": "それはいいわけにすぎない。",
     "en": "That's nothing more than an excuse.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "それは",
+      null
+     ],
+     [
+      "言",
+      "い"
+     ],
+     [
+      "い",
+      null
+     ],
+     [
+      "訳",
+      "わけ"
+     ],
+     [
+      "にすぎない。",
+      null
+     ]
+    ]
    },
    {
     "ja": "私は自分の仕事をしたにすぎません。",
     "reading": "わたしはじぶんのしごとをしたにすぎません。",
     "en": "I merely did my job.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "私",
+      "わたし"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "自分",
+      "じぶん"
+     ],
+     [
+      "の",
+      null
+     ],
+     [
+      "仕事",
+      "しごと"
+     ],
+     [
+      "をしたにすぎません。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -3592,13 +10396,65 @@
     "ja": "行くにせよ行かないにせよ、連絡してください。",
     "reading": "いくにせよいかないにせよ、れんらくしてください。",
     "en": "Whether you go or not, please let me know.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "行",
+      "い"
+     ],
+     [
+      "くにせよ",
+      null
+     ],
+     [
+      "行",
+      "い"
+     ],
+     [
+      "かないにせよ、",
+      null
+     ],
+     [
+      "連絡",
+      "れんらく"
+     ],
+     [
+      "してください。",
+      null
+     ]
+    ]
    },
    {
     "ja": "冗談にしろ、言い過ぎだ。",
     "reading": "じょうだんにしろ、いいすぎだ。",
     "en": "Even as a joke, that goes too far.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "冗談",
+      "じょうだん"
+     ],
+     [
+      "にしろ、",
+      null
+     ],
+     [
+      "言",
+      "い"
+     ],
+     [
+      "い",
+      null
+     ],
+     [
+      "過",
+      "す"
+     ],
+     [
+      "ぎだ。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -3620,13 +10476,89 @@
     "ja": "川に沿って歩くと公園に出る。",
     "reading": "かわにそってあるくとこうえんにでる。",
     "en": "Walk along the river and you reach the park.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "川",
+      "かわ"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "沿",
+      "そ"
+     ],
+     [
+      "って",
+      null
+     ],
+     [
+      "歩",
+      "ある"
+     ],
+     [
+      "くと",
+      null
+     ],
+     [
+      "公園",
+      "こうえん"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "出",
+      "で"
+     ],
+     [
+      "る。",
+      null
+     ]
+    ]
    },
    {
     "ja": "計画に沿って作業を進めます。",
     "reading": "けいかくにそってさぎょうをすすめます。",
     "en": "We'll proceed with the work in line with the plan.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "計画",
+      "けいかく"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "沿",
+      "そ"
+     ],
+     [
+      "って",
+      null
+     ],
+     [
+      "作業",
+      "さぎょう"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "進",
+      "すす"
+     ],
+     [
+      "めます。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -3648,13 +10580,81 @@
     "ja": "調査結果に基づいて報告書を書いた。",
     "reading": "ちょうさけっかにもとづいてほうこくしょをかいた。",
     "en": "I wrote the report based on the survey results.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "調査結果",
+      "ちょうさけっか"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "基",
+      "もと"
+     ],
+     [
+      "づいて",
+      null
+     ],
+     [
+      "報告書",
+      "ほうこくしょ"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "書",
+      "か"
+     ],
+     [
+      "いた。",
+      null
+     ]
+    ]
    },
    {
     "ja": "法律に基づく処分が行われた。",
     "reading": "ほうりつにもとづくしょぶんがおこなわれた。",
     "en": "Action was taken on the basis of the law.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "法律",
+      "ほうりつ"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "基",
+      "もと"
+     ],
+     [
+      "づく",
+      null
+     ],
+     [
+      "処分",
+      "しょぶん"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "行",
+      "おこな"
+     ],
+     [
+      "われた。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -3676,13 +10676,105 @@
     "ja": "予想に反して、試合は簡単に終わった。",
     "reading": "よそうにはんして、しあいはかんたんにおわった。",
     "en": "Contrary to expectations, the match ended easily.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "予想",
+      "よそう"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "反",
+      "はん"
+     ],
+     [
+      "して、",
+      null
+     ],
+     [
+      "試合",
+      "しあい"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "簡単",
+      "かんたん"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "終",
+      "お"
+     ],
+     [
+      "わった。",
+      null
+     ]
+    ]
    },
    {
     "ja": "彼は親の期待に反する道を選んだ。",
     "reading": "かれはおやのきたいにはんするみちをえらんだ。",
     "en": "He chose a path against his parents' hopes.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "彼",
+      "かれ"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "親",
+      "おや"
+     ],
+     [
+      "の",
+      null
+     ],
+     [
+      "期待",
+      "きたい"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "反",
+      "はん"
+     ],
+     [
+      "する",
+      null
+     ],
+     [
+      "道",
+      "みち"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "選",
+      "えら"
+     ],
+     [
+      "んだ。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -3703,13 +10795,73 @@
     "ja": "彼は英語のみならず、中国語も話す。",
     "reading": "かれはえいごのみならず、ちゅうごくごもはなす。",
     "en": "He speaks not only English but Chinese too.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "彼",
+      "かれ"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "英語",
+      "えいご"
+     ],
+     [
+      "のみならず、",
+      null
+     ],
+     [
+      "中国語",
+      "ちゅうごくご"
+     ],
+     [
+      "も",
+      null
+     ],
+     [
+      "話",
+      "はな"
+     ],
+     [
+      "す。",
+      null
+     ]
+    ]
    },
    {
     "ja": "国内のみならず海外でも人気がある。",
     "reading": "こくないのみならずかいがいでもにんきがある。",
     "en": "It is popular not only at home but abroad.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "国内",
+      "こくない"
+     ],
+     [
+      "のみならず",
+      null
+     ],
+     [
+      "海外",
+      "かいがい"
+     ],
+     [
+      "でも",
+      null
+     ],
+     [
+      "人気",
+      "にんき"
+     ],
+     [
+      "がある。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -3730,13 +10882,65 @@
     "ja": "彼は遅刻したばかりか、謝りもしなかった。",
     "reading": "かれはちこくしたばかりか、あやまりもしなかった。",
     "en": "Not only was he late, he didn't even apologise.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "彼",
+      "かれ"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "遅刻",
+      "ちこく"
+     ],
+     [
+      "したばかりか、",
+      null
+     ],
+     [
+      "謝",
+      "あやま"
+     ],
+     [
+      "りもしなかった。",
+      null
+     ]
+    ]
    },
    {
     "ja": "雨ばかりか、風も強くなってきた。",
     "reading": "あめばかりか、かぜもつよくなってきた。",
     "en": "Not only rain, but the wind picked up too.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "雨",
+      "あめ"
+     ],
+     [
+      "ばかりか、",
+      null
+     ],
+     [
+      "風",
+      "かぜ"
+     ],
+     [
+      "も",
+      null
+     ],
+     [
+      "強",
+      "つよ"
+     ],
+     [
+      "くなってきた。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -3758,13 +10962,77 @@
     "ja": "この仕事は忙しい反面、収入がいい。",
     "reading": "このしごとはいそがしいはんめん、しゅうにゅうがいい。",
     "en": "This job is busy, but on the other hand it pays well.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "この",
+      null
+     ],
+     [
+      "仕事",
+      "しごと"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "忙",
+      "いそが"
+     ],
+     [
+      "しい",
+      null
+     ],
+     [
+      "反面",
+      "はんめん"
+     ],
+     [
+      "、",
+      null
+     ],
+     [
+      "収入",
+      "しゅうにゅう"
+     ],
+     [
+      "がいい。",
+      null
+     ]
+    ]
    },
    {
     "ja": "便利になった反面、失われたものもある。",
     "reading": "べんりになったはんめん、うしなわれたものもある。",
     "en": "Things got convenient, but some things were lost.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "便利",
+      "べんり"
+     ],
+     [
+      "になった",
+      null
+     ],
+     [
+      "反面",
+      "はんめん"
+     ],
+     [
+      "、",
+      null
+     ],
+     [
+      "失",
+      "うしな"
+     ],
+     [
+      "われたものもある。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -3786,13 +11054,57 @@
     "ja": "二度と同じ失敗はするまい。",
     "reading": "にどとおなじしっぱいはするまい。",
     "en": "I will not make the same mistake twice.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "二度",
+      "にど"
+     ],
+     [
+      "と",
+      null
+     ],
+     [
+      "同",
+      "おな"
+     ],
+     [
+      "じ",
+      null
+     ],
+     [
+      "失敗",
+      "しっぱい"
+     ],
+     [
+      "はするまい。",
+      null
+     ]
+    ]
    },
    {
     "ja": "彼はもう来るまい。",
     "reading": "かれはもうくるまい。",
     "en": "He surely won't come now.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "彼",
+      "かれ"
+     ],
+     [
+      "はもう",
+      null
+     ],
+     [
+      "来",
+      "く"
+     ],
+     [
+      "るまい。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -3814,13 +11126,77 @@
     "ja": "彼は歌も歌えばギターも弾ける。",
     "reading": "かれはうたもうたえばギターもひける。",
     "en": "He can both sing and play the guitar.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "彼",
+      "かれ"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "歌",
+      "うた"
+     ],
+     [
+      "も",
+      null
+     ],
+     [
+      "歌",
+      "うた"
+     ],
+     [
+      "えばギターも",
+      null
+     ],
+     [
+      "弾",
+      "ひ"
+     ],
+     [
+      "ける。",
+      null
+     ]
+    ]
    },
    {
     "ja": "いい日もあれば悪い日もある。",
     "reading": "いいひもあればわるいひもある。",
     "en": "There are good days and there are bad days.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "いい",
+      null
+     ],
+     [
+      "日",
+      "ひ"
+     ],
+     [
+      "もあれば",
+      null
+     ],
+     [
+      "悪",
+      "わる"
+     ],
+     [
+      "い",
+      null
+     ],
+     [
+      "日",
+      "ひ"
+     ],
+     [
+      "もある。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -3842,13 +11218,85 @@
     "ja": "この部屋は広いし、明るいし、気に入った。",
     "reading": "このへやはひろいし、あかるいし、きにいった。",
     "en": "This room is spacious and bright — I like it.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "この",
+      null
+     ],
+     [
+      "部屋",
+      "へや"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "広",
+      "ひろ"
+     ],
+     [
+      "いし、",
+      null
+     ],
+     [
+      "明",
+      "あか"
+     ],
+     [
+      "るいし、",
+      null
+     ],
+     [
+      "気",
+      "き"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "入",
+      "い"
+     ],
+     [
+      "った。",
+      null
+     ]
+    ]
    },
    {
     "ja": "雨も降っているし、今日はやめよう。",
     "reading": "あめもふっているし、きょうはやめよう。",
     "en": "It's raining, so let's skip today.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "雨",
+      "あめ"
+     ],
+     [
+      "も",
+      null
+     ],
+     [
+      "降",
+      "ふ"
+     ],
+     [
+      "っているし、",
+      null
+     ],
+     [
+      "今日",
+      "きょう"
+     ],
+     [
+      "はやめよう。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -3870,13 +11318,81 @@
     "ja": "引っ越しやら試験やらで忙しい。",
     "reading": "ひっこしやらしけんやらでいそがしい。",
     "en": "What with moving and exams, I'm busy.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "引",
+      "ひ"
+     ],
+     [
+      "っ",
+      null
+     ],
+     [
+      "越",
+      "こ"
+     ],
+     [
+      "しやら",
+      null
+     ],
+     [
+      "試験",
+      "しけん"
+     ],
+     [
+      "やらで",
+      null
+     ],
+     [
+      "忙",
+      "いそが"
+     ],
+     [
+      "しい。",
+      null
+     ]
+    ]
    },
    {
     "ja": "嬉しいやら悲しいやら、複雑な気持ちだ。",
     "reading": "うれしいやらかなしいやら、ふくざつなきもちだ。",
     "en": "Happy, sad — my feelings are mixed.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "嬉",
+      "うれ"
+     ],
+     [
+      "しいやら",
+      null
+     ],
+     [
+      "悲",
+      "かな"
+     ],
+     [
+      "しいやら、",
+      null
+     ],
+     [
+      "複雑",
+      "ふくざつ"
+     ],
+     [
+      "な",
+      null
+     ],
+     [
+      "気持",
+      "きも"
+     ],
+     [
+      "ちだ。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -3898,13 +11414,57 @@
     "ja": "住所が分からないので、送りようがない。",
     "reading": "じゅうしょがわからないので、おくりようがない。",
     "en": "I don't know the address, so there's no way to send it.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "住所",
+      "じゅうしょ"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "分",
+      "わ"
+     ],
+     [
+      "からないので、",
+      null
+     ],
+     [
+      "送",
+      "おく"
+     ],
+     [
+      "りようがない。",
+      null
+     ]
+    ]
    },
    {
     "ja": "壊れすぎて直しようがない。",
     "reading": "こわれすぎてなおしようがない。",
     "en": "It's too broken to be repaired.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "壊",
+      "こわ"
+     ],
+     [
+      "れすぎて",
+      null
+     ],
+     [
+      "直",
+      "なお"
+     ],
+     [
+      "しようがない。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -3926,13 +11486,73 @@
     "ja": "出かけようとしたとき、電話が鳴った。",
     "reading": "でかけようとしたとき、でんわがなった。",
     "en": "Just as I was about to leave, the phone rang.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "出",
+      "で"
+     ],
+     [
+      "かけようとしたとき、",
+      null
+     ],
+     [
+      "電話",
+      "でんわ"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "鳴",
+      "な"
+     ],
+     [
+      "った。",
+      null
+     ]
+    ]
    },
    {
     "ja": "彼は何度も立ち上がろうとした。",
     "reading": "かれはなんどもたちあがろうとした。",
     "en": "He tried again and again to stand up.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "彼",
+      "かれ"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "何度",
+      "なんど"
+     ],
+     [
+      "も",
+      null
+     ],
+     [
+      "立",
+      "た"
+     ],
+     [
+      "ち",
+      null
+     ],
+     [
+      "上",
+      "あ"
+     ],
+     [
+      "がろうとした。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -3954,13 +11574,65 @@
     "ja": "値段のわりに味がいい。",
     "reading": "ねだんのわりにあじがいい。",
     "en": "It tastes good for the price.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "値段",
+      "ねだん"
+     ],
+     [
+      "のわりに",
+      null
+     ],
+     [
+      "味",
+      "あじ"
+     ],
+     [
+      "がいい。",
+      null
+     ]
+    ]
    },
    {
     "ja": "彼は年のわりに若く見える。",
     "reading": "かれはとしのわりにわかくみえる。",
     "en": "He looks young for his age.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "彼",
+      "かれ"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "年",
+      "とし"
+     ],
+     [
+      "のわりに",
+      null
+     ],
+     [
+      "若",
+      "わか"
+     ],
+     [
+      "く",
+      null
+     ],
+     [
+      "見",
+      "み"
+     ],
+     [
+      "える。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -3982,13 +11654,73 @@
     "ja": "経験を通して多くを学んだ。",
     "reading": "けいけんをとおしておおくをまなんだ。",
     "en": "I learned a lot through experience.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "経験",
+      "けいけん"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "通",
+      "とお"
+     ],
+     [
+      "して",
+      null
+     ],
+     [
+      "多",
+      "おお"
+     ],
+     [
+      "くを",
+      null
+     ],
+     [
+      "学",
+      "まな"
+     ],
+     [
+      "んだ。",
+      null
+     ]
+    ]
    },
    {
     "ja": "秘書を通して連絡した。",
     "reading": "ひしょをとおしてれんらくした。",
     "en": "I got in touch via the secretary.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "秘書",
+      "ひしょ"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "通",
+      "とお"
+     ],
+     [
+      "して",
+      null
+     ],
+     [
+      "連絡",
+      "れんらく"
+     ],
+     [
+      "した。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -4010,13 +11742,81 @@
     "ja": "若者を中心に人気が広がっている。",
     "reading": "わかものをちゅうしんににんきがひろがっている。",
     "en": "Its popularity is spreading, mainly among young people.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "若者",
+      "わかもの"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "中心",
+      "ちゅうしん"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "人気",
+      "にんき"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "広",
+      "ひろ"
+     ],
+     [
+      "がっている。",
+      null
+     ]
+    ]
    },
    {
     "ja": "駅を中心に町が発展した。",
     "reading": "えきをちゅうしんにまちがはってんした。",
     "en": "The town developed around the station.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "駅",
+      "えき"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "中心",
+      "ちゅうしん"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "町",
+      "まち"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "発展",
+      "はってん"
+     ],
+     [
+      "した。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -4037,13 +11837,81 @@
     "ja": "感謝を込めて手紙を書いた。",
     "reading": "かんしゃをこめててがみをかいた。",
     "en": "I wrote the letter with gratitude.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "感謝",
+      "かんしゃ"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "込",
+      "こ"
+     ],
+     [
+      "めて",
+      null
+     ],
+     [
+      "手紙",
+      "てがみ"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "書",
+      "か"
+     ],
+     [
+      "いた。",
+      null
+     ]
+    ]
    },
    {
     "ja": "心を込めて料理を作りました。",
     "reading": "こころをこめてりょうりをつくりました。",
     "en": "I cooked the meal with all my heart.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "心",
+      "こころ"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "込",
+      "こ"
+     ],
+     [
+      "めて",
+      null
+     ],
+     [
+      "料理",
+      "りょうり"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "作",
+      "つく"
+     ],
+     [
+      "りました。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -4065,13 +11933,77 @@
     "ja": "年齢を問わず応募できます。",
     "reading": "ねんれいをとわずおうぼできます。",
     "en": "Anyone can apply regardless of age.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "年齢",
+      "ねんれい"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "問",
+      "と"
+     ],
+     [
+      "わず",
+      null
+     ],
+     [
+      "応募",
+      "おうぼ"
+     ],
+     [
+      "できます。",
+      null
+     ]
+    ]
    },
    {
     "ja": "この店は季節を問わず混んでいる。",
     "reading": "このみせはきせつをとわずこんでいる。",
     "en": "This shop is crowded whatever the season.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "この",
+      null
+     ],
+     [
+      "店",
+      "みせ"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "季節",
+      "きせつ"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "問",
+      "と"
+     ],
+     [
+      "わず",
+      null
+     ],
+     [
+      "混",
+      "こ"
+     ],
+     [
+      "んでいる。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -4093,13 +12025,65 @@
     "ja": "謝るくらいなら、最初からするな。",
     "reading": "あやまるくらいなら、さいしょからするな。",
     "en": "If you're going to apologise, don't do it in the first place.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "謝",
+      "あやま"
+     ],
+     [
+      "るくらいなら、",
+      null
+     ],
+     [
+      "最初",
+      "さいしょ"
+     ],
+     [
+      "からするな。",
+      null
+     ]
+    ]
    },
    {
     "ja": "満員電車に乗るくらいなら、歩いて行く。",
     "reading": "まんいんでんしゃにのるくらいなら、あるいていく。",
     "en": "Rather than take a packed train, I'll walk.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "満員電車",
+      "まんいんでんしゃ"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "乗",
+      "の"
+     ],
+     [
+      "るくらいなら、",
+      null
+     ],
+     [
+      "歩",
+      "ある"
+     ],
+     [
+      "いて",
+      null
+     ],
+     [
+      "行",
+      "い"
+     ],
+     [
+      "く。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -4121,13 +12105,57 @@
     "ja": "彼の話は信じがたい。",
     "reading": "かれのはなしはしんじがたい。",
     "en": "His story is hard to believe.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "彼",
+      "かれ"
+     ],
+     [
+      "の",
+      null
+     ],
+     [
+      "話",
+      "はなし"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "信",
+      "しん"
+     ],
+     [
+      "じがたい。",
+      null
+     ]
+    ]
    },
    {
     "ja": "忘れがたい一日になった。",
     "reading": "わすれがたいいちにちになった。",
     "en": "It became an unforgettable day.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "忘",
+      "わす"
+     ],
+     [
+      "れがたい",
+      null
+     ],
+     [
+      "一日",
+      "いちにち"
+     ],
+     [
+      "になった。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -4149,13 +12177,77 @@
     "ja": "そんなことは有り得ない。",
     "reading": "そんなことはありえない。",
     "en": "Such a thing is impossible.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "そんなことは",
+      null
+     ],
+     [
+      "有",
+      "あ"
+     ],
+     [
+      "り",
+      null
+     ],
+     [
+      "得",
+      "え"
+     ],
+     [
+      "ない。",
+      null
+     ]
+    ]
    },
    {
     "ja": "考え得る方法は全て試した。",
     "reading": "かんがえうるほうほうはすべてためした。",
     "en": "I tried every conceivable method.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "考",
+      "かんが"
+     ],
+     [
+      "え",
+      null
+     ],
+     [
+      "得",
+      "う"
+     ],
+     [
+      "る",
+      null
+     ],
+     [
+      "方法",
+      "ほうほう"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "全",
+      "すべ"
+     ],
+     [
+      "て",
+      null
+     ],
+     [
+      "試",
+      "ため"
+     ],
+     [
+      "した。",
+      null
+     ]
+    ]
    }
   ]
  },
@@ -4177,13 +12269,65 @@
     "ja": "三年ぶりに国へ帰った。",
     "reading": "さんねんぶりにくにへかえった。",
     "en": "I went home for the first time in three years.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "三年",
+      "さんねん"
+     ],
+     [
+      "ぶりに",
+      null
+     ],
+     [
+      "国",
+      "くに"
+     ],
+     [
+      "へ",
+      null
+     ],
+     [
+      "帰",
+      "かえ"
+     ],
+     [
+      "った。",
+      null
+     ]
+    ]
    },
    {
     "ja": "久しぶりに彼に会った。",
     "reading": "ひさしぶりにかれにあった。",
     "en": "I met him for the first time in a long while.",
-    "source": "authored"
+    "source": "authored",
+    "furigana": [
+     [
+      "久",
+      "ひさ"
+     ],
+     [
+      "しぶりに",
+      null
+     ],
+     [
+      "彼",
+      "かれ"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "会",
+      "あ"
+     ],
+     [
+      "った。",
+      null
+     ]
+    ]
    }
   ]
  }

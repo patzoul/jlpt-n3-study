@@ -18,9 +18,13 @@ last-learned kanji, so you never meet a word before its characters.
 import csv
 import json
 import re
+import sys
 import unicodedata
 from collections import defaultdict
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import furigana  # noqa: E402  (needs the path set above)
 
 BASE = Path(__file__).resolve().parent.parent
 SRC = BASE / 'content' / 'sources'
@@ -193,6 +197,25 @@ def score_sentence(sentence, word, readable):
     return score
 
 
+FURIGANA_STATS = {'aligned': 0, 'tokenised': 0, 'failed': 0}
+
+
+def attach_furigana(example):
+    """Add ruby segments so the sentence can be shown with readings on top."""
+    if not example:
+        return example
+    segments = furigana.build(example['ja'], example.get('reading'))
+    if segments is None:
+        FURIGANA_STATS['failed'] += 1
+    else:
+        example['furigana'] = segments
+        if example.get('reading'):
+            FURIGANA_STATS['aligned'] += 1
+        else:
+            FURIGANA_STATS['tokenised'] += 1
+    return example
+
+
 def build_sentence_pool(examples):
     """Flatten every sentence in the dump, de-duplicated by Japanese text.
 
@@ -241,12 +264,12 @@ def pick_example(word, examples, readable, index=None, authored=None, reading=No
     if authored:
         entry = authored.get(f'{word}|{reading}') or authored.get(word)
         if entry:
-            return {
+            return attach_furigana({
                 'ja': entry['ja'],
                 'reading': entry.get('reading', ''),
                 'en': entry['en'],
                 'source': 'authored',
-            }
+            })
 
     candidates = []
 
@@ -270,7 +293,9 @@ def pick_example(word, examples, readable, index=None, authored=None, reading=No
         return None
     candidates.sort(key=lambda item: -item[0])
     best = candidates[0][1]
-    return {'ja': best['ja'], 'en': best['en'], 'source': 'tatoeba'}
+    return attach_furigana(
+        {'ja': best['ja'], 'en': best['en'], 'source': 'tatoeba'}
+    )
 
 
 def normalise_reading(value):
@@ -448,7 +473,10 @@ def build_grammar(grammar, max_level):
             'primaryMeaning': entry['meanings'][0],
             'formation': entry.get('formation', ''),
             'nuance': entry.get('nuance', ''),
-            'examples': entry.get('examples', []),
+            'examples': [
+                attach_furigana(dict(example))
+                for example in entry.get('examples', [])
+            ],
         })
     return items
 

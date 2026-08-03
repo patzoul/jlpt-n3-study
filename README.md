@@ -62,9 +62,13 @@ whichever is further along. `test/sync.test.mjs` pins all of that down.
 Content is split across 37 levels of 10 kanji, with vocabulary attached to the
 level of its last-learned kanji.
 
-Of the 2,657 example sentences, 801 are hand-written for this app and the rest
-are Tatoeba sentences filtered to N3 level. Authored sentences also carry a kana
-reading, so the whole sentence can be read back.
+Of the 2,807 example sentences, 801 are hand-written for this app and the rest
+are Tatoeba sentences filtered to N3 level.
+
+Every sentence carries furigana, rendered as ruby above the kanji. Readings sit
+over the kanji alone rather than the whole word — 下[くだ]る, not 下る[くだる] —
+which is what makes them readable at a glance. Settings can hide them until you
+tap a sentence, for when you want the examples to be reading practice too.
 
 ## How study works
 
@@ -102,14 +106,28 @@ completion, and a list of items you have missed three or more times.
 ## Rebuilding the content
 
 ```bash
-python content/parse_dump.py && python content/build_content.py && python content/validate.py
+pip install janome && python content/build_content.py && python content/validate.py
 ```
+
+(`python content/parse_dump.py` re-extracts the sentence pool, and is only
+needed if you still have the raw `jlpt-N3-tiered/` dump.)
+
+**If you change any file in the app shell** — HTML, CSS, or anything in `js/` —
+bump `SHELL_VERSION` in `sw.js`. Installed devices serve the shell from cache,
+so without a bump they keep running the old code indefinitely. The decks need no
+bump; they are revalidated on every load.
 
 - `parse_dump.py` pulls Tatoeba example sentences out of the Anki-export CSVs in
   `jlpt-N3-tiered/` (they arrive as styled HTML blobs) into
   `content/sources/dump_examples.json`.
 - `build_content.py` joins the syllabus lists with that sentence pool and the
   hand-authored sources, and writes `content/{kanji,vocabulary,grammar,manifest}.json`.
+- `furigana.py` produces the ruby segments. Hand-written sentences are aligned
+  against their own kana transcription, so no tokeniser is involved and the
+  readings are exactly the ones written. Tatoeba sentences have no transcription,
+  so [janome](https://mocobeta.github.io/janome/en/) supplies one per token,
+  which is then split against the token's okurigana. A token janome does not
+  know is left bare rather than guessed.
 - `validate.py` checks the result: duplicate ids and duplicate card fronts,
   missing fields, unbalanced brackets, sentences that do not contain the word
   they teach, English words left inside Japanese text, and stray characters

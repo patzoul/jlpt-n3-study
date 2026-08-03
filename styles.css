@@ -480,6 +480,45 @@ button, .tab { font-family: inherit; }
 .example .jp { font-size: 16px; }
 .example mark { background: color-mix(in srgb, var(--accent) 35%, transparent); color: inherit; border-radius: 3px; padding: 0 2px; }
 
+/* Ruby needs headroom, otherwise the readings collide with the line above.
+   Specificity has to beat `.example .jp` above. */
+.example .jp.sentence,
+.sentence {
+  line-height: 2.2;
+  font-size: 18px;
+}
+
+.sentence ruby {
+  ruby-position: over;
+  -webkit-ruby-position: before;
+}
+
+.sentence rt {
+  font-size: 0.62em;
+  color: var(--muted);
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  /* Firefox otherwise crowds the reading against the character. */
+  line-height: 1.2;
+  transform: translateY(0.15em);
+}
+
+.sentence rp { display: none; }
+
+/* "Hide readings" mode: keep the ruby in the DOM so layout does not jump,
+   and reveal it when the learner taps the sentence. */
+.hide-furigana .sentence rt {
+  visibility: hidden;
+}
+
+.hide-furigana .sentence:hover rt,
+.hide-furigana .sentence:focus-within rt,
+.hide-furigana .sentence.revealed rt {
+  visibility: visible;
+}
+
+.hide-furigana .sentence { cursor: pointer; }
+
 /* -------------------------------------------------------------- browse */
 
 .filters { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 12px; }

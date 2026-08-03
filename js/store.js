@@ -11,6 +11,7 @@ export const DEFAULT_SETTINGS = {
   askReading: true,
   typeAnswers: true,
   autoAdvance: false,
+  showFurigana: true,
   lessonBatchSize: 5,
   levelUpThreshold: 0.9,
 };

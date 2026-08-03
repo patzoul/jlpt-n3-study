@@ -5,7 +5,10 @@
 // served stale-while-revalidate, so rebuilding content reaches devices on the
 // next load without a version bump, and still works offline in the meantime.
 
-const SHELL_VERSION = 'shell-v3';
+// Bump SHELL_VERSION whenever any file in SHELL_ASSETS changes, otherwise
+// installed devices keep running the old HTML/CSS/JS from cache. Content JSON
+// does not need a bump — it is revalidated on every load.
+const SHELL_VERSION = 'shell-v4';
 const CONTENT_CACHE = 'content-v1';
 
 const SHELL_ASSETS = [
