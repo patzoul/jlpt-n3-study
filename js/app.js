@@ -1131,7 +1131,8 @@ function bindSessionEvents() {
   if (session.current.kind === 'reading') {
     input.addEventListener('input', () => {
       const caretAtEnd = input.selectionStart === input.value.length;
-      const converted = toKana(input.value);
+      // Mid-word, so a trailing "n" must wait: the next key may make it な.
+      const converted = toKana(input.value, { partial: true });
       if (converted !== input.value) {
         input.value = converted;
         if (caretAtEnd) {

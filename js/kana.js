@@ -45,8 +45,12 @@ const MAX_KEY = 4;
  * Convert as much of the input as possible to hiragana. Trailing consonants
  * that could still become a kana (e.g. "ky") are left as-is so the field reads
  * naturally while typing.
+ *
+ * With `partial` set, the input is treated as still being typed: a trailing
+ * "n", "nn" or "ny" is left alone, because the next key decides whether it
+ * becomes ん, な or にゃ. Without it the input is final and a trailing "n" is ん.
  */
-export function toKana(input) {
+export function toKana(input, { partial = false } = {}) {
   const text = String(input || '').toLowerCase();
   let out = '';
   let index = 0;
@@ -69,6 +73,14 @@ export function toKana(input) {
 
     if (char === 'n') {
       const next = text[index + 1];
+      if (partial) {
+        // Still typing: keep whatever cannot be decided yet as romaji.
+        const rest = text.slice(index);
+        if (rest === 'n' || rest === 'nn' || rest === 'ny') {
+          out += rest;
+          break;
+        }
+      }
       if (next === undefined || next === "'") {
         // Trailing "n", or the explicit "n'" separator.
         out += 'ん';

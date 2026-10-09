@@ -46,6 +46,39 @@ test('romaji converts to kana', () => {
   assert.equal(toHiragana('カタカナ'), 'かたかな');
 });
 
+// The reading field converts on every keystroke, so replay typing one key at
+// a time: the field holds kana plus whatever romaji is still undecided.
+function typeLive(romaji) {
+  let field = '';
+  for (const key of romaji) {
+    field = toKana(field + key, { partial: true });
+  }
+  return field;
+}
+
+test('a typed "n" waits for the next key instead of becoming ん', () => {
+  assert.equal(typeLive('n'), 'n');
+  assert.equal(typeLive('na'), 'な');
+  assert.equal(typeLive('ni'), 'に');
+  assert.equal(typeLive('nya'), 'にゃ');
+  assert.equal(typeLive('nani'), 'なに');
+  assert.equal(typeLive('hana'), 'はな');
+  assert.equal(typeLive('onna'), 'おんな');
+  assert.equal(typeLive("kin'en"), 'きんえn');
+});
+
+test('typing key by key ends up where converting the whole word does', () => {
+  const words = [
+    'na', 'nani', 'onna', 'konnichiha', 'shinbun', 'kippu', 'gakkou', 'ryokou',
+    'nyuugaku', 'konnyaku', "gen'in", "tan'i", 'sannin', 'minna', 'annai',
+    'benkyou', 'kantan', 'unten', 'nn', 'n', 'hon', 'honya', "hon'ya",
+  ];
+  for (const word of words) {
+    // Submitting applies the final conversion to whatever is in the field.
+    assert.equal(toKana(typeLive(word)), toKana(word), word);
+  }
+});
+
 test('correct meanings are accepted', () => {
   const king = find('王');
   assert.equal(checkAnswer(king, 'meaning', 'king'), true);
