@@ -19,6 +19,9 @@ worker/wrangler.local.toml
 # local settings file is not.
 .claude/settings.local.json
 
+# Settings for tools/obsidian_journal.py: holds a vault path on this machine.
+obsidian.local.json
+
 node_modules/
 __pycache__/
 *.pyc
