@@ -1,61 +1,5 @@
 [
  {
-  "id": "v-下す-おろす",
-  "type": "vocabulary",
-  "level": 1,
-  "characters": "下す",
-  "reading": "おろす",
-  "meanings": [
-   "to lower",
-   "to let go down"
-  ],
-  "primaryMeaning": "to lower",
-  "componentKanji": [],
-  "frequencyTier": 1,
-  "common": true,
-  "examples": [
-   {
-    "ja": "問題は誰が決定を下すかということだ。",
-    "en": "The question is who will make the decision.",
-    "source": "tatoeba",
-    "furigana": [
-     [
-      "問題",
-      "もんだい"
-     ],
-     [
-      "は",
-      null
-     ],
-     [
-      "誰",
-      "だれ"
-     ],
-     [
-      "が",
-      null
-     ],
-     [
-      "決定",
-      "けってい"
-     ],
-     [
-      "を",
-      null
-     ],
-     [
-      "下",
-      "くだ"
-     ],
-     [
-      "すかということだ。",
-      null
-     ]
-    ]
-   }
-  ]
- },
- {
   "id": "v-下り-くだり",
   "type": "vocabulary",
   "level": 1,
@@ -161,6 +105,63 @@
      ],
      [
       "ます。",
+      null
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "v-下ろす-おろす",
+  "type": "vocabulary",
+  "level": 1,
+  "characters": "下ろす",
+  "reading": "おろす",
+  "meanings": [
+   "to lower",
+   "to let go down"
+  ],
+  "primaryMeaning": "to lower",
+  "componentKanji": [],
+  "frequencyTier": 1,
+  "common": true,
+  "examples": [
+   {
+    "ja": "重い荷物を床に下ろした。",
+    "reading": "おもいにもつをゆかにおろした。",
+    "en": "I set the heavy luggage down on the floor.",
+    "source": "authored",
+    "furigana": [
+     [
+      "重",
+      "おも"
+     ],
+     [
+      "い",
+      null
+     ],
+     [
+      "荷物",
+      "にもつ"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "床",
+      "ゆか"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "下",
+      "お"
+     ],
+     [
+      "ろした。",
       null
      ]
     ]
@@ -593,12 +594,12 @@
   "common": true,
   "examples": [
    {
-    "ja": "その車は修理する価値がない。",
-    "en": "The car isn't worth repairing.",
+    "ja": "この車は修理するだけの値打ちはない。",
+    "en": "It isn't worth repairing this car.",
     "source": "tatoeba",
     "furigana": [
      [
-      "その",
+      "この",
       null
      ],
      [
@@ -614,15 +615,15 @@
       "しゅうり"
      ],
      [
-      "する",
+      "するだけの",
       null
      ],
      [
-      "価値",
-      "かち"
+      "値打",
+      "ねう"
      ],
      [
-      "がない。",
+      "ちはない。",
       null
      ]
     ]
@@ -1350,52 +1351,36 @@
   "common": true,
   "examples": [
    {
-    "ja": "ここでお買い上げの品は無料で配達します。",
-    "en": "Articles bought here will be delivered free of charge.",
+    "ja": "これはみんな身の回り品ですか。",
+    "en": "Are these all your belongings?",
     "source": "tatoeba",
     "furigana": [
      [
-      "ここでお",
+      "これはみんな",
       null
      ],
      [
-      "買",
-      "か"
+      "身",
+      "み"
      ],
      [
-      "い",
+      "の",
       null
      ],
      [
-      "上",
-      "あ"
+      "回",
+      "まわ"
      ],
      [
-      "げの",
+      "り",
       null
      ],
      [
       "品",
-      "しな"
+      "ひん"
      ],
      [
-      "は",
-      null
-     ],
-     [
-      "無料",
-      "むりょう"
-     ],
-     [
-      "で",
-      null
-     ],
-     [
-      "配達",
-      "はいたつ"
-     ],
-     [
-      "します。",
+      "ですか。",
       null
      ]
     ]
@@ -2399,28 +2384,49 @@
   "common": true,
   "examples": [
    {
-    "ja": "市場は全面安ですね。",
-    "en": "The market prices have fallen across the board.",
-    "source": "tatoeba",
+    "ja": "朝、市場で新鮮な魚を買った。",
+    "reading": "あさ、いちばでしんせんなさかなをかった。",
+    "en": "In the morning I bought fresh fish at the market.",
+    "source": "authored",
     "furigana": [
      [
-      "市場",
-      "しじょう"
+      "朝",
+      "あさ"
      ],
      [
-      "は",
+      "、",
       null
      ],
      [
-      "全面",
-      "ぜんめん"
+      "市場",
+      "いちば"
      ],
      [
-      "安",
-      "やす"
+      "で",
+      null
      ],
      [
-      "ですね。",
+      "新鮮",
+      "しんせん"
+     ],
+     [
+      "な",
+      null
+     ],
+     [
+      "魚",
+      "さかな"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "買",
+      "か"
+     ],
+     [
+      "った。",
       null
      ]
     ]
@@ -2718,40 +2724,37 @@
   "common": false,
   "examples": [
    {
-    "ja": "市の北のはずれは路地の迷路である。",
-    "en": "The northernmost part of the city is a maze of alleys.",
-    "source": "tatoeba",
+    "ja": "毎週日曜日に市が立つ。",
+    "reading": "まいしゅうにちようびにいちがたつ。",
+    "en": "A market is held every Sunday.",
+    "source": "authored",
     "furigana": [
      [
+      "毎週",
+      "まいしゅう"
+     ],
+     [
+      "日曜日",
+      "にちようび"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
       "市",
-      "し"
+      "いち"
      ],
      [
-      "の",
+      "が",
       null
      ],
      [
-      "北",
-      "きた"
+      "立",
+      "た"
      ],
      [
-      "のはずれは",
-      null
-     ],
-     [
-      "路地",
-      "ろじ"
-     ],
-     [
-      "の",
-      null
-     ],
-     [
-      "迷路",
-      "めいろ"
-     ],
-     [
-      "である。",
+      "つ。",
       null
      ]
     ]
@@ -2846,29 +2849,14 @@
   "common": false,
   "examples": [
    {
-    "ja": "魅力は見る目を打つが、真価は魂を勝ち取る。",
-    "en": "Charms strike the sight, but merit wins the soul.",
-    "source": "tatoeba",
+    "ja": "人を打ってはいけません。",
+    "reading": "ひとをぶってはいけません。",
+    "en": "You must not hit people.",
+    "source": "authored",
     "furigana": [
      [
-      "魅力",
-      "みりょく"
-     ],
-     [
-      "は",
-      null
-     ],
-     [
-      "見",
-      "み"
-     ],
-     [
-      "る",
-      null
-     ],
-     [
-      "目",
-      "め"
+      "人",
+      "ひと"
      ],
      [
       "を",
@@ -2876,42 +2864,10 @@
      ],
      [
       "打",
-      "う"
+      "ぶ"
      ],
      [
-      "つが、",
-      null
-     ],
-     [
-      "真価",
-      "しんか"
-     ],
-     [
-      "は",
-      null
-     ],
-     [
-      "魂",
-      "たましい"
-     ],
-     [
-      "を",
-      null
-     ],
-     [
-      "勝",
-      "か"
-     ],
-     [
-      "ち",
-      null
-     ],
-     [
-      "取",
-      "と"
-     ],
-     [
-      "る。",
+      "ってはいけません。",
       null
      ]
     ]
@@ -2993,10 +2949,15 @@
   "common": true,
   "examples": [
    {
-    "ja": "他の人には私のやっていることは出来ないだろう。",
-    "en": "No other man could do my work.",
-    "source": "tatoeba",
+    "ja": "その他の費用は自分で払います。",
+    "reading": "そのたのひようはじぶんではらいます。",
+    "en": "I will pay the other expenses myself.",
+    "source": "authored",
     "furigana": [
+     [
+      "その",
+      null
+     ],
      [
       "他",
       "た"
@@ -3006,27 +2967,27 @@
       null
      ],
      [
-      "人",
-      "ひと"
+      "費用",
+      "ひよう"
      ],
      [
-      "には",
+      "は",
       null
      ],
      [
-      "私",
-      "わたし"
+      "自分",
+      "じぶん"
      ],
      [
-      "のやっていることは",
+      "で",
       null
      ],
      [
-      "出来",
-      "でき"
+      "払",
+      "はら"
      ],
      [
-      "ないだろう。",
+      "います。",
       null
      ]
     ]
@@ -3050,40 +3011,76 @@
   "common": true,
   "examples": [
    {
-    "ja": "他の人には私のやっていることは出来ないだろう。",
-    "en": "No other man could do my work.",
+    "ja": "会社は通常の月給の他に諸手当で毎月１０万円払ってくれる。",
+    "en": "The company pays me 100,000 yen in various allowances a month in addition to the regular salary.",
     "source": "tatoeba",
     "furigana": [
      [
-      "他",
-      "た"
+      "会社",
+      "かいしゃ"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "通常",
+      "つうじょう"
      ],
      [
       "の",
       null
      ],
      [
-      "人",
-      "ひと"
+      "月給",
+      "げっきゅう"
      ],
      [
-      "には",
+      "の",
       null
      ],
      [
-      "私",
-      "わたし"
+      "他",
+      "ほか"
      ],
      [
-      "のやっていることは",
+      "に",
       null
      ],
      [
-      "出来",
-      "でき"
+      "諸",
+      "しょ"
      ],
      [
-      "ないだろう。",
+      "手当",
+      "てあて"
+     ],
+     [
+      "で",
+      null
+     ],
+     [
+      "毎月",
+      "まいつき"
+     ],
+     [
+      "１０",
+      null
+     ],
+     [
+      "万",
+      "まん"
+     ],
+     [
+      "円",
+      "えん"
+     ],
+     [
+      "払",
+      "はら"
+     ],
+     [
+      "ってくれる。",
       null
      ]
     ]
@@ -3887,52 +3884,16 @@
   "common": true,
   "examples": [
    {
-    "ja": "この歌は私に古き良き時代を思い出させる。",
-    "en": "This song reminds me of the good old days.",
+    "ja": "悲しい思い出がいつもその子につきまとっている。",
+    "en": "Sad memories always haunt the child.",
     "source": "tatoeba",
     "furigana": [
      [
-      "この",
-      null
+      "悲",
+      "かな"
      ],
      [
-      "歌",
-      "うた"
-     ],
-     [
-      "は",
-      null
-     ],
-     [
-      "私",
-      "わたし"
-     ],
-     [
-      "に",
-      null
-     ],
-     [
-      "古",
-      "ふる"
-     ],
-     [
-      "き",
-      null
-     ],
-     [
-      "良",
-      "よ"
-     ],
-     [
-      "き",
-      null
-     ],
-     [
-      "時代",
-      "じだい"
-     ],
-     [
-      "を",
+      "しい",
       null
      ],
      [
@@ -3945,10 +3906,18 @@
      ],
      [
       "出",
-      "だ"
+      "で"
      ],
      [
-      "させる。",
+      "がいつもその",
+      null
+     ],
+     [
+      "子",
+      "こ"
+     ],
+     [
+      "につきまとっている。",
       null
      ]
     ]
@@ -4527,44 +4496,29 @@
   "common": true,
   "examples": [
    {
-    "ja": "その悪い知らせは残念ながら本当だ。",
-    "en": "The bad news is unfortunately true.",
-    "source": "tatoeba",
+    "ja": "それは本当の話ですか。",
+    "reading": "それはほんとのはなしですか。",
+    "en": "Is that a true story?",
+    "source": "authored",
     "furigana": [
      [
-      "その",
-      null
-     ],
-     [
-      "悪",
-      "わる"
-     ],
-     [
-      "い",
-      null
-     ],
-     [
-      "知",
-      "し"
-     ],
-     [
-      "らせは",
-      null
-     ],
-     [
-      "残念",
-      "ざんねん"
-     ],
-     [
-      "ながら",
+      "それは",
       null
      ],
      [
       "本当",
-      "ほんとう"
+      "ほんと"
      ],
      [
-      "だ。",
+      "の",
+      null
+     ],
+     [
+      "話",
+      "はなし"
+     ],
+     [
+      "ですか。",
       null
      ]
     ]
@@ -4870,84 +4824,33 @@
   "common": true,
   "examples": [
    {
-    "ja": "この磁場の線が２極で北の磁力と南の磁力の間に走っています。",
-    "en": "The lines of this field run between magnetic north and magnetic south at the two poles.",
-    "source": "tatoeba",
+    "ja": "これは極簡単な問題だ。",
+    "reading": "これはごくかんたんなもんだいだ。",
+    "en": "This is a very simple problem.",
+    "source": "authored",
     "furigana": [
      [
-      "この",
-      null
-     ],
-     [
-      "磁場",
-      "じば"
-     ],
-     [
-      "の",
-      null
-     ],
-     [
-      "線",
-      "せん"
-     ],
-     [
-      "が２",
+      "これは",
       null
      ],
      [
       "極",
-      "きょく"
+      "ごく"
      ],
      [
-      "で",
+      "簡単",
+      "かんたん"
+     ],
+     [
+      "な",
       null
      ],
      [
-      "北",
-      "きた"
+      "問題",
+      "もんだい"
      ],
      [
-      "の",
-      null
-     ],
-     [
-      "磁力",
-      "じりょく"
-     ],
-     [
-      "と",
-      null
-     ],
-     [
-      "南",
-      "みなみ"
-     ],
-     [
-      "の",
-      null
-     ],
-     [
-      "磁力",
-      "じりょく"
-     ],
-     [
-      "の",
-      null
-     ],
-     [
-      "間",
-      "ま"
-     ],
-     [
-      "に",
-      null
-     ],
-     [
-      "走",
-      "はし"
-     ],
-     [
-      "っています。",
+      "だ。",
       null
      ]
     ]
@@ -5328,32 +5231,40 @@
   "common": true,
   "examples": [
    {
-    "ja": "無から有は生じない。",
-    "en": "Nothing comes from nothing.",
+    "ja": "彼は昇進の機会を無にした。",
+    "en": "He threw away his chance of promotion.",
     "source": "tatoeba",
     "furigana": [
      [
-      "無",
-      "な"
-     ],
-     [
-      "から",
-      null
-     ],
-     [
-      "有",
-      "ゆう"
+      "彼",
+      "かれ"
      ],
      [
       "は",
       null
      ],
      [
-      "生",
-      "しょう"
+      "昇進",
+      "しょうしん"
      ],
      [
-      "じない。",
+      "の",
+      null
+     ],
+     [
+      "機会",
+      "きかい"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "無",
+      "む"
+     ],
+     [
+      "にした。",
       null
      ]
     ]
@@ -5367,43 +5278,42 @@
   "characters": "無",
   "reading": "ぶ",
   "meanings": [
-   "nothing",
-   "naught",
-   "nil",
-   "zero"
+   "un-",
+   "non- (negative prefix)"
   ],
-  "primaryMeaning": "nothing",
+  "primaryMeaning": "un-",
   "componentKanji": [],
   "frequencyTier": 1,
   "common": true,
   "examples": [
    {
-    "ja": "無から有は生じない。",
-    "en": "Nothing comes from nothing.",
-    "source": "tatoeba",
+    "ja": "長い間ご無沙汰しています。",
+    "reading": "ながいあいだごぶさたしています。",
+    "en": "I have not been in touch for a long time.",
+    "source": "authored",
     "furigana": [
      [
-      "無",
-      "な"
+      "長",
+      "なが"
      ],
      [
-      "から",
+      "い",
       null
      ],
      [
-      "有",
-      "ゆう"
+      "間",
+      "あいだ"
      ],
      [
-      "は",
+      "ご",
       null
      ],
      [
-      "生",
-      "しょう"
+      "無沙汰",
+      "ぶさた"
      ],
      [
-      "じない。",
+      "しています。",
       null
      ]
     ]
@@ -5439,8 +5349,12 @@
       null
      ],
      [
-      "宿題無",
-      "しゅくだいな"
+      "宿題",
+      "しゅくだい"
+     ],
+     [
+      "無",
+      "な"
      ],
      [
       "しでいいそうだ。",
@@ -5875,8 +5789,12 @@
       null
      ],
      [
-      "一人交",
-      "ひとりま"
+      "一人",
+      "ひとり"
+     ],
+     [
+      "交",
+      "ま"
      ],
      [
       "じっていた。",
@@ -6792,16 +6710,16 @@
   "common": true,
   "examples": [
    {
-    "ja": "貴方は、化学を勉強しますか。",
-    "en": "Do you study chemistry?",
+    "ja": "夫妻は化学を近代科学へと一変させた。",
+    "en": "The couple transformed chemistry into a modern science.",
     "source": "tatoeba",
     "furigana": [
      [
-      "貴方",
-      "あなた"
+      "夫妻",
+      "ふさい"
      ],
      [
-      "は、",
+      "は",
       null
      ],
      [
@@ -6813,11 +6731,23 @@
       null
      ],
      [
-      "勉強",
-      "べんきょう"
+      "近代",
+      "きんだい"
      ],
      [
-      "しますか。",
+      "科学",
+      "かがく"
+     ],
+     [
+      "へと",
+      null
+     ],
+     [
+      "一変",
+      "いっぺん"
+     ],
+     [
+      "させた。",
       null
      ]
     ]
@@ -7489,64 +7419,45 @@
   "common": true,
   "examples": [
    {
-    "ja": "しかし城にたどりつくなり、近衛兵を率いた人によって、わたしはこの牢獄に勾引されてしまった。",
-    "en": "However, when I finally reached the castle I was thrown into this prison by the commander of the imperial guard.",
-    "source": "tatoeba",
+    "ja": "この試験は合格する率が低い。",
+    "reading": "このしけんはごうかくするりつがひくい。",
+    "en": "The pass rate for this exam is low.",
+    "source": "authored",
     "furigana": [
      [
-      "しかし",
+      "この",
       null
      ],
      [
-      "城",
-      "しろ"
+      "試験",
+      "しけん"
      ],
      [
-      "にたどりつくなり、",
+      "は",
       null
      ],
      [
-      "近衛",
-      "このえ"
+      "合格",
+      "ごうかく"
      ],
      [
-      "兵",
-      "へい"
-     ],
-     [
-      "を",
+      "する",
       null
      ],
      [
       "率",
-      "ひき"
+      "りつ"
      ],
      [
-      "いた",
+      "が",
       null
      ],
      [
-      "人",
-      "ひと"
+      "低",
+      "ひく"
      ],
      [
-      "によって、わたしはこの",
-      null
-     ],
-     [
-      "牢獄",
-      "ろうごく"
-     ],
-     [
-      "に",
-      null
-     ],
-     [
-      "勾引",
-      "こういん"
-     ],
-     [
-      "されてしまった。",
+      "い。",
       null
      ]
     ]
@@ -7682,52 +7593,33 @@
   "common": false,
   "examples": [
    {
-    "ja": "彼はその物語を子供向けに書き直した。",
-    "en": "He adapted the story for children.",
-    "source": "tatoeba",
+    "ja": "父は直に帰ってきます。",
+    "reading": "ちちはじきにかえってきます。",
+    "en": "My father will be back soon.",
+    "source": "authored",
     "furigana": [
      [
-      "彼",
-      "かれ"
+      "父",
+      "ちち"
      ],
      [
-      "はその",
-      null
-     ],
-     [
-      "物語",
-      "ものがたり"
-     ],
-     [
-      "を",
-      null
-     ],
-     [
-      "子供",
-      "こども"
-     ],
-     [
-      "向",
-      "む"
-     ],
-     [
-      "けに",
-      null
-     ],
-     [
-      "書",
-      "か"
-     ],
-     [
-      "き",
+      "は",
       null
      ],
      [
       "直",
-      "なお"
+      "じき"
      ],
      [
-      "した。",
+      "に",
+      null
+     ],
+     [
+      "帰",
+      "かえ"
+     ],
+     [
+      "ってきます。",
       null
      ]
     ]
@@ -7818,7 +7710,7 @@
     "furigana": [
      [
       "本人",
-      "ほん"
+      "ほんにん"
      ],
      [
       "に",
@@ -7826,7 +7718,7 @@
      ],
      [
       "直",
-      "ん"
+      "じか"
      ],
      [
       "に",
@@ -7834,7 +7726,7 @@
      ],
      [
       "聞",
-      "じかにき"
+      "き"
      ],
      [
       "いたほうが",
@@ -8273,16 +8165,25 @@
   "common": true,
   "examples": [
    {
-    "ja": "管から水が吹き出した。",
-    "en": "Water shot from the pipe.",
-    "source": "tatoeba",
+    "ja": "細い管で水を送る。",
+    "reading": "ほそいくだでみずをおくる。",
+    "en": "Water is sent through a thin pipe.",
+    "source": "authored",
     "furigana": [
      [
-      "管",
-      "かん"
+      "細",
+      "ほそ"
      ],
      [
-      "から",
+      "い",
+      null
+     ],
+     [
+      "管",
+      "くだ"
+     ],
+     [
+      "で",
       null
      ],
      [
@@ -8290,23 +8191,15 @@
       "みず"
      ],
      [
-      "が",
+      "を",
       null
      ],
      [
-      "吹",
-      "ふ"
+      "送",
+      "おく"
      ],
      [
-      "き",
-      null
-     ],
-     [
-      "出",
-      "だ"
-     ],
-     [
-      "した。",
+      "る。",
       null
      ]
     ]
@@ -9150,68 +9043,16 @@
   "common": true,
   "examples": [
    {
-    "ja": "その小さい男の子は目を大きく見開いて巨大な象を見た。",
-    "en": "The little boy gazed at the huge elephant, eyes wide open.",
+    "ja": "母親の象は川の中で小象の体をあらってやります。",
+    "en": "The mother elephant bathes her baby in the river.",
     "source": "tatoeba",
     "furigana": [
      [
-      "その",
-      null
-     ],
-     [
-      "小",
-      "ちい"
-     ],
-     [
-      "さい",
-      null
-     ],
-     [
-      "男",
-      "おとこ"
+      "母親",
+      "ははおや"
      ],
      [
       "の",
-      null
-     ],
-     [
-      "子",
-      "こ"
-     ],
-     [
-      "は",
-      null
-     ],
-     [
-      "目",
-      "め"
-     ],
-     [
-      "を",
-      null
-     ],
-     [
-      "大",
-      "おお"
-     ],
-     [
-      "きく",
-      null
-     ],
-     [
-      "見開",
-      "みひら"
-     ],
-     [
-      "いて",
-      null
-     ],
-     [
-      "巨大",
-      "きょだい"
-     ],
-     [
-      "な",
       null
      ],
      [
@@ -9219,15 +9060,43 @@
       "ぞう"
      ],
      [
-      "を",
+      "は",
       null
      ],
      [
-      "見",
-      "み"
+      "川",
+      "かわ"
      ],
      [
-      "た。",
+      "の",
+      null
+     ],
+     [
+      "中",
+      "なか"
+     ],
+     [
+      "で",
+      null
+     ],
+     [
+      "小",
+      "しょう"
+     ],
+     [
+      "象",
+      "ぞう"
+     ],
+     [
+      "の",
+      null
+     ],
+     [
+      "体",
+      "からだ"
+     ],
+     [
+      "をあらってやります。",
       null
      ]
     ]
@@ -11522,28 +11391,25 @@
   "common": true,
   "examples": [
    {
-    "ja": "この額は税込みです。",
-    "en": "This amount includes tax.",
-    "source": "tatoeba",
+    "ja": "額に汗をかいている。",
+    "reading": "ひたいにあせをかいている。",
+    "en": "There is sweat on his forehead.",
+    "source": "authored",
     "furigana": [
      [
-      "この",
-      null
-     ],
-     [
       "額",
-      "がく"
+      "ひたい"
      ],
      [
-      "は",
+      "に",
       null
      ],
      [
-      "税込",
-      "ぜいこ"
+      "汗",
+      "あせ"
      ],
      [
-      "みです。",
+      "をかいている。",
       null
      ]
     ]
@@ -11744,66 +11610,59 @@
   "characters": "下",
   "reading": "しも",
   "meanings": [
-   "under",
-   "below",
-   "beneath"
+   "lower part",
+   "downstream",
+   "the bottom"
   ],
-  "primaryMeaning": "under",
+  "primaryMeaning": "lower part",
   "componentKanji": [],
   "frequencyTier": 2,
   "common": true,
   "examples": [
    {
-    "ja": "合格した生徒の名前の前に点をつけて下さい。",
-    "en": "Will you put a dot before the names of the successful students?",
-    "source": "tatoeba",
+    "ja": "川の下の方に古い橋がある。",
+    "reading": "かわのしものほうにふるいはしがある。",
+    "en": "There is an old bridge further down the river.",
+    "source": "authored",
     "furigana": [
      [
-      "合格",
-      "ごうかく"
-     ],
-     [
-      "した",
-      null
-     ],
-     [
-      "生徒",
-      "せいと"
+      "川",
+      "かわ"
      ],
      [
       "の",
       null
      ],
      [
-      "名前",
-      "なまえ"
+      "下",
+      "しも"
      ],
      [
       "の",
       null
      ],
      [
-      "前",
-      "まえ"
+      "方",
+      "ほう"
      ],
      [
       "に",
       null
      ],
      [
-      "点",
-      "てん"
+      "古",
+      "ふる"
      ],
      [
-      "をつけて",
+      "い",
       null
      ],
      [
-      "下",
-      "くだ"
+      "橋",
+      "はし"
      ],
      [
-      "さい。",
+      "がある。",
       null
      ]
     ]
@@ -11817,66 +11676,67 @@
   "characters": "下",
   "reading": "げ",
   "meanings": [
-   "under",
-   "below",
-   "beneath"
+   "low grade",
+   "inferior",
+   "last volume (of a set)"
   ],
-  "primaryMeaning": "under",
+  "primaryMeaning": "low grade",
   "componentKanji": [],
   "frequencyTier": 2,
   "common": true,
   "examples": [
    {
-    "ja": "合格した生徒の名前の前に点をつけて下さい。",
-    "en": "Will you put a dot before the names of the successful students?",
-    "source": "tatoeba",
+    "ja": "この作品は上、中、下の三冊ある。",
+    "reading": "このさくひんはじょう、ちゅう、げのさんさつある。",
+    "en": "This work comes in three volumes: first, middle and last.",
+    "source": "authored",
     "furigana": [
      [
-      "合格",
-      "ごうかく"
-     ],
-     [
-      "した",
+      "この",
       null
      ],
      [
-      "生徒",
-      "せいと"
+      "作品",
+      "さくひん"
      ],
      [
-      "の",
+      "は",
       null
      ],
      [
-      "名前",
-      "なまえ"
+      "上",
+      "じょう"
      ],
      [
-      "の",
+      "、",
       null
      ],
      [
-      "前",
-      "まえ"
+      "中",
+      "ちゅう"
      ],
      [
-      "に",
-      null
-     ],
-     [
-      "点",
-      "てん"
-     ],
-     [
-      "をつけて",
+      "、",
       null
      ],
      [
       "下",
-      "くだ"
+      "げ"
      ],
      [
-      "さい。",
+      "の",
+      null
+     ],
+     [
+      "三",
+      "さん"
+     ],
+     [
+      "冊",
+      "さつ"
+     ],
+     [
+      "ある。",
       null
      ]
     ]
@@ -11956,36 +11816,28 @@
   "common": true,
   "examples": [
    {
-    "ja": "あの人は仏のような人だ。",
-    "en": "He is a saint of a man.",
+    "ja": "もう神も仏もない。",
+    "en": "Now there is neither God nor Buddha.",
     "source": "tatoeba",
     "furigana": [
      [
-      "あの",
+      "もう",
       null
      ],
      [
-      "人",
-      "ひと"
+      "神",
+      "かみ"
      ],
      [
-      "は",
+      "も",
       null
      ],
      [
       "仏",
-      "ふつ"
+      "ほとけ"
      ],
      [
-      "のような",
-      null
-     ],
-     [
-      "人",
-      "ひと"
-     ],
-     [
-      "だ。",
+      "もない。",
       null
      ]
     ]
@@ -12251,8 +12103,12 @@
       null
      ],
      [
-      "三時間",
-      "さんじかん"
+      "三",
+      "さん"
+     ],
+     [
+      "時間",
+      "じかん"
      ],
      [
       "も",
@@ -12514,8 +12370,12 @@
       null
      ],
      [
-      "来月刊行",
-      "らいげつかんこう"
+      "来月",
+      "らいげつ"
+     ],
+     [
+      "刊行",
+      "かんこう"
      ],
      [
       "される。",
@@ -13317,36 +13177,72 @@
   "common": false,
   "examples": [
    {
-    "ja": "１月７日付けのお手紙、ありがとうございました。",
-    "en": "Thank you very much for your letter of January 7th.",
+    "ja": "この商品管理伝票をこのタイムスタンプに差し込むと日付と時刻が打刻されます。",
+    "en": "Place this merchandise slip into the time stamp, and the date and time will be impressed.",
     "source": "tatoeba",
     "furigana": [
      [
-      "１月",
-      "いちがつ"
-     ],
-     [
-      "７",
+      "この",
       null
      ],
      [
-      "日",
-      "にち"
+      "商品",
+      "しょうひん"
      ],
      [
-      "付",
-      "づ"
+      "管理",
+      "かんり"
      ],
      [
-      "けのお",
+      "伝票",
+      "でんぴょう"
+     ],
+     [
+      "をこのタイムスタンプに",
       null
      ],
      [
-      "手紙",
-      "てがみ"
+      "差",
+      "さ"
      ],
      [
-      "、ありがとうございました。",
+      "し",
+      null
+     ],
+     [
+      "込",
+      "こ"
+     ],
+     [
+      "むと",
+      null
+     ],
+     [
+      "日付",
+      "ひづけ"
+     ],
+     [
+      "と",
+      null
+     ],
+     [
+      "時刻",
+      "じこく"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "打",
+      "だ"
+     ],
+     [
+      "刻",
+      "こく"
+     ],
+     [
+      "されます。",
       null
      ]
     ]
@@ -13599,11 +13495,11 @@
   "characters": "対",
   "reading": "たい",
   "meanings": [
-   "pair",
-   "couple",
-   "set"
+   "versus",
+   "against",
+   "to (in a score or ratio)"
   ],
-  "primaryMeaning": "pair",
+  "primaryMeaning": "versus",
   "componentKanji": [
    "対"
   ],
@@ -13678,48 +13574,33 @@
   "common": true,
   "examples": [
    {
-    "ja": "試合は6対6で引き分けに終わった。",
-    "en": "The match ended in a 6-6 draw.",
-    "source": "tatoeba",
+    "ja": "対になった茶碗を買った。",
+    "reading": "ついになったちゃわんをかった。",
+    "en": "I bought a pair of matching rice bowls.",
+    "source": "authored",
     "furigana": [
      [
-      "試合",
-      "しあい"
-     ],
-     [
-      "は6",
-      null
-     ],
-     [
       "対",
-      "たい"
+      "つい"
      ],
      [
-      "6で",
+      "になった",
       null
      ],
      [
-      "引",
-      "ひ"
+      "茶碗",
+      "ちゃわん"
      ],
      [
-      "き",
+      "を",
       null
      ],
      [
-      "分",
-      "わ"
+      "買",
+      "か"
      ],
      [
-      "けに",
-      null
-     ],
-     [
-      "終",
-      "お"
-     ],
-     [
-      "わった。",
+      "った。",
       null
      ]
     ]
@@ -14068,28 +13949,33 @@
   "common": true,
   "examples": [
    {
-    "ja": "あの子は２０まで数えられる。",
-    "en": "That child can count to twenty.",
-    "source": "tatoeba",
+    "ja": "数回電話したが出なかった。",
+    "reading": "すうかいでんわしたがでなかった。",
+    "en": "I phoned several times but nobody answered.",
+    "source": "authored",
     "furigana": [
      [
-      "あの",
-      null
-     ],
-     [
-      "子",
-      "こ"
-     ],
-     [
-      "は２０まで",
-      null
-     ],
-     [
       "数",
-      "かぞ"
+      "すう"
      ],
      [
-      "えられる。",
+      "回",
+      "かい"
+     ],
+     [
+      "電話",
+      "でんわ"
+     ],
+     [
+      "したが",
+      null
+     ],
+     [
+      "出",
+      "で"
+     ],
+     [
+      "なかった。",
       null
      ]
     ]
@@ -14115,28 +14001,41 @@
   "common": true,
   "examples": [
    {
-    "ja": "あの子は２０まで数えられる。",
-    "en": "That child can count to twenty.",
-    "source": "tatoeba",
+    "ja": "箱の中のりんごの数を教えてください。",
+    "reading": "はこのなかのりんごのかずをおしえてください。",
+    "en": "Please tell me the number of apples in the box.",
+    "source": "authored",
     "furigana": [
      [
-      "あの",
+      "箱",
+      "はこ"
+     ],
+     [
+      "の",
       null
      ],
      [
-      "子",
-      "こ"
+      "中",
+      "なか"
      ],
      [
-      "は２０まで",
+      "のりんごの",
       null
      ],
      [
       "数",
-      "かぞ"
+      "かず"
      ],
      [
-      "えられる。",
+      "を",
+      null
+     ],
+     [
+      "教",
+      "おし"
+     ],
+     [
+      "えてください。",
       null
      ]
     ]
@@ -14290,10 +14189,11 @@
   "characters": "末",
   "reading": "すえ",
   "meanings": [
-   "the end of",
-   "powder"
+   "the end",
+   "the tip",
+   "the future"
   ],
-  "primaryMeaning": "the end of",
+  "primaryMeaning": "the end",
   "componentKanji": [
    "末"
   ],
@@ -14352,9 +14252,10 @@
   "characters": "末",
   "reading": "まつ",
   "meanings": [
-   "the end of"
+   "the end of (a month, a year)",
+   "powder"
   ],
-  "primaryMeaning": "the end of",
+  "primaryMeaning": "the end of (a month, a year)",
   "componentKanji": [
    "末"
   ],
@@ -14362,44 +14263,37 @@
   "common": false,
   "examples": [
    {
-    "ja": "彼は来月の末でここに１０年間住むことになる。",
-    "en": "He will have lived here for ten years by the end of next month.",
-    "source": "tatoeba",
+    "ja": "三月末に帰国する予定です。",
+    "reading": "さんがつまつにきこくするよていです。",
+    "en": "I plan to return home at the end of March.",
+    "source": "authored",
     "furigana": [
      [
-      "彼",
-      "かれ"
-     ],
-     [
-      "は",
-      null
-     ],
-     [
-      "来月",
-      "らいげつ"
-     ],
-     [
-      "の",
-      null
+      "三月",
+      "さんがつ"
      ],
      [
       "末",
-      "すえ"
+      "まつ"
      ],
      [
-      "でここに１０",
+      "に",
       null
      ],
      [
-      "年間",
-      "ねんかん"
+      "帰国",
+      "きこく"
      ],
      [
-      "住",
-      "す"
+      "する",
+      null
      ],
      [
-      "むことになる。",
+      "予定",
+      "よてい"
+     ],
+     [
+      "です。",
       null
      ]
     ]
@@ -15581,8 +15475,8 @@
   "common": true,
   "examples": [
    {
-    "ja": "この布は裂けやすい。",
-    "en": "This cloth tears easily.",
+    "ja": "この布は値段の割に品質が良い。",
+    "en": "This cloth is good in quality for its price.",
     "source": "tatoeba",
     "furigana": [
      [
@@ -15598,11 +15492,35 @@
       null
      ],
      [
-      "裂",
-      "さ"
+      "値段",
+      "ねだん"
      ],
      [
-      "けやすい。",
+      "の",
+      null
+     ],
+     [
+      "割",
+      "わり"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "品質",
+      "ひんしつ"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "良",
+      "よ"
+     ],
+     [
+      "い。",
       null
      ]
     ]
@@ -17050,11 +16968,11 @@
   ]
  },
  {
-  "id": "v-反る-かえる",
+  "id": "v-反る-そる",
   "type": "vocabulary",
   "level": 6,
   "characters": "反る",
-  "reading": "かえる",
+  "reading": "そる",
   "meanings": [
    "to warp",
    "to be warped",
@@ -18165,9 +18083,9 @@
   "common": true,
   "examples": [
    {
-    "ja": "この本は第三版です。",
-    "reading": "このほんはだいさんぱんです。",
-    "en": "This book is the third edition.",
+    "ja": "この辞書は新しい版が出た。",
+    "reading": "このじしょはあたらしいはんがでた。",
+    "en": "A new edition of this dictionary has come out.",
     "source": "authored",
     "furigana": [
      [
@@ -18175,19 +18093,35 @@
       null
      ],
      [
-      "本",
-      "ほん"
+      "辞書",
+      "じしょ"
      ],
      [
       "は",
       null
      ],
      [
-      "第三版",
-      "だいさんぱん"
+      "新",
+      "あたら"
      ],
      [
-      "です。",
+      "しい",
+      null
+     ],
+     [
+      "版",
+      "はん"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "出",
+      "で"
+     ],
+     [
+      "た。",
       null
      ]
     ]
@@ -18268,8 +18202,12 @@
       null
      ],
      [
-      "人事異動",
-      "じんじいどう"
+      "人事",
+      "じんじ"
+     ],
+     [
+      "異動",
+      "いどう"
      ],
      [
       "があった。",
@@ -18560,16 +18498,28 @@
       null
      ],
      [
-      "第一章",
-      "だいいっしょう"
+      "第",
+      "だい"
+     ],
+     [
+      "一",
+      "いっ"
+     ],
+     [
+      "章",
+      "しょう"
      ],
      [
       "が",
       null
      ],
      [
-      "一番面白",
-      "いちばんおもしろ"
+      "一番",
+      "いちばん"
+     ],
+     [
+      "面白",
+      "おもしろ"
      ],
      [
       "い。",
@@ -18651,20 +18601,25 @@
   "common": true,
   "examples": [
    {
-    "ja": "こちらにお出での節は、どうぞお立ち寄りください。",
-    "en": "Please drop in when you come this way.",
-    "source": "tatoeba",
+    "ja": "竹には多くの節がある。",
+    "reading": "たけにはおおくのふしがある。",
+    "en": "Bamboo has many joints.",
+    "source": "authored",
     "furigana": [
      [
-      "こちらにお",
+      "竹",
+      "たけ"
+     ],
+     [
+      "には",
       null
      ],
      [
-      "出",
-      "い"
+      "多",
+      "おお"
      ],
      [
-      "での",
+      "くの",
       null
      ],
      [
@@ -18672,23 +18627,7 @@
       "ふし"
      ],
      [
-      "は、どうぞお",
-      null
-     ],
-     [
-      "立",
-      "た"
-     ],
-     [
-      "ち",
-      null
-     ],
-     [
-      "寄",
-      "よ"
-     ],
-     [
-      "りください。",
+      "がある。",
       null
      ]
     ]
@@ -18702,55 +18641,51 @@
   "characters": "節",
   "reading": "せつ",
   "meanings": [
-   "when",
-   "if",
+   "occasion",
+   "time",
    "section",
    "clause"
   ],
-  "primaryMeaning": "when",
+  "primaryMeaning": "occasion",
   "componentKanji": [],
   "frequencyTier": 2,
   "common": true,
   "examples": [
    {
-    "ja": "こちらにお出での節は、どうぞお立ち寄りください。",
-    "en": "Please drop in when you come this way.",
+    "ja": "最後の２節を省略して歌いましょうか。",
+    "en": "We'll sing that song, omitting the last two verses.",
     "source": "tatoeba",
     "furigana": [
      [
-      "こちらにお",
-      null
+      "最後",
+      "さいご"
      ],
      [
-      "出",
-      "い"
-     ],
-     [
-      "での",
+      "の２",
       null
      ],
      [
       "節",
-      "ふし"
+      "せつ"
      ],
      [
-      "は、どうぞお",
+      "を",
       null
      ],
      [
-      "立",
-      "た"
+      "省略",
+      "しょうりゃく"
      ],
      [
-      "ち",
+      "して",
       null
      ],
      [
-      "寄",
-      "よ"
+      "歌",
+      "うた"
      ],
      [
-      "りください。",
+      "いましょうか。",
       null
      ]
     ]
@@ -19137,8 +19072,8 @@
   "common": true,
   "examples": [
    {
-    "ja": "その亡命者は故国への思いに胸を焦がした。",
-    "en": "The exile yearned for his home.",
+    "ja": "その話をするとき彼の胸は高鳴っていた。",
+    "en": "His heart was pounding as he told me that.",
     "source": "tatoeba",
     "furigana": [
      [
@@ -19146,31 +19081,19 @@
       null
      ],
      [
-      "亡命",
-      "ぼうめい"
+      "話",
+      "はなし"
      ],
      [
-      "者",
-      "しゃ"
-     ],
-     [
-      "は",
+      "をするとき",
       null
      ],
      [
-      "故国",
-      "ここく"
+      "彼",
+      "かれ"
      ],
      [
-      "への",
-      null
-     ],
-     [
-      "思",
-      "おも"
-     ],
-     [
-      "いに",
+      "の",
       null
      ],
      [
@@ -19178,15 +19101,15 @@
       "むね"
      ],
      [
-      "を",
+      "は",
       null
      ],
      [
-      "焦",
-      "こ"
+      "高鳴",
+      "たかな"
      ],
      [
-      "がした。",
+      "っていた。",
       null
      ]
     ]
@@ -19498,8 +19421,8 @@
   "common": true,
   "examples": [
    {
-    "ja": "馬に乗ることができますか？",
-    "en": "Can you ride a horse?",
+    "ja": "馬とロバを交配させるとラバが生まれる。",
+    "en": "If you mate a horse with an ass you will get a mule.",
     "source": "tatoeba",
     "furigana": [
      [
@@ -19507,15 +19430,23 @@
       "うま"
      ],
      [
-      "に",
+      "とロバを",
       null
      ],
      [
-      "乗",
-      "の"
+      "交配",
+      "こうはい"
      ],
      [
-      "ることができますか？",
+      "させるとラバが",
+      null
+     ],
+     [
+      "生",
+      "う"
+     ],
+     [
+      "まれる。",
       null
      ]
     ]
@@ -20332,24 +20263,28 @@
   "common": true,
   "examples": [
    {
-    "ja": "名を捨てて実を取る。",
-    "en": "Profit is better than fame.",
+    "ja": "ボブはいろいろな種類の木の実を見つけた。",
+    "en": "Bob found various kinds of nuts.",
     "source": "tatoeba",
     "furigana": [
      [
-      "名",
-      "な"
-     ],
-     [
-      "を",
+      "ボブはいろいろな",
       null
      ],
      [
-      "捨",
-      "す"
+      "種類",
+      "しゅるい"
      ],
      [
-      "てて",
+      "の",
+      null
+     ],
+     [
+      "木",
+      "こ"
+     ],
+     [
+      "の",
       null
      ],
      [
@@ -20361,11 +20296,11 @@
       null
      ],
      [
-      "取",
-      "と"
+      "見",
+      "み"
      ],
      [
-      "る。",
+      "つけた。",
       null
      ]
     ]
@@ -20791,52 +20726,60 @@
   "common": false,
   "examples": [
    {
-    "ja": "「私もそう思うわ」と彼女は相づちを打った。",
-    "en": "\"I think so, too,\" she chimed in.",
+    "ja": "シップ・アイランドのあたりは、相も変わらぬ森林地帯で、相変わらず住む人とてなかった。",
+    "en": "The Ship Island region was as woody and tenantless as ever.",
     "source": "tatoeba",
     "furigana": [
      [
-      "「",
-      null
-     ],
-     [
-      "私",
-      "わたし"
-     ],
-     [
-      "もそう",
-      null
-     ],
-     [
-      "思",
-      "おも"
-     ],
-     [
-      "うわ」と",
-      null
-     ],
-     [
-      "彼女",
-      "かのじょ"
-     ],
-     [
-      "は",
+      "シップ・アイランドのあたりは、",
       null
      ],
      [
       "相",
-      "あい"
+      "そう"
      ],
      [
-      "づちを",
+      "も",
       null
      ],
      [
-      "打",
-      "う"
+      "変",
+      "か"
      ],
      [
-      "った。",
+      "わらぬ",
+      null
+     ],
+     [
+      "森林地帯",
+      "しんりんちたい"
+     ],
+     [
+      "で、",
+      null
+     ],
+     [
+      "相変",
+      "あいか"
+     ],
+     [
+      "わらず",
+      null
+     ],
+     [
+      "住",
+      "す"
+     ],
+     [
+      "む",
+      null
+     ],
+     [
+      "人",
+      "ひと"
+     ],
+     [
+      "とてなかった。",
       null
      ]
     ]
@@ -21740,32 +21683,72 @@
   "common": false,
   "examples": [
    {
-    "ja": "子供たちがシャボン玉を吹いている。",
-    "en": "The children are blowing bubbles.",
+    "ja": "彼女が欲しいって言ってたコート、目の玉が飛び出るほど高かったんだ。",
+    "en": "The coat she wanted was eye-poppingly expensive.",
     "source": "tatoeba",
     "furigana": [
      [
-      "子供",
-      "こども"
+      "彼女",
+      "かのじょ"
      ],
      [
-      "たちがシャボン",
+      "が",
+      null
+     ],
+     [
+      "欲",
+      "ほ"
+     ],
+     [
+      "しいって",
+      null
+     ],
+     [
+      "言",
+      "い"
+     ],
+     [
+      "ってたコート、",
+      null
+     ],
+     [
+      "目",
+      "め"
+     ],
+     [
+      "の",
       null
      ],
      [
       "玉",
-      "だま"
+      "たま"
      ],
      [
-      "を",
+      "が",
       null
      ],
      [
-      "吹",
-      "ふ"
+      "飛",
+      "と"
      ],
      [
-      "いている。",
+      "び",
+      null
+     ],
+     [
+      "出",
+      "で"
+     ],
+     [
+      "るほど",
+      null
+     ],
+     [
+      "高",
+      "たか"
+     ],
+     [
+      "かったんだ。",
       null
      ]
     ]
@@ -21787,28 +21770,41 @@
   "common": false,
   "examples": [
    {
-    "ja": "テーブルマナーは国によって異なる。",
-    "en": "Table manners vary from one country to another.",
-    "source": "tatoeba",
+    "ja": "彼の意見に異を唱えた。",
+    "reading": "かれのいけんにいをとなえた。",
+    "en": "I raised an objection to his opinion.",
+    "source": "authored",
     "furigana": [
      [
-      "テーブルマナーは",
+      "彼",
+      "かれ"
+     ],
+     [
+      "の",
       null
      ],
      [
-      "国",
-      "くに"
+      "意見",
+      "いけん"
      ],
      [
-      "によって",
+      "に",
       null
      ],
      [
       "異",
-      "こと"
+      "い"
      ],
      [
-      "なる。",
+      "を",
+      null
+     ],
+     [
+      "唱",
+      "とな"
+     ],
+     [
+      "えた。",
       null
      ]
     ]
@@ -22142,52 +22138,41 @@
   "common": true,
   "examples": [
    {
-    "ja": "３角形のすべての角の和は１８０度に等しい。",
-    "en": "The sum of all the angles in a triangle equals 180 degrees.",
-    "source": "tatoeba",
+    "ja": "部屋の角に机を置いた。",
+    "reading": "へやのすみにつくえをおいた。",
+    "en": "I put the desk in the corner of the room.",
+    "source": "authored",
     "furigana": [
      [
-      "３",
-      null
-     ],
-     [
-      "角形",
-      "かくがた"
-     ],
-     [
-      "のすべての",
-      null
-     ],
-     [
-      "角",
-      "かく"
+      "部屋",
+      "へや"
      ],
      [
       "の",
       null
      ],
      [
-      "和",
-      "わ"
-     ],
-     [
-      "は１８０",
-      null
-     ],
-     [
-      "度",
-      "ど"
+      "角",
+      "すみ"
      ],
      [
       "に",
       null
      ],
      [
-      "等",
-      "ひと"
+      "机",
+      "つくえ"
      ],
      [
-      "しい。",
+      "を",
+      null
+     ],
+     [
+      "置",
+      "お"
+     ],
+     [
+      "いた。",
       null
      ]
     ]
@@ -22209,20 +22194,13 @@
   "common": true,
   "examples": [
    {
-    "ja": "３角形のすべての角の和は１８０度に等しい。",
-    "en": "The sum of all the angles in a triangle equals 180 degrees.",
-    "source": "tatoeba",
+    "ja": "この角の大きさを測りなさい。",
+    "reading": "このかくのおおきさをはかりなさい。",
+    "en": "Measure the size of this angle.",
+    "source": "authored",
     "furigana": [
      [
-      "３",
-      null
-     ],
-     [
-      "角形",
-      "かくがた"
-     ],
-     [
-      "のすべての",
+      "この",
       null
      ],
      [
@@ -22234,27 +22212,19 @@
       null
      ],
      [
-      "和",
-      "わ"
+      "大",
+      "おお"
      ],
      [
-      "は１８０",
+      "きさを",
       null
      ],
      [
-      "度",
-      "ど"
+      "測",
+      "はか"
      ],
      [
-      "に",
-      null
-     ],
-     [
-      "等",
-      "ひと"
-     ],
-     [
-      "しい。",
+      "りなさい。",
       null
      ]
     ]
@@ -23000,24 +22970,20 @@
   "common": true,
   "examples": [
    {
-    "ja": "見出し語はアルファベット順に並んでいます。",
-    "en": "The entry words are arranged alphabetically.",
+    "ja": "少年達はみんな順にしゃべった。",
+    "en": "All the boys spoke, each in turn.",
     "source": "tatoeba",
     "furigana": [
      [
-      "見出",
-      "みだ"
+      "少年",
+      "しょうねん"
      ],
      [
-      "し",
-      null
+      "達",
+      "たち"
      ],
      [
-      "語",
-      "ご"
-     ],
-     [
-      "はアルファベット",
+      "はみんな",
       null
      ],
      [
@@ -23025,15 +22991,7 @@
       "じゅん"
      ],
      [
-      "に",
-      null
-     ],
-     [
-      "並",
-      "なら"
-     ],
-     [
-      "んでいます。",
+      "にしゃべった。",
       null
      ]
     ]
@@ -23104,41 +23062,22 @@
   "common": true,
   "examples": [
    {
-    "ja": "この案件をどう処理するか、彼に下駄を預けるよ。",
-    "en": "I'm just going to leave it up to him to figure out how to clean up this mess.",
-    "source": "tatoeba",
+    "ja": "銀行にお金を預けた。",
+    "reading": "ぎんこうにおかねをあずけた。",
+    "en": "I deposited money in the bank.",
+    "source": "authored",
     "furigana": [
      [
-      "この",
+      "銀行",
+      "ぎんこう"
+     ],
+     [
+      "にお",
       null
      ],
      [
-      "案件",
-      "あんけん"
-     ],
-     [
-      "をどう",
-      null
-     ],
-     [
-      "処理",
-      "しょり"
-     ],
-     [
-      "するか、",
-      null
-     ],
-     [
-      "彼",
-      "かれ"
-     ],
-     [
-      "に",
-      null
-     ],
-     [
-      "下駄",
-      "げた"
+      "金",
+      "かね"
      ],
      [
       "を",
@@ -23146,10 +23085,10 @@
      ],
      [
       "預",
-      "あづ"
+      "あず"
      ],
      [
-      "けるよ。",
+      "けた。",
       null
      ]
     ]
@@ -23271,8 +23210,16 @@
       null
      ],
      [
-      "百枚刷",
-      "ひゃくまいす"
+      "百",
+      "ひゃく"
+     ],
+     [
+      "枚",
+      "まい"
+     ],
+     [
+      "刷",
+      "す"
      ],
      [
       "ってください。",
@@ -24322,48 +24269,41 @@
   "common": true,
   "examples": [
    {
-    "ja": "負うた子に教えられて浅瀬を渡る。",
-    "en": "A child on your back may guide you across a ford.",
-    "source": "tatoeba",
+    "ja": "彼は事故の責任を負った。",
+    "reading": "かれはじこのせきにんをおった。",
+    "en": "He bore the responsibility for the accident.",
+    "source": "authored",
     "furigana": [
      [
-      "負",
-      "ふ"
+      "彼",
+      "かれ"
      ],
      [
-      "うた",
+      "は",
       null
      ],
      [
-      "子",
-      "こ"
+      "事故",
+      "じこ"
      ],
      [
-      "に",
+      "の",
       null
      ],
      [
-      "教",
-      "おし"
-     ],
-     [
-      "えられて",
-      null
-     ],
-     [
-      "浅瀬",
-      "あさせ"
+      "責任",
+      "せきにん"
      ],
      [
       "を",
       null
      ],
      [
-      "渡",
-      "わた"
+      "負",
+      "お"
      ],
      [
-      "る。",
+      "った。",
       null
      ]
     ]
@@ -24453,8 +24393,12 @@
       null
      ],
      [
-      "具体的",
-      "ぐたいてき"
+      "具体",
+      "ぐたい"
+     ],
+     [
+      "的",
+      "てき"
      ],
      [
       "に",
@@ -25072,13 +25016,22 @@
   "common": true,
   "examples": [
    {
-    "ja": "窓に灯がともっていた。",
-    "en": "There was a light burning in the window.",
-    "source": "tatoeba",
+    "ja": "夕方、町に灯がともった。",
+    "reading": "ゆうがた、まちにひがともった。",
+    "en": "In the evening the lights came on in the town.",
+    "source": "authored",
     "furigana": [
      [
-      "窓",
-      "まど"
+      "夕方",
+      "ゆうがた"
+     ],
+     [
+      "、",
+      null
+     ],
+     [
+      "町",
+      "まち"
      ],
      [
       "に",
@@ -25086,10 +25039,10 @@
      ],
      [
       "灯",
-      "あかり"
+      "ひ"
      ],
      [
-      "がともっていた。",
+      "がともった。",
       null
      ]
     ]
@@ -25246,24 +25199,12 @@
   "common": true,
   "examples": [
    {
-    "ja": "茶碗を投げれば綿にて受けよ。",
-    "en": "A soft answer is a specific cure of anger.",
+    "ja": "この綿のシャツは洗濯がよく効く。",
+    "en": "This cotton shirt washes well.",
     "source": "tatoeba",
     "furigana": [
      [
-      "茶碗",
-      "ちゃわん"
-     ],
-     [
-      "を",
-      null
-     ],
-     [
-      "投",
-      "な"
-     ],
-     [
-      "げれば",
+      "この",
       null
      ],
      [
@@ -25271,15 +25212,23 @@
       "めん"
      ],
      [
-      "にて",
+      "のシャツは",
       null
      ],
      [
-      "受",
-      "う"
+      "洗濯",
+      "せんたく"
      ],
      [
-      "けよ。",
+      "がよく",
+      null
+     ],
+     [
+      "効",
+      "き"
+     ],
+     [
+      "く。",
       null
      ]
     ]
@@ -25301,40 +25250,37 @@
   "common": true,
   "examples": [
    {
-    "ja": "茶碗を投げれば綿にて受けよ。",
-    "en": "A soft answer is a specific cure of anger.",
-    "source": "tatoeba",
+    "ja": "この布団には綿が入っている。",
+    "reading": "このふとんにはわたがはいっている。",
+    "en": "This futon is filled with cotton.",
+    "source": "authored",
     "furigana": [
      [
-      "茶碗",
-      "ちゃわん"
-     ],
-     [
-      "を",
+      "この",
       null
      ],
      [
-      "投",
-      "な"
+      "布団",
+      "ふとん"
      ],
      [
-      "げれば",
+      "には",
       null
      ],
      [
       "綿",
-      "めん"
+      "わた"
      ],
      [
-      "にて",
+      "が",
       null
      ],
      [
-      "受",
-      "う"
+      "入",
+      "はい"
      ],
      [
-      "けよ。",
+      "っている。",
       null
      ]
     ]
@@ -27219,8 +27165,12 @@
     "source": "authored",
     "furigana": [
      [
-      "高速道路",
-      "こうそくどうろ"
+      "高速",
+      "こうそく"
+     ],
+     [
+      "道路",
+      "どうろ"
      ],
      [
       "が",
@@ -29196,8 +29146,12 @@
       null
      ],
      [
-      "交通費",
-      "こうつうひ"
+      "交通",
+      "こうつう"
+     ],
+     [
+      "費",
+      "ひ"
      ],
      [
       "を",
@@ -29317,8 +29271,12 @@
       null
      ],
      [
-      "来年大学",
-      "らいねんだいがく"
+      "来年",
+      "らいねん"
+     ],
+     [
+      "大学",
+      "だいがく"
      ],
      [
       "に",
@@ -30305,8 +30263,12 @@
       null
      ],
      [
-      "一時間",
-      "いちじかん"
+      "一",
+      "いち"
+     ],
+     [
+      "時間",
+      "じかん"
      ],
      [
       "はかかります。",
@@ -32543,28 +32505,48 @@
   "common": true,
   "examples": [
    {
-    "ja": "体育は必修科目ですか。",
-    "en": "Is physical education a required course?",
+    "ja": "私たちは体育の日に好天を期待している。",
+    "en": "We are banking on fine weather for the sports day.",
     "source": "tatoeba",
     "furigana": [
+     [
+      "私",
+      "わたし"
+     ],
+     [
+      "たちは",
+      null
+     ],
      [
       "体育",
       "たいいく"
      ],
      [
-      "は",
+      "の",
       null
      ],
      [
-      "必修",
-      "ひっしゅう"
+      "日",
+      "ひ"
      ],
      [
-      "科目",
-      "かもく"
+      "に",
+      null
      ],
      [
-      "ですか。",
+      "好天",
+      "こうてん"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "期待",
+      "きたい"
+     ],
+     [
+      "している。",
       null
      ]
     ]
@@ -34400,8 +34382,12 @@
       null
      ],
      [
-      "一枚",
-      "いちまい"
+      "一",
+      "いち"
+     ],
+     [
+      "枚",
+      "まい"
      ],
      [
       "にまとめた。",
@@ -34996,8 +34982,12 @@
       null
      ],
      [
-      "友好関係",
-      "ゆうこうかんけい"
+      "友好",
+      "ゆうこう"
+     ],
+     [
+      "関係",
+      "かんけい"
      ],
      [
       "が",
@@ -35034,36 +35024,37 @@
   "common": false,
   "examples": [
    {
-    "ja": "アンは友人を選り好みする。",
-    "en": "Ann is exclusive in her choice of friends.",
-    "source": "tatoeba",
+    "ja": "この色は私の好みです。",
+    "reading": "このいろはわたしのこのみです。",
+    "en": "This colour is to my taste.",
+    "source": "authored",
     "furigana": [
      [
-      "アンは",
+      "この",
       null
      ],
      [
-      "友人",
-      "ゆうじん"
+      "色",
+      "いろ"
      ],
      [
-      "を",
+      "は",
       null
      ],
      [
-      "選",
-      "よ"
+      "私",
+      "わたし"
      ],
      [
-      "り",
+      "の",
       null
      ],
      [
       "好",
-      "ごの"
+      "この"
      ],
      [
-      "みする。",
+      "みです。",
       null
      ]
     ]
@@ -36014,48 +36005,41 @@
   "common": true,
   "examples": [
    {
-    "ja": "「性差別」という言葉が今、流行っている。",
-    "en": "Terms like \"sexism\" are now in vogue.",
-    "source": "tatoeba",
+    "ja": "今年の流行は明るい色だ。",
+    "reading": "ことしのりゅうこうはあかるいいろだ。",
+    "en": "This year's fashion is bright colours.",
+    "source": "authored",
     "furigana": [
      [
-      "「",
-      null
+      "今年",
+      "ことし"
      ],
      [
-      "性",
-      "せい"
-     ],
-     [
-      "差別",
-      "さべつ"
-     ],
-     [
-      "」という",
-      null
-     ],
-     [
-      "言葉",
-      "ことば"
-     ],
-     [
-      "が",
-      null
-     ],
-     [
-      "今",
-      "いま"
-     ],
-     [
-      "、",
+      "の",
       null
      ],
      [
       "流行",
-      "はや"
+      "りゅうこう"
      ],
      [
-      "っている。",
+      "は",
+      null
+     ],
+     [
+      "明",
+      "あか"
+     ],
+     [
+      "るい",
+      null
+     ],
+     [
+      "色",
+      "いろ"
+     ],
+     [
+      "だ。",
       null
      ]
     ]
@@ -36132,40 +36116,33 @@
   "common": true,
   "examples": [
    {
-    "ja": "いい球を放るようになったな、恵一君。",
-    "en": "You throw a good ball nowadays, Keiichi.",
-    "source": "tatoeba",
+    "ja": "投手の第一球はボールだった。",
+    "reading": "とうしゅのだいいっきゅうはボールだった。",
+    "en": "The pitcher's first pitch was a ball.",
+    "source": "authored",
     "furigana": [
      [
-      "いい",
+      "投手",
+      "とうしゅ"
+     ],
+     [
+      "の",
       null
+     ],
+     [
+      "第",
+      "だい"
+     ],
+     [
+      "一",
+      "いっ"
      ],
      [
       "球",
-      "たま"
+      "きゅう"
      ],
      [
-      "を",
-      null
-     ],
-     [
-      "放",
-      "ほう"
-     ],
-     [
-      "るようになったな、",
-      null
-     ],
-     [
-      "恵一",
-      "けいいち"
-     ],
-     [
-      "君",
-      "くん"
-     ],
-     [
-      "。",
+      "はボールだった。",
       null
      ]
     ]
@@ -37437,7 +37414,7 @@
      ],
      [
       "音楽",
-      "おん"
+      "おんがく"
      ],
      [
       "が",
@@ -37445,7 +37422,7 @@
      ],
      [
       "好",
-      "くがす"
+      "す"
      ],
      [
       "きだ。",
@@ -38260,8 +38237,20 @@
       null
      ],
      [
-      "十年以上付合",
-      "じゅうねんいじょうつきあ"
+      "十",
+      "じゅう"
+     ],
+     [
+      "年",
+      "ねん"
+     ],
+     [
+      "以上",
+      "いじょう"
+     ],
+     [
+      "付合",
+      "つきあ"
      ],
      [
       "っている。",
@@ -38801,17 +38790,22 @@
   "common": false,
   "examples": [
    {
-    "ja": "パリは灯の都と呼ばれています。多くの美しい建物が夜になると点灯されます。",
-    "en": "Paris is called the City of Lights. Many beautiful buildings are lit at night.",
-    "source": "tatoeba",
+    "ja": "京都は昔の都です。",
+    "reading": "きょうとはむかしのみやこです。",
+    "en": "Kyoto is the old capital.",
+    "source": "authored",
     "furigana": [
      [
-      "パリは",
+      "京都",
+      "きょうと"
+     ],
+     [
+      "は",
       null
      ],
      [
-      "灯",
-      "あかり"
+      "昔",
+      "むかし"
      ],
      [
       "の",
@@ -38819,58 +38813,10 @@
      ],
      [
       "都",
-      "と"
+      "みやこ"
      ],
      [
-      "と",
-      null
-     ],
-     [
-      "呼",
-      "よ"
-     ],
-     [
-      "ばれています。",
-      null
-     ],
-     [
-      "多",
-      "おお"
-     ],
-     [
-      "くの",
-      null
-     ],
-     [
-      "美",
-      "うつく"
-     ],
-     [
-      "しい",
-      null
-     ],
-     [
-      "建物",
-      "たてもの"
-     ],
-     [
-      "が",
-      null
-     ],
-     [
-      "夜",
-      "よる"
-     ],
-     [
-      "になると",
-      null
-     ],
-     [
-      "点灯",
-      "てんとう"
-     ],
-     [
-      "されます。",
+      "です。",
       null
      ]
     ]
@@ -39429,8 +39375,12 @@
       null
      ],
      [
-      "年々深",
-      "ねんねんふか"
+      "年々",
+      "ねんねん"
+     ],
+     [
+      "深",
+      "ふか"
      ],
      [
       "まった。",
@@ -39473,8 +39423,12 @@
       null
      ],
      [
-      "日本文化",
-      "にほんぶんか"
+      "日本",
+      "にほん"
+     ],
+     [
+      "文化",
+      "ぶんか"
      ],
      [
       "の",
@@ -42041,29 +41995,14 @@
   "common": true,
   "examples": [
    {
-    "ja": "旅は道連れ世は情け。",
-    "en": "No road is long with good company.",
-    "source": "tatoeba",
+    "ja": "彼は情に厚い人だ。",
+    "reading": "かれはじょうにあついひとだ。",
+    "en": "He is a warm-hearted person.",
+    "source": "authored",
     "furigana": [
      [
-      "旅",
-      "たび"
-     ],
-     [
-      "は",
-      null
-     ],
-     [
-      "道連",
-      "みちづ"
-     ],
-     [
-      "れ",
-      null
-     ],
-     [
-      "世",
-      "よ"
+      "彼",
+      "かれ"
      ],
      [
       "は",
@@ -42071,10 +42010,26 @@
      ],
      [
       "情",
-      "なさ"
+      "じょう"
      ],
      [
-      "け。",
+      "に",
+      null
+     ],
+     [
+      "厚",
+      "あつ"
+     ],
+     [
+      "い",
+      null
+     ],
+     [
+      "人",
+      "ひと"
+     ],
+     [
+      "だ。",
       null
      ]
     ]
@@ -44623,8 +44578,12 @@
       null
      ],
      [
-      "五度",
-      "ごど"
+      "五",
+      "ご"
+     ],
+     [
+      "度",
+      "ど"
      ],
      [
       "だった。",
@@ -45574,28 +45533,32 @@
   "common": false,
   "examples": [
    {
-    "ja": "そんなことが気になってしまうのが人の性ですね・・・。",
-    "en": "It is human nature to be bugged by such things.",
+    "ja": "最近の漫画は暴力や性の描写が多すぎる。",
+    "en": "Recent comics have too many violent and sexual scenes.",
     "source": "tatoeba",
     "furigana": [
      [
-      "そんなことが",
-      null
-     ],
-     [
-      "気",
-      "き"
-     ],
-     [
-      "になってしまうのが",
-      null
-     ],
-     [
-      "人",
-      "ひと"
+      "最近",
+      "さいきん"
      ],
      [
       "の",
+      null
+     ],
+     [
+      "漫画",
+      "まんが"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "暴力",
+      "ぼうりょく"
+     ],
+     [
+      "や",
       null
      ],
      [
@@ -45603,7 +45566,23 @@
       "せい"
      ],
      [
-      "ですね・・・。",
+      "の",
+      null
+     ],
+     [
+      "描写",
+      "びょうしゃ"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "多",
+      "おお"
+     ],
+     [
+      "すぎる。",
       null
      ]
     ]
@@ -47319,8 +47298,12 @@
       null
      ],
      [
-      "一度",
-      "いちど"
+      "一",
+      "いち"
+     ],
+     [
+      "度",
+      "ど"
      ],
      [
       "に",
@@ -47875,52 +47858,57 @@
   "common": false,
   "examples": [
    {
-    "ja": "全新聞がその事件を大きく取り上げた。",
-    "en": "All the papers featured the case.",
-    "source": "tatoeba",
+    "ja": "この小説は上と下の二冊に分かれている。",
+    "reading": "このしょうせつはじょうとげのにさつにわかれている。",
+    "en": "This novel is split into two volumes, first and second.",
+    "source": "authored",
     "furigana": [
      [
-      "全",
-      "ぜん"
-     ],
-     [
-      "新聞",
-      "しんぶん"
-     ],
-     [
-      "がその",
+      "この",
       null
      ],
      [
-      "事件",
-      "じけん"
+      "小説",
+      "しょうせつ"
      ],
      [
-      "を",
-      null
-     ],
-     [
-      "大",
-      "おお"
-     ],
-     [
-      "きく",
-      null
-     ],
-     [
-      "取",
-      "と"
-     ],
-     [
-      "り",
+      "は",
       null
      ],
      [
       "上",
-      "あ"
+      "じょう"
      ],
      [
-      "げた。",
+      "と",
+      null
+     ],
+     [
+      "下",
+      "げ"
+     ],
+     [
+      "の",
+      null
+     ],
+     [
+      "二",
+      "に"
+     ],
+     [
+      "冊",
+      "さつ"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "分",
+      "わ"
+     ],
+     [
+      "かれている。",
       null
      ]
     ]
@@ -47944,52 +47932,33 @@
   "common": false,
   "examples": [
    {
-    "ja": "全新聞がその事件を大きく取り上げた。",
-    "en": "All the papers featured the case.",
-    "source": "tatoeba",
+    "ja": "寒いので上着を着た。",
+    "reading": "さむいのでうわぎをきた。",
+    "en": "It was cold, so I put on a jacket.",
+    "source": "authored",
     "furigana": [
      [
-      "全",
-      "ぜん"
+      "寒",
+      "さむ"
      ],
      [
-      "新聞",
-      "しんぶん"
-     ],
-     [
-      "がその",
+      "いので",
       null
      ],
      [
-      "事件",
-      "じけん"
+      "上着",
+      "うわぎ"
      ],
      [
       "を",
       null
      ],
      [
-      "大",
-      "おお"
+      "着",
+      "き"
      ],
      [
-      "きく",
-      null
-     ],
-     [
-      "取",
-      "と"
-     ],
-     [
-      "り",
-      null
-     ],
-     [
-      "上",
-      "あ"
-     ],
-     [
-      "げた。",
+      "た。",
       null
      ]
     ]
@@ -48003,62 +47972,59 @@
   "characters": "上",
   "reading": "かみ",
   "meanings": [
-   "first volume",
-   "superior quality",
-   "governmental"
+   "upper part",
+   "upstream",
+   "the top"
   ],
-  "primaryMeaning": "first volume",
+  "primaryMeaning": "upper part",
   "componentKanji": [],
   "frequencyTier": 5,
   "common": false,
   "examples": [
    {
-    "ja": "全新聞がその事件を大きく取り上げた。",
-    "en": "All the papers featured the case.",
-    "source": "tatoeba",
+    "ja": "川の上の方に小さな村がある。",
+    "reading": "かわのかみのほうにちいさなむらがある。",
+    "en": "There is a small village further up the river.",
+    "source": "authored",
     "furigana": [
      [
-      "全",
-      "ぜん"
+      "川",
+      "かわ"
      ],
      [
-      "新聞",
-      "しんぶん"
-     ],
-     [
-      "がその",
-      null
-     ],
-     [
-      "事件",
-      "じけん"
-     ],
-     [
-      "を",
-      null
-     ],
-     [
-      "大",
-      "おお"
-     ],
-     [
-      "きく",
-      null
-     ],
-     [
-      "取",
-      "と"
-     ],
-     [
-      "り",
+      "の",
       null
      ],
      [
       "上",
-      "あ"
+      "かみ"
      ],
      [
-      "げた。",
+      "の",
+      null
+     ],
+     [
+      "方",
+      "ほう"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "小",
+      "ちい"
+     ],
+     [
+      "さな",
+      null
+     ],
+     [
+      "村",
+      "むら"
+     ],
+     [
+      "がある。",
       null
      ]
     ]
@@ -48152,8 +48118,16 @@
       null
      ],
      [
-      "十八歳",
-      "じゅうはっさい"
+      "十",
+      "じゅう"
+     ],
+     [
+      "八",
+      "はっ"
+     ],
+     [
+      "歳",
+      "さい"
      ],
      [
       "で",
@@ -50404,56 +50378,44 @@
   "common": false,
   "examples": [
    {
-    "ja": "これは私が読んだ中で一番面白い本です。",
-    "en": "This is the funniest book in my reading.",
+    "ja": "レース中にその車はぱっと燃え上がった。",
+    "en": "The car burned up in the race.",
     "source": "tatoeba",
     "furigana": [
      [
-      "これは",
-      null
-     ],
-     [
-      "私",
-      "わたし"
-     ],
-     [
-      "が",
-      null
-     ],
-     [
-      "読",
-      "よ"
-     ],
-     [
-      "んだ",
+      "レース",
       null
      ],
      [
       "中",
-      "なか"
+      "ちゅう"
      ],
      [
-      "で",
+      "にその",
       null
      ],
      [
-      "一番",
-      "いちばん"
+      "車",
+      "くるま"
      ],
      [
-      "面白",
-      "おもしろ"
-     ],
-     [
-      "い",
+      "はぱっと",
       null
      ],
      [
-      "本",
-      "ほん"
+      "燃",
+      "も"
      ],
      [
-      "です。",
+      "え",
+      null
+     ],
+     [
+      "上",
+      "あ"
+     ],
+     [
+      "がった。",
       null
      ]
     ]
@@ -50597,8 +50559,12 @@
       null
      ],
      [
-      "今年中学",
-      "ことしちゅうがく"
+      "今年",
+      "ことし"
+     ],
+     [
+      "中学",
+      "ちゅうがく"
      ],
      [
       "に",
@@ -51410,32 +51376,45 @@
   "common": false,
   "examples": [
    {
-    "ja": "今日は学校を早退してもいいでしょうか。",
-    "en": "May I leave school early today?",
-    "source": "tatoeba",
+    "ja": "今日の日本は高齢化が進んでいる。",
+    "reading": "こんにちのにほんはこうれいかがすすんでいる。",
+    "en": "Japan today is ageing rapidly.",
+    "source": "authored",
     "furigana": [
      [
       "今日",
-      "きょう"
+      "こんにち"
+     ],
+     [
+      "の",
+      null
+     ],
+     [
+      "日本",
+      "にほん"
      ],
      [
       "は",
       null
      ],
      [
-      "学校",
-      "がっこう"
+      "高齢",
+      "こうれい"
      ],
      [
-      "を",
+      "化",
+      "か"
+     ],
+     [
+      "が",
       null
      ],
      [
-      "早退",
-      "そうたい"
+      "進",
+      "すす"
      ],
      [
-      "してもいいでしょうか。",
+      "んでいる。",
       null
      ]
     ]
@@ -51532,7 +51511,7 @@
      ],
      [
       "兄",
-      "あ"
+      "あに"
      ],
      [
       "に",
@@ -51540,7 +51519,7 @@
      ],
      [
       "代",
-      "にかわ"
+      "かわ"
      ],
      [
       "って",
@@ -52637,12 +52616,12 @@
   "common": true,
   "examples": [
    {
-    "ja": "ヤング夫人は、私が突然訪ねても気にしないでしょう。",
-    "en": "Mrs. Young wouldn't mind my dropping in on her unexpectedly.",
+    "ja": "スミス夫人は美人で有名だった。",
+    "en": "Mrs. Smith was a famous beauty.",
     "source": "tatoeba",
     "furigana": [
      [
-      "ヤング",
+      "スミス",
       null
      ],
      [
@@ -52650,35 +52629,23 @@
       "ふじん"
      ],
      [
-      "は、",
+      "は",
       null
      ],
      [
-      "私",
-      "わたし"
+      "美人",
+      "びじん"
      ],
      [
-      "が",
+      "で",
       null
      ],
      [
-      "突然",
-      "とつぜん"
+      "有名",
+      "ゆうめい"
      ],
      [
-      "訪",
-      "たず"
-     ],
-     [
-      "ねても",
-      null
-     ],
-     [
-      "気",
-      "き"
-     ],
-     [
-      "にしないでしょう。",
+      "だった。",
       null
      ]
     ]
@@ -53356,48 +53323,33 @@
   "common": false,
   "examples": [
    {
-    "ja": "私は職場から１時間の所に住んでいる。",
-    "en": "I live an hour away from work.",
-    "source": "tatoeba",
+    "ja": "衣食住は生活の基本だ。",
+    "reading": "いしょくじゅうはせいかつのきほんだ。",
+    "en": "Food, clothing and shelter are the basics of life.",
+    "source": "authored",
     "furigana": [
      [
-      "私",
-      "わたし"
+      "衣食住",
+      "いしょくじゅう"
      ],
      [
       "は",
       null
      ],
      [
-      "職場",
-      "しょくば"
-     ],
-     [
-      "から１",
-      null
-     ],
-     [
-      "時間",
-      "じかん"
+      "生活",
+      "せいかつ"
      ],
      [
       "の",
       null
      ],
      [
-      "所",
-      "ところ"
+      "基本",
+      "きほん"
      ],
      [
-      "に",
-      null
-     ],
-     [
-      "住",
-      "す"
-     ],
-     [
-      "んでいる。",
+      "だ。",
       null
      ]
     ]
@@ -53514,36 +53466,64 @@
   "common": false,
   "examples": [
    {
-    "ja": "彼は殺人以外のことなら何でもするだろう。",
-    "en": "He will do anything but murder.",
+    "ja": "仮にも為す価値があるものならば何でも良く為す価値がある。",
+    "en": "Whatever is worth doing at all, is worth doing well.",
     "source": "tatoeba",
     "furigana": [
      [
-      "彼",
-      "かれ"
+      "仮",
+      "かり"
      ],
      [
-      "は",
+      "にも",
       null
      ],
      [
-      "殺人",
-      "さつじん"
+      "為",
+      "な"
      ],
      [
-      "以外",
-      "いがい"
+      "す",
+      null
      ],
      [
-      "のことなら",
+      "価値",
+      "かち"
+     ],
+     [
+      "があるものならば",
       null
      ],
      [
       "何",
-      "なに"
+      "なん"
      ],
      [
-      "でもするだろう。",
+      "でも",
+      null
+     ],
+     [
+      "良",
+      "よ"
+     ],
+     [
+      "く",
+      null
+     ],
+     [
+      "為",
+      "な"
+     ],
+     [
+      "す",
+      null
+     ],
+     [
+      "価値",
+      "かち"
+     ],
+     [
+      "がある。",
       null
      ]
     ]
@@ -53566,36 +53546,33 @@
   "common": false,
   "examples": [
    {
-    "ja": "彼は殺人以外のことなら何でもするだろう。",
-    "en": "He will do anything but murder.",
-    "source": "tatoeba",
+    "ja": "弟は何でも食べる。",
+    "reading": "おとうとはなんでもたべる。",
+    "en": "My younger brother eats anything.",
+    "source": "authored",
     "furigana": [
      [
-      "彼",
-      "かれ"
+      "弟",
+      "おとうと"
      ],
      [
       "は",
       null
      ],
      [
-      "殺人",
-      "さつじん"
+      "何",
+      "なん"
      ],
      [
-      "以外",
-      "いがい"
-     ],
-     [
-      "のことなら",
+      "でも",
       null
      ],
      [
-      "何",
-      "なに"
+      "食",
+      "た"
      ],
      [
-      "でもするだろう。",
+      "べる。",
       null
      ]
     ]
@@ -53667,28 +53644,37 @@
   "common": false,
   "examples": [
    {
-    "ja": "「ソフトウェア開発」は「モノ作り」ではない。",
-    "en": "\"Software development\" isn't \"manufacture\".",
-    "source": "tatoeba",
+    "ja": "これは彼の最新の作だ。",
+    "reading": "これはかれのさいしんのさくだ。",
+    "en": "This is his latest work.",
+    "source": "authored",
     "furigana": [
      [
-      "「ソフトウェア",
+      "これは",
       null
      ],
      [
-      "開発",
-      "かいはつ"
+      "彼",
+      "かれ"
      ],
      [
-      "」は「モノ",
+      "の",
+      null
+     ],
+     [
+      "最新",
+      "さいしん"
+     ],
+     [
+      "の",
       null
      ],
      [
       "作",
-      "づく"
+      "さく"
      ],
      [
-      "り」ではない。",
+      "だ。",
       null
      ]
     ]
@@ -54602,8 +54588,12 @@
       null
      ],
      [
-      "五分",
-      "ごふん"
+      "五",
+      "ご"
+     ],
+     [
+      "分",
+      "ふん"
      ],
      [
       "だ。",
@@ -55120,44 +55110,41 @@
   "common": false,
   "examples": [
    {
-    "ja": "パーティーの費用は一人当たり４０００円です。",
-    "en": "Each person's share of the expenses for the party is 4000 yen.",
-    "source": "tatoeba",
+    "ja": "紙に大きな円を描いた。",
+    "reading": "かみにおおきなまるをかいた。",
+    "en": "I drew a big circle on the paper.",
+    "source": "authored",
     "furigana": [
      [
-      "パーティーの",
+      "紙",
+      "かみ"
+     ],
+     [
+      "に",
       null
      ],
      [
-      "費用",
-      "ひよう"
+      "大",
+      "おお"
      ],
      [
-      "は",
-      null
-     ],
-     [
-      "一",
-      "いち"
-     ],
-     [
-      "人",
-      "にん"
-     ],
-     [
-      "当",
-      "あ"
-     ],
-     [
-      "たり４０００",
+      "きな",
       null
      ],
      [
       "円",
-      "えん"
+      "まる"
      ],
      [
-      "です。",
+      "を",
+      null
+     ],
+     [
+      "描",
+      "か"
+     ],
+     [
+      "いた。",
       null
      ]
     ]
@@ -55284,56 +55271,33 @@
   "common": true,
   "examples": [
    {
-    "ja": "今、誰か係りの者を差し向けます。",
-    "en": "I'll send someone up to help you now.",
-    "source": "tatoeba",
+    "ja": "係の人に聞いてください。",
+    "reading": "かかりのひとにきいてください。",
+    "en": "Please ask the person in charge.",
+    "source": "authored",
     "furigana": [
      [
-      "今",
-      "いま"
-     ],
-     [
-      "、",
-      null
-     ],
-     [
-      "誰",
-      "だれ"
-     ],
-     [
-      "か",
-      null
-     ],
-     [
       "係",
-      "かか"
+      "かかり"
      ],
      [
-      "りの",
+      "の",
       null
      ],
      [
-      "者",
-      "もの"
+      "人",
+      "ひと"
      ],
      [
-      "を",
+      "に",
       null
      ],
      [
-      "差",
-      "さ"
+      "聞",
+      "き"
      ],
      [
-      "し",
-      null
-     ],
-     [
-      "向",
-      "む"
-     ],
-     [
-      "けます。",
+      "いてください。",
       null
      ]
     ]
@@ -55916,64 +55880,40 @@
   "common": false,
   "examples": [
    {
-    "ja": "彼は投機に手を出して財産の大半を失った。",
-    "en": "He lost the greater part of his fortune in speculation.",
+    "ja": "私は退職するつもりだときのう申し出た。",
+    "en": "I gave notice at work yesterday.",
     "source": "tatoeba",
     "furigana": [
      [
-      "彼",
-      "かれ"
+      "私",
+      "わたし"
      ],
      [
       "は",
       null
      ],
      [
-      "投機",
-      "とうき"
+      "退職",
+      "たいしょく"
      ],
      [
-      "に",
+      "するつもりだときのう",
       null
      ],
      [
-      "手",
-      "て"
+      "申",
+      "もう"
      ],
      [
-      "を",
+      "し",
       null
      ],
      [
       "出",
-      "だ"
+      "で"
      ],
      [
-      "して",
-      null
-     ],
-     [
-      "財産",
-      "ざいさん"
-     ],
-     [
-      "の",
-      null
-     ],
-     [
-      "大半",
-      "たいはん"
-     ],
-     [
-      "を",
-      null
-     ],
-     [
-      "失",
-      "うしな"
-     ],
-     [
-      "った。",
+      "た。",
       null
      ]
     ]
@@ -56060,8 +56000,12 @@
       null
      ],
      [
-      "偶然昔",
-      "ぐうぜんむかし"
+      "偶然",
+      "ぐうぜん"
+     ],
+     [
+      "昔",
+      "むかし"
      ],
      [
       "の",
@@ -56237,49 +56181,48 @@
   "characters": "分",
   "reading": "ぶ",
   "meanings": [
-   "dividing",
-   "part"
+   "advantage",
+   "odds",
+   "one tenth",
+   "one percent"
   ],
-  "primaryMeaning": "dividing",
+  "primaryMeaning": "advantage",
   "componentKanji": [],
   "frequencyTier": 5,
   "common": false,
   "examples": [
    {
-    "ja": "彼女はどちらの医者を指したのか分からない。",
-    "en": "I don't know which doctor she meant.",
-    "source": "tatoeba",
+    "ja": "この試合は私たちに分がある。",
+    "reading": "このしあいはわたしたちにぶがある。",
+    "en": "The odds in this match are in our favour.",
+    "source": "authored",
     "furigana": [
      [
-      "彼女",
-      "かのじょ"
-     ],
-     [
-      "はどちらの",
+      "この",
       null
      ],
      [
-      "医者",
-      "いしゃ"
+      "試合",
+      "しあい"
      ],
      [
-      "を",
+      "は",
       null
      ],
      [
-      "指",
-      "さ"
+      "私",
+      "わたし"
      ],
      [
-      "したのか",
+      "たちに",
       null
      ],
      [
       "分",
-      "わ"
+      "ぶ"
      ],
      [
-      "からない。",
+      "がある。",
       null
      ]
     ]
@@ -56303,40 +56246,40 @@
   "common": false,
   "examples": [
    {
-    "ja": "彼女はどちらの医者を指したのか分からない。",
-    "en": "I don't know which doctor she meant.",
+    "ja": "末の娘にはいつもリンゴの３分の１が与えられる。",
+    "en": "One-third of an apple is always given to our youngest daughter.",
     "source": "tatoeba",
     "furigana": [
      [
-      "彼女",
-      "かのじょ"
+      "末",
+      "すえ"
      ],
      [
-      "はどちらの",
+      "の",
       null
      ],
      [
-      "医者",
-      "いしゃ"
+      "娘",
+      "むすめ"
      ],
      [
-      "を",
-      null
-     ],
-     [
-      "指",
-      "さ"
-     ],
-     [
-      "したのか",
+      "にはいつもリンゴの３",
       null
      ],
      [
       "分",
-      "わ"
+      "ぶん"
      ],
      [
-      "からない。",
+      "の１が",
+      null
+     ],
+     [
+      "与",
+      "あた"
+     ],
+     [
+      "えられる。",
       null
      ]
     ]
@@ -58685,11 +58628,11 @@
       null
      ],
      [
-      "幸い",
-      "さいわい"
+      "幸",
+      "さいわ"
      ],
      [
-      "でした。",
+      "いでした。",
       null
      ]
     ]
@@ -59969,8 +59912,12 @@
     "source": "authored",
     "furigana": [
      [
-      "友達同士",
-      "ともだちどうし"
+      "友達",
+      "ともだち"
+     ],
+     [
+      "同士",
+      "どうし"
      ],
      [
       "で",
@@ -60072,28 +60019,32 @@
   "common": false,
   "examples": [
    {
-    "ja": "このクラスは３５名の生徒から成り立っている。",
-    "en": "This class is made up of thirty-five pupils.",
+    "ja": "彼は作家として名を成そうという野心を持っている。",
+    "en": "He has an ambition to make a name for himself as a writer.",
     "source": "tatoeba",
     "furigana": [
      [
-      "このクラスは３５",
+      "彼",
+      "かれ"
+     ],
+     [
+      "は",
+      null
+     ],
+     [
+      "作家",
+      "さっか"
+     ],
+     [
+      "として",
       null
      ],
      [
       "名",
-      "めい"
+      "な"
      ],
      [
-      "の",
-      null
-     ],
-     [
-      "生徒",
-      "せいと"
-     ],
-     [
-      "から",
+      "を",
       null
      ],
      [
@@ -60101,12 +60052,20 @@
       "な"
      ],
      [
-      "り",
+      "そうという",
       null
      ],
      [
-      "立",
-      "た"
+      "野心",
+      "やしん"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "持",
+      "も"
      ],
      [
       "っている。",
@@ -60309,8 +60268,12 @@
       null
      ],
      [
-      "一晩中吠",
-      "ひとばんじゅうほ"
+      "一晩中",
+      "ひとばんじゅう"
+     ],
+     [
+      "吠",
+      "ほ"
      ],
      [
       "えていた。",
@@ -60433,8 +60396,16 @@
       null
      ],
      [
-      "三千円",
-      "さんぜんえん"
+      "三",
+      "さん"
+     ],
+     [
+      "千",
+      "ぜん"
+     ],
+     [
+      "円",
+      "えん"
      ],
      [
       "です。",
@@ -60797,8 +60768,16 @@
     "source": "authored",
     "furigana": [
      [
-      "唯一度",
-      "たったいちど"
+      "唯",
+      "たった"
+     ],
+     [
+      "一",
+      "いち"
+     ],
+     [
+      "度",
+      "ど"
      ],
      [
       "だけ",
@@ -61900,32 +61879,60 @@
   "common": false,
   "examples": [
    {
-    "ja": "四つ葉のクローバーを見つけたことがありますか。",
-    "en": "Have you ever found a four-leaf clover?",
+    "ja": "現物がこっちから行っちゃえば、雪花ちゃんも四の五の言わないって。",
+    "en": "I'm saying that if the real thing comes to her, Sekka won't have anything to grumble about.",
     "source": "tatoeba",
     "furigana": [
      [
+      "現物",
+      "げんぶつ"
+     ],
+     [
+      "がこっちから",
+      null
+     ],
+     [
+      "行",
+      "い"
+     ],
+     [
+      "っちゃえば、",
+      null
+     ],
+     [
+      "雪",
+      "ゆき"
+     ],
+     [
+      "花",
+      "はな"
+     ],
+     [
+      "ちゃんも",
+      null
+     ],
+     [
       "四",
-      "よっ"
+      "よん"
      ],
      [
-      "つ",
+      "の",
       null
      ],
      [
-      "葉",
-      "は"
+      "五",
+      "ご"
      ],
      [
-      "のクローバーを",
+      "の",
       null
      ],
      [
-      "見",
-      "み"
+      "言",
+      "い"
      ],
      [
-      "つけたことがありますか。",
+      "わないって。",
       null
      ]
     ]
@@ -62003,36 +62010,48 @@
   "common": false,
   "examples": [
    {
-    "ja": "われわれは局面の打開を図らなくてはならない。",
-    "en": "We must try to break the deadlock.",
+    "ja": "君の家の見取り図を書いてよ。",
+    "en": "Make a sketch of your house.",
     "source": "tatoeba",
     "furigana": [
      [
-      "われわれは",
-      null
-     ],
-     [
-      "局面",
-      "きょくめん"
+      "君",
+      "きみ"
      ],
      [
       "の",
       null
      ],
      [
-      "打開",
-      "だかい"
+      "家",
+      "いえ"
+     ],
+     [
+      "の",
+      null
+     ],
+     [
+      "見取",
+      "みと"
+     ],
+     [
+      "り",
+      null
+     ],
+     [
+      "図",
+      "ず"
      ],
      [
       "を",
       null
      ],
      [
-      "図",
-      "はか"
+      "書",
+      "か"
      ],
      [
-      "らなくてはならない。",
+      "いてよ。",
       null
      ]
     ]
@@ -62144,8 +62163,12 @@
       null
      ],
      [
-      "二週間",
-      "にしゅうかん"
+      "二",
+      "に"
+     ],
+     [
+      "週間",
+      "しゅうかん"
      ],
      [
       "です。",
@@ -62419,48 +62442,49 @@
   "common": false,
   "examples": [
    {
-    "ja": "農家の人達は鋤で土を耕す。",
-    "en": "Farmers turn up the soil with plows.",
-    "source": "tatoeba",
+    "ja": "庭の土を掘って花を植えた。",
+    "reading": "にわのつちをほってはなをうえた。",
+    "en": "I dug the soil in the garden and planted flowers.",
+    "source": "authored",
     "furigana": [
      [
-      "農家",
-      "のうか"
+      "庭",
+      "にわ"
      ],
      [
       "の",
       null
      ],
      [
-      "人達",
-      "ひとたち"
-     ],
-     [
-      "は",
-      null
-     ],
-     [
-      "鋤",
-      "すき"
-     ],
-     [
-      "で",
-      null
-     ],
-     [
       "土",
-      "ど"
+      "つち"
      ],
      [
       "を",
       null
      ],
      [
-      "耕",
-      "たがや"
+      "掘",
+      "ほ"
      ],
      [
-      "す。",
+      "って",
+      null
+     ],
+     [
+      "花",
+      "はな"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "植",
+      "う"
+     ],
+     [
+      "えた。",
       null
      ]
     ]
@@ -63288,60 +63312,33 @@
   "common": false,
   "examples": [
    {
-    "ja": "１年が過ぎ、彼の死体は塵と化した。",
-    "en": "A year had passed by and his body turned to dust.",
-    "source": "tatoeba",
+    "ja": "道に塵を捨ててはいけない。",
+    "reading": "みちにごみをすててはいけない。",
+    "en": "You must not drop litter in the street.",
+    "source": "authored",
     "furigana": [
      [
-      "１",
-      null
+      "道",
+      "みち"
      ],
      [
-      "年",
-      "ねん"
-     ],
-     [
-      "が",
-      null
-     ],
-     [
-      "過",
-      "す"
-     ],
-     [
-      "ぎ、",
-      null
-     ],
-     [
-      "彼",
-      "かれ"
-     ],
-     [
-      "の",
-      null
-     ],
-     [
-      "死体",
-      "したい"
-     ],
-     [
-      "は",
+      "に",
       null
      ],
      [
       "塵",
-      "ちり"
+      "ごみ"
      ],
      [
-      "と",
+      "を",
       null
      ],
      [
-      "化",
-      "か"
+      "捨",
+      "す"
      ],
      [
-      "した。",
+      "ててはいけない。",
       null
      ]
     ]
@@ -63718,8 +63715,12 @@
       null
      ],
      [
-      "多少高",
-      "たしょうたか"
+      "多少",
+      "たしょう"
+     ],
+     [
+      "高",
+      "たか"
      ],
      [
       "くても",
@@ -63753,64 +63754,41 @@
   "common": false,
   "examples": [
    {
-    "ja": "初めて天の川を見た夜のことを私は覚えている。",
-    "en": "I remember the night when I first saw the Milky Way.",
-    "source": "tatoeba",
+    "ja": "夜が明ける前に出発した。",
+    "reading": "よがあけるまえにしゅっぱつした。",
+    "en": "We set off before day broke.",
+    "source": "authored",
     "furigana": [
      [
-      "初",
-      "はじ"
-     ],
-     [
-      "めて",
-      null
-     ],
-     [
-      "天",
-      "あま"
-     ],
-     [
-      "の",
-      null
-     ],
-     [
-      "川",
-      "がわ"
-     ],
-     [
-      "を",
-      null
-     ],
-     [
-      "見",
-      "み"
-     ],
-     [
-      "た",
-      null
-     ],
-     [
       "夜",
-      "よる"
+      "よ"
      ],
      [
-      "のことを",
+      "が",
       null
      ],
      [
-      "私",
-      "わたし"
+      "明",
+      "あ"
      ],
      [
-      "は",
+      "ける",
       null
      ],
      [
-      "覚",
-      "おぼ"
+      "前",
+      "まえ"
      ],
      [
-      "えている。",
+      "に",
+      null
+     ],
+     [
+      "出発",
+      "しゅっぱつ"
+     ],
+     [
+      "した。",
       null
      ]
     ]
@@ -63954,52 +63932,56 @@
   "common": false,
   "examples": [
    {
-    "ja": "その金は私の学費に大いに役立つだろう。",
-    "en": "The money will go a good way towards my school expenses.",
+    "ja": "彼は頭を棚に強くぶつけて大きなこぶを作った。",
+    "en": "He banged his head against a shelf and got a big lump.",
     "source": "tatoeba",
     "furigana": [
      [
-      "その",
-      null
-     ],
-     [
-      "金",
-      "きん"
+      "彼",
+      "かれ"
      ],
      [
       "は",
       null
      ],
      [
-      "私",
-      "わたし"
+      "頭",
+      "あたま"
      ],
      [
-      "の",
+      "を",
       null
      ],
      [
-      "学費",
-      "がくひ"
+      "棚",
+      "たな"
      ],
      [
       "に",
       null
      ],
      [
-      "大",
-      "おお"
+      "強",
+      "つよ"
      ],
      [
-      "いに",
+      "くぶつけて",
       null
      ],
      [
-      "役立",
-      "やくだ"
+      "大",
+      "だい"
      ],
      [
-      "つだろう。",
+      "きなこぶを",
+      null
+     ],
+     [
+      "作",
+      "つく"
+     ],
+     [
+      "った。",
       null
      ]
     ]
@@ -64335,8 +64317,20 @@
       null
      ],
      [
-      "三勝二敗",
-      "さんしょうにはい"
+      "三",
+      "さん"
+     ],
+     [
+      "勝",
+      "しょう"
+     ],
+     [
+      "二",
+      "に"
+     ],
+     [
+      "敗",
+      "はい"
      ],
      [
       "です。",
@@ -66322,11 +66316,11 @@
       null
      ],
      [
-      "幸い",
-      "さいわい"
+      "幸",
+      "さいわ"
      ],
      [
-      "にも",
+      "いにも",
       null
      ],
      [
@@ -66821,8 +66815,12 @@
       null
      ],
      [
-      "看護師",
-      "かんごし"
+      "看護",
+      "かんご"
+     ],
+     [
+      "師",
+      "し"
      ],
      [
       "です。",
@@ -66954,9 +66952,10 @@
   "common": false,
   "examples": [
    {
-    "ja": "彼は新式の穀物生産方法を学びにアメリカへ渡った。",
-    "en": "He went to America for the purpose of learning a new method of grain production.",
-    "source": "tatoeba",
+    "ja": "彼は学のある人だ。",
+    "reading": "かれはがくのあるひとだ。",
+    "en": "He is a learned man.",
+    "source": "authored",
     "furigana": [
      [
       "彼",
@@ -66967,43 +66966,19 @@
       null
      ],
      [
-      "新式",
-      "しんしき"
-     ],
-     [
-      "の",
-      null
-     ],
-     [
-      "穀物",
-      "こくもつ"
-     ],
-     [
-      "生産",
-      "せいさん"
-     ],
-     [
-      "方法",
-      "ほうほう"
-     ],
-     [
-      "を",
-      null
-     ],
-     [
       "学",
-      "まな"
+      "がく"
      ],
      [
-      "びにアメリカへ",
+      "のある",
       null
      ],
      [
-      "渡",
-      "わた"
+      "人",
+      "ひと"
      ],
      [
-      "った。",
+      "だ。",
       null
      ]
     ]
@@ -67733,36 +67708,33 @@
   "common": false,
   "examples": [
    {
-    "ja": "どんな小さな点でも見ることができる。",
-    "en": "I can see the tiniest spot.",
-    "source": "tatoeba",
+    "ja": "大は小を兼ねる。",
+    "reading": "だいはしょうをかねる。",
+    "en": "The larger can serve for the smaller.",
+    "source": "authored",
     "furigana": [
      [
-      "どんな",
+      "大",
+      "だい"
+     ],
+     [
+      "は",
       null
      ],
      [
       "小",
-      "ちい"
+      "しょう"
      ],
      [
-      "さな",
+      "を",
       null
      ],
      [
-      "点",
-      "てん"
+      "兼",
+      "か"
      ],
      [
-      "でも",
-      null
-     ],
-     [
-      "見",
-      "み"
-     ],
-     [
-      "ることができる。",
+      "ねる。",
       null
      ]
     ]
@@ -68519,40 +68491,45 @@
   "common": true,
   "examples": [
    {
-    "ja": "彼との交際で得るところが多かった。",
-    "en": "I benefited much from my association with him.",
-    "source": "tatoeba",
+    "ja": "考え得る方法を全部試した。",
+    "reading": "かんがえうるほうほうをぜんぶためした。",
+    "en": "I tried every method I could think of.",
+    "source": "authored",
     "furigana": [
      [
-      "彼",
-      "かれ"
+      "考",
+      "かんが"
      ],
      [
-      "との",
-      null
-     ],
-     [
-      "交際",
-      "こうさい"
-     ],
-     [
-      "で",
+      "え",
       null
      ],
      [
       "得",
-      "え"
+      "う"
      ],
      [
-      "るところが",
+      "る",
       null
      ],
      [
-      "多",
-      "おお"
+      "方法",
+      "ほうほう"
      ],
      [
-      "かった。",
+      "を",
+      null
+     ],
+     [
+      "全部",
+      "ぜんぶ"
+     ],
+     [
+      "試",
+      "ため"
+     ],
+     [
+      "した。",
       null
      ]
     ]
@@ -68733,16 +68710,20 @@
   "common": true,
   "examples": [
    {
-    "ja": "私の連れは疲れすぎていて走るのはおろか、歩くこともできない、と言った。",
-    "en": "My companion said that she was too tired to walk, let alone run.",
+    "ja": "でもさ、母を連れて行かなくてはいけないんだ。",
+    "en": "But, I have to take my mother.",
     "source": "tatoeba",
     "furigana": [
      [
-      "私",
-      "わたし"
+      "でもさ、",
+      null
      ],
      [
-      "の",
+      "母",
+      "はは"
+     ],
+     [
+      "を",
       null
      ],
      [
@@ -68750,39 +68731,15 @@
       "つ"
      ],
      [
-      "れは",
+      "れて",
       null
      ],
      [
-      "疲",
-      "つか"
-     ],
-     [
-      "れすぎていて",
-      null
-     ],
-     [
-      "走",
-      "はし"
-     ],
-     [
-      "るのはおろか、",
-      null
-     ],
-     [
-      "歩",
-      "ある"
-     ],
-     [
-      "くこともできない、と",
-      null
-     ],
-     [
-      "言",
+      "行",
       "い"
      ],
      [
-      "った。",
+      "かなくてはいけないんだ。",
       null
      ]
     ]
@@ -69928,44 +69885,49 @@
   "common": false,
   "examples": [
    {
-    "ja": "この工場では自動車の部品を製作している。",
-    "en": "This factory manufactures automobile parts.",
-    "source": "tatoeba",
+    "ja": "父は町の小さな工場で働いている。",
+    "reading": "ちちはまちのちいさなこうばではたらいている。",
+    "en": "My father works in a small workshop in town.",
+    "source": "authored",
     "furigana": [
      [
-      "この",
+      "父",
+      "ちち"
+     ],
+     [
+      "は",
       null
      ],
      [
-      "工場",
-      "こうじょう"
-     ],
-     [
-      "では",
-      null
-     ],
-     [
-      "自動車",
-      "じどうしゃ"
+      "町",
+      "まち"
      ],
      [
       "の",
       null
      ],
      [
-      "部品",
-      "ぶひん"
+      "小",
+      "ちい"
      ],
      [
-      "を",
+      "さな",
       null
      ],
      [
-      "製作",
-      "せいさく"
+      "工場",
+      "こうば"
      ],
      [
-      "している。",
+      "で",
+      null
+     ],
+     [
+      "働",
+      "はたら"
+     ],
+     [
+      "いている。",
       null
      ]
     ]
@@ -70268,8 +70230,12 @@
       null
      ],
      [
-      "年中開",
-      "ねんじゅうあ"
+      "年中",
+      "ねんじゅう"
+     ],
+     [
+      "開",
+      "あ"
      ],
      [
       "いている。",
@@ -70425,8 +70391,12 @@
       null
      ],
      [
-      "三年",
-      "さんねん"
+      "三",
+      "さん"
+     ],
+     [
+      "年",
+      "ねん"
      ],
      [
       "の",
@@ -70795,8 +70765,8 @@
   "common": false,
   "examples": [
    {
-    "ja": "彼はそこに行ったきり２度と帰ってこなかった。",
-    "en": "He went there, never to return.",
+    "ja": "彼は冗談の度を過ごしてしまった。",
+    "en": "He carried a joke too far.",
     "source": "tatoeba",
     "furigana": [
      [
@@ -70804,31 +70774,31 @@
       "かれ"
      ],
      [
-      "はそこに",
+      "は",
       null
      ],
      [
-      "行",
-      "い"
+      "冗談",
+      "じょうだん"
      ],
      [
-      "ったきり２",
+      "の",
       null
      ],
      [
       "度",
-      "ど"
+      "たび"
      ],
      [
-      "と",
+      "を",
       null
      ],
      [
-      "帰",
-      "かえ"
+      "過",
+      "す"
      ],
      [
-      "ってこなかった。",
+      "ごしてしまった。",
       null
      ]
     ]
@@ -71784,8 +71754,12 @@
       null
      ],
      [
-      "有機栽培",
-      "ゆうきさいばい"
+      "有機",
+      "ゆうき"
+     ],
+     [
+      "栽培",
+      "さいばい"
      ],
      [
       "です。",
@@ -72443,8 +72417,12 @@
     "source": "authored",
     "furigana": [
      [
-      "十年",
-      "じゅうねん"
+      "十",
+      "じゅう"
+     ],
+     [
+      "年",
+      "ねん"
      ],
      [
       "を",
@@ -72852,32 +72830,60 @@
   "common": false,
   "examples": [
    {
-    "ja": "彼女がピアノを弾くのが聞こえることがよくあります。",
-    "en": "I often hear her play the piano.",
+    "ja": "自爆テロ犯はベナジル・ブット元首相に向けて発砲したが、弾はそれた。",
+    "en": "The suicide bomber fired towards former Prime Minister Benazir Bhutto, but missed.",
     "source": "tatoeba",
     "furigana": [
      [
-      "彼女",
-      "かのじょ"
+      "自爆",
+      "じばく"
      ],
      [
-      "がピアノを",
+      "テロ",
+      null
+     ],
+     [
+      "犯",
+      "はん"
+     ],
+     [
+      "はベナジル・ブット",
+      null
+     ],
+     [
+      "元",
+      "もと"
+     ],
+     [
+      "首相",
+      "しゅしょう"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "向",
+      "む"
+     ],
+     [
+      "けて",
+      null
+     ],
+     [
+      "発砲",
+      "はっぽう"
+     ],
+     [
+      "したが、",
       null
      ],
      [
       "弾",
-      "ひ"
+      "たま"
      ],
      [
-      "くのが",
-      null
-     ],
-     [
-      "聞",
-      "き"
-     ],
-     [
-      "こえることがよくあります。",
+      "はそれた。",
       null
      ]
     ]
@@ -73013,12 +73019,21 @@
   "common": false,
   "examples": [
    {
-    "ja": "そのバッグは彼の後に積み重ねられていた。",
-    "en": "The bags were piled up behind him.",
-    "source": "tatoeba",
+    "ja": "その後、彼には会っていない。",
+    "reading": "そのご、かれにはあっていない。",
+    "en": "I have not seen him since then.",
+    "source": "authored",
     "furigana": [
      [
-      "そのバッグは",
+      "その",
+      null
+     ],
+     [
+      "後",
+      "ご"
+     ],
+     [
+      "、",
       null
      ],
      [
@@ -73026,31 +73041,15 @@
       "かれ"
      ],
      [
-      "の",
+      "には",
       null
      ],
      [
-      "後",
-      "のち"
+      "会",
+      "あ"
      ],
      [
-      "に",
-      null
-     ],
-     [
-      "積",
-      "つ"
-     ],
-     [
-      "み",
-      null
-     ],
-     [
-      "重",
-      "かさ"
-     ],
-     [
-      "ねられていた。",
+      "っていない。",
       null
      ]
     ]
@@ -73073,20 +73072,25 @@
   "common": false,
   "examples": [
    {
-    "ja": "そのバッグは彼の後に積み重ねられていた。",
-    "en": "The bags were piled up behind him.",
-    "source": "tatoeba",
+    "ja": "明日は晴れ、後曇りでしょう。",
+    "reading": "あしたははれ、のちくもりでしょう。",
+    "en": "Tomorrow will be sunny, later cloudy.",
+    "source": "authored",
     "furigana": [
      [
-      "そのバッグは",
+      "明日",
+      "あした"
+     ],
+     [
+      "は",
       null
      ],
      [
-      "彼",
-      "かれ"
+      "晴",
+      "は"
      ],
      [
-      "の",
+      "れ、",
       null
      ],
      [
@@ -73094,23 +73098,11 @@
       "のち"
      ],
      [
-      "に",
-      null
+      "曇",
+      "くも"
      ],
      [
-      "積",
-      "つ"
-     ],
-     [
-      "み",
-      null
-     ],
-     [
-      "重",
-      "かさ"
-     ],
-     [
-      "ねられていた。",
+      "りでしょう。",
       null
      ]
     ]
@@ -73502,7 +73494,7 @@
     "furigana": [
      [
       "従兄弟",
-      "い"
+      "いとこ"
      ],
      [
       "と",
@@ -73510,7 +73502,7 @@
      ],
      [
       "久",
-      "ことひさ"
+      "ひさ"
      ],
      [
       "しぶりに",
@@ -74292,8 +74284,12 @@
       null
      ],
      [
-      "一点",
-      "いってん"
+      "一",
+      "いっ"
+     ],
+     [
+      "点",
+      "てん"
      ],
      [
       "で",
@@ -74435,36 +74431,40 @@
   "common": false,
   "examples": [
    {
-    "ja": "どこか機構が悪いに違いない。",
-    "en": "Something must be wrong with the machinery.",
+    "ja": "競争それ自体は善でも悪でもない。",
+    "en": "Competition is neither good nor evil in itself.",
     "source": "tatoeba",
     "furigana": [
      [
-      "どこか",
+      "競争",
+      "きょうそう"
+     ],
+     [
+      "それ",
       null
      ],
      [
-      "機構",
-      "きこう"
+      "自体",
+      "じたい"
      ],
      [
-      "が",
+      "は",
+      null
+     ],
+     [
+      "善",
+      "ぜん"
+     ],
+     [
+      "でも",
       null
      ],
      [
       "悪",
-      "わる"
+      "あく"
      ],
      [
-      "いに",
-      null
-     ],
-     [
-      "違",
-      "ちが"
-     ],
-     [
-      "いない。",
+      "でもない。",
       null
      ]
     ]
@@ -74487,21 +74487,22 @@
   "common": false,
   "examples": [
    {
-    "ja": "当人のいないところで悪口を言うべきでない。",
-    "en": "You shouldn't speak ill of a man behind his back.",
-    "source": "tatoeba",
+    "ja": "人の悪口を言うな。",
+    "reading": "ひとのわるくちをいうな。",
+    "en": "Do not speak ill of others.",
+    "source": "authored",
     "furigana": [
      [
-      "当人",
-      "とうにん"
+      "人",
+      "ひと"
      ],
      [
-      "のいないところで",
+      "の",
       null
      ],
      [
       "悪口",
-      "わるぐち"
+      "わるくち"
      ],
      [
       "を",
@@ -74512,7 +74513,7 @@
       "い"
      ],
      [
-      "うべきでない。",
+      "うな。",
       null
      ]
     ]
@@ -74939,8 +74940,16 @@
       null
      ],
      [
-      "三匹産",
-      "さんびきう"
+      "三",
+      "さん"
+     ],
+     [
+      "匹",
+      "びき"
+     ],
+     [
+      "産",
+      "う"
      ],
      [
       "んだ。",
@@ -75586,36 +75595,40 @@
   "common": true,
   "examples": [
    {
-    "ja": "ありのままの事実を伝えることは難しい。",
-    "en": "It is difficult to tell the bare facts.",
+    "ja": "下手な職人はいつも道具に難くせをつける。",
+    "en": "A bad workman always blames his tools.",
     "source": "tatoeba",
     "furigana": [
      [
-      "ありのままの",
+      "下手",
+      "へた"
+     ],
+     [
+      "な",
       null
      ],
      [
-      "事実",
-      "じじつ"
+      "職人",
+      "しょくにん"
      ],
      [
-      "を",
+      "はいつも",
       null
      ],
      [
-      "伝",
-      "つた"
+      "道具",
+      "どうぐ"
      ],
      [
-      "えることは",
+      "に",
       null
      ],
      [
       "難",
-      "むずか"
+      "なん"
      ],
      [
-      "しい。",
+      "くせをつける。",
       null
      ]
     ]
@@ -76646,16 +76659,24 @@
     "source": "authored",
     "furigana": [
      [
-      "或日",
-      "あるひ"
+      "或",
+      "ある"
+     ],
+     [
+      "日",
+      "ひ"
      ],
      [
       "、",
       null
      ],
      [
-      "突然彼",
-      "とつぜんかれ"
+      "突然",
+      "とつぜん"
+     ],
+     [
+      "彼",
+      "かれ"
      ],
      [
       "から",
@@ -77749,8 +77770,12 @@
     "source": "authored",
     "furigana": [
      [
-      "全員揃",
-      "ぜんいんそろ"
+      "全員",
+      "ぜんいん"
+     ],
+     [
+      "揃",
+      "そろ"
      ],
      [
       "ったので",
@@ -77834,25 +77859,34 @@
   "common": false,
   "examples": [
    {
-    "ja": "２．ペンで厚紙にブーメランの形を描く。描いたブーメランを切り取る。",
-    "en": "2. Draw a boomerang shape on the card with a pen. Cut out the boomerang you've drawn.",
-    "source": "tatoeba",
+    "ja": "この小説は戦後の生活を描いている。",
+    "reading": "このしょうせつはせんごのせいかつをえがいている。",
+    "en": "This novel depicts life after the war.",
+    "source": "authored",
     "furigana": [
      [
-      "２．ペンで",
+      "この",
       null
      ],
      [
-      "厚紙",
-      "あつがみ"
+      "小説",
+      "しょうせつ"
      ],
      [
-      "にブーメランの",
+      "は",
       null
      ],
      [
-      "形",
-      "かたち"
+      "戦後",
+      "せんご"
+     ],
+     [
+      "の",
+      null
+     ],
+     [
+      "生活",
+      "せいかつ"
      ],
      [
       "を",
@@ -77863,31 +77897,7 @@
       "えが"
      ],
      [
-      "く。",
-      null
-     ],
-     [
-      "描",
-      "えが"
-     ],
-     [
-      "いたブーメランを",
-      null
-     ],
-     [
-      "切",
-      "き"
-     ],
-     [
-      "り",
-      null
-     ],
-     [
-      "取",
-      "と"
-     ],
-     [
-      "る。",
+      "いている。",
       null
      ]
     ]
@@ -77911,25 +77921,30 @@
   "common": false,
   "examples": [
    {
-    "ja": "２．ペンで厚紙にブーメランの形を描く。描いたブーメランを切り取る。",
-    "en": "2. Draw a boomerang shape on the card with a pen. Cut out the boomerang you've drawn.",
-    "source": "tatoeba",
+    "ja": "子供が壁に絵を描いた。",
+    "reading": "こどもがかべにえをかいた。",
+    "en": "The child drew a picture on the wall.",
+    "source": "authored",
     "furigana": [
      [
-      "２．ペンで",
+      "子供",
+      "こども"
+     ],
+     [
+      "が",
       null
      ],
      [
-      "厚紙",
-      "あつがみ"
+      "壁",
+      "かべ"
      ],
      [
-      "にブーメランの",
+      "に",
       null
      ],
      [
-      "形",
-      "かたち"
+      "絵",
+      "え"
      ],
      [
       "を",
@@ -77937,34 +77952,10 @@
      ],
      [
       "描",
-      "えが"
+      "か"
      ],
      [
-      "く。",
-      null
-     ],
-     [
-      "描",
-      "えが"
-     ],
-     [
-      "いたブーメランを",
-      null
-     ],
-     [
-      "切",
-      "き"
-     ],
-     [
-      "り",
-      null
-     ],
-     [
-      "取",
-      "と"
-     ],
-     [
-      "る。",
+      "いた。",
       null
      ]
     ]
@@ -78693,8 +78684,12 @@
       "ほん"
      ],
      [
-      "はB",
+      "は",
       null
+     ],
+     [
+      "B",
+      "びー"
      ],
      [
       "五",
@@ -78702,7 +78697,7 @@
      ],
      [
       "判",
-      "ばん"
+      "はん"
      ],
      [
       "です。",
@@ -80243,8 +80238,12 @@
     "source": "authored",
     "furigana": [
      [
-      "十年",
-      "じゅうねん"
+      "十",
+      "じゅう"
+     ],
+     [
+      "年",
+      "ねん"
      ],
      [
       "ぶりに",
@@ -80620,16 +80619,33 @@
   "common": false,
   "examples": [
    {
-    "ja": "日本語の難しい点は文字を使った表記の仕方です。",
-    "en": "What is difficult about Japanese is how characters are used in its writing system.",
-    "source": "tatoeba",
+    "ja": "古い文字を読むのは難しい。",
+    "reading": "ふるいもんじをよむのはむずかしい。",
+    "en": "Reading old script is difficult.",
+    "source": "authored",
     "furigana": [
      [
-      "日本語",
-      "にほんご"
+      "古",
+      "ふる"
      ],
      [
-      "の",
+      "い",
+      null
+     ],
+     [
+      "文字",
+      "もんじ"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "読",
+      "よ"
+     ],
+     [
+      "むのは",
       null
      ],
      [
@@ -80637,47 +80653,7 @@
       "むずか"
      ],
      [
-      "しい",
-      null
-     ],
-     [
-      "点",
-      "てん"
-     ],
-     [
-      "は",
-      null
-     ],
-     [
-      "文字",
-      "もじ"
-     ],
-     [
-      "を",
-      null
-     ],
-     [
-      "使",
-      "つか"
-     ],
-     [
-      "った",
-      null
-     ],
-     [
-      "表記",
-      "ひょうき"
-     ],
-     [
-      "の",
-      null
-     ],
-     [
-      "仕方",
-      "しかた"
-     ],
-     [
-      "です。",
+      "しい。",
       null
      ]
     ]
@@ -80915,8 +80891,12 @@
       null
      ],
      [
-      "住宅地",
-      "じゅうたくち"
+      "住宅",
+      "じゅうたく"
+     ],
+     [
+      "地",
+      "ち"
      ],
      [
       "だ。",
@@ -81016,60 +80996,40 @@
   "common": false,
   "examples": [
    {
-    "ja": "ここだけの話だが彼の考え方は深みに欠ける。",
-    "en": "Between you and me, he's a shallow thinker.",
+    "ja": "広告に関してはコークの方が優位にたっている。",
+    "en": "When it comes to advertising, Coke is ahead of the game.",
     "source": "tatoeba",
     "furigana": [
      [
-      "ここだけの",
+      "広告",
+      "こうこく"
+     ],
+     [
+      "に",
       null
      ],
      [
-      "話",
-      "はなし"
+      "関",
+      "かん"
      ],
      [
-      "だが",
-      null
-     ],
-     [
-      "彼",
-      "かれ"
-     ],
-     [
-      "の",
-      null
-     ],
-     [
-      "考",
-      "かんが"
-     ],
-     [
-      "え",
+      "してはコークの",
       null
      ],
      [
       "方",
-      "かた"
+      "ほう"
      ],
      [
-      "は",
+      "が",
       null
      ],
      [
-      "深",
-      "ふか"
+      "優位",
+      "ゆうい"
      ],
      [
-      "みに",
-      null
-     ],
-     [
-      "欠",
-      "か"
-     ],
-     [
-      "ける。",
+      "にたっている。",
       null
      ]
     ]
@@ -81151,44 +81111,33 @@
   "common": false,
   "examples": [
    {
-    "ja": "あの人たちが昨日あなたが会った方々ですか。",
-    "en": "Are those the people you saw yesterday?",
-    "source": "tatoeba",
+    "ja": "方々を探したが見つからなかった。",
+    "reading": "ほうぼうをさがしたがみつからなかった。",
+    "en": "I looked everywhere but could not find it.",
+    "source": "authored",
     "furigana": [
      [
-      "あの",
-      null
-     ],
-     [
-      "人",
-      "ひと"
-     ],
-     [
-      "たちが",
-      null
-     ],
-     [
-      "昨日",
-      "きのう"
-     ],
-     [
-      "あなたが",
-      null
-     ],
-     [
-      "会",
-      "あ"
-     ],
-     [
-      "った",
-      null
-     ],
-     [
       "方々",
-      "かたがた"
+      "ほうぼう"
      ],
      [
-      "ですか。",
+      "を",
+      null
+     ],
+     [
+      "探",
+      "さが"
+     ],
+     [
+      "したが",
+      null
+     ],
+     [
+      "見",
+      "み"
+     ],
+     [
+      "つからなかった。",
       null
      ]
     ]
@@ -81362,52 +81311,44 @@
   "common": false,
   "examples": [
    {
-    "ja": "８時も過ぎたのでその日は打ち切りにした。",
-    "en": "As it was past 8 p.m. we called it a day.",
+    "ja": "手形は来月１日が支払日になっている。",
+    "en": "The bill is due on the 1st of next month.",
     "source": "tatoeba",
     "furigana": [
      [
-      "８",
-      null
-     ],
-     [
-      "時",
-      "じ"
-     ],
-     [
-      "も",
-      null
-     ],
-     [
-      "過",
-      "す"
-     ],
-     [
-      "ぎたのでその",
-      null
-     ],
-     [
-      "日",
-      "ひ"
+      "手形",
+      "てがた"
      ],
      [
       "は",
       null
      ],
      [
-      "打",
-      "う"
+      "来月",
+      "らいげつ"
      ],
      [
-      "ち",
+      "１",
       null
      ],
      [
-      "切",
-      "き"
+      "日",
+      "にち"
      ],
      [
-      "りにした。",
+      "が",
+      null
+     ],
+     [
+      "支払",
+      "しはらい"
+     ],
+     [
+      "日",
+      "び"
+     ],
+     [
+      "になっている。",
       null
      ]
     ]
@@ -81430,100 +81371,45 @@
   "common": false,
   "examples": [
    {
-    "ja": "彼は居空きとして知られ、日中でも家に忍び込んで貴重品を盗むことで評判となっていた。",
-    "en": "He was known as a burglar of houses where occupants are present and had a reputation for sneaking in and stealing valuables even during the day.",
-    "source": "tatoeba",
+    "ja": "日中は暖かいが夜は寒い。",
+    "reading": "にっちゅうはあたたかいがよるはさむい。",
+    "en": "It is warm in the daytime but cold at night.",
+    "source": "authored",
     "furigana": [
      [
-      "彼",
-      "かれ"
-     ],
-     [
-      "は",
-      null
-     ],
-     [
-      "居",
-      "い"
-     ],
-     [
-      "空",
-      "あ"
-     ],
-     [
-      "きとして",
-      null
-     ],
-     [
-      "知",
-      "し"
-     ],
-     [
-      "られ、",
-      null
-     ],
-     [
       "日",
-      "にち"
+      "にっ"
      ],
      [
       "中",
       "ちゅう"
      ],
      [
-      "でも",
+      "は",
       null
      ],
      [
-      "家",
-      "いえ"
+      "暖",
+      "あたた"
      ],
      [
-      "に",
+      "かいが",
       null
      ],
      [
-      "忍",
-      "しの"
+      "夜",
+      "よる"
      ],
      [
-      "び",
+      "は",
       null
      ],
      [
-      "込",
-      "こ"
+      "寒",
+      "さむ"
      ],
      [
-      "んで",
-      null
-     ],
-     [
-      "貴重",
-      "きちょう"
-     ],
-     [
-      "品",
-      "ひん"
-     ],
-     [
-      "を",
-      null
-     ],
-     [
-      "盗",
-      "ぬす"
-     ],
-     [
-      "むことで",
-      null
-     ],
-     [
-      "評判",
-      "ひょうばん"
-     ],
-     [
-      "となっていた。",
+      "い。",
       null
      ]
     ]
@@ -81608,48 +81494,41 @@
   "common": false,
   "examples": [
    {
-    "ja": "その物語の舞台は明治末期の日本である。",
-    "en": "The setting of the story is Japan in the late Meiji period.",
-    "source": "tatoeba",
+    "ja": "日本の夏は蒸し暑い。",
+    "reading": "にほんのなつはむしあつい。",
+    "en": "Summer in Japan is hot and humid.",
+    "source": "authored",
     "furigana": [
      [
-      "その",
-      null
-     ],
-     [
-      "物語",
-      "ものがたり"
+      "日本",
+      "にほん"
      ],
      [
       "の",
       null
      ],
      [
-      "舞台",
-      "ぶたい"
+      "夏",
+      "なつ"
      ],
      [
       "は",
       null
      ],
      [
-      "明治",
-      "めいじ"
+      "蒸",
+      "む"
      ],
      [
-      "末期",
-      "まっき"
-     ],
-     [
-      "の",
+      "し",
       null
      ],
      [
-      "日本",
-      "にっぽん"
+      "暑",
+      "あつ"
      ],
      [
-      "である。",
+      "い。",
       null
      ]
     ]
@@ -83902,8 +83781,12 @@
       null
      ],
      [
-      "何曜日",
-      "なにようび"
+      "何",
+      "なに"
+     ],
+     [
+      "曜日",
+      "ようび"
      ],
      [
       "でしたか。",
@@ -84084,15 +83967,19 @@
     "furigana": [
      [
       "本人",
-      "ほん"
+      "ほんにん"
      ],
      [
       "に",
       null
      ],
      [
-      "直接聞",
-      "んにちょくせつき"
+      "直接",
+      "ちょくせつ"
+     ],
+     [
+      "聞",
+      "き"
      ],
      [
       "いてみます。",
@@ -84168,48 +84055,33 @@
   "common": false,
   "examples": [
    {
-    "ja": "彼が時間どおり来るかどうかは疑わしいと思う。",
-    "en": "I doubt if he will come on time.",
-    "source": "tatoeba",
+    "ja": "来年、日本へ留学します。",
+    "reading": "らいねん、にほんへりゅうがくします。",
+    "en": "Next year I will go to study in Japan.",
+    "source": "authored",
     "furigana": [
      [
-      "彼",
-      "かれ"
+      "来年",
+      "らいねん"
      ],
      [
-      "が",
+      "、",
       null
      ],
      [
-      "時間",
-      "じかん"
+      "日本",
+      "にほん"
      ],
      [
-      "どおり",
+      "へ",
       null
      ],
      [
-      "来",
-      "く"
+      "留学",
+      "りゅうがく"
      ],
      [
-      "るかどうかは",
-      null
-     ],
-     [
-      "疑",
-      "うたが"
-     ],
-     [
-      "わしいと",
-      null
-     ],
-     [
-      "思",
-      "おも"
-     ],
-     [
-      "う。",
+      "します。",
       null
      ]
     ]
@@ -84396,40 +84268,17 @@
   "common": false,
   "examples": [
    {
-    "ja": "僕、無芸大食で何の取り柄もないんです。",
-    "en": "I'm afraid my greatest talent is for eating.",
-    "source": "tatoeba",
+    "ja": "傘の柄が折れてしまった。",
+    "reading": "かさのえがおれてしまった。",
+    "en": "The handle of my umbrella has broken.",
+    "source": "authored",
     "furigana": [
      [
-      "僕",
-      "ぼく"
-     ],
-     [
-      "、",
-      null
-     ],
-     [
-      "無芸大食",
-      "むげいたいしょく"
-     ],
-     [
-      "で",
-      null
-     ],
-     [
-      "何",
-      "なに"
+      "傘",
+      "かさ"
      ],
      [
       "の",
-      null
-     ],
-     [
-      "取",
-      "と"
-     ],
-     [
-      "り",
       null
      ],
      [
@@ -84437,7 +84286,15 @@
       "え"
      ],
      [
-      "もないんです。",
+      "が",
+      null
+     ],
+     [
+      "折",
+      "お"
+     ],
+     [
+      "れてしまった。",
       null
      ]
     ]
@@ -84461,48 +84318,37 @@
   "common": false,
   "examples": [
    {
-    "ja": "僕、無芸大食で何の取り柄もないんです。",
-    "en": "I'm afraid my greatest talent is for eating.",
-    "source": "tatoeba",
+    "ja": "この着物の柄は派手だ。",
+    "reading": "このきもののがらははでだ。",
+    "en": "The pattern on this kimono is showy.",
+    "source": "authored",
     "furigana": [
      [
-      "僕",
-      "ぼく"
-     ],
-     [
-      "、",
+      "この",
       null
      ],
      [
-      "無芸大食",
-      "むげいたいしょく"
-     ],
-     [
-      "で",
-      null
-     ],
-     [
-      "何",
-      "なに"
+      "着物",
+      "きもの"
      ],
      [
       "の",
       null
      ],
      [
-      "取",
-      "と"
+      "柄",
+      "がら"
      ],
      [
-      "り",
+      "は",
       null
      ],
      [
-      "柄",
-      "え"
+      "派手",
+      "はで"
      ],
      [
-      "もないんです。",
+      "だ。",
       null
      ]
     ]
@@ -84904,8 +84750,12 @@
     "source": "authored",
     "furigana": [
      [
-      "梅雨前線",
-      "ばいうぜんせん"
+      "梅雨",
+      "ばいう"
+     ],
+     [
+      "前線",
+      "ぜんせん"
      ],
      [
       "が",
@@ -84938,33 +84788,37 @@
   "common": false,
   "examples": [
    {
-    "ja": "屋根の棟に鳥がとまっている。",
-    "reading": "やねのむねにとりがとまっている。",
-    "en": "A bird is perched on the ridge of the roof.",
+    "ja": "この病院には三つの棟がある。",
+    "reading": "このびょういんにはみっつのとうがある。",
+    "en": "This hospital has three buildings.",
     "source": "authored",
     "furigana": [
      [
-      "屋根",
-      "やね"
+      "この",
+      null
      ],
      [
-      "の",
+      "病院",
+      "びょういん"
+     ],
+     [
+      "には",
+      null
+     ],
+     [
+      "三",
+      "みっ"
+     ],
+     [
+      "つの",
       null
      ],
      [
       "棟",
-      "むね"
+      "とう"
      ],
      [
-      "に",
-      null
-     ],
-     [
-      "鳥",
-      "とり"
-     ],
-     [
-      "がとまっている。",
+      "がある。",
       null
      ]
     ]
@@ -85088,36 +84942,48 @@
   "common": false,
   "examples": [
    {
-    "ja": "ヨットは少数の金持ちだけが楽しめるものだ。",
-    "en": "Yachts are for the wealthy few.",
+    "ja": "その少年は連立方程式を楽に解いた。",
+    "en": "The boy solved the simultaneous equation with ease.",
     "source": "tatoeba",
     "furigana": [
      [
-      "ヨットは",
+      "その",
       null
      ],
      [
-      "少数",
-      "しょうすう"
+      "少年",
+      "しょうねん"
      ],
      [
-      "の",
+      "は",
       null
      ],
      [
-      "金持",
-      "かねも"
+      "連立",
+      "れんりつ"
      ],
      [
-      "ちだけが",
+      "方程式",
+      "ほうていしき"
+     ],
+     [
+      "を",
       null
      ],
      [
       "楽",
-      "たの"
+      "らく"
      ],
      [
-      "しめるものだ。",
+      "に",
+      null
+     ],
+     [
+      "解",
+      "と"
+     ],
+     [
+      "いた。",
       null
      ]
     ]
@@ -85281,28 +85147,49 @@
   "common": false,
   "examples": [
    {
-    "ja": "この情報は正しいか。",
-    "en": "Is this information right?",
-    "source": "tatoeba",
+    "ja": "正の数と負の数を習った。",
+    "reading": "せいのかずとふのかずをならった。",
+    "en": "We learned about positive and negative numbers.",
+    "source": "authored",
     "furigana": [
      [
-      "この",
-      null
-     ],
-     [
-      "情報",
-      "じょうほう"
-     ],
-     [
-      "は",
-      null
-     ],
-     [
       "正",
-      "ただ"
+      "せい"
      ],
      [
-      "しいか。",
+      "の",
+      null
+     ],
+     [
+      "数",
+      "かず"
+     ],
+     [
+      "と",
+      null
+     ],
+     [
+      "負",
+      "ふ"
+     ],
+     [
+      "の",
+      null
+     ],
+     [
+      "数",
+      "かず"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "習",
+      "なら"
+     ],
+     [
+      "った。",
       null
      ]
     ]
@@ -85862,56 +85749,33 @@
   "common": false,
   "examples": [
    {
-    "ja": "彼の優しい言葉で彼女の気持ちが和らいだ。",
-    "en": "She melted at his kind words.",
-    "source": "tatoeba",
+    "ja": "成績は優が三つあった。",
+    "reading": "せいせきはゆうがみっつあった。",
+    "en": "I got three top grades in my results.",
+    "source": "authored",
     "furigana": [
      [
-      "彼",
-      "かれ"
+      "成績",
+      "せいせき"
      ],
      [
-      "の",
+      "は",
       null
      ],
      [
       "優",
-      "やさ"
+      "ゆう"
      ],
      [
-      "しい",
+      "が",
       null
      ],
      [
-      "言葉",
-      "ことば"
+      "三",
+      "みっ"
      ],
      [
-      "で",
-      null
-     ],
-     [
-      "彼女",
-      "かのじょ"
-     ],
-     [
-      "の",
-      null
-     ],
-     [
-      "気持",
-      "きも"
-     ],
-     [
-      "ちが",
-      null
-     ],
-     [
-      "和",
-      "やわ"
-     ],
-     [
-      "らいだ。",
+      "つあった。",
       null
      ]
     ]
@@ -86548,13 +86412,25 @@
   "common": true,
   "examples": [
    {
-    "ja": "群衆が現場に群がった。",
-    "en": "A crowd gathered at the scene.",
+    "ja": "２０人の警官が現場に現れた。",
+    "en": "Twenty police have arrived on the scene.",
     "source": "tatoeba",
     "furigana": [
      [
-      "群衆",
-      "ぐんしゅう"
+      "２０",
+      null
+     ],
+     [
+      "人",
+      "にん"
+     ],
+     [
+      "の",
+      null
+     ],
+     [
+      "警官",
+      "けいかん"
      ],
      [
       "が",
@@ -86569,11 +86445,11 @@
       null
      ],
      [
-      "群",
-      "むら"
+      "現",
+      "あらわ"
      ],
      [
-      "がった。",
+      "れた。",
       null
      ]
     ]
@@ -87054,32 +86930,44 @@
   "common": true,
   "examples": [
    {
-    "ja": "観客は彼のホームランに興奮した。",
-    "en": "His home run excited the crowd.",
+    "ja": "予想以上に多くの観客が来ていました。",
+    "en": "There were more spectators than I had expected.",
     "source": "tatoeba",
     "furigana": [
+     [
+      "予想",
+      "よそう"
+     ],
+     [
+      "以上",
+      "いじょう"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "多",
+      "おお"
+     ],
+     [
+      "くの",
+      null
+     ],
      [
       "観客",
       "かんきゃく"
      ],
      [
-      "は",
+      "が",
       null
      ],
      [
-      "彼",
-      "かれ"
+      "来",
+      "き"
      ],
      [
-      "のホームランに",
-      null
-     ],
-     [
-      "興奮",
-      "こうふん"
-     ],
-     [
-      "した。",
+      "ていました。",
       null
      ]
     ]
@@ -87870,41 +87758,45 @@
   "common": false,
   "examples": [
    {
-    "ja": "少し疲れ気味なので休みます。",
-    "reading": "すこしつかれぎみなのでやすみます。",
-    "en": "I feel a bit tired, so I'll rest.",
+    "ja": "あの家は何だか気味が悪い。",
+    "reading": "あのいえはなんだかきみがわるい。",
+    "en": "There is something creepy about that house.",
     "source": "authored",
     "furigana": [
      [
-      "少",
-      "すこ"
-     ],
-     [
-      "し",
+      "あの",
       null
      ],
      [
-      "疲",
-      "つか"
+      "家",
+      "いえ"
      ],
      [
-      "れ",
+      "は",
+      null
+     ],
+     [
+      "何",
+      "なん"
+     ],
+     [
+      "だか",
       null
      ],
      [
       "気味",
-      "ぎみ"
+      "きみ"
      ],
      [
-      "なので",
+      "が",
       null
      ],
      [
-      "休",
-      "やす"
+      "悪",
+      "わる"
      ],
      [
-      "みます。",
+      "い。",
       null
      ]
     ]
@@ -87975,48 +87867,33 @@
   "common": false,
   "examples": [
    {
-    "ja": "このシート、本革ですね。間違って汚すと大変なことになりそうです。",
-    "en": "This seat, it's real leather, isn't it? It would be a disaster if some slip-up gets it dirtied.",
-    "source": "tatoeba",
+    "ja": "新しい服を汚してしまった。",
+    "reading": "あたらしいふくをよごしてしまった。",
+    "en": "I got my new clothes dirty.",
+    "source": "authored",
     "furigana": [
      [
-      "このシート、",
+      "新",
+      "あたら"
+     ],
+     [
+      "しい",
       null
      ],
      [
-      "本",
-      "ほん"
+      "服",
+      "ふく"
      ],
      [
-      "革",
-      "かわ"
-     ],
-     [
-      "ですね。",
-      null
-     ],
-     [
-      "間違",
-      "まちが"
-     ],
-     [
-      "って",
+      "を",
       null
      ],
      [
       "汚",
-      "けが"
+      "よご"
      ],
      [
-      "すと",
-      null
-     ],
-     [
-      "大変",
-      "たいへん"
-     ],
-     [
-      "なことになりそうです。",
+      "してしまった。",
       null
      ]
     ]
@@ -88450,40 +88327,41 @@
   "common": false,
   "examples": [
    {
-    "ja": "雨がまともに私に降り注いでいた。",
-    "en": "The rain was falling on my face.",
-    "source": "tatoeba",
+    "ja": "詳しくはページの下の注を見てください。",
+    "reading": "くわしくはページのしたのちゅうをみてください。",
+    "en": "For details, see the note at the bottom of the page.",
+    "source": "authored",
     "furigana": [
      [
-      "雨",
-      "あめ"
+      "詳",
+      "くわ"
      ],
      [
-      "がまともに",
+      "しくはページの",
       null
      ],
      [
-      "私",
-      "わたし"
+      "下",
+      "した"
      ],
      [
-      "に",
-      null
-     ],
-     [
-      "降",
-      "ふ"
-     ],
-     [
-      "り",
+      "の",
       null
      ],
      [
       "注",
-      "そそ"
+      "ちゅう"
      ],
      [
-      "いでいた。",
+      "を",
+      null
+     ],
+     [
+      "見",
+      "み"
+     ],
+     [
+      "てください。",
       null
      ]
     ]
@@ -88552,21 +88430,18 @@
   "common": false,
   "examples": [
    {
-    "ja": "火に油を注ぐだけだ。",
-    "en": "It only adds fuel to the fire.",
-    "source": "tatoeba",
+    "ja": "コップにお茶を注いだ。",
+    "reading": "コップにおちゃをついだ。",
+    "en": "I poured tea into the cup.",
+    "source": "authored",
     "furigana": [
      [
-      "火",
-      "ひ"
-     ],
-     [
-      "に",
+      "コップにお",
       null
      ],
      [
-      "油",
-      "あぶら"
+      "茶",
+      "ちゃ"
      ],
      [
       "を",
@@ -88574,10 +88449,10 @@
      ],
      [
       "注",
-      "そそ"
+      "つ"
      ],
      [
-      "ぐだけだ。",
+      "いだ。",
       null
      ]
     ]
@@ -89706,8 +89581,12 @@
       null
      ],
      [
-      "人生観",
-      "じんせいかん"
+      "人生",
+      "じんせい"
+     ],
+     [
+      "観",
+      "かん"
      ],
      [
       "が",
@@ -89769,8 +89648,12 @@
       null
      ],
      [
-      "住宅地",
-      "じゅうたくち"
+      "住宅",
+      "じゅうたく"
+     ],
+     [
+      "地",
+      "ち"
      ],
      [
       "です。",
@@ -90880,8 +90763,12 @@
     "source": "authored",
     "furigana": [
      [
-      "洗濯物",
-      "せんたくもの"
+      "洗濯",
+      "せんたく"
+     ],
+     [
+      "物",
+      "もの"
      ],
      [
       "がまだ",
@@ -92224,8 +92111,16 @@
       null
      ],
      [
-      "一時間煮",
-      "いちじかんに"
+      "一",
+      "いち"
+     ],
+     [
+      "時間",
+      "じかん"
+     ],
+     [
+      "煮",
+      "に"
      ],
      [
       "る。",
@@ -94113,33 +94008,41 @@
   "common": false,
   "examples": [
    {
-    "ja": "秋にぶどう狩りに行った。",
-    "reading": "あきにぶどうがりにいった。",
-    "en": "We went grape picking in autumn.",
+    "ja": "昔の人は狩りをして暮らしていた。",
+    "reading": "むかしのひとはかりをしてくらしていた。",
+    "en": "People long ago lived by hunting.",
     "source": "authored",
     "furigana": [
      [
-      "秋",
-      "あき"
+      "昔",
+      "むかし"
      ],
      [
-      "にぶどう",
+      "の",
+      null
+     ],
+     [
+      "人",
+      "ひと"
+     ],
+     [
+      "は",
       null
      ],
      [
       "狩",
-      "が"
+      "か"
      ],
      [
-      "りに",
+      "りをして",
       null
      ],
      [
-      "行",
-      "い"
+      "暮",
+      "く"
      ],
      [
-      "った。",
+      "らしていた。",
       null
      ]
     ]
@@ -94292,8 +94195,12 @@
     "source": "authored",
     "furigana": [
      [
-      "四人",
-      "よにん"
+      "四",
+      "よ"
+     ],
+     [
+      "人",
+      "にん"
      ],
      [
       "ずつの",
@@ -94498,40 +94405,41 @@
   "common": false,
   "examples": [
    {
-    "ja": "彼が生き残ったということは注目すべきことだ。",
-    "en": "That he survived was remarkable.",
-    "source": "tatoeba",
+    "ja": "人の生と死について考える。",
+    "reading": "ひとのせいとしについてかんがえる。",
+    "en": "I think about human life and death.",
+    "source": "authored",
     "furigana": [
      [
-      "彼",
-      "かれ"
+      "人",
+      "ひと"
      ],
      [
-      "が",
+      "の",
       null
      ],
      [
       "生",
-      "い"
+      "せい"
      ],
      [
-      "き",
+      "と",
       null
      ],
      [
-      "残",
-      "のこ"
+      "死",
+      "し"
      ],
      [
-      "ったということは",
+      "について",
       null
      ],
      [
-      "注目",
-      "ちゅうもく"
+      "考",
+      "かんが"
      ],
      [
-      "すべきことだ。",
+      "える。",
       null
      ]
     ]
@@ -94554,40 +94462,37 @@
   "common": false,
   "examples": [
    {
-    "ja": "彼が生き残ったということは注目すべきことだ。",
-    "en": "That he survived was remarkable.",
-    "source": "tatoeba",
+    "ja": "この魚は生で食べられる。",
+    "reading": "このさかなはなまでたべられる。",
+    "en": "This fish can be eaten raw.",
+    "source": "authored",
     "furigana": [
      [
-      "彼",
-      "かれ"
+      "この",
+      null
      ],
      [
-      "が",
+      "魚",
+      "さかな"
+     ],
+     [
+      "は",
       null
      ],
      [
       "生",
-      "い"
+      "なま"
      ],
      [
-      "き",
+      "で",
       null
      ],
      [
-      "残",
-      "のこ"
+      "食",
+      "た"
      ],
      [
-      "ったということは",
-      null
-     ],
-     [
-      "注目",
-      "ちゅうもく"
-     ],
-     [
-      "すべきことだ。",
+      "べられる。",
       null
      ]
     ]
@@ -95699,8 +95604,12 @@
     "source": "authored",
     "furigana": [
      [
-      "洗濯物",
-      "せんたくもの"
+      "洗濯",
+      "せんたく"
+     ],
+     [
+      "物",
+      "もの"
      ],
      [
       "を",
@@ -96754,11 +96663,11 @@
   "characters": "退く",
   "reading": "どく",
   "meanings": [
-   "to retreat",
-   "to recede",
-   "to withdraw"
+   "to step aside",
+   "to move out of the way",
+   "to make way"
   ],
-  "primaryMeaning": "to retreat",
+  "primaryMeaning": "to step aside",
   "componentKanji": [
    "退"
   ],
@@ -97342,8 +97251,12 @@
       null
      ],
      [
-      "七時",
-      "しちじ"
+      "七",
+      "しち"
+     ],
+     [
+      "時",
+      "じ"
      ],
      [
       "に",
@@ -97423,65 +97336,43 @@
   "characters": "盛り",
   "reading": "さかり",
   "meanings": [
-   "helping",
-   "serving"
+   "peak",
+   "height",
+   "prime (of life)"
   ],
-  "primaryMeaning": "helping",
+  "primaryMeaning": "peak",
   "componentKanji": [],
   "frequencyTier": 5,
   "common": false,
   "examples": [
    {
-    "ja": "多くの運動選手は青年時代に盛りを極める。",
-    "en": "Most athletes are at their best during their early manhood.",
-    "source": "tatoeba",
+    "ja": "桜は今が盛りだ。",
+    "reading": "さくらはいまがさかりだ。",
+    "en": "The cherry blossoms are at their peak now.",
+    "source": "authored",
     "furigana": [
      [
-      "多",
-      "おお"
-     ],
-     [
-      "くの",
-      null
-     ],
-     [
-      "運動",
-      "うんどう"
-     ],
-     [
-      "選手",
-      "せんしゅ"
+      "桜",
+      "さくら"
      ],
      [
       "は",
       null
      ],
      [
-      "青年",
-      "せいねん"
+      "今",
+      "いま"
      ],
      [
-      "時代",
-      "じだい"
-     ],
-     [
-      "に",
+      "が",
       null
      ],
      [
       "盛",
-      "も"
+      "さか"
      ],
      [
-      "りを",
-      null
-     ],
-     [
-      "極",
-      "きわ"
-     ],
-     [
-      "める。",
+      "りだ。",
       null
      ]
     ]
@@ -98462,8 +98353,16 @@
     "source": "authored",
     "furigana": [
      [
-      "自動販売機",
-      "じどうはんばいき"
+      "自動",
+      "じどう"
+     ],
+     [
+      "販売",
+      "はんばい"
+     ],
+     [
+      "機",
+      "き"
      ],
      [
       "に",
@@ -98518,8 +98417,12 @@
       null
      ],
      [
-      "毎晩碁",
-      "まいばんご"
+      "毎晩",
+      "まいばん"
+     ],
+     [
+      "碁",
+      "ご"
      ],
      [
       "を",
@@ -98671,8 +98574,12 @@
       null
      ],
      [
-      "江戸時代",
-      "えどじだい"
+      "江戸",
+      "えど"
+     ],
+     [
+      "時代",
+      "じだい"
      ],
      [
       "のものだ。",
@@ -98828,8 +98735,12 @@
       null
      ],
      [
-      "誕生日",
-      "たんじょうび"
+      "誕生",
+      "たんじょう"
+     ],
+     [
+      "日",
+      "び"
      ],
      [
       "を",
@@ -98920,48 +98831,36 @@
   "common": false,
   "examples": [
    {
-    "ja": "彼女は実権のない重役に祭り上げられました。",
-    "en": "She got kicked upstairs to an executive position.",
+    "ja": "いまさら嘆いても、それこそ、後の祭だよ。",
+    "en": "You can regret it all you want, but it won't do you any good now.",
     "source": "tatoeba",
     "furigana": [
      [
-      "彼女",
-      "かのじょ"
-     ],
-     [
-      "は",
+      "いまさら",
       null
      ],
      [
-      "実権",
-      "じっけん"
+      "嘆",
+      "なげ"
      ],
      [
-      "のない",
+      "いても、それこそ、",
       null
      ],
      [
-      "重役",
-      "じゅうやく"
+      "後",
+      "ご"
      ],
      [
-      "に",
+      "の",
       null
      ],
      [
       "祭",
-      "まつ"
+      "まつり"
      ],
      [
-      "り",
-      null
-     ],
-     [
-      "上",
-      "あ"
-     ],
-     [
-      "げられました。",
+      "だよ。",
       null
      ]
     ]
@@ -99489,28 +99388,29 @@
   "common": false,
   "examples": [
    {
-    "ja": "ほとんど空なのでガソリンを入れなくてはなりません。",
-    "en": "I need to put some gas in the car, as it's almost empty.",
-    "source": "tatoeba",
+    "ja": "この箱は空だ。",
+    "reading": "このはこはからだ。",
+    "en": "This box is empty.",
+    "source": "authored",
     "furigana": [
      [
-      "ほとんど",
+      "この",
+      null
+     ],
+     [
+      "箱",
+      "はこ"
+     ],
+     [
+      "は",
       null
      ],
      [
       "空",
-      "そら"
+      "から"
      ],
      [
-      "なのでガソリンを",
-      null
-     ],
-     [
-      "入",
-      "い"
-     ],
-     [
-      "れなくてはなりません。",
+      "だ。",
       null
      ]
     ]
@@ -100565,8 +100465,12 @@
       null
      ],
      [
-      "精々三日",
-      "せいぜいみっか"
+      "精",
+      "せい"
+     ],
+     [
+      "々三日",
+      "ぜいみっか"
      ],
      [
       "でしょう。",
@@ -101217,25 +101121,14 @@
   "common": false,
   "examples": [
    {
-    "ja": "このＣＤプレイヤーを棚の前の端にぴったりとくっつけてください。",
-    "en": "Set the CD player square with the front edge of the shelf, please.",
-    "source": "tatoeba",
+    "ja": "道の端を歩きなさい。",
+    "reading": "みちのはしをあるきなさい。",
+    "en": "Walk along the edge of the road.",
+    "source": "authored",
     "furigana": [
      [
-      "このＣＤプレイヤーを",
-      null
-     ],
-     [
-      "棚",
-      "たな"
-     ],
-     [
-      "の",
-      null
-     ],
-     [
-      "前",
-      "まえ"
+      "道",
+      "みち"
      ],
      [
       "の",
@@ -101243,10 +101136,18 @@
      ],
      [
       "端",
-      "はじ"
+      "はし"
      ],
      [
-      "にぴったりとくっつけてください。",
+      "を",
+      null
+     ],
+     [
+      "歩",
+      "ある"
+     ],
+     [
+      "きなさい。",
       null
      ]
     ]
@@ -101610,15 +101511,19 @@
      ],
      [
       "着物",
-      "きも"
+      "きもの"
      ],
      [
       "の",
       null
      ],
      [
-      "着方",
-      "のきかた"
+      "着",
+      "き"
+     ],
+     [
+      "方",
+      "かた"
      ],
      [
       "は",
@@ -102346,52 +102251,29 @@
   "common": false,
   "examples": [
    {
-    "ja": "戸籍上の縁は切れても、昔日の絆はそのままだ。",
-    "en": "Our connection may be cut on paper but the bonds of old remain as they were.",
-    "source": "tatoeba",
+    "ja": "コップの縁が欠けている。",
+    "reading": "コップのふちがかけている。",
+    "en": "The rim of the cup is chipped.",
+    "source": "authored",
     "furigana": [
      [
-      "戸籍",
-      "こせき"
-     ],
-     [
-      "上",
-      "じょう"
-     ],
-     [
-      "の",
+      "コップの",
       null
      ],
      [
       "縁",
-      "えん"
+      "ふち"
      ],
      [
-      "は",
+      "が",
       null
      ],
      [
-      "切",
-      "き"
+      "欠",
+      "か"
      ],
      [
-      "れても、",
-      null
-     ],
-     [
-      "昔日",
-      "せきじつ"
-     ],
-     [
-      "の",
-      null
-     ],
-     [
-      "絆",
-      "きずな"
-     ],
-     [
-      "はそのままだ。",
+      "けている。",
       null
      ]
     ]
@@ -102517,8 +102399,12 @@
     "source": "authored",
     "furigana": [
      [
-      "二本",
-      "にほん"
+      "二",
+      "に"
+     ],
+     [
+      "本",
+      "ほん"
      ],
      [
       "のホースを",
@@ -102794,8 +102680,12 @@
     "source": "authored",
     "furigana": [
      [
-      "毎日休",
-      "まいにちやす"
+      "毎日",
+      "まいにち"
+     ],
+     [
+      "休",
+      "やす"
      ],
      [
       "めるなんて",
@@ -103459,8 +103349,12 @@
       null
      ],
      [
-      "米作",
-      "こめづく"
+      "米",
+      "こめ"
+     ],
+     [
+      "作",
+      "づく"
      ],
      [
       "りに",
@@ -103795,68 +103689,33 @@
   "common": false,
   "examples": [
    {
-    "ja": "目が見えない看護婦は年寄りの世話をすることに一身を捧げた。",
-    "en": "The blind nurse devoted herself to caring for the elderly.",
-    "source": "tatoeba",
+    "ja": "年寄に席を譲った。",
+    "reading": "としよりにせきをゆずった。",
+    "en": "I gave up my seat to an old person.",
+    "source": "authored",
     "furigana": [
      [
-      "目",
-      "め"
-     ],
-     [
-      "が",
-      null
-     ],
-     [
-      "見",
-      "み"
-     ],
-     [
-      "えない",
-      null
-     ],
-     [
-      "看護",
-      "かんご"
-     ],
-     [
-      "婦",
-      "ふ"
-     ],
-     [
-      "は",
-      null
-     ],
-     [
       "年寄",
-      "としよ"
+      "としより"
      ],
      [
-      "りの",
+      "に",
       null
      ],
      [
-      "世話",
-      "せわ"
-     ],
-     [
-      "をすることに",
-      null
-     ],
-     [
-      "一身",
-      "いっしん"
+      "席",
+      "せき"
      ],
      [
       "を",
       null
      ],
      [
-      "捧",
-      "ささ"
+      "譲",
+      "ゆず"
      ],
      [
-      "げた。",
+      "った。",
       null
      ]
     ]
@@ -104925,8 +104784,12 @@
       null
      ],
      [
-      "自己紹介",
-      "じこしょうかい"
+      "自己",
+      "じこ"
+     ],
+     [
+      "紹介",
+      "しょうかい"
      ],
      [
       "をした。",
@@ -105009,36 +104872,37 @@
   "common": false,
   "examples": [
    {
-    "ja": "その液はいやな臭いを発した。",
-    "en": "The liquor gave off a sickly odor.",
-    "source": "tatoeba",
+    "ja": "この魚は少し臭い。",
+    "reading": "このさかなはすこしくさい。",
+    "en": "This fish smells a bit.",
+    "source": "authored",
     "furigana": [
      [
-      "その",
+      "この",
       null
      ],
      [
-      "液",
-      "えき"
+      "魚",
+      "さかな"
      ],
      [
-      "はいやな",
+      "は",
+      null
+     ],
+     [
+      "少",
+      "すこ"
+     ],
+     [
+      "し",
       null
      ],
      [
       "臭",
-      "にお"
+      "くさ"
      ],
      [
-      "いを",
-      null
-     ],
-     [
-      "発",
-      "はっ"
-     ],
-     [
-      "した。",
+      "い。",
       null
      ]
     ]
@@ -105437,8 +105301,16 @@
       null
      ],
      [
-      "五分茹",
-      "ごふんゆ"
+      "五",
+      "ご"
+     ],
+     [
+      "分",
+      "ふん"
+     ],
+     [
+      "茹",
+      "ゆ"
      ],
      [
       "でてください。",
@@ -105886,52 +105758,33 @@
   "common": false,
   "examples": [
    {
-    "ja": "自動車の売れ行きは年度末に後退しました。",
-    "en": "Automobile sales suffered a setback at the end of the financial year.",
-    "source": "tatoeba",
+    "ja": "行きは電車で、帰りはバスにした。",
+    "reading": "いきはでんしゃで、かえりはバスにした。",
+    "en": "I took the train there and the bus back.",
+    "source": "authored",
     "furigana": [
      [
-      "自動車",
-      "じどうしゃ"
-     ],
-     [
-      "の",
-      null
-     ],
-     [
-      "売",
-      "う"
-     ],
-     [
-      "れ",
-      null
-     ],
-     [
       "行",
-      "ゆ"
+      "い"
      ],
      [
       "きは",
       null
      ],
      [
-      "年度",
-      "ねんど"
+      "電車",
+      "でんしゃ"
      ],
      [
-      "末",
-      "まつ"
-     ],
-     [
-      "に",
+      "で、",
       null
      ],
      [
-      "後退",
-      "こうたい"
+      "帰",
+      "かえ"
      ],
      [
-      "しました。",
+      "りはバスにした。",
       null
      ]
     ]
@@ -105953,52 +105806,37 @@
   "common": false,
   "examples": [
    {
-    "ja": "自動車の売れ行きは年度末に後退しました。",
-    "en": "Automobile sales suffered a setback at the end of the financial year.",
-    "source": "tatoeba",
+    "ja": "東京行きの電車に乗った。",
+    "reading": "とうきょうゆきのでんしゃにのった。",
+    "en": "I got on the train bound for Tokyo.",
+    "source": "authored",
     "furigana": [
      [
-      "自動車",
-      "じどうしゃ"
-     ],
-     [
-      "の",
-      null
-     ],
-     [
-      "売",
-      "う"
-     ],
-     [
-      "れ",
-      null
+      "東京",
+      "とうきょう"
      ],
      [
       "行",
       "ゆ"
      ],
      [
-      "きは",
+      "きの",
       null
      ],
      [
-      "年度",
-      "ねんど"
-     ],
-     [
-      "末",
-      "まつ"
+      "電車",
+      "でんしゃ"
      ],
      [
       "に",
       null
      ],
      [
-      "後退",
-      "こうたい"
+      "乗",
+      "の"
      ],
      [
-      "しました。",
+      "った。",
       null
      ]
     ]
@@ -106162,8 +106000,12 @@
       null
      ],
      [
-      "毎日開",
-      "まいにちあ"
+      "毎日",
+      "まいにち"
+     ],
+     [
+      "開",
+      "あ"
      ],
      [
       "いています。",
@@ -107843,40 +107685,88 @@
   "common": false,
   "examples": [
    {
-    "ja": "損失の程度は計り知れない。",
-    "en": "The extent of the damage is inestimable.",
+    "ja": "産科・婦人科の計６１床も満床で、受け入れは不可能と答えたという。",
+    "en": "They replied that because all 61 beds in the obstetrics/gynaecology department were full, no admissions were possible.",
     "source": "tatoeba",
     "furigana": [
      [
-      "損失",
-      "そんしつ"
+      "産科",
+      "さんか"
+     ],
+     [
+      "・",
+      null
+     ],
+     [
+      "婦人",
+      "ふじん"
+     ],
+     [
+      "科",
+      "か"
      ],
      [
       "の",
       null
      ],
      [
-      "程度",
-      "ていど"
-     ],
-     [
-      "は",
-      null
-     ],
-     [
       "計",
-      "はか"
+      "けい"
      ],
      [
-      "り",
+      "６１",
       null
      ],
      [
-      "知",
-      "し"
+      "床",
+      "しょう"
      ],
      [
-      "れない。",
+      "も",
+      null
+     ],
+     [
+      "満",
+      "まん"
+     ],
+     [
+      "床",
+      "ゆか"
+     ],
+     [
+      "で、",
+      null
+     ],
+     [
+      "受",
+      "う"
+     ],
+     [
+      "け",
+      null
+     ],
+     [
+      "入",
+      "い"
+     ],
+     [
+      "れは",
+      null
+     ],
+     [
+      "不可能",
+      "ふかのう"
+     ],
+     [
+      "と",
+      null
+     ],
+     [
+      "答",
+      "こた"
+     ],
+     [
+      "えたという。",
       null
      ]
     ]
@@ -107906,7 +107796,7 @@
     "furigana": [
      [
       "物語",
-      "も"
+      "ものがたり"
      ],
      [
       "の",
@@ -107914,7 +107804,7 @@
      ],
      [
       "主人公",
-      "がたりのしゅじんこう"
+      "しゅじんこう"
      ],
      [
       "は",
@@ -107955,40 +107845,40 @@
   "common": false,
   "examples": [
    {
-    "ja": "大変ご不自由をおかけして申し訳ございません。",
-    "en": "I'm sorry to have caused you such inconvenience.",
+    "ja": "主体・客体さえ訳せればあとはそこまで難しくないです。",
+    "en": "If you can translate the subject and object then after that it isn't so difficult.",
     "source": "tatoeba",
     "furigana": [
      [
-      "大変",
-      "たいへん"
+      "主体",
+      "しゅたい"
      ],
      [
-      "ご",
+      "・",
       null
      ],
      [
-      "不自由",
-      "ふじゆう"
+      "客体",
+      "かくたい"
      ],
      [
-      "をおかけして",
-      null
-     ],
-     [
-      "申",
-      "もう"
-     ],
-     [
-      "し",
+      "さえ",
       null
      ],
      [
       "訳",
-      "わけ"
+      "やく"
      ],
      [
-      "ございません。",
+      "せればあとはそこまで",
+      null
+     ],
+     [
+      "難",
+      "むずか"
+     ],
+     [
+      "しくないです。",
       null
      ]
     ]
@@ -108834,7 +108724,7 @@
   "reading": "いや",
   "meanings": [
    "no",
-   "the noes"
+   "nay"
   ],
   "primaryMeaning": "no",
   "componentKanji": [
@@ -108844,32 +108734,17 @@
   "common": true,
   "examples": [
    {
-    "ja": "彼の答は「否」であった。",
-    "en": "His answer was in the negative.",
-    "source": "tatoeba",
+    "ja": "否、そうではありません。",
+    "reading": "いや、そうではありません。",
+    "en": "No, that is not so.",
+    "source": "authored",
     "furigana": [
      [
-      "彼",
-      "かれ"
-     ],
-     [
-      "の",
-      null
-     ],
-     [
-      "答",
-      "こたえ"
-     ],
-     [
-      "は「",
-      null
-     ],
-     [
       "否",
-      "いな"
+      "いや"
      ],
      [
-      "」であった。",
+      "、そうではありません。",
       null
      ]
     ]
@@ -109765,8 +109640,12 @@
       null
      ],
      [
-      "委員会",
-      "いいんかい"
+      "委員",
+      "いいん"
+     ],
+     [
+      "会",
+      "かい"
      ],
      [
       "に",
@@ -110773,8 +110652,12 @@
       null
      ],
      [
-      "千人",
-      "せんにん"
+      "千",
+      "せん"
+     ],
+     [
+      "人",
+      "にん"
      ],
      [
       "を",
@@ -111029,44 +110912,41 @@
   "common": false,
   "examples": [
    {
-    "ja": "１０軒の家がその火事で焼失した。",
-    "en": "The fire burned down ten houses.",
-    "source": "tatoeba",
+    "ja": "軒の下で雨がやむのを待った。",
+    "reading": "のきのしたであめがやむのをまった。",
+    "en": "I waited under the eaves for the rain to stop.",
+    "source": "authored",
     "furigana": [
      [
-      "１０",
-      null
-     ],
-     [
       "軒",
-      "けん"
+      "のき"
      ],
      [
       "の",
       null
      ],
      [
-      "家",
-      "いえ"
-     ],
-     [
-      "がその",
-      null
-     ],
-     [
-      "火事",
-      "かじ"
+      "下",
+      "した"
      ],
      [
       "で",
       null
      ],
      [
-      "焼失",
-      "しょうしつ"
+      "雨",
+      "あめ"
      ],
      [
-      "した。",
+      "がやむのを",
+      null
+     ],
+     [
+      "待",
+      "ま"
+     ],
+     [
+      "った。",
       null
      ]
     ]
@@ -111182,8 +111062,16 @@
       null
      ],
      [
-      "二度転校",
-      "にどてんこう"
+      "二",
+      "に"
+     ],
+     [
+      "度",
+      "ど"
+     ],
+     [
+      "転校",
+      "てんこう"
      ],
      [
       "した。",
@@ -111945,8 +111833,16 @@
     "source": "authored",
     "furigana": [
      [
-      "毎日一時間",
-      "まいにちいちじかん"
+      "毎日",
+      "まいにち"
+     ],
+     [
+      "一",
+      "いち"
+     ],
+     [
+      "時間",
+      "じかん"
      ],
      [
       "かけて",
@@ -111982,20 +111878,48 @@
   "common": false,
   "examples": [
    {
-    "ja": "しかるべき時期にお支払いいたしました。",
-    "en": "I paid at the appropriate time.",
+    "ja": "お支払日が先月末の請求書５６７８９について、まだお支払いを受けておりません。",
+    "en": "With reference to the invoice No.56789 which was due last month, we have not yet received your remittance.",
     "source": "tatoeba",
     "furigana": [
      [
-      "しかるべき",
+      "お",
       null
      ],
      [
-      "時期",
-      "じき"
+      "支払",
+      "しはらい"
      ],
      [
-      "にお",
+      "日",
+      "び"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "先月",
+      "せんげつ"
+     ],
+     [
+      "末",
+      "まつ"
+     ],
+     [
+      "の",
+      null
+     ],
+     [
+      "請求",
+      "せいきゅう"
+     ],
+     [
+      "書",
+      "しょ"
+     ],
+     [
+      "５６７８９について、まだお",
       null
      ],
      [
@@ -112003,7 +111927,15 @@
       "しはら"
      ],
      [
-      "いいたしました。",
+      "いを",
+      null
+     ],
+     [
+      "受",
+      "う"
+     ],
+     [
+      "けておりません。",
       null
      ]
     ]
@@ -112231,8 +112163,12 @@
       null
      ],
      [
-      "代表的",
-      "だいひょうてき"
+      "代表",
+      "だいひょう"
+     ],
+     [
+      "的",
+      "てき"
      ],
      [
       "な",
@@ -112280,7 +112216,7 @@
      ],
      [
       "眼鏡",
-      "め"
+      "めがね"
      ],
      [
       "が",
@@ -112288,7 +112224,7 @@
      ],
      [
       "要",
-      "ねがい"
+      "い"
      ],
      [
       "る。",
@@ -113123,8 +113059,12 @@
     "source": "authored",
     "furigana": [
      [
-      "旅行中",
-      "りょこうちゅう"
+      "旅行",
+      "りょこう"
+     ],
+     [
+      "中",
+      "ちゅう"
      ],
      [
       "に",
@@ -113640,8 +113580,12 @@
       null
      ],
      [
-      "運転手",
-      "うんてんしゅ"
+      "運転",
+      "うんてん"
+     ],
+     [
+      "手",
+      "しゅ"
      ],
      [
       "が",
@@ -113887,11 +113831,10 @@
   "characters": "金",
   "reading": "かね",
   "meanings": [
-   "gold",
-   "metal",
-   "money"
+   "money",
+   "metal"
   ],
-  "primaryMeaning": "gold",
+  "primaryMeaning": "money",
   "componentKanji": [],
   "frequencyTier": 5,
   "common": false,
@@ -113948,9 +113891,7 @@
   "characters": "金",
   "reading": "きん",
   "meanings": [
-   "gold",
-   "metal",
-   "money"
+   "gold"
   ],
   "primaryMeaning": "gold",
   "componentKanji": [],
@@ -113958,44 +113899,33 @@
   "common": false,
   "examples": [
    {
-    "ja": "この程度のお金じゃ長くは持たないだろう。",
-    "en": "This sum of money won't go far.",
-    "source": "tatoeba",
+    "ja": "彼女は金の指輪をしている。",
+    "reading": "かのじょはきんのゆびわをしている。",
+    "en": "She is wearing a gold ring.",
+    "source": "authored",
     "furigana": [
      [
-      "この",
-      null
+      "彼女",
+      "かのじょ"
      ],
      [
-      "程度",
-      "ていど"
-     ],
-     [
-      "のお",
+      "は",
       null
      ],
      [
       "金",
-      "かね"
+      "きん"
      ],
      [
-      "じゃ",
+      "の",
       null
      ],
      [
-      "長",
-      "なが"
+      "指輪",
+      "ゆびわ"
      ],
      [
-      "くは",
-      null
-     ],
-     [
-      "持",
-      "も"
-     ],
-     [
-      "たないだろう。",
+      "をしている。",
       null
      ]
     ]
@@ -114188,13 +114118,22 @@
   "common": false,
   "examples": [
    {
-    "ja": "漁師は釣り上げた魚の大きさをおおげさにいった。",
-    "en": "The fisherman exaggerated the size of the fish he had caught.",
-    "source": "tatoeba",
+    "ja": "父の趣味は釣です。",
+    "reading": "ちちのしゅみはつりです。",
+    "en": "My father's hobby is fishing.",
+    "source": "authored",
     "furigana": [
      [
-      "漁師",
-      "りょうし"
+      "父",
+      "ちち"
+     ],
+     [
+      "の",
+      null
+     ],
+     [
+      "趣味",
+      "しゅみ"
      ],
      [
       "は",
@@ -114202,34 +114141,10 @@
      ],
      [
       "釣",
-      "つ"
+      "つり"
      ],
      [
-      "り",
-      null
-     ],
-     [
-      "上",
-      "あ"
-     ],
-     [
-      "げた",
-      null
-     ],
-     [
-      "魚",
-      "さかな"
-     ],
-     [
-      "の",
-      null
-     ],
-     [
-      "大",
-      "おお"
-     ],
-     [
-      "きさをおおげさにいった。",
+      "です。",
       null
      ]
     ]
@@ -114307,32 +114222,25 @@
   "common": false,
   "examples": [
    {
-    "ja": "降伏するくらいなら死んだほうが増しだ。",
-    "en": "I would rather die than yield.",
-    "source": "tatoeba",
+    "ja": "敵はついに降伏した。",
+    "reading": "てきはついにこうふくした。",
+    "en": "The enemy finally surrendered.",
+    "source": "authored",
     "furigana": [
      [
+      "敵",
+      "てき"
+     ],
+     [
+      "はついに",
+      null
+     ],
+     [
       "降伏",
-      "ごうぶく"
+      "こうふく"
      ],
      [
-      "するくらいなら",
-      null
-     ],
-     [
-      "死",
-      "し"
-     ],
-     [
-      "んだほうが",
-      null
-     ],
-     [
-      "増",
-      "ま"
-     ],
-     [
-      "しだ。",
+      "した。",
       null
      ]
     ]
@@ -114825,49 +114733,30 @@
   "common": false,
   "examples": [
    {
-    "ja": "その経験で彼女は民主党に対して好感を抱くようになった。",
-    "en": "The experience prejudiced her in favor of the Democratic Party.",
-    "source": "tatoeba",
+    "ja": "母親が赤ん坊を抱いている。",
+    "reading": "ははおやがあかんぼうをだいている。",
+    "en": "The mother is holding her baby.",
+    "source": "authored",
     "furigana": [
      [
-      "その",
+      "母親",
+      "ははおや"
+     ],
+     [
+      "が",
       null
      ],
      [
-      "経験",
-      "けいけん"
+      "赤",
+      "あか"
      ],
      [
-      "で",
+      "ん",
       null
      ],
      [
-      "彼女",
-      "かのじょ"
-     ],
-     [
-      "は",
-      null
-     ],
-     [
-      "民主党",
-      "みんしゅとう"
-     ],
-     [
-      "に",
-      null
-     ],
-     [
-      "対",
-      "たい"
-     ],
-     [
-      "して",
-      null
-     ],
-     [
-      "好感",
-      "こうかん"
+      "坊",
+      "ぼう"
      ],
      [
       "を",
@@ -114875,10 +114764,10 @@
      ],
      [
       "抱",
-      "いだ"
+      "だ"
      ],
      [
-      "くようになった。",
+      "いている。",
       null
      ]
     ]
@@ -115493,8 +115382,12 @@
       null
      ],
      [
-      "十分間隔",
-      "じゅっぷんかんかく"
+      "十分",
+      "じゅっぷん"
+     ],
+     [
+      "間隔",
+      "かんかく"
      ],
      [
       "で",
@@ -116187,8 +116080,12 @@
     "source": "authored",
     "furigana": [
      [
-      "電子辞書",
-      "でんしじしょ"
+      "電子",
+      "でんし"
+     ],
+     [
+      "辞書",
+      "じしょ"
      ],
      [
       "を",
@@ -116391,40 +116288,41 @@
   "common": false,
   "examples": [
    {
-    "ja": "露は太陽が昇ると蒸発した。",
-    "en": "The dew evaporated when the sun rose.",
-    "source": "tatoeba",
+    "ja": "朝、草に露が降りていた。",
+    "reading": "あさ、くさにつゆがおりていた。",
+    "en": "In the morning there was dew on the grass.",
+    "source": "authored",
     "furigana": [
      [
-      "露",
-      "ろ"
+      "朝",
+      "あさ"
      ],
      [
-      "は",
+      "、",
       null
      ],
      [
-      "太陽",
-      "たいよう"
+      "草",
+      "くさ"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "露",
+      "つゆ"
      ],
      [
       "が",
       null
      ],
      [
-      "昇",
-      "のぼ"
+      "降",
+      "お"
      ],
      [
-      "ると",
-      null
-     ],
-     [
-      "蒸発",
-      "じょうはつ"
-     ],
-     [
-      "した。",
+      "りていた。",
       null
      ]
     ]
@@ -116511,20 +116409,45 @@
   "common": false,
   "examples": [
    {
-    "ja": "すぐそばでかすかな音がした。",
-    "en": "I heard a faint sound nearby.",
-    "source": "tatoeba",
+    "ja": "この漢字の音と訓を覚えなさい。",
+    "reading": "このかんじのおんとくんをおぼえなさい。",
+    "en": "Learn the Chinese and Japanese readings of this kanji.",
+    "source": "authored",
     "furigana": [
      [
-      "すぐそばでかすかな",
+      "この",
+      null
+     ],
+     [
+      "漢字",
+      "かんじ"
+     ],
+     [
+      "の",
       null
      ],
      [
       "音",
-      "おと"
+      "おん"
      ],
      [
-      "がした。",
+      "と",
+      null
+     ],
+     [
+      "訓",
+      "くん"
+     ],
+     [
+      "を",
+      null
+     ],
+     [
+      "覚",
+      "おぼ"
+     ],
+     [
+      "えなさい。",
       null
      ]
     ]
@@ -116547,20 +116470,33 @@
   "common": false,
   "examples": [
    {
-    "ja": "すぐそばでかすかな音がした。",
-    "en": "I heard a faint sound nearby.",
-    "source": "tatoeba",
+    "ja": "虫の音が聞こえる。",
+    "reading": "むしのねがきこえる。",
+    "en": "I can hear the insects singing.",
+    "source": "authored",
     "furigana": [
      [
-      "すぐそばでかすかな",
+      "虫",
+      "むし"
+     ],
+     [
+      "の",
       null
      ],
      [
       "音",
-      "おと"
+      "ね"
      ],
      [
-      "がした。",
+      "が",
+      null
+     ],
+     [
+      "聞",
+      "き"
+     ],
+     [
+      "こえる。",
       null
      ]
     ]
@@ -116582,9 +116518,10 @@
   "common": false,
   "examples": [
    {
-    "ja": "涙が彼女の頬を伝って流れた。",
-    "en": "Tears trickled down her cheeks.",
-    "source": "tatoeba",
+    "ja": "涙が頬を流れた。",
+    "reading": "なみだがほほをながれた。",
+    "en": "Tears ran down her cheeks.",
+    "source": "authored",
     "furigana": [
      [
       "涙",
@@ -116595,27 +116532,11 @@
       null
      ],
      [
-      "彼女",
-      "かのじょ"
-     ],
-     [
-      "の",
-      null
-     ],
-     [
       "頬",
-      "ほお"
+      "ほほ"
      ],
      [
       "を",
-      null
-     ],
-     [
-      "伝",
-      "つた"
-     ],
-     [
-      "って",
       null
      ],
      [
@@ -117625,60 +117546,60 @@
   "common": false,
   "examples": [
    {
-    "ja": "これで朝ご飯の残り香などを一掃して空気をきれいにできる。",
-    "en": "With this you can make a clean sweep of leftover breakfast smells and such to make the air clean.",
+    "ja": "テレビを点け、彼女がブラウン管の前で遊弋している。「おい、飯だぞ？」",
+    "en": "Television turned on, she patrols in front of the CRT. \"Hey you, food's up!\"",
     "source": "tatoeba",
     "furigana": [
      [
-      "これで",
+      "テレビを",
       null
      ],
      [
-      "朝",
-      "あさ"
+      "点",
+      "つ"
      ],
      [
-      "ご",
+      "け、",
       null
      ],
      [
-      "飯",
-      "はん"
+      "彼女",
+      "かのじょ"
+     ],
+     [
+      "がブラウン",
+      null
+     ],
+     [
+      "管",
+      "かん"
      ],
      [
       "の",
       null
      ],
      [
-      "残",
-      "のこ"
+      "前",
+      "まえ"
      ],
      [
-      "り",
+      "で",
       null
      ],
      [
-      "香",
-      "が"
+      "遊弋",
+      "ゆうよく"
      ],
      [
-      "などを",
+      "している。「おい、",
       null
      ],
      [
-      "一掃",
-      "いっそう"
+      "飯",
+      "めし"
      ],
      [
-      "して",
-      null
-     ],
-     [
-      "空気",
-      "くうき"
-     ],
-     [
-      "をきれいにできる。",
+      "だぞ？」",
       null
      ]
     ]
@@ -117761,8 +117682,12 @@
     "source": "authored",
     "furigana": [
      [
-      "毎日同",
-      "まいにちおな"
+      "毎日",
+      "まいにち"
+     ],
+     [
+      "同",
+      "おな"
      ],
      [
       "じ",
@@ -118379,8 +118304,12 @@
     "source": "authored",
     "furigana": [
      [
-      "試合前",
-      "しあいまえ"
+      "試合",
+      "しあい"
+     ],
+     [
+      "前",
+      "まえ"
      ],
      [
       "で",
@@ -118654,36 +118583,37 @@
   "common": false,
   "examples": [
    {
-    "ja": "ここでは、魚はポンド単位で売られています。",
-    "en": "Fish is sold by the pound here.",
-    "source": "tatoeba",
+    "ja": "朝早く魚市場へ行った。",
+    "reading": "あさはやくうおいちばへいった。",
+    "en": "I went to the fish market early in the morning.",
+    "source": "authored",
     "furigana": [
      [
-      "ここでは、",
+      "朝",
+      "あさ"
+     ],
+     [
+      "早",
+      "はや"
+     ],
+     [
+      "く",
       null
      ],
      [
-      "魚",
-      "さかな"
+      "魚市場",
+      "うおいちば"
      ],
      [
-      "はポンド",
+      "へ",
       null
      ],
      [
-      "単位",
-      "たんい"
+      "行",
+      "い"
      ],
      [
-      "で",
-      null
-     ],
-     [
-      "売",
-      "う"
-     ],
-     [
-      "られています。",
+      "った。",
       null
      ]
     ]

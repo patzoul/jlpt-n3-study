@@ -10,6 +10,9 @@ import unicodedata
 from collections import Counter
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import furigana  # noqa: E402
+
 BASE = Path(__file__).resolve().parent.parent
 OUT = BASE / 'content'
 SRC = OUT / 'sources'
@@ -89,6 +92,49 @@ def check_text(where, text):
             return
 
 
+# 来る conjugates its stem vowel (くる, きた, こない), so its stem cannot be
+# compared kana for kana.
+IRREGULAR_ENDINGS = ('来る',)
+unconfirmed = []
+
+
+def check_card_reading(where, item, example, segments):
+    """The sentence must read the word the way the card says it is read.
+
+    A word with two readings (下す: おろす / くだす, 市場: いちば / しじょう)
+    can otherwise be given a sentence that uses the other one.
+    """
+    if item['type'] == 'vocabulary':
+        pairs = [(item['characters'], item['reading'])]
+    elif item['type'] == 'kanji':
+        # A kanji card's sentence is chosen for one of its example words.
+        pairs = [
+            (word['characters'], word['reading'])
+            for word in item.get('exampleWords', [])
+            if word['characters'] in example['ja']
+        ][:1]
+    else:
+        return
+    for word, reading in pairs:
+        if word.endswith(IRREGULAR_ENDINGS):
+            continue
+        verdict = furigana.reads_as(segments, example['ja'], word, reading)
+        if verdict is False:
+            got = None
+            for trim in (0, 1, 2):
+                stem = word.lstrip('～〜')[:len(word.lstrip('～〜')) - trim]
+                if stem and stem in example['ja']:
+                    got = furigana.reading_of(segments, example['ja'], stem)
+                    break
+            report(
+                where,
+                f'card says {word} is read {reading}, but its sentence reads it '
+                f'{got!r}: {example["ja"]}',
+            )
+        elif verdict is None and item['type'] == 'vocabulary':
+            unconfirmed.append(f'{where}: {example["ja"]}')
+
+
 def check_deck(name, required):
     path = OUT / f'{name}.json'
     items = json.loads(path.read_text(encoding='utf-8'))
@@ -143,6 +189,17 @@ def check_deck(name, required):
                 for text, reading in segments:
                     if reading and re.search(r'[一-鿿]', reading):
                         report(where, f'furigana reading {reading!r} contains kanji')
+                # A written transcription is the authority for its sentence,
+                # so the ruby must spell out exactly that transcription.
+                written = example.get('reading')
+                if written and furigana.flatten(segments) != furigana.to_hiragana(written):
+                    report(
+                        where,
+                        f'furigana {furigana.flatten(segments)!r} does not match '
+                        f'the written reading {written!r}',
+                    )
+                check_card_reading(where, item, example, segments)
+
             # An authored sentence must actually contain the word it teaches.
             if example.get('source') == 'authored' and item['type'] == 'vocabulary':
                 if not contains_word(example['ja'], item['characters']):
@@ -204,6 +261,13 @@ def main():
             f'  {name:11} examples {covered}/{len(items)} '
             f'({covered * 100 // len(items)}%), {authored} authored, '
             f'{ruby} with furigana'
+        )
+
+    if unconfirmed:
+        print()
+        print(
+            f'{len(unconfirmed)} vocabulary sentence(s) use the word inside a '
+            f'longer compound, so its reading could not be checked on its own.'
         )
 
     if problems:

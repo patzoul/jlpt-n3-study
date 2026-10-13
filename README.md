@@ -122,12 +122,20 @@ bump; they are revalidated on every load.
   `content/sources/dump_examples.json`.
 - `build_content.py` joins the syllabus lists with that sentence pool and the
   hand-authored sources, and writes `content/{kanji,vocabulary,grammar,manifest}.json`.
-- `furigana.py` produces the ruby segments. Hand-written sentences are aligned
-  against their own kana transcription, so no tokeniser is involved and the
-  readings are exactly the ones written. Tatoeba sentences have no transcription,
-  so [janome](https://mocobeta.github.io/janome/en/) supplies one per token,
-  which is then split against the token's okurigana. A token janome does not
-  know is left bare rather than guessed.
+- `sources/vocab_corrections.json` fixes the few entries in the upstream word
+  list whose reading and meaning do not belong together (下す listed as おろす,
+  盛り/さかり glossed as "a serving"). Each entry records what was changed and
+  why, and the build fails if a correction no longer matches any entry.
+- A sentence is only used on a card if it reads the word the way the card
+  does. Words with two readings (市場: いちば / しじょう) are otherwise given
+  a sentence that teaches the other one.
+- `furigana.py` produces the ruby segments, using
+  [janome](https://mocobeta.github.io/janome/en/) to split each sentence into
+  words. Tatoeba sentences have no transcription, so janome also supplies the
+  reading of each word; one it does not know is left bare rather than guessed.
+  Hand-written sentences carry their own kana transcription, which is the
+  authority: it is fitted over the words, so the readings shown are exactly the
+  ones written. Each reading is then split against the word's okurigana.
 - `validate.py` checks the result: duplicate ids and duplicate card fronts,
   missing fields, unbalanced brackets, sentences that do not contain the word
   they teach, English words left inside Japanese text, and stray characters

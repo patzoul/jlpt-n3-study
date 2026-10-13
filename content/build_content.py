@@ -272,14 +272,20 @@ def pick_example(word, examples, readable, index=None, authored=None, reading=No
             })
 
     candidates = []
+    wanted = furigana.to_hiragana(reading) if reading else None
 
     def consider(sentence, bonus):
         score = score_sentence(sentence, word, readable)
         if score is not None and standalone(sentence['ja'], word):
             candidates.append((score + bonus, sentence))
 
-    # Sentences filed under this exact word are the most trustworthy.
+    # Sentences filed under this exact word are the most trustworthy — but the
+    # dump files 市場 (しじょう) and 市場 (いちば) separately, and a sentence
+    # written for one must not be shown on the other's card.
     for sentence in examples.get(word, []):
+        filed_as = furigana.to_hiragana(sentence.get('kana') or '')
+        if wanted and filed_as and filed_as != wanted:
+            continue
         consider(sentence, 15.0)
 
     if index is not None:
@@ -289,13 +295,20 @@ def pick_example(word, examples, readable, index=None, authored=None, reading=No
             if word in sentence['ja']:
                 consider(sentence, 0.0)
 
-    if not candidates:
-        return None
     candidates.sort(key=lambda item: -item[0])
-    best = candidates[0][1]
-    return attach_furigana(
-        {'ja': best['ja'], 'en': best['en'], 'source': 'tatoeba'}
-    )
+    for _score, best in candidates:
+        example = attach_furigana(
+            {'ja': best['ja'], 'en': best['en'], 'source': 'tatoeba'}
+        )
+        # The sentence must read the word the way the card does. A word with
+        # two readings (下す: おろす / くだす) otherwise gets a sentence that
+        # teaches the wrong one, with furigana contradicting the card.
+        if wanted and furigana.reads_as(
+            example.get('furigana'), example['ja'], word, wanted
+        ) is not True:
+            continue
+        return example
+    return None
 
 
 def normalise_reading(value):
@@ -394,7 +407,27 @@ def build_kanji(n3, ordered, levels, vocab_by_kanji, examples, readable,
 def build_vocab(vocab_rows, kanji_levels, wordmeta, examples, readable, index, authored):
     seen = set()
     entries = []
+    corrections_path = SRC / 'vocab_corrections.json'
+    corrections = (
+        json.loads(corrections_path.read_text(encoding='utf-8'))
+        if corrections_path.exists() else {}
+    )
+    applied = set()
+
     for row in vocab_rows:
+        # The upstream list has a few entries whose reading and meaning do not
+        # belong together; vocab_corrections.json records each fix and why.
+        source_key = f"{(row['expression'] or '').strip()}|{(row['reading'] or '').strip()}"
+        fix = corrections.get(source_key)
+        if fix:
+            applied.add(source_key)
+            row = {
+                **row,
+                'expression': fix.get('expression', row['expression']),
+                'reading': fix.get('reading', row['reading']),
+                'meaning': fix.get('meaning', row['meaning']),
+            }
+
         # A handful of entries carry a part-of-speech note in the headword
         # itself ("しまった (かん)"); that does not belong on a card front.
         word = ANNOTATION_RE.sub('', row['expression'] or '').strip()
@@ -421,6 +454,10 @@ def build_vocab(vocab_rows, kanji_levels, wordmeta, examples, readable, index, a
             'tier': meta.get('tier', 5),
             'common': bool(meta.get('common')),
         })
+
+    unused = [key for key in corrections if not key.startswith('_') and key not in applied]
+    if unused:
+        raise SystemExit(f'vocab_corrections.json has keys matching no entry: {unused}')
 
     max_level = max(kanji_levels.values()) if kanji_levels else 1
 

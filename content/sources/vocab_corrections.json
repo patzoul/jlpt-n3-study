@@ -1,0 +1,68 @@
+{
+ "_about": "Corrections to the upstream N3 word list, applied by build_content.py. Keys are 'expression|reading' exactly as they appear in oajd_n3.csv. Each entry may replace the expression, the reading or the meaning, and says why.",
+
+ "下す|おろす": {
+  "expression": "下ろす",
+  "why": "おろす (to lower) is written 下ろす. 下す is くだす, to hand down a decision."
+ },
+ "反る|かえる": {
+  "reading": "そる",
+  "why": "To warp or curve is そる. かえる is a different verb, to turn over."
+ },
+ "盛り|さかり": {
+  "meaning": "peak, height, prime (of life)",
+  "why": "The listed meaning, a serving of food, belongs to the reading もり."
+ },
+ "無|ぶ": {
+  "meaning": "un-, non- (negative prefix)",
+  "why": "ぶ only occurs as a prefix, as in 無事 or 無沙汰. Nothing or zero is む."
+ },
+ "下|しも": {
+  "meaning": "lower part, downstream, the bottom",
+  "why": "The upstream list gives every reading of 下 the same gloss."
+ },
+ "下|げ": {
+  "meaning": "low grade, inferior, last volume (of a set)",
+  "why": "The upstream list gives every reading of 下 the same gloss."
+ },
+ "上|かみ": {
+  "meaning": "upper part, upstream, the top",
+  "why": "The listed meaning, first volume or superior quality, belongs to じょう."
+ },
+ "対|たい": {
+  "meaning": "versus, against, to (in a score or ratio)",
+  "why": "A pair or set is つい, which has its own card."
+ },
+ "金|かね": {
+  "meaning": "money, metal",
+  "why": "Gold is きん, which has its own card."
+ },
+ "金|きん": {
+  "meaning": "gold",
+  "why": "Money is かね, which has its own card."
+ },
+ "分|ぶ": {
+  "meaning": "advantage, odds, one tenth, one percent",
+  "why": "A part or share is ぶん, which has its own card."
+ },
+ "退く|どく": {
+  "meaning": "to step aside, to move out of the way, to make way",
+  "why": "To retreat or withdraw is the reading しりぞく or ひく."
+ },
+ "否|いや": {
+  "meaning": "no, nay",
+  "why": "'The noes' in a vote is the reading ひ."
+ },
+ "末|すえ": {
+  "meaning": "the end, the tip, the future",
+  "why": "Powder is the reading まつ, as in 粉末."
+ },
+ "末|まつ": {
+  "meaning": "the end of (a month, a year), powder",
+  "why": "Moved 'powder' here from すえ, where it does not apply."
+ },
+ "節|せつ": {
+  "meaning": "occasion, time, section, clause",
+  "why": "The listed 'when, if' is a loose rendering of 'on the occasion of'."
+ }
+}
