@@ -86,6 +86,72 @@ test('correct meanings are accepted', () => {
   assert.equal(checkAnswer(king, 'meaning', 'the king'), true);
 });
 
+test('a bracket in a gloss can be typed or left out', () => {
+  const contents = all.find((s) => s.meanings.includes('content(s)'));
+  for (const answer of ['content', 'contents', 'Contents', 'content(s)']) {
+    assert.equal(checkAnswer(contents, 'meaning', answer), true, answer);
+  }
+  assert.equal(checkAnswer(contents, 'meaning', 'contented'), false);
+
+  const cases = [
+    ['immediate(ly)', ['immediate', 'immediately'], ['immediat ly now']],
+    ['to spread (out)', ['spread', 'to spread', 'spread out'], ['out']],
+    ['(gram) particle(s)', ['particle', 'particles', 'gram particle'], ['gram']],
+    ['produce (e.g., agricultural)', ['produce'], ['agricultural']],
+    ['station(TV, radio)', ['station', 'station tv radio'], ['tv radio']],
+    ['(not) always', ['not always'], ['always']],
+  ];
+  for (const [gloss, accepted, rejected] of cases) {
+    const subject = { type: 'vocabulary', meanings: [gloss] };
+    for (const answer of accepted) {
+      assert.equal(checkAnswer(subject, 'meaning', answer), true, `${gloss} <- ${answer}`);
+    }
+    for (const answer of rejected) {
+      assert.equal(checkAnswer(subject, 'meaning', answer), false, `${gloss} <- ${answer}`);
+    }
+  }
+});
+
+test('one slip in a longer meaning is forgiven', () => {
+  const subject = (...meanings) => ({ type: 'vocabulary', meanings });
+  const accepted = [
+    ['experience', 'experiance'],   // wrong letter
+    ['experience', 'experence'],    // missing letter
+    ['experience', 'experiencee'],  // extra letter
+    ['to receive', 'recieve'],      // swapped neighbours
+    ['situation', 'Situatoin'],
+    ['content(s)', 'contnets'],
+  ];
+  for (const [gloss, typed] of accepted) {
+    assert.equal(checkAnswer(subject(gloss), 'meaning', typed), true, `${gloss} <- ${typed}`);
+  }
+
+  const rejected = [
+    ['experience', 'experanse'],    // two slips
+    ['form', 'from'],               // short words stay strict
+    ['king', 'kin'],
+    ['then', 'than'],
+    ['complaint', 'compliment'],
+    ['10 minutes', '11 minutes'],   // numbers are never fuzzy
+    ['situation', 'station'],
+    ['light', 'night'],             // a real answer to another card
+    ['horse', 'house'],
+    ['reason', 'season'],
+    ['attach', 'attack'],
+    ['fault', 'vault'],             // different first letter
+  ];
+  for (const [gloss, typed] of rejected) {
+    assert.equal(checkAnswer(subject(gloss), 'meaning', typed), false, `${gloss} <- ${typed}`);
+  }
+});
+
+test('readings get no typo tolerance', () => {
+  const king = find('王');
+  assert.equal(checkAnswer(king, 'reading', 'oo'), false);
+  const word = vocabulary.find((s) => s.reading.length >= 5);
+  assert.equal(checkAnswer(word, 'reading', word.reading.slice(0, -1)), false);
+});
+
 test('correct readings are accepted in romaji or kana', () => {
   const king = find('王');
   assert.equal(checkAnswer(king, 'reading', 'ou'), true);
