@@ -41,7 +41,8 @@ test('romaji converts to kana', () => {
   assert.equal(toKana('gakkou'), 'がっこう');
   assert.equal(toKana('jisho'), 'じしょ');
   assert.equal(toKana('n'), 'ん');
-  assert.equal(toKana('konnichiha'), 'こんにちは');
+  assert.equal(toKana('konnnichiha'), 'こんにちは');
+  assert.equal(toKana('tanni'), 'たんい');
   assert.equal(toKana('ryokou'), 'りょこう');
   assert.equal(toHiragana('カタカナ'), 'かたかな');
 });
@@ -63,14 +64,24 @@ test('a typed "n" waits for the next key instead of becoming ん', () => {
   assert.equal(typeLive('nya'), 'にゃ');
   assert.equal(typeLive('nani'), 'なに');
   assert.equal(typeLive('hana'), 'はな');
-  assert.equal(typeLive('onna'), 'おんな');
   assert.equal(typeLive("kin'en"), 'きんえn');
+});
+
+test('pressing n twice gives ん straight away, as on a Japanese keyboard', () => {
+  assert.equal(typeLive('nn'), 'ん');
+  assert.equal(typeLive('hon'), 'ほn');
+  assert.equal(typeLive('honn'), 'ほん');
+  assert.equal(typeLive('onnna'), 'おんな');
+  assert.equal(typeLive('minnna'), 'みんな');
+  assert.equal(typeLive('tanni'), 'たんい');
+  assert.equal(typeLive('genninn'), 'げんいん');
+  assert.equal(typeLive('konnnichiha'), 'こんにちは');
 });
 
 test('typing key by key ends up where converting the whole word does', () => {
   const words = [
-    'na', 'nani', 'onna', 'konnichiha', 'shinbun', 'kippu', 'gakkou', 'ryokou',
-    'nyuugaku', 'konnyaku', "gen'in", "tan'i", 'sannin', 'minna', 'annai',
+    'na', 'nani', 'onnna', 'konnnichiha', 'shinbun', 'kippu', 'gakkou', 'ryokou',
+    'nyuugaku', 'konnnyaku', "gen'in", "tan'i", 'gennin', 'tanni', 'minnna',
     'benkyou', 'kantan', 'unten', 'nn', 'n', 'hon', 'honya', "hon'ya",
   ];
   for (const word of words) {

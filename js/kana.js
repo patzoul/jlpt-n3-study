@@ -47,8 +47,9 @@ const MAX_KEY = 4;
  * naturally while typing.
  *
  * With `partial` set, the input is treated as still being typed: a trailing
- * "n", "nn" or "ny" is left alone, because the next key decides whether it
- * becomes ん, な or にゃ. Without it the input is final and a trailing "n" is ん.
+ * "n" or "ny" is left alone, because the next key decides whether it becomes
+ * ん, な or にゃ. Without it the input is final and a trailing "n" is ん.
+ * "nn" is always ん, as on a Japanese keyboard.
  */
 export function toKana(input, { partial = false } = {}) {
   const text = String(input || '').toLowerCase();
@@ -76,7 +77,7 @@ export function toKana(input, { partial = false } = {}) {
       if (partial) {
         // Still typing: keep whatever cannot be decided yet as romaji.
         const rest = text.slice(index);
-        if (rest === 'n' || rest === 'nn' || rest === 'ny') {
+        if (rest === 'n' || rest === 'ny') {
           out += rest;
           break;
         }
@@ -88,11 +89,11 @@ export function toKana(input, { partial = false } = {}) {
         continue;
       }
       if (next === 'n') {
-        // "nna" is ん + な, but a bare "nn" is just ん.
-        const after = text[index + 2];
-        const vowelFollows = after !== undefined && 'aiueoy'.includes(after);
+        // "nn" is ん, as on a Japanese keyboard: みんな is typed "minnna" and
+        // たんい is "tanni". Holding "nn" back to see what follows would make
+        // the obvious way to type ん not work.
         out += 'ん';
-        index += vowelFollows ? 1 : 2;
+        index += 2;
         continue;
       }
       if (/[a-z]/.test(next) && !'aiueoy'.includes(next)) {
