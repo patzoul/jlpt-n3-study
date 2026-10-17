@@ -270,11 +270,72 @@ async function finishSession() {
 
   // Push the session to the other devices in the background. A failure here is
   // not worth interrupting the summary screen for — the next sync catches up.
-  sync.syncQuietly().then(async (result) => {
+  backgroundSync();
+}
+
+// --------------------------------------------------------------------- sync
+
+let syncInFlight = null;
+let syncRequestedAgain = false;
+let lastSyncAt = 0;
+
+// Switching away and straight back should not hit the server every time.
+const RESUME_SYNC_GAP_MS = 10 * 1000;
+
+function sessionInProgress() {
+  return Boolean(state.session && !state.session.finished);
+}
+
+/**
+ * Sync without blocking anything. Only one runs at a time: a request made
+ * while one is running becomes a single follow-up run, so its result covers
+ * everything done up to that point.
+ */
+function backgroundSync() {
+  if (!sync.isConfigured(state.syncConfig)) {
+    return Promise.resolve(null);
+  }
+  if (syncInFlight) {
+    syncRequestedAgain = true;
+    return syncInFlight;
+  }
+  syncInFlight = (async () => {
+    let pulled = false;
+    let result = null;
+    do {
+      syncRequestedAgain = false;
+      result = await sync.syncQuietly();
+      lastSyncAt = Date.now();
+      pulled = pulled || Boolean(result && result.pulledChanges);
+    } while (syncRequestedAgain);
+
     if (result) {
       await hydrate();
+      // Redraw only between sessions; doing it mid-answer would wipe what is
+      // being typed. A session picks up the merged state as it goes anyway.
+      if (pulled && !sessionInProgress()) {
+        render();
+      }
     }
+    return result;
+  })().finally(() => {
+    syncInFlight = null;
   });
+  return syncInFlight;
+}
+
+/**
+ * An app left open in the background (an installed iPhone app especially)
+ * does not reload when you come back to it, so pull on return instead.
+ */
+function syncOnReturn() {
+  if (document.visibilityState !== 'visible') {
+    return;
+  }
+  if (sessionInProgress() || Date.now() - lastSyncAt < RESUME_SYNC_GAP_MS) {
+    return;
+  }
+  backgroundSync();
 }
 
 async function touchStreak() {
@@ -1181,15 +1242,21 @@ async function handleAction(action) {
       state.session.teaching = Math.max(0, state.session.teaching - 1);
       renderSession();
       break;
-    case 'end-session':
-      if (state.session.log.length) {
+    case 'end-session': {
+      const answered = state.session.log.length > 0;
+      if (answered) {
         await store.logReviews(state.session.log);
         await touchStreak();
         await maybeLevelUp();
       }
       state.session = null;
       render();
+      // Ending early still counts: send what was answered to the other devices.
+      if (answered) {
+        backgroundSync();
+      }
       break;
+    }
     case 'continue':
       state.session = null;
       location.hash = 'dashboard';
@@ -1235,15 +1302,10 @@ async function init() {
 
   render();
 
-  // Pull anything studied elsewhere since this device was last open.
-  if (sync.isConfigured(state.syncConfig)) {
-    sync.syncQuietly().then(async (result) => {
-      if (result && result.pulledChanges) {
-        await hydrate();
-        render();
-      }
-    });
-  }
+  // Pull anything studied elsewhere since this device was last open, and again
+  // whenever the app comes back to the foreground.
+  backgroundSync();
+  document.addEventListener('visibilitychange', syncOnReturn);
 }
 
 init().catch((error) => {

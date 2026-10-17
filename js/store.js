@@ -300,19 +300,57 @@ export async function snapshot() {
  * sides, so this overwrites rather than merges again.
  */
 export async function applySnapshot(state) {
+  // Everything below is written additively. A sync reads the local state,
+  // talks to the server and only then writes back, and answers given in that
+  // gap must survive: a record is replaced only by a newer one, and log
+  // entries and daily counts are only ever added to.
   if (Array.isArray(state.progress)) {
-    await clearProgress();
-    await putProgress(state.progress);
+    await tx('progress', 'readwrite', (store) => {
+      const request = store.getAll();
+      request.onsuccess = () => {
+        const current = new Map(request.result.map((record) => [record.id, record]));
+        for (const record of state.progress) {
+          const mine = current.get(record.id);
+          if (!mine || recordTime(record) > recordTime(mine)) {
+            store.put(record);
+          }
+        }
+      };
+    });
   }
   if (Array.isArray(state.reviews)) {
-    await clearReviewLog();
-    await logReviews(state.reviews);
+    await tx('reviews', 'readwrite', (store) => {
+      const request = store.getAll();
+      request.onsuccess = () => {
+        const seen = new Set(request.result.map(reviewKey));
+        for (const { key, ...entry } of state.reviews) {
+          if (!seen.has(reviewKey(entry))) {
+            store.add(entry);
+          }
+        }
+      };
+    });
   }
   if (state.daily) {
-    await metaPut('daily', state.daily);
+    const daily = await metaGet('daily', {});
+    for (const [date, counts] of Object.entries(state.daily)) {
+      const mine = daily[date] || {};
+      daily[date] = {
+        newStarted: Math.max(mine.newStarted || 0, counts.newStarted || 0),
+        reviewsDone: Math.max(mine.reviewsDone || 0, counts.reviewsDone || 0),
+      };
+    }
+    await metaPut('daily', daily);
   }
   if (state.streak) {
-    await saveStreak(state.streak);
+    const mine = await getStreak();
+    if ((state.streak.lastDate || '') >= (mine.lastDate || '')) {
+      await saveStreak(
+        state.streak.lastDate === mine.lastDate
+          ? { ...state.streak, count: Math.max(state.streak.count, mine.count) }
+          : state.streak
+      );
+    }
   }
   if (state.settings) {
     // Keep the original edit time, otherwise every sync would look like a
@@ -321,8 +359,16 @@ export async function applySnapshot(state) {
     await metaPut('settingsUpdatedAt', state.updatedAt || 0);
   }
   if (state.level) {
-    await saveLevel(state.level);
+    await saveLevel(Math.max(state.level, await getLevel()));
   }
+}
+
+function recordTime(record) {
+  return record.lastReviewedAt || record.startedAt || 0;
+}
+
+function reviewKey(entry) {
+  return `${entry.subjectId}|${entry.kind}|${entry.at}`;
 }
 
 export async function exportAll() {
