@@ -8,7 +8,7 @@
 // Bump SHELL_VERSION whenever any file in SHELL_ASSETS changes, otherwise
 // installed devices keep running the old HTML/CSS/JS from cache. Content JSON
 // does not need a bump — it is revalidated on every load.
-const SHELL_VERSION = 'shell-v8';
+const SHELL_VERSION = 'shell-v9';
 const CONTENT_CACHE = 'content-v1';
 
 const SHELL_ASSETS = [
@@ -41,11 +41,15 @@ self.addEventListener('install', (event) => {
   event.waitUntil(
     (async () => {
       const shell = await caches.open(SHELL_VERSION);
-      await shell.addAll(SHELL_ASSETS);
+      // cache: 'reload' skips the browser's HTTP cache. Without it a new
+      // version can install with files the browser cached minutes earlier
+      // (GitHub Pages allows ten), and then serve those old files until the
+      // next version bump.
+      await shell.addAll(SHELL_ASSETS.map((url) => new Request(url, { cache: 'reload' })));
       // Warm the decks too, so a freshly installed app works offline straight
       // away rather than only after the first online visit.
       const content = await caches.open(CONTENT_CACHE);
-      await content.addAll(CONTENT_ASSETS);
+      await content.addAll(CONTENT_ASSETS.map((url) => new Request(url, { cache: 'reload' })));
       await self.skipWaiting();
     })()
   );

@@ -172,7 +172,7 @@ function buildSession(mode) {
 async function submitAnswer(raw) {
   const session = state.session;
   const item = session.current;
-  if (!item || session.revealed) {
+  if (!item || session.revealed || session.checking) {
     return;
   }
   const subject = getSubject(item.subjectId);
@@ -181,6 +181,26 @@ async function submitAnswer(raw) {
     return;
   }
 
+  // Finishing an item saves it before the result shows, which takes a moment.
+  // A second Enter in that moment must not count the same answer again: it
+  // used to, and dropped the next question from the queue unasked.
+  session.checking = true;
+  try {
+    await gradeAnswer(session, item, subject, correct, raw);
+  } finally {
+    session.checking = false;
+  }
+
+  if (correct && state.settings.autoAdvance) {
+    setTimeout(() => {
+      if (state.session === session && session.revealed) {
+        advance();
+      }
+    }, 700);
+  }
+}
+
+async function gradeAnswer(session, item, subject, correct, raw) {
   session.log.push({
     subjectId: subject.id,
     type: subject.type,
@@ -208,14 +228,6 @@ async function submitAnswer(raw) {
   session.lastCorrect = correct;
   session.lastAnswer = raw;
   renderSession();
-
-  if (correct && state.settings.autoAdvance) {
-    setTimeout(() => {
-      if (state.session === session && session.revealed) {
-        advance();
-      }
-    }, 700);
-  }
 }
 
 /** When every question for a subject is answered, write its SRS update. */
@@ -250,6 +262,9 @@ async function maybeCompleteSubject(subject) {
 
 function advance() {
   const session = state.session;
+  if (!session || !session.revealed || session.checking) {
+    return;   // Enter and the Next button can land together; move on once
+  }
   session.revealed = false;
   session.lastCorrect = null;
   if (!session.queue.length) {
@@ -1164,6 +1179,27 @@ function bindSentenceReveal() {
   });
 }
 
+/**
+ * Enter moves on once an answer has been shown. This is one listener for the
+ * life of the page, and it checks the session state when a key arrives.
+ *
+ * It used to be added afresh each time an answer was shown, and removed only
+ * when Enter was used to move on. Moving on with the Next button left it
+ * behind, so the next Enter meant to check an answer fired it instead: the
+ * card was redrawn and the typed answer wiped without being marked.
+ */
+function onSessionKey(event) {
+  if (event.key !== 'Enter' || event.isComposing) {
+    return;   // isComposing: Enter is confirming a Japanese IME conversion
+  }
+  const session = state.session;
+  if (!session || session.finished || !session.revealed) {
+    return;   // while answering, Enter submits the form as normal
+  }
+  event.preventDefault();
+  advance();
+}
+
 function bindSessionEvents() {
   bindSentenceReveal();
   const form = $('#answerForm');
@@ -1176,16 +1212,8 @@ function bindSessionEvents() {
       advance();
     });
     $('[data-action="end-session"]').addEventListener('click', () => handleAction('end-session'));
+    // Enter anywhere continues; see onSessionKey, installed once in init.
     input.blur();
-    // Enter/space anywhere continues once the answer is shown.
-    const onKey = (event) => {
-      if (event.key === 'Enter') {
-        event.preventDefault();
-        document.removeEventListener('keydown', onKey);
-        advance();
-      }
-    };
-    document.addEventListener('keydown', onKey);
     return;
   }
 
@@ -1306,6 +1334,7 @@ async function init() {
   // whenever the app comes back to the foreground.
   backgroundSync();
   document.addEventListener('visibilitychange', syncOnReturn);
+  document.addEventListener('keydown', onSessionKey);
 }
 
 init().catch((error) => {
