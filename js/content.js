@@ -5,6 +5,7 @@ import { GURU } from './srs.js';
 let subjects = [];
 let byId = new Map();
 let manifest = { levels: 1, counts: {} };
+let editsVersion = 0;
 
 export async function loadContent() {
   const [kanji, vocabulary, grammar, meta] = await Promise.all([
@@ -16,8 +17,48 @@ export async function loadContent() {
 
   manifest = meta;
   subjects = [...kanji, ...vocabulary, ...grammar];
+  subjects.forEach((subject) => {
+    subject.deckMeanings = subject.meanings;
+  });
   byId = new Map(subjects.map((subject) => [subject.id, subject]));
+  // A merged homograph still answers to the ids of the cards it replaced, so
+  // old progress and review history find it.
+  subjects.forEach((subject) => {
+    (subject.aliases || []).forEach((alias) => byId.set(alias, subject));
+  });
   return { subjects, manifest };
+}
+
+/** Old card id → the id of the card it was merged into. */
+export function aliasIds() {
+  const map = new Map();
+  subjects.forEach((subject) => {
+    (subject.aliases || []).forEach((alias) => map.set(alias, subject.id));
+  });
+  return map;
+}
+
+/**
+ * Put your own wording on cards. Edited meanings replace the deck's, both on
+ * screen and when answers are checked; a card with no edit (or a restored
+ * one) shows the deck's meanings again.
+ *
+ * @param {Object<string, {meanings: string[]|null}>} edits keyed by card id
+ */
+export function applyMeaningEdits(edits) {
+  subjects.forEach((subject) => {
+    const edit = edits[subject.id];
+    const mine = edit && edit.meanings && edit.meanings.length ? edit.meanings : null;
+    subject.meanings = mine || subject.deckMeanings;
+    subject.primaryMeaning = subject.meanings[0];
+    subject.edited = Boolean(mine);
+  });
+  editsVersion += 1;
+}
+
+/** Changes whenever meanings change, for caches built from them. */
+export function meaningsVersion() {
+  return editsVersion;
 }
 
 export function allSubjects() {
@@ -104,7 +145,8 @@ export function meaningAnswers(subject) {
 
 export function readingAnswers(subject) {
   if (subject.type === 'vocabulary') {
-    return subject.reading ? [subject.reading] : [];
+    // A word written one way but read several (品: しな / ひん) takes any.
+    return subject.readings || (subject.reading ? [subject.reading] : []);
   }
   if (subject.type === 'kanji') {
     // Any of the taught readings is accepted; WaniKani is stricter, but for

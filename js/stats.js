@@ -246,7 +246,9 @@ function leechSection(log, state) {
   const misses = new Map();
   log.forEach((entry) => {
     if (entry.correct) return;
-    misses.set(entry.subjectId, (misses.get(entry.subjectId) || 0) + 1);
+    // Misses logged under a merged card's old id count towards the card.
+    const id = getSubject(entry.subjectId)?.id || entry.subjectId;
+    misses.set(id, (misses.get(id) || 0) + 1);
   });
 
   const leeches = [...misses.entries()]

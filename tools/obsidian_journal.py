@@ -144,8 +144,16 @@ def render_kanji(item):
 
 
 def render_vocabulary(item):
-    meanings = ', '.join(item['meanings'][:3])
-    lines = [f'- **{item["characters"]}** ({item["reading"]}): {meanings}']
+    if item.get('senses'):
+        # A word with several readings: what each reading means.
+        gloss = '; '.join(
+            f'{sense["reading"]}: {", ".join(sense["meanings"][:3])}'
+            for sense in item['senses']
+        )
+        lines = [f'- **{item["characters"]}** ({gloss})']
+    else:
+        meanings = ', '.join(item['meanings'][:3])
+        lines = [f'- **{item["characters"]}** ({item["reading"]}): {meanings}']
     return lines + example_lines(item, indent='  ')
 
 

@@ -105,20 +105,25 @@ def check_card_reading(where, item, example, segments):
     can otherwise be given a sentence that uses the other one.
     """
     if item['type'] == 'vocabulary':
-        pairs = [(item['characters'], item['reading'])]
+        # A merged homograph (品: しな / ひん) has a sentence for each reading.
+        pairs = [(item['characters'], item.get('readings') or [item['reading']])]
     elif item['type'] == 'kanji':
         # A kanji card's sentence is chosen for one of its example words.
         pairs = [
-            (word['characters'], word['reading'])
+            (word['characters'], [word['reading']])
             for word in item.get('exampleWords', [])
             if word['characters'] in example['ja']
         ][:1]
     else:
         return
-    for word, reading in pairs:
+    for word, readings in pairs:
         if word.endswith(IRREGULAR_ENDINGS):
             continue
-        verdict = furigana.reads_as(segments, example['ja'], word, reading)
+        verdicts = [
+            furigana.reads_as(segments, example['ja'], word, reading)
+            for reading in readings
+        ]
+        verdict = True if True in verdicts else None if None in verdicts else False
         if verdict is False:
             got = None
             for trim in (0, 1, 2):
@@ -128,7 +133,7 @@ def check_card_reading(where, item, example, segments):
                     break
             report(
                 where,
-                f'card says {word} is read {reading}, but its sentence reads it '
+                f'card says {word} is read {"/".join(readings)}, but its sentence reads it '
                 f'{got!r}: {example["ja"]}',
             )
         elif verdict is None and item['type'] == 'vocabulary':
@@ -144,13 +149,19 @@ def check_deck(name, required):
         if count > 1:
             report(name, f'duplicate id {item_id} ({count}x)')
 
-    # Two cards with the same front are unanswerable as a pair. Vocabulary is
-    # exempt: homographs are legitimately distinguished by their reading.
-    if name != 'vocabulary':
-        fronts = Counter(item['characters'] for item in items)
-        for front, count in fronts.items():
-            if count > 1:
-                report(name, f'duplicate front {front!r} ({count}x)')
+    # Two cards with the same front are unanswerable as a pair: the reading
+    # question cannot say which reading it wants. Homographs are merged into
+    # one card by the build.
+    fronts = Counter(item['characters'] for item in items)
+    for front, count in fronts.items():
+        if count > 1:
+            report(name, f'duplicate front {front!r} ({count}x)')
+
+    # A merged card's old ids must not collide with a live card.
+    aliases = Counter(alias for item in items for alias in item.get('aliases', []))
+    for alias, count in aliases.items():
+        if count > 1 or alias in ids:
+            report(name, f'alias {alias} is used twice or is a live id')
 
     for item in items:
         where = f"{name}/{item['id']}"

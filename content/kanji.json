@@ -810,11 +810,6 @@
     "meaning": "other (esp. places and things)"
    },
    {
-    "characters": "他",
-    "reading": "ほか",
-    "meaning": "other (esp. places and things)"
-   },
-   {
     "characters": "他人",
     "reading": "たにん",
     "meaning": "unrelated person"
@@ -3278,11 +3273,6 @@
     "meaning": "the end"
    },
    {
-    "characters": "末",
-    "reading": "まつ",
-    "meaning": "the end of (a month, a year)"
-   },
-   {
     "characters": "粗末",
     "reading": "そまつ",
     "meaning": "humble"
@@ -3686,14 +3676,14 @@
     "meaning": "versus"
    },
    {
-    "characters": "対",
-    "reading": "つい",
-    "meaning": "pair"
-   },
-   {
     "characters": "対する",
     "reading": "たいする",
     "meaning": "to face"
+   },
+   {
+    "characters": "対象",
+    "reading": "たいしょう",
+    "meaning": "target"
    }
   ],
   "examples": [
@@ -3863,14 +3853,14 @@
     "meaning": "number"
    },
    {
-    "characters": "数",
-    "reading": "かず",
-    "meaning": "number"
-   },
-   {
     "characters": "数える",
     "reading": "かぞえる",
     "meaning": "to count"
+   },
+   {
+    "characters": "数字",
+    "reading": "すうじ",
+    "meaning": "numeral"
    }
   ],
   "examples": [
@@ -9511,11 +9501,6 @@
    {
     "characters": "球",
     "reading": "きゅう",
-    "meaning": "globe"
-   },
-   {
-    "characters": "球",
-    "reading": "たま",
     "meaning": "globe"
    }
   ],
@@ -17390,14 +17375,14 @@
     "meaning": "to get"
    },
    {
-    "characters": "得る",
-    "reading": "うる",
-    "meaning": "to get"
-   },
-   {
     "characters": "得意",
     "reading": "とくい",
     "meaning": "pride"
+   },
+   {
+    "characters": "納得",
+    "reading": "なっとく",
+    "meaning": "consent"
    }
   ],
   "examples": [
@@ -28151,11 +28136,6 @@
     "characters": "抱く",
     "reading": "いだく",
     "meaning": "to hold (v.t.) (written expression)"
-   },
-   {
-    "characters": "抱く",
-    "reading": "だく",
-    "meaning": "to embrace"
    }
   ],
   "examples": [

@@ -91,7 +91,8 @@ function reviewKey(entry) {
  *  - reviews: a union, because both logs are records of things that genuinely
  *    happened;
  *  - daily counters: the maximum, so caps already spent are not handed back;
- *  - level and streak: whichever is further along.
+ *  - level and streak: whichever is further along;
+ *  - your own meanings: card by card, the later edit wins.
  */
 export function mergeState(local, remote) {
   if (!remote) {
@@ -146,6 +147,13 @@ export function mergeState(local, remote) {
           ? { ...localStreak, count: Math.max(localStreak.count, remoteStreak.count) }
           : localStreak);
 
+  const meaningEdits = store.mergeMeaningEdits(local.meaningEdits, remote.meaningEdits);
+  for (const [id, edit] of Object.entries(remote.meaningEdits || {})) {
+    if (meaningEdits[id] === edit && (local.meaningEdits || {})[id] !== edit) {
+      changed = true;
+    }
+  }
+
   // Settings are a preference, not a record of events, so the newer edit wins.
   const settings = (remote.updatedAt || 0) > (local.updatedAt || 0)
     ? { ...local.settings, ...remote.settings }
@@ -158,6 +166,7 @@ export function mergeState(local, remote) {
     streak,
     settings,
     level: Math.max(local.level || 1, remote.level || 1),
+    meaningEdits,
     updatedAt: Math.max(local.updatedAt || 0, remote.updatedAt || 0),
     changed,
   };
@@ -260,6 +269,7 @@ export async function sync() {
     streak: merged.streak,
     settings: merged.settings,
     level: merged.level,
+    meaningEdits: merged.meaningEdits,
     updatedAt: Date.now(),
   });
   if (payload.byteLength > MAX_PAYLOAD_BYTES) {

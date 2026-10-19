@@ -56,7 +56,7 @@ whichever is further along. `test/sync.test.mjs` pins all of that down.
 | | Count | Examples |
 | --- | --- | --- |
 | Kanji | 367 | every card has a sentence and example words |
-| Vocabulary | 2,140 | every card has a sentence |
+| Vocabulary | 2,103 | every card has a sentence; words written alike but read differently (品: しな / ひん) are one card |
 | Grammar | 150 | every card has two sentences |
 
 Content is split across 37 levels of 10 kanji, with vocabulary attached to the
@@ -91,6 +91,12 @@ reading; the item only advances when both are answered correctly in the same
 session. Readings are typed in romaji and converted to kana as you type
 (`gakkou` → `がっこう`), or you can type kana directly. Grammar is asked for
 meaning only.
+
+**Your own wording.** If a card's meanings read oddly, use *Edit meanings*
+under its details (in a lesson, after answering a review, or in Browse). Your
+wording replaces the deck's on screen and when answers are checked, syncs to
+your other devices, and can be restored to the deck's at any time. The deck
+files, and so the Obsidian journal, keep the original wording.
 
 **Daily caps.** `New items per day` and `Reviews per day` in Settings are
 enforced against per-day counters that reset at local midnight. This is the main

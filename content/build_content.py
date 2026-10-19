@@ -491,7 +491,48 @@ def build_vocab(vocab_rows, kanji_levels, wordmeta, examples, readable, index, a
             'common': entry['common'],
             'examples': [example] if example else [],
         })
-    return items
+    return merge_homographs(items)
+
+
+def merge_homographs(items):
+    """One card per written form, accepting every reading of it.
+
+    品 is read both しな and ひん. As two cards, the reading question shows 品
+    with nothing to say which reading it wants, so one of the two right answers
+    is always marked wrong. The merged card keeps the first card's id (the
+    others are listed in `aliases` so progress on them can be carried over),
+    accepts all readings, and keeps each reading's meanings and sentence.
+    """
+    groups = defaultdict(list)
+    for item in items:
+        groups[item['characters']].append(item)
+
+    merged = []
+    for item in items:
+        group = groups[item['characters']]
+        if group[0] is not item:
+            continue
+        item['readings'] = [card['reading'] for card in group]
+        if len(group) > 1:
+            item['senses'] = [
+                {'reading': card['reading'], 'meanings': card['meanings']}
+                for card in group
+            ]
+            item['meanings'] = dedupe(m for card in group for m in card['meanings'])
+            item['componentKanji'] = dedupe(
+                ch for card in group for ch in card['componentKanji']
+            )
+            item['frequencyTier'] = min(card['frequencyTier'] for card in group)
+            item['common'] = any(card['common'] for card in group)
+            examples = []
+            for card in group:
+                for example in card['examples']:
+                    if all(example['ja'] != kept['ja'] for kept in examples):
+                        examples.append(example)
+            item['examples'] = examples
+            item['aliases'] = [card['id'] for card in group[1:]]
+        merged.append(item)
+    return merged
 
 
 def build_grammar(grammar, max_level):
@@ -535,7 +576,9 @@ def main():
             vocab_by_kanji[ch].append({
                 'characters': item['characters'],
                 'reading': item['reading'],
-                'meanings': item['meanings'],
+                # A merged homograph lists the meanings of its first reading,
+                # the one shown beside it.
+                'meanings': (item.get('senses') or [item])[0]['meanings'],
             })
 
     # Fall back to neighbouring JLPT levels for kanji that no N3 word uses.

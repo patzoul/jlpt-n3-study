@@ -170,6 +170,38 @@ test('correct readings are accepted in romaji or kana', () => {
   assert.equal(checkAnswer(king, 'reading', 'オウ'), true);
 });
 
+test('a word written one way but read two ways is one card taking both', () => {
+  const cards = vocabulary.filter((s) => s.characters === '品');
+  assert.equal(cards.length, 1);
+  const [hin] = cards;
+  assert.equal(checkAnswer(hin, 'reading', 'shina'), true);
+  assert.equal(checkAnswer(hin, 'reading', 'hin'), true);
+  assert.equal(checkAnswer(hin, 'reading', 'hon'), false);
+  assert.equal(checkAnswer(hin, 'meaning', 'elegance'), true);
+  // Progress saved under the old second card still finds the merged one.
+  assert.equal(content.getSubject('v-品-ひん'), hin);
+  assert.equal(content.aliasIds().get('v-品-ひん'), hin.id);
+});
+
+test('your own meanings replace the deck meanings, for grading too', () => {
+  const card = find('品');
+  content.applyMeaningEdits({ [card.id]: { meanings: ['item', 'refinement'] } });
+  assert.equal(card.primaryMeaning, 'item');
+  assert.equal(checkAnswer(card, 'meaning', 'refinement'), true);
+  assert.equal(checkAnswer(card, 'meaning', 'elegance'), false);
+  content.applyMeaningEdits({ [card.id]: { meanings: null } });
+  assert.equal(card.primaryMeaning, 'thing');
+  assert.equal(checkAnswer(card, 'meaning', 'elegance'), true);
+});
+
+test('no two vocabulary cards share a front', () => {
+  const fronts = new Set();
+  for (const card of vocabulary) {
+    assert.ok(!fronts.has(card.characters), card.characters);
+    fronts.add(card.characters);
+  }
+});
+
 test('wrong answers are rejected', () => {
   const king = find('王');
   assert.equal(checkAnswer(king, 'meaning', 'queen'), false);

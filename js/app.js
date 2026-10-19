@@ -1,6 +1,6 @@
 import {
   loadContent, allSubjects, getSubject, getManifest, isUnlocked, blockingKanji,
-  levelProgress, questionsFor,
+  levelProgress, questionsFor, aliasIds, applyMeaningEdits,
 } from './content.js';
 import { checkAnswer, answersFor } from './answer.js';
 import {
@@ -719,9 +719,15 @@ function subjectDetail(subject) {
   }
 
   if (subject.type === 'vocabulary') {
-    parts.push(`<dl class="detail">
-      <div><dt>Reading</dt><dd class="jp">${escapeHtml(subject.reading)}</dd></div>
-      <div><dt>Meanings</dt><dd>${escapeHtml(subject.meanings.join(', '))}</dd></div>
+    // A word with several readings lists what each reading means, unless you
+    // have rewritten the meanings, which then stand for the whole card.
+    const senses = subject.senses && !subject.edited
+      ? subject.senses.map((sense) => `
+      <div><dt class="jp">${escapeHtml(sense.reading)}</dt><dd>${escapeHtml(sense.meanings.join(', '))}</dd></div>`).join('')
+      : `
+      <div><dt>Reading</dt><dd class="jp">${escapeHtml((subject.readings || [subject.reading]).join('、'))}</dd></div>
+      <div><dt>Meanings</dt><dd>${escapeHtml(subject.meanings.join(', '))}</dd></div>`;
+    parts.push(`<dl class="detail">${senses}
       ${subject.componentKanji.length ? `<div><dt>Kanji</dt><dd class="jp">${escapeHtml(subject.componentKanji.join(' '))}</dd></div>` : ''}
     </dl>`);
   }
@@ -734,6 +740,11 @@ function subjectDetail(subject) {
     </dl>`);
   }
 
+  parts.push(`<p class="meaning-tools">
+      <button type="button" class="link" data-edit="open">Edit meanings</button>
+      ${subject.edited ? '<span class="muted">· your wording</span>' : ''}
+    </p>`);
+
   if (subject.examples && subject.examples.length) {
     parts.push(`<div class="examples"><p class="detail-head">Example${subject.examples.length > 1 ? 's' : ''}</p>${
       subject.examples.map((example) => `
@@ -744,7 +755,135 @@ function subjectDetail(subject) {
     }</div>`);
   }
 
-  return parts.join('');
+  return `<div class="subject-detail" data-detail-id="${escapeHtml(subject.id)}">${parts.join('')}</div>`;
+}
+
+// ------------------------------------------------------- editing meanings
+
+/**
+ * The "Edit meanings" link under a card's details, wherever they are shown:
+ * a lesson, the answer to a review, or Browse. One listener for the page,
+ * because the details are redrawn by several views.
+ */
+function onMeaningEditClick(event) {
+  const button = event.target.closest('[data-edit]');
+  const detail = button && button.closest('.subject-detail');
+  if (!detail) {
+    return;
+  }
+  const subject = getSubject(detail.dataset.detailId);
+  switch (button.dataset.edit) {
+    case 'open':
+      openMeaningEditor(detail, subject);
+      break;
+    case 'cancel':
+      refreshDetail(detail, subject);
+      break;
+    case 'save':
+      saveMeanings(detail, subject, parseMeanings(detail.querySelector('textarea').value));
+      break;
+    case 'restore':
+      saveMeanings(detail, subject, null);
+      break;
+  }
+}
+
+/** In the editor, Ctrl+Enter (or Cmd+Enter) saves and Escape cancels. */
+function onMeaningEditKey(event) {
+  const editor = event.target.closest && event.target.closest('.meaning-edit');
+  if (!editor) {
+    return;
+  }
+  if (event.key === 'Enter' && (event.ctrlKey || event.metaKey)) {
+    event.preventDefault();
+    editor.querySelector('[data-edit="save"]').click();
+  } else if (event.key === 'Escape') {
+    event.preventDefault();
+    editor.querySelector('[data-edit="cancel"]').click();
+  }
+}
+
+function openMeaningEditor(detail, subject) {
+  const tools = detail.querySelector('.meaning-tools');
+  const deck = subject.deckMeanings.join(subject.type === 'grammar' ? '; ' : ', ');
+  const editor = document.createElement('div');
+  editor.className = 'meaning-edit';
+  editor.innerHTML = `
+    <label class="detail-head" for="meaningEditor">Meanings, one per line or separated by commas</label>
+    <textarea id="meaningEditor" rows="${Math.min(8, subject.meanings.length + 1)}"
+              spellcheck="true">${escapeHtml(subject.meanings.join('\n'))}</textarea>
+    <p class="muted hint">The first is the one lessons show. Answers are
+      checked against all of them, and brackets mark an optional part, as in
+      content(s).${subject.edited ? ` The deck says: ${escapeHtml(deck)}.` : ''}</p>
+    <p class="hint" data-edit-error hidden></p>
+    <div class="button-row">
+      <button type="button" class="primary" data-edit="save">Save</button>
+      <button type="button" class="secondary" data-edit="cancel">Cancel</button>
+      ${subject.edited ? '<button type="button" class="link" data-edit="restore">Restore the deck’s wording</button>' : ''}
+    </div>`;
+  tools.replaceWith(editor);
+  const textarea = editor.querySelector('textarea');
+  textarea.focus();
+  textarea.setSelectionRange(textarea.value.length, textarea.value.length);
+}
+
+/** Split what was typed into meanings: one per line, or comma-separated. */
+function parseMeanings(text) {
+  const pieces = [];
+  let current = '';
+  let depth = 0;
+  // A comma inside brackets belongs to its meaning: "hand (e.g., clock)".
+  for (const char of text) {
+    if (char === '(') depth += 1;
+    if (char === ')') depth = Math.max(0, depth - 1);
+    if (char === '\n' || ((char === ',' || char === ';') && depth === 0)) {
+      pieces.push(current);
+      current = '';
+      if (char === '\n') depth = 0;
+    } else {
+      current += char;
+    }
+  }
+  pieces.push(current);
+  const seen = new Set();
+  return pieces
+    .map((line) => line.trim().replace(/\s+/g, ' '))
+    .filter((line) => {
+      const key = line.toLowerCase();
+      if (!line || seen.has(key)) {
+        return false;
+      }
+      seen.add(key);
+      return true;
+    });
+}
+
+async function saveMeanings(detail, subject, meanings) {
+  if (meanings && !meanings.length) {
+    const error = detail.querySelector('[data-edit-error]');
+    error.textContent = 'Write at least one meaning, or cancel.';
+    error.hidden = false;
+    return;
+  }
+  // Saving the deck's own wording is the same as restoring it.
+  const same = meanings && meanings.join('\n') === subject.deckMeanings.join('\n');
+  state.meaningEdits = await store.saveMeaningEdit(subject.id, same ? null : meanings);
+  applyMeaningEdits(state.meaningEdits);
+  refreshDetail(detail, subject);
+  // A lesson card shows the main meaning above the details.
+  const prompt = document.querySelector('.teaching .prompt-meaning');
+  if (prompt) {
+    prompt.textContent = subject.primaryMeaning;
+  }
+  backgroundSync();
+}
+
+function refreshDetail(detail, subject) {
+  const holder = document.createElement('div');
+  holder.innerHTML = subjectDetail(subject);
+  const fresh = holder.firstElementChild;
+  detail.replaceWith(fresh);
+  bindSentenceReveal(fresh);
 }
 
 /** Mark the target word inside an example sentence. */
@@ -817,7 +956,7 @@ function teachView(session) {
     <div class="prompt-card type-${subject.type} teaching">
       <p class="prompt-type">${typeLabel(subject.type)} — level ${subject.level}</p>
       <p class="prompt-characters ${subject.characters.length > 6 ? 'long' : ''}">${escapeHtml(subject.characters)}</p>
-      <p class="prompt-reading jp">${escapeHtml(subject.type === 'vocabulary' ? subject.reading : (subject.primaryReading || subject.reading || ''))}</p>
+      <p class="prompt-reading jp">${escapeHtml(subject.type === 'vocabulary' ? (subject.readings || [subject.reading]).join('、') : (subject.primaryReading || subject.reading || ''))}</p>
       <p class="prompt-meaning">${escapeHtml(subject.primaryMeaning)}</p>
     </div>
     <div class="feedback">${subjectDetail(subject)}</div>
@@ -879,7 +1018,7 @@ function renderBrowse(root) {
     if (!needle) return true;
     return (
       subject.characters.includes(query)
-      || (subject.reading || '').includes(query)
+      || (subject.readings || [subject.reading || '']).some((reading) => reading.includes(query))
       || subject.meanings.some((meaning) => meaning.toLowerCase().includes(needle))
     );
   });
@@ -1170,11 +1309,11 @@ function bindCommon() {
 }
 
 /** With furigana hidden, tapping a sentence reveals its readings. */
-function bindSentenceReveal() {
+function bindSentenceReveal(scope = document) {
   if (state.settings.showFurigana) {
     return;
   }
-  document.querySelectorAll('.sentence').forEach((sentence) => {
+  scope.querySelectorAll('.sentence').forEach((sentence) => {
     sentence.addEventListener('click', () => sentence.classList.toggle('revealed'));
   });
 }
@@ -1191,6 +1330,9 @@ function bindSentenceReveal() {
 function onSessionKey(event) {
   if (event.key !== 'Enter' || event.isComposing) {
     return;   // isComposing: Enter is confirming a Japanese IME conversion
+  }
+  if (event.target.closest && event.target.closest('.meaning-edit')) {
+    return;   // a new line in the meanings editor
   }
   const session = state.session;
   if (!session || session.finished || !session.revealed) {
@@ -1311,10 +1453,14 @@ async function hydrate() {
   state.progress = new Map(progress.map((record) => [record.id, record]));
   state.syncConfig = syncConfig;
   state.daily = await store.getDaily(todayKey());
+  state.meaningEdits = await store.getMeaningEdits();
+  applyMeaningEdits(state.meaningEdits);
 }
 
 async function init() {
   await loadContent();
+  store.setAliases(aliasIds());
+  await store.foldAliasedProgress();
 
   const subjectsById = new Map(allSubjects().map((subject) => [subject.id, subject]));
   await store.migrateLegacyState(subjectsById);
@@ -1335,6 +1481,8 @@ async function init() {
   backgroundSync();
   document.addEventListener('visibilitychange', syncOnReturn);
   document.addEventListener('keydown', onSessionKey);
+  document.addEventListener('click', onMeaningEditClick);
+  document.addEventListener('keydown', onMeaningEditKey);
 }
 
 init().catch((error) => {

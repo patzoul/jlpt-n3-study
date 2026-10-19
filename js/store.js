@@ -102,6 +102,50 @@ export function clearProgress() {
   return tx('progress', 'readwrite', (store) => store.clear());
 }
 
+// Cards that were merged (品 read しな and ひん used to be two cards) keep
+// their old ids as aliases. Progress saved under an old id, here or on another
+// device, is moved onto the merged card.
+let aliases = new Map();
+
+/** @param {Map<string, string>} map old card id → merged card id */
+export function setAliases(map) {
+  aliases = map;
+}
+
+function canonical(record) {
+  const id = aliases.get(record.id);
+  return id ? { ...record, id } : record;
+}
+
+/**
+ * Move progress filed under an old id onto the merged card. When both exist
+ * the more recently studied one wins, the same rule sync uses, so every
+ * device folds the same pair to the same result.
+ */
+export function foldAliasedProgress() {
+  if (!aliases.size) {
+    return Promise.resolve();
+  }
+  return tx('progress', 'readwrite', (store) => {
+    const request = store.getAll();
+    request.onsuccess = () => {
+      const current = new Map(request.result.map((record) => [record.id, record]));
+      for (const record of request.result) {
+        if (!aliases.has(record.id)) {
+          continue;
+        }
+        const moved = canonical(record);
+        const mine = current.get(moved.id);
+        if (!mine || recordTime(moved) > recordTime(mine)) {
+          store.put(moved);
+          current.set(moved.id, moved);
+        }
+        store.delete(record.id);
+      }
+    };
+  });
+}
+
 // ------------------------------------------------------------- review log
 
 export function logReviews(entries) {
@@ -139,6 +183,35 @@ async function metaGet(key, fallback) {
 
 function metaPut(key, value) {
   return tx('meta', 'readwrite', (store) => store.put({ key, value }));
+}
+
+// --------------------------------------------------------- your meanings
+
+/**
+ * Meanings you have rewritten, keyed by card id:
+ * { meanings: string[] | null, updatedAt }. null records a card restored to
+ * the deck's wording, so that a restore reaches other devices too.
+ */
+export function getMeaningEdits() {
+  return metaGet('meaningEdits', {});
+}
+
+export async function saveMeaningEdit(id, meanings) {
+  const edits = await getMeaningEdits();
+  edits[id] = { meanings: meanings && meanings.length ? meanings : null, updatedAt: Date.now() };
+  await metaPut('meaningEdits', edits);
+  return edits;
+}
+
+/** Combine two sets of edits card by card; the later edit of a card wins. */
+export function mergeMeaningEdits(mine, theirs) {
+  const merged = { ...(mine || {}) };
+  for (const [id, edit] of Object.entries(theirs || {})) {
+    if (!merged[id] || (edit.updatedAt || 0) > (merged[id].updatedAt || 0)) {
+      merged[id] = edit;
+    }
+  }
+  return merged;
 }
 
 export async function getSettings() {
@@ -291,6 +364,7 @@ export async function snapshot() {
     streak: await getStreak(),
     settings: await getSettings(),
     level: await getLevel(),
+    meaningEdits: await getMeaningEdits(),
     updatedAt: await metaGet('settingsUpdatedAt', 0),
   };
 }
@@ -309,10 +383,12 @@ export async function applySnapshot(state) {
       const request = store.getAll();
       request.onsuccess = () => {
         const current = new Map(request.result.map((record) => [record.id, record]));
-        for (const record of state.progress) {
+        for (const incoming of state.progress) {
+          const record = canonical(incoming);
           const mine = current.get(record.id);
           if (!mine || recordTime(record) > recordTime(mine)) {
             store.put(record);
+            current.set(record.id, record);
           }
         }
       };
@@ -361,6 +437,9 @@ export async function applySnapshot(state) {
   if (state.level) {
     await saveLevel(Math.max(state.level, await getLevel()));
   }
+  if (state.meaningEdits) {
+    await metaPut('meaningEdits', mergeMeaningEdits(await getMeaningEdits(), state.meaningEdits));
+  }
 }
 
 function recordTime(record) {
@@ -381,6 +460,7 @@ export async function exportAll() {
     level: await getLevel(),
     daily: await getDailyHistory(),
     streak: await getStreak(),
+    meaningEdits: await getMeaningEdits(),
   };
 }
 
@@ -391,6 +471,7 @@ export async function importAll(payload) {
   await clearProgress();
   await clearReviewLog();
   await putProgress(payload.progress);
+  await foldAliasedProgress();
   if (Array.isArray(payload.reviews) && payload.reviews.length) {
     await logReviews(payload.reviews.map(({ key, ...rest }) => rest));
   }
@@ -405,5 +486,8 @@ export async function importAll(payload) {
   }
   if (payload.streak) {
     await saveStreak(payload.streak);
+  }
+  if (payload.meaningEdits) {
+    await metaPut('meaningEdits', payload.meaningEdits);
   }
 }

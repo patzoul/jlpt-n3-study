@@ -155,3 +155,21 @@ test('an empty device pulls the full remote history', () => {
   assert.equal(merged.streak.count, 12);
   assert.equal(merged.changed, true);
 });
+
+test('edited meanings merge card by card, the later edit winning', () => {
+  const local = base({ meaningEdits: {
+    'k-王': { meanings: ['king'], updatedAt: 500 },
+    'k-口': { meanings: ['mouth'], updatedAt: 100 },
+  } });
+  const remote = base({ meaningEdits: {
+    'k-王': { meanings: ['monarch'], updatedAt: 200 },
+    'k-口': { meanings: null, updatedAt: 300 },   // restored on the phone
+    'k-山': { meanings: ['mountain'], updatedAt: 50 },
+  } });
+  const merged = mergeState(local, remote);
+  assert.deepEqual(merged.meaningEdits['k-王'].meanings, ['king']);
+  assert.equal(merged.meaningEdits['k-口'].meanings, null);
+  assert.deepEqual(merged.meaningEdits['k-山'].meanings, ['mountain']);
+  assert.equal(merged.changed, true);
+  assert.equal(mergeState(merged, remote).changed, false, 'nothing new the second time');
+});

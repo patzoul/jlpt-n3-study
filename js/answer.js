@@ -1,7 +1,7 @@
 // Grading a typed answer against a subject.
 
 import { toKana, toHiragana } from './kana.js';
-import { allSubjects, meaningAnswers, readingAnswers } from './content.js';
+import { allSubjects, meaningAnswers, meaningsVersion, readingAnswers } from './content.js';
 
 const LEADING_ARTICLE = /^(?:to|a|an|the)\s+/;
 
@@ -65,12 +65,13 @@ export function checkAnswer(subject, kind, raw) {
 }
 
 let knownCache = null;
-let knownCacheSize = -1;
+let knownCacheKey = '';
 
 /** Every accepted meaning of every card, to tell a typo from a wrong word. */
 function knownMeanings() {
   const subjects = allSubjects();
-  if (!knownCache || knownCacheSize !== subjects.length) {
+  const key = `${subjects.length}:${meaningsVersion()}`;
+  if (!knownCache || knownCacheKey !== key) {
     knownCache = new Set();
     for (const subject of subjects) {
       for (const meaning of meaningAnswers(subject)) {
@@ -79,7 +80,7 @@ function knownMeanings() {
         }
       }
     }
-    knownCacheSize = subjects.length;
+    knownCacheKey = key;
   }
   return knownCache;
 }
