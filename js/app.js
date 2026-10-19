@@ -680,7 +680,7 @@ function renderSession() {
       <button class="primary" type="submit">${session.revealed ? 'Next' : 'Check'}</button>
     </form>
 
-    ${session.revealed ? feedbackBlock(subject, kind, session) : '<p class="muted hint">Press Enter to check. Readings can be typed in romaji; nn gives ん.</p>'}
+    ${session.revealed ? feedbackBlock(subject, kind, session) : '<p class="muted hint">Press Enter to check. Readings can be typed in romaji; nn gives ん, du gives づ.</p>'}
   </section>`;
 
   bindSessionEvents();

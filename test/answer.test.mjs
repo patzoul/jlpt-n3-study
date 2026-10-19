@@ -57,6 +57,16 @@ function typeLive(romaji) {
   return field;
 }
 
+test('du and di give づ and ぢ, as on a Japanese keyboard', () => {
+  assert.equal(toKana('tsuduku'), 'つづく');
+  assert.equal(toKana('kidzuku'), 'きづく');
+  assert.equal(toKana('hanadi'), 'はなぢ');
+  assert.equal(toKana('ti'), 'ち');
+  assert.equal(toKana('thi'), 'てぃ');
+  assert.equal(toKana('dhi'), 'でぃ');
+  assert.equal(checkAnswer(find('続き'), 'reading', 'tuduki'), true);
+});
+
 test('a typed "n" waits for the next key instead of becoming ん', () => {
   assert.equal(typeLive('n'), 'n');
   assert.equal(typeLive('na'), 'な');

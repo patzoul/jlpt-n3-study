@@ -9,10 +9,14 @@ const DIGRAPHS = {
   rya: 'りゃ', ryu: 'りゅ', ryo: 'りょ', gya: 'ぎゃ', gyu: 'ぎゅ', gyo: 'ぎょ',
   ja: 'じゃ', ju: 'じゅ', jo: 'じょ', jya: 'じゃ', jyu: 'じゅ', jyo: 'じょ',
   zya: 'じゃ', zyu: 'じゅ', zyo: 'じょ', bya: 'びゃ', byu: 'びゅ', byo: 'びょ',
-  pya: 'ぴゃ', pyu: 'ぴゅ', pyo: 'ぴょ', dya: 'ぢゃ', dyu: 'ぢゅ', dyo: 'ぢょ',
+  pya: 'ぴゃ', pyu: 'ぴゅ', pyo: 'ぴょ',
   fa: 'ふぁ', fi: 'ふぃ', fe: 'ふぇ', fo: 'ふぉ', va: 'ゔぁ', vi: 'ゔぃ',
   ve: 'ゔぇ', vo: 'ゔぉ', tsa: 'つぁ', tsi: 'つぃ', tse: 'つぇ', tso: 'つぉ',
-  she: 'しぇ', che: 'ちぇ', je: 'じぇ', ti: 'てぃ', di: 'でぃ', du: 'どぅ',
+  she: 'しぇ', che: 'ちぇ', je: 'じぇ',
+  // As on a Japanese keyboard: ti/di/du are ち/ぢ/づ, and the loanword
+  // sounds てぃ/でぃ/どぅ take an h or w.
+  thi: 'てぃ', dhi: 'でぃ', dwu: 'どぅ', twu: 'とぅ',
+  dya: 'ぢゃ', dyu: 'ぢゅ', dyo: 'ぢょ',
   wi: 'うぃ', we: 'うぇ', wo: 'を',
 };
 
@@ -29,7 +33,7 @@ const BASIC = {
   wa: 'わ', n: 'ん', nn: 'ん',
   ga: 'が', gi: 'ぎ', gu: 'ぐ', ge: 'げ', go: 'ご',
   za: 'ざ', ji: 'じ', zi: 'じ', zu: 'ず', ze: 'ぜ', zo: 'ぞ',
-  da: 'だ', de: 'で', do: 'ど',
+  da: 'だ', di: 'ぢ', du: 'づ', de: 'で', do: 'ど', dzu: 'づ', dzi: 'ぢ', dji: 'ぢ',
   ba: 'ば', bi: 'び', bu: 'ぶ', be: 'べ', bo: 'ぼ',
   pa: 'ぱ', pi: 'ぴ', pu: 'ぷ', pe: 'ぺ', po: 'ぽ',
   vu: 'ゔ',
