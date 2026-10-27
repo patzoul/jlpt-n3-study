@@ -145,7 +145,9 @@
   "level": 1,
   "characters": "市",
   "meanings": [
-   "city"
+   "city",
+   "market",
+   "fair"
   ],
   "primaryMeaning": "city",
   "readingsOn": [
@@ -167,11 +169,6 @@
    {
     "characters": "市場",
     "reading": "いちば",
-    "meaning": "market"
-   },
-   {
-    "characters": "市",
-    "reading": "いち",
     "meaning": "market"
    },
    {
@@ -228,7 +225,46 @@
       null
      ]
     ]
+   },
+   {
+    "ja": "毎週日曜日に市が立つ。",
+    "reading": "まいしゅうにちようびにいちがたつ。",
+    "en": "A market is held every Sunday.",
+    "source": "authored",
+    "furigana": [
+     [
+      "毎週",
+      "まいしゅう"
+     ],
+     [
+      "日曜日",
+      "にちようび"
+     ],
+     [
+      "に",
+      null
+     ],
+     [
+      "市",
+      "いち"
+     ],
+     [
+      "が",
+      null
+     ],
+     [
+      "立",
+      "た"
+     ],
+     [
+      "つ。",
+      null
+     ]
+    ]
    }
+  ],
+  "aliases": [
+   "v-市-いち"
   ]
  },
  {

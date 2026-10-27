@@ -535,6 +535,36 @@ def merge_homographs(items):
     return merged
 
 
+# Single-kanji words taught on the kanji card instead of a card of their own.
+# 市 was a kanji card answered "city" and a word card answered "market": two
+# cards with the same front wanting different answers.
+WORDS_ON_KANJI_CARD = {'市'}
+
+
+def take_words_for_kanji_cards(vocab_items):
+    """Split off the word cards that WORDS_ON_KANJI_CARD folds into kanji."""
+    kept, taken = [], {}
+    for item in vocab_items:
+        if item['characters'] in WORDS_ON_KANJI_CARD:
+            taken[item['characters']] = item
+        else:
+            kept.append(item)
+    return kept, taken
+
+
+def fold_words_into_kanji(kanji_items, words):
+    """Give each kanji card its word's meanings, sentence and old id."""
+    for item in kanji_items:
+        word = words.get(item['characters'])
+        if not word:
+            continue
+        item['meanings'] = dedupe(item['meanings'] + word['meanings'])
+        for example in word['examples']:
+            if all(example['ja'] != kept['ja'] for kept in item['examples']):
+                item['examples'].append(example)
+        item['aliases'] = [word['id'], *word.get('aliases', [])]
+
+
 def build_grammar(grammar, max_level):
     items = []
     total = len(grammar) or 1
@@ -569,6 +599,7 @@ def main():
     vocab_items = build_vocab(
         vocab_rows, kanji_levels, wordmeta, examples, readable, index, authored
     )
+    vocab_items, words_on_kanji = take_words_for_kanji_cards(vocab_items)
 
     vocab_by_kanji = defaultdict(list)
     for item in sorted(vocab_items, key=lambda v: (v['frequencyTier'], v['level'])):
@@ -598,6 +629,7 @@ def main():
         n3, ordered, kanji_levels, vocab_by_kanji, examples, readable, index,
         authored,
     )
+    fold_words_into_kanji(kanji_items, words_on_kanji)
     max_level = max(kanji_levels.values())
     grammar_items = build_grammar(grammar, max_level)
 
