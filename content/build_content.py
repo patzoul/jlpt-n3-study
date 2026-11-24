@@ -419,6 +419,7 @@ def build_vocab(vocab_rows, kanji_levels, wordmeta, examples, readable, index, a
         # belong together; vocab_corrections.json records each fix and why.
         source_key = f"{(row['expression'] or '').strip()}|{(row['reading'] or '').strip()}"
         fix = corrections.get(source_key)
+        also_read = (fix or {}).get('also_read', [])
         if fix:
             applied.add(source_key)
             row = {
@@ -453,6 +454,7 @@ def build_vocab(vocab_rows, kanji_levels, wordmeta, examples, readable, index, a
             'n3Kanji': n3_chars,
             'tier': meta.get('tier', 5),
             'common': bool(meta.get('common')),
+            'alsoRead': also_read,
         })
 
     unused = [key for key in corrections if not key.startswith('_') and key not in applied]
@@ -490,6 +492,7 @@ def build_vocab(vocab_rows, kanji_levels, wordmeta, examples, readable, index, a
             'frequencyTier': entry['tier'],
             'common': entry['common'],
             'examples': [example] if example else [],
+            'alsoRead': entry['alsoRead'],
         })
     return merge_homographs(items)
 
@@ -512,7 +515,13 @@ def merge_homographs(items):
         group = groups[item['characters']]
         if group[0] is not item:
             continue
-        item['readings'] = [card['reading'] for card in group]
+        # A correction's "also_read" adds readings the word list leaves out.
+        item['readings'] = dedupe(
+            [card['reading'] for card in group]
+            + [r for card in group for r in card['alsoRead']]
+        )
+        for card in group:
+            card.pop('alsoRead')
         if len(group) > 1:
             item['senses'] = [
                 {'reading': card['reading'], 'meanings': card['meanings']}

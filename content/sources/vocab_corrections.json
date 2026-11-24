@@ -1,6 +1,10 @@
 {
- "_about": "Corrections to the upstream N3 word list, applied by build_content.py. Keys are 'expression|reading' exactly as they appear in oajd_n3.csv. Each entry may replace the expression, the reading or the meaning, and says why.",
+ "_about": "Corrections to the upstream N3 word list, applied by build_content.py. Keys are 'expression|reading' exactly as they appear in oajd_n3.csv. Each entry may replace the expression, the reading or the meaning, or add readings with \"also_read\", and says why.",
 
+ "身|み": {
+  "also_read": ["しん"],
+  "why": "身 is also read しん, as in 自身, 出身 and 独身."
+ },
  "下す|おろす": {
   "expression": "下ろす",
   "why": "おろす (to lower) is written 下ろす. 下す is くだす, to hand down a decision."
